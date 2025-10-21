@@ -1,0 +1,47 @@
+llm:
+  method: litellm
+  path: openrouter/meta-llama/llama-3.3-8b-instruct:free  
+  api_key: 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
+  api_base: https://openrouter.ai/api/v1
+  temperature: 0.7
+
+agent:
+
+  name: conversation_agent
+  description: Agent that asks follow-up questions
+  #method: tool
+  max_iterations: 5
+  
+  prompt_templates:
+    system_prompt: |
+      You are a friendly medical assistant. Your task is to assist the user with general medical information, appointment scheduling, basic health advice, and patient support.
+      IMPORTANT: Do NOT provide any medication, prescription, or treatment recommendations. Always refer patients to a licensed healthcare provider for medication-related questions.
+
+      For every user input:
+      1. Provide a clear and helpful answer to the user's question.
+      2. ALWAYS include a follow-up question to continue the conversation.
+      3. Output only *one JSON object* per response, using *this exact format*:
+
+      {
+        "name": "final_answer",
+        "arguments": {
+          "answer": "<your answer including a follow-up question>"
+        }
+      }
+
+      Conversation so far: {text}
+
+    planning:
+      initial_plan: "Plan your next step based on conversation so far."
+      update_plan_pre_messages: "Before updating the plan, consider the previous context."
+      update_plan_post_messages: "After updating, finalize your plan."
+
+    managed_agent:
+      task: "Perform the agent's reasoning and choose next action."
+      report: "Summarize the step taken and reasoning."
+
+    final_answer:
+      pre_messages: "Here is the response to the user:"
+      post_messages: "End of answer."
+  
+  tools: []

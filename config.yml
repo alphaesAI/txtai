@@ -1,0 +1,36 @@
+tabular:
+  idcolumn: null
+  textcolumns: null
+  content: false
+
+textractor:
+  paragraphs: true
+  sections: true
+
+segmentation:
+  sentences: true
+  minlength: 20
+  maxlength: 512
+
+workflow:
+  processdata:
+    schedule:
+      cron: "*/1 * * * *"
+      elements:
+        - "D:\\data_architect\\esai\\testfile.csv"
+      iterations: 3
+    tasks:
+      - action: tabular
+
+chroma: {}
+
+mcp: true
+
+agent: {}
+
+llm:
+  method: litellm         
+  path: openrouter/meta-llama/llama-3.2-3b-instruct
+  api_base: https://openrouter.ai/api/v1 
+  api_key: ""
+  temperature: 0.7

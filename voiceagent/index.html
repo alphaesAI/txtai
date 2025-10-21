@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebRTC Audio Streaming Demo</title>
+  </head>
+  <body>
+    <h2>Voice Assistant</h2>
+    <button id="startBtn">Start streaming</button>
+    <button id="stopBtn" disabled>Stop</button>
+    <div id="status"></div>
+    <div id="chat"></div>
+
+    <script>
+      const wsUrl = "ws://localhost:8000/chat";
+      let recognition;
+      let ws;
+
+      const startBtn = document.getElementById("startBtn");
+      const stopBtn = document.getElementById("stopBtn");
+      const statusDiv = document.getElementById("status");
+      const chatDiv = document.getElementById("chat");
+
+      function logStatus(msg) {
+        statusDiv.textContent = msg;
+      }
+
+      startBtn.onclick = async () => {
+        ws = new WebSocket(wsUrl);
+
+        ws.onopen = () => {
+          logStatus("connected to agent");
+          if (ws.readyState === WebSocket.OPEN) {
+            startSpeechRecognition();
+          }
+        };
+
+        ws.onmessage = (event) => {
+          const agentReply = event.data;
+          appendMessage("Agent", agentReply);
+          speakText(agentReply);
+        };
+
+        ws.onclose = () => {
+          logStatus("WebSocket closed");
+        };
+      };
+
+      stopBtn.onclick = () => {
+        stopSpeechRecognition();
+        if (ws) ws.close();
+      };
+
+      function appendMessage(sender, text) {
+        const msg = document.createElement("div");
+        msg.textContent = `${sender}: ${text}`;
+        chatDiv.appendChild(msg);
+      }
+
+      function startSpeechRecognition() {
+        recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+        recognition.lang = "en-IN";
+        recognition.interimResults = false;
+        recognition.continuous = true;
+
+        recognition.onstart = () => {
+          startBtn.disabled = true;
+          stopBtn.disabled = false;
+          logStatus("listening...");
+        };
+
+        recognition.onresult = (event) => {
+          const text = event.results[event.results.length - 1][0].transcript.trim();
+          appendMessage("You", text);
+          if (ws && ws.readyState === WebSocket.OPEN) {
+            ws.send(text);
+          }
+        };
+
+        recognition.onerror = (e) => {
+          console.error("speech recognition error: ", e);
+        };
+
+        recognition.start();
+      }
+
+      function stopSpeechRecognition() {
+        if (recognition) {
+          recognition.stop();
+          startBtn.disabled = false;
+          stopBtn.disabled = true;
+          logStatus("stopped listening.");
+        }
+      }
+
+      function speakText(text) {
+        recognition.stop();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang ="en-IN";
+        utterance.rate = 1;
+        utterance.pitch = 1;
+        speechSynthesis.speak(utterance);
+
+        utterance.onend = () => {
+          recognition.start();
+        };
+      }
+    </script>
+  </body>
+</html>
