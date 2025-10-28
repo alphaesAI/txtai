@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 from pathlib import Path
 from sqlalchemy import text
 
@@ -10,6 +11,7 @@ from src.schemas.database.config import PostgreSQLSettings
 from src.extractor.dbextractor import DBExtractor
 from src.transmission import DataTransmitter
 from src.elasticsearch.connection import ElasticsearchConfig, ElasticsearchClientFactory
+from src.elasticsearch.loader import ElasticsearchLoader
 
 def setup_database():
     """ 
@@ -39,9 +41,39 @@ def transmission(df):
     json_str = transmitter()
     print("\nTransmitter JSON string: ")
     print(json_str)
+    return json_str
 
+def setup_elasticsearch():
+    es_config = ElasticsearchConfig(
+        host="http://localhost:9200",
+        username="elastic",
+        password="q+nR3Kse*QW5kpoacWn3",
+        verify_certs=False,
+    )
+
+    loader = ElasticsearchLoader(es_config, index_name="students_index")
+    loader.connect()
+    loader.index_exists()
+    print("Elasticsearch connection established and index ensured.")
+    return loader
+
+def ingest_to_elasticsearch(loader, json_str):
+    try:
+        data = json.loads(json_str)
+        if isinstance(data, list):
+            doc = data[0]
+        else:
+            doc = data
+
+        response = loader.ingest_doc(doc)
+        print("\nIngestion response:")
+        print(response)
+    except Exception as e:
+        print(f"Error during ingestion: {e}")
 
 if __name__ == "__main__":
     db = setup_database()
     df = extract_data(db)
-    transmission(df)
+    json_str = transmission(df)
+    loader = setup_elasticsearch()
+    ingest_to_elasticsearch(loader, json_str)
