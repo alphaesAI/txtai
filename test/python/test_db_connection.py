@@ -11,7 +11,7 @@ from src.schemas.database.config import PostgreSQLSettings
 from src.extractor.dbextractor import DBExtractor
 from src.transmission import DataTransmitter
 from src.elasticsearch.connection import ElasticsearchConfig, ElasticsearchClientFactory
-from src.elasticsearch.loader import ElasticsearchLoader
+from src.elasticsearch.loader import ElasticsearchLoader, BulkIngestion
 
 def setup_database():
     """ 
@@ -71,9 +71,18 @@ def ingest_to_elasticsearch(loader, json_str):
     except Exception as e:
         print(f"Error during ingestion: {e}")
 
+def ingest_bulk(loader, json_str):
+    try:
+        bulk_ingestor = BulkIngestion(loader.client)
+        response = bulk_ingestor.ingest_json(json_str, loader.index_name)
+        print("\nBulk ingestion response:")
+        print(response)
+    except Exception as e:
+        print(f"Error during ingestion: {e}")
+
 if __name__ == "__main__":
     db = setup_database()
     df = extract_data(db)
     json_str = transmission(df)
     loader = setup_elasticsearch()
-    ingest_to_elasticsearch(loader, json_str)
+    ingest_bulk(loader, json_str)
