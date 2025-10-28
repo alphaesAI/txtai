@@ -9,7 +9,7 @@ from src.db.interfaces.postgresql import PostgreSQLDatabase
 from src.schemas.database.config import PostgreSQLSettings
 from src.extractor.dbextractor import DBExtractor
 from src.transmission import DataTransmitter
-from src.storage import ESStorage
+from src.storage import ESConnector
 
 config = PostgreSQLSettings(
     database_url="postgresql://rag_user:rag_password@localhost:5432/paper_curator",

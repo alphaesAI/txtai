@@ -1,1 +1,1 @@
-from .esstorage import ESStorage
+from .esconnector import ESConnector
