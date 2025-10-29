@@ -12,5 +12,3 @@ class PostgreSQLSettings(BaseSettings):
     pool_size: int = Field(default=20, description="Database connection pool size")
     max_overflow: int = Field(default=0, description="Maximum pool overflow")
 
-    class Config:
-        env_prefix = "POSTGRES_"
