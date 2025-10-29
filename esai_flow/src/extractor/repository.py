@@ -1,6 +1,6 @@
 from typing import Any, Dict, List, Optional, Type
 from sqlalchemy.orm import Session
-from ..db import BaseRepository
+from ..connector import BaseRepository
 
 class SQLAlchemyRepository(BaseRepository):
     def __init__(self, session: Session, model: Type[Any]):

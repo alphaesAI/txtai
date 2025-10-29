@@ -2,7 +2,7 @@ from pydantic import Field
 from pydantic_settings import BaseSettings
 
 
-class PostgreSQLSettings(BaseSettings):
+class DatabaseSettings(BaseSettings):
     """PostgreSQL configuration settings."""
 
     database_url: str = Field(

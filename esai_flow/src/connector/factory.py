@@ -1,7 +1,7 @@
 from src.config import get_settings
-from src.db.interfaces.base import BaseDatabase
-from src.db.interfaces.postgresql import PostgreSQLDatabase
-from src.schemas.database.config import PostgreSQLSettings
+from src.connector.interfaces.base import BaseDatabase
+from src.connector.interfaces.database import RDBMSDatabase
+from src.schemas.database.config import DatabaseSettings
 
 
 def make_database() -> BaseDatabase:
@@ -14,13 +14,13 @@ def make_database() -> BaseDatabase:
     settings = get_settings()
 
     # Create PostgreSQL config from settings
-    config = PostgreSQLSettings(
+    config = DatabaseSettings(
         database_url=settings.postgres_database_url,
         echo_sql=settings.postgres_echo_sql,
         pool_size=settings.postgres_pool_size,
         max_overflow=settings.postgres_max_overflow,
     )
 
-    database = PostgreSQLDatabase(config=config)
+    database = RDBMSDatabase(config=config)
     database.startup()
     return database
