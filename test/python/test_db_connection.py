@@ -7,7 +7,7 @@ from sqlalchemy import text
 sys.path.append(os.path.abspath("esai_flow/"))
 
 from src.connector.interfaces import RDBMSDatabase
-from src.schemas.database.config import DatabaseSettings
+from src.schemas.database.config import DatabaseConfig
 from src.extractor.dbextractor import DBExtractor
 from src.transmission import DataTransmitter
 from src.elasticsearch.connection import ElasticsearchConfig, ElasticsearchClientFactory
@@ -17,7 +17,7 @@ def setup_database():
     """ 
      Create table and insert sample data if missing.
     """
-    config = DatabaseSettings(
+    config = DatabaseConfig(
         database_url="postgresql://rag_user:rag_password@localhost:5432/paper_curator",
         echo_sql=True,
     )

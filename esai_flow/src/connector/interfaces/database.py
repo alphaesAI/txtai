@@ -7,7 +7,7 @@ from sqlalchemy.engine import Engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session, sessionmaker
 from .base import BaseDatabase
-from ...schemas.database.config import DatabaseSettings
+from ...schemas.database.config import DatabaseConfig
 
 logger = logging.getLogger(__name__)
 
@@ -18,7 +18,7 @@ Base = declarative_base()
 class RDBMSDatabase(BaseDatabase):
     """PostgreSQL database implementation."""
 
-    def __init__(self, config: DatabaseSettings):
+    def __init__(self, config: DatabaseConfig):
         self.config = config
         self.engine: Optional[Engine] = None
         self.session_factory: Optional[sessionmaker] = None

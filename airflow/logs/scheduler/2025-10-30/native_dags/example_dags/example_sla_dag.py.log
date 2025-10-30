@@ -688,3 +688,892 @@
 [2025-10-30T16:19:26.824+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:19:26.824+0530] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-10-30T16:19:26.853+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:19:26.853+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:46:00+00:00, run_after=2025-10-30 10:48:00+00:00
 [2025-10-30T16:19:26.876+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.126 seconds
+[2025-10-30T16:20:18.186+0530] {processor.py:161} INFO - Started process (PID=14801) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:20:18.199+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:20:18.202+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:20:18.201+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:20:18.210+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:20:18.225+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:20:18.225+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:20:18.243+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:20:18.243+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:48:00+00:00, run_after=2025-10-30 10:50:00+00:00
+[2025-10-30T16:20:18.263+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.084 seconds
+[2025-10-30T16:21:11.303+0530] {processor.py:161} INFO - Started process (PID=15034) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:21:11.318+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:21:11.321+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:21:11.321+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:21:11.337+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:21:11.364+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:21:11.363+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:21:11.386+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:21:11.385+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:48:00+00:00, run_after=2025-10-30 10:50:00+00:00
+[2025-10-30T16:21:11.407+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.115 seconds
+[2025-10-30T16:22:05.770+0530] {processor.py:161} INFO - Started process (PID=15153) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:22:05.784+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:22:05.787+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:22:05.787+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:22:05.803+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:22:05.829+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:22:05.829+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:22:05.850+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:22:05.850+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:50:00+00:00, run_after=2025-10-30 10:52:00+00:00
+[2025-10-30T16:22:05.880+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.121 seconds
+[2025-10-30T16:23:01.495+0530] {processor.py:161} INFO - Started process (PID=15272) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:23:01.508+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:23:01.512+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:23:01.511+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:23:01.527+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:23:01.552+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:23:01.552+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:23:01.573+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:23:01.572+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:50:00+00:00, run_after=2025-10-30 10:52:00+00:00
+[2025-10-30T16:23:01.599+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.115 seconds
+[2025-10-30T16:23:56.402+0530] {processor.py:161} INFO - Started process (PID=15415) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:23:56.416+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:23:56.419+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:23:56.418+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:23:56.434+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:23:56.459+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:23:56.458+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:23:56.479+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:23:56.479+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:50:00+00:00, run_after=2025-10-30 10:52:00+00:00
+[2025-10-30T16:23:56.510+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-30T16:24:50.052+0530] {processor.py:161} INFO - Started process (PID=15640) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:24:50.066+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:24:50.070+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:24:50.069+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:24:50.086+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:24:50.112+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:24:50.112+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:24:50.131+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:24:50.130+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:52:00+00:00, run_after=2025-10-30 10:54:00+00:00
+[2025-10-30T16:24:50.159+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T16:25:45.453+0530] {processor.py:161} INFO - Started process (PID=15751) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:25:45.467+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:25:45.470+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:25:45.469+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:25:45.485+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:25:45.509+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:25:45.509+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:25:45.531+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:25:45.531+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:52:00+00:00, run_after=2025-10-30 10:54:00+00:00
+[2025-10-30T16:25:45.557+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.115 seconds
+[2025-10-30T16:26:37.729+0530] {processor.py:161} INFO - Started process (PID=15854) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:26:37.744+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:26:37.747+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:26:37.746+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:26:37.762+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:26:37.789+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:26:37.788+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:26:37.810+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:26:37.810+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:54:00+00:00, run_after=2025-10-30 10:56:00+00:00
+[2025-10-30T16:26:37.838+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-10-30T16:27:26.567+0530] {processor.py:161} INFO - Started process (PID=15953) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:27:26.569+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:27:26.572+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:27:26.571+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:27:26.587+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:27:26.609+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:27:26.609+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:27:26.628+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:27:26.628+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:54:00+00:00, run_after=2025-10-30 10:56:00+00:00
+[2025-10-30T16:27:26.648+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.091 seconds
+[2025-10-30T16:28:19.152+0530] {processor.py:161} INFO - Started process (PID=16075) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:28:19.166+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:28:19.169+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:28:19.169+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:28:19.184+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:28:19.209+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:28:19.209+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:28:19.231+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:28:19.231+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:56:00+00:00, run_after=2025-10-30 10:58:00+00:00
+[2025-10-30T16:28:19.260+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T16:29:08.065+0530] {processor.py:161} INFO - Started process (PID=16176) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:29:08.078+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:29:08.081+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:29:08.080+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:29:08.096+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:29:08.123+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:29:08.122+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:29:08.145+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:29:08.144+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:56:00+00:00, run_after=2025-10-30 10:58:00+00:00
+[2025-10-30T16:29:08.171+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T16:29:57.356+0530] {processor.py:161} INFO - Started process (PID=16303) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:29:57.370+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:29:57.373+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:29:57.372+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:29:57.388+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:29:57.415+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:29:57.415+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:29:57.436+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:29:57.436+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:56:00+00:00, run_after=2025-10-30 10:58:00+00:00
+[2025-10-30T16:29:57.464+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-30T16:30:51.205+0530] {processor.py:161} INFO - Started process (PID=16412) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:30:51.218+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:30:51.222+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:30:51.221+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:30:51.238+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:30:51.264+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:30:51.264+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:30:51.284+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:30:51.284+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:58:00+00:00, run_after=2025-10-30 11:00:00+00:00
+[2025-10-30T16:30:51.312+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-30T16:31:43.596+0530] {processor.py:161} INFO - Started process (PID=16524) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:31:43.599+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:31:43.602+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:31:43.602+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:31:43.618+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:31:43.641+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:31:43.641+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:31:43.659+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:31:43.659+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 10:58:00+00:00, run_after=2025-10-30 11:00:00+00:00
+[2025-10-30T16:31:43.679+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.094 seconds
+[2025-10-30T16:32:33.569+0530] {processor.py:161} INFO - Started process (PID=16628) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:32:33.582+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:32:33.585+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:32:33.585+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:32:33.600+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:32:33.625+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:32:33.625+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:32:33.646+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:32:33.646+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:00:00+00:00, run_after=2025-10-30 11:02:00+00:00
+[2025-10-30T16:32:33.834+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.276 seconds
+[2025-10-30T16:33:29.876+0530] {processor.py:161} INFO - Started process (PID=16736) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:33:29.890+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:33:29.893+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:33:29.893+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:33:29.909+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:33:29.939+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:33:29.938+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:33:29.958+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:33:29.958+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:00:00+00:00, run_after=2025-10-30 11:02:00+00:00
+[2025-10-30T16:33:29.985+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-10-30T16:34:25.263+0530] {processor.py:161} INFO - Started process (PID=16843) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:34:25.277+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:34:25.280+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:34:25.279+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:34:25.295+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:34:25.322+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:34:25.321+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:34:25.343+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:34:25.342+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:02:00+00:00, run_after=2025-10-30 11:04:00+00:00
+[2025-10-30T16:34:25.370+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T16:35:17.964+0530] {processor.py:161} INFO - Started process (PID=16980) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:35:17.977+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:35:17.980+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:35:17.980+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:35:17.995+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:35:18.020+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:35:18.019+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:35:18.197+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:35:18.197+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:02:00+00:00, run_after=2025-10-30 11:04:00+00:00
+[2025-10-30T16:35:18.227+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.273 seconds
+[2025-10-30T16:36:17.873+0530] {processor.py:161} INFO - Started process (PID=17172) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:36:17.887+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:36:17.890+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:36:17.890+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:36:17.907+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:36:17.936+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:36:17.936+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:36:17.958+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:36:17.958+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:04:00+00:00, run_after=2025-10-30 11:06:00+00:00
+[2025-10-30T16:36:17.983+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.122 seconds
+[2025-10-30T16:37:11.960+0530] {processor.py:161} INFO - Started process (PID=17246) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:37:11.974+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:37:11.977+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:37:11.977+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:37:11.993+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:37:12.019+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:37:12.019+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:37:12.040+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:37:12.040+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:04:00+00:00, run_after=2025-10-30 11:06:00+00:00
+[2025-10-30T16:37:12.068+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T16:38:06.377+0530] {processor.py:161} INFO - Started process (PID=17310) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:38:06.390+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:38:06.393+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:38:06.393+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:38:06.408+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:38:06.433+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:38:06.433+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:38:06.615+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:38:06.614+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:06:00+00:00, run_after=2025-10-30 11:08:00+00:00
+[2025-10-30T16:38:06.652+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.286 seconds
+[2025-10-30T16:39:06.599+0530] {processor.py:161} INFO - Started process (PID=17388) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:39:06.601+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:39:06.604+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:39:06.604+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:39:06.613+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:39:06.629+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:39:06.629+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:39:06.648+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:39:06.648+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:06:00+00:00, run_after=2025-10-30 11:08:00+00:00
+[2025-10-30T16:39:06.669+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.077 seconds
+[2025-10-30T16:40:00.661+0530] {processor.py:161} INFO - Started process (PID=17512) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:40:00.674+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:40:00.678+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:40:00.677+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:40:00.693+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:40:00.719+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:40:00.718+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:40:00.740+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:40:00.739+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:08:00+00:00, run_after=2025-10-30 11:10:00+00:00
+[2025-10-30T16:40:00.768+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-30T16:40:48.054+0530] {processor.py:161} INFO - Started process (PID=17578) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:40:48.068+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:40:48.071+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:40:48.070+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:40:48.090+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:40:48.117+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:40:48.117+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:40:48.136+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:40:48.136+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:08:00+00:00, run_after=2025-10-30 11:10:00+00:00
+[2025-10-30T16:40:48.163+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-10-30T16:41:35.501+0530] {processor.py:161} INFO - Started process (PID=17663) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:41:35.515+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:41:35.520+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:41:35.519+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:41:35.549+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:41:35.578+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:41:35.578+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:41:35.638+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:41:35.638+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:08:00+00:00, run_after=2025-10-30 11:10:00+00:00
+[2025-10-30T16:41:35.718+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.238 seconds
+[2025-10-30T16:42:27.132+0530] {processor.py:161} INFO - Started process (PID=17830) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:42:27.146+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:42:27.149+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:42:27.149+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:42:27.165+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:42:27.192+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:42:27.191+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:42:27.213+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:42:27.213+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:10:00+00:00, run_after=2025-10-30 11:12:00+00:00
+[2025-10-30T16:42:27.242+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.122 seconds
+[2025-10-30T16:43:15.475+0530] {processor.py:161} INFO - Started process (PID=17947) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:43:15.489+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:43:15.492+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:43:15.491+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:43:15.507+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:43:15.532+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:43:15.531+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:43:15.554+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:43:15.554+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:10:00+00:00, run_after=2025-10-30 11:12:00+00:00
+[2025-10-30T16:43:15.581+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T16:44:05.547+0530] {processor.py:161} INFO - Started process (PID=18006) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:44:05.560+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:44:05.564+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:44:05.563+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:44:05.579+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:44:05.604+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:44:05.604+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:44:05.626+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:44:05.626+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:12:00+00:00, run_after=2025-10-30 11:14:00+00:00
+[2025-10-30T16:44:05.653+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T16:44:54.073+0530] {processor.py:161} INFO - Started process (PID=18096) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:44:54.086+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:44:54.089+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:44:54.089+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:44:54.100+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:44:54.118+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:44:54.117+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:44:54.139+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:44:54.139+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:12:00+00:00, run_after=2025-10-30 11:14:00+00:00
+[2025-10-30T16:44:54.165+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.104 seconds
+[2025-10-30T16:45:41.390+0530] {processor.py:161} INFO - Started process (PID=18159) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:45:41.403+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:45:41.405+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:45:41.405+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:45:41.419+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:45:41.442+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:45:41.441+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:45:41.462+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:45:41.462+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:12:00+00:00, run_after=2025-10-30 11:14:00+00:00
+[2025-10-30T16:45:41.488+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.108 seconds
+[2025-10-30T16:46:33.316+0530] {processor.py:161} INFO - Started process (PID=18225) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:46:33.329+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:46:33.332+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:46:33.331+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:46:33.346+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:46:33.369+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:46:33.369+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:46:33.393+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:46:33.393+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:14:00+00:00, run_after=2025-10-30 11:16:00+00:00
+[2025-10-30T16:46:33.418+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.115 seconds
+[2025-10-30T16:47:21.994+0530] {processor.py:161} INFO - Started process (PID=18286) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:47:22.008+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:47:22.011+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:47:22.010+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:47:22.025+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:47:22.050+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:47:22.049+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:47:22.072+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:47:22.071+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:14:00+00:00, run_after=2025-10-30 11:16:00+00:00
+[2025-10-30T16:47:22.091+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.108 seconds
+[2025-10-30T16:48:11.180+0530] {processor.py:161} INFO - Started process (PID=18352) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:48:11.194+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:48:11.197+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:48:11.196+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:48:11.212+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:48:11.237+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:48:11.237+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:48:11.259+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:48:11.259+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:16:00+00:00, run_after=2025-10-30 11:18:00+00:00
+[2025-10-30T16:48:11.287+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T16:49:02.871+0530] {processor.py:161} INFO - Started process (PID=18417) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:49:02.884+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:49:02.887+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:49:02.886+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:49:02.902+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:49:02.925+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:49:02.925+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:49:02.948+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:49:02.948+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:16:00+00:00, run_after=2025-10-30 11:18:00+00:00
+[2025-10-30T16:49:02.973+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.112 seconds
+[2025-10-30T16:49:52.630+0530] {processor.py:161} INFO - Started process (PID=18507) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:49:52.639+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:49:52.642+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:49:52.642+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:49:52.658+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:49:52.684+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:49:52.684+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:49:52.707+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:49:52.706+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:16:00+00:00, run_after=2025-10-30 11:18:00+00:00
+[2025-10-30T16:49:52.730+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.113 seconds
+[2025-10-30T16:50:39.147+0530] {processor.py:161} INFO - Started process (PID=18568) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:50:39.149+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:50:39.151+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:50:39.151+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:50:39.166+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:50:39.186+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:50:39.186+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:50:39.203+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:50:39.202+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:18:00+00:00, run_after=2025-10-30 11:20:00+00:00
+[2025-10-30T16:50:39.220+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.083 seconds
+[2025-10-30T16:51:25.754+0530] {processor.py:161} INFO - Started process (PID=18630) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:51:25.767+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:51:25.770+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:51:25.769+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:51:25.785+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:51:25.809+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:51:25.808+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:51:25.831+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:51:25.831+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:18:00+00:00, run_after=2025-10-30 11:20:00+00:00
+[2025-10-30T16:51:25.858+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.116 seconds
+[2025-10-30T16:52:13.030+0530] {processor.py:161} INFO - Started process (PID=18699) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:52:13.043+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:52:13.046+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:52:13.046+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:52:13.059+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:52:13.082+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:52:13.082+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:52:13.100+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:52:13.100+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:20:00+00:00, run_after=2025-10-30 11:22:00+00:00
+[2025-10-30T16:52:13.117+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.093 seconds
+[2025-10-30T16:52:57.663+0530] {processor.py:161} INFO - Started process (PID=18759) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:52:57.677+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:52:57.680+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:52:57.679+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:52:57.695+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:52:57.721+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:52:57.721+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:52:57.743+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:52:57.742+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:20:00+00:00, run_after=2025-10-30 11:22:00+00:00
+[2025-10-30T16:52:57.771+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-30T16:53:45.930+0530] {processor.py:161} INFO - Started process (PID=18819) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:53:45.943+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:53:45.946+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:53:45.946+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:53:45.961+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:53:45.986+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:53:45.986+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:53:46.008+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:53:46.007+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:20:00+00:00, run_after=2025-10-30 11:22:00+00:00
+[2025-10-30T16:53:46.035+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.116 seconds
+[2025-10-30T16:54:37.889+0530] {processor.py:161} INFO - Started process (PID=18914) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:54:37.891+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:54:37.894+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:54:37.894+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:54:37.910+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:54:37.931+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:54:37.931+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:54:37.952+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:54:37.951+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:22:00+00:00, run_after=2025-10-30 11:24:00+00:00
+[2025-10-30T16:54:37.976+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.098 seconds
+[2025-10-30T16:55:28.987+0530] {processor.py:161} INFO - Started process (PID=18983) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:55:28.989+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:55:28.992+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:55:28.991+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:55:29.008+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:55:29.030+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:55:29.030+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:55:29.049+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:55:29.049+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:22:00+00:00, run_after=2025-10-30 11:24:00+00:00
+[2025-10-30T16:55:29.069+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.093 seconds
+[2025-10-30T16:56:17.350+0530] {processor.py:161} INFO - Started process (PID=19041) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:56:17.365+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:56:17.368+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:56:17.367+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:56:17.383+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:56:17.408+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:56:17.408+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:56:17.430+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:56:17.430+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:24:00+00:00, run_after=2025-10-30 11:26:00+00:00
+[2025-10-30T16:56:17.451+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.112 seconds
+[2025-10-30T16:57:08.950+0530] {processor.py:161} INFO - Started process (PID=19105) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:57:08.964+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:57:08.967+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:57:08.966+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:57:08.983+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:57:09.009+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:57:09.009+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:57:09.030+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:57:09.029+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:24:00+00:00, run_after=2025-10-30 11:26:00+00:00
+[2025-10-30T16:57:09.056+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T16:57:58.873+0530] {processor.py:161} INFO - Started process (PID=19175) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:57:58.886+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:57:58.888+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:57:58.888+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:57:58.897+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:57:58.918+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:57:58.918+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:57:58.937+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:57:58.937+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:24:00+00:00, run_after=2025-10-30 11:26:00+00:00
+[2025-10-30T16:57:58.956+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.090 seconds
+[2025-10-30T16:58:50.517+0530] {processor.py:161} INFO - Started process (PID=19241) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:58:50.531+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:58:50.535+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:58:50.535+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:58:50.552+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:58:50.576+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:58:50.575+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:58:50.594+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:58:50.594+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:26:00+00:00, run_after=2025-10-30 11:28:00+00:00
+[2025-10-30T16:58:50.624+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T16:59:42.288+0530] {processor.py:161} INFO - Started process (PID=19344) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:59:42.302+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T16:59:42.305+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:59:42.304+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:59:42.319+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T16:59:42.344+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:59:42.344+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:59:42.364+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:59:42.364+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:26:00+00:00, run_after=2025-10-30 11:28:00+00:00
+[2025-10-30T16:59:42.387+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.110 seconds
+[2025-10-30T17:00:32.241+0530] {processor.py:161} INFO - Started process (PID=19412) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:00:32.255+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:00:32.258+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:00:32.257+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:00:32.273+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:00:32.298+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:00:32.298+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:00:32.318+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:00:32.318+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:28:00+00:00, run_after=2025-10-30 11:30:00+00:00
+[2025-10-30T17:00:32.346+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T17:01:21.973+0530] {processor.py:161} INFO - Started process (PID=19483) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:01:21.989+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:01:21.992+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:01:21.991+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:01:22.019+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:01:22.062+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:01:22.061+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:01:22.104+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:01:22.103+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:28:00+00:00, run_after=2025-10-30 11:30:00+00:00
+[2025-10-30T17:01:22.161+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.210 seconds
+[2025-10-30T17:02:13.215+0530] {processor.py:161} INFO - Started process (PID=19562) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:02:13.229+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:02:13.233+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:02:13.232+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:02:13.253+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:02:13.285+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:02:13.284+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:02:13.309+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:02:13.309+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:30:00+00:00, run_after=2025-10-30 11:32:00+00:00
+[2025-10-30T17:02:13.329+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.126 seconds
+[2025-10-30T17:03:04.008+0530] {processor.py:161} INFO - Started process (PID=19667) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:03:04.021+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:03:04.025+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:03:04.024+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:03:04.041+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:03:04.064+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:03:04.064+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:03:04.083+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:03:04.083+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:30:00+00:00, run_after=2025-10-30 11:32:00+00:00
+[2025-10-30T17:03:04.105+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.104 seconds
+[2025-10-30T17:03:59.811+0530] {processor.py:161} INFO - Started process (PID=19731) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:03:59.824+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:03:59.827+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:03:59.827+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:03:59.843+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:03:59.869+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:03:59.869+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:03:59.889+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:03:59.889+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:30:00+00:00, run_after=2025-10-30 11:32:00+00:00
+[2025-10-30T17:03:59.916+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.116 seconds
+[2025-10-30T17:04:52.604+0530] {processor.py:161} INFO - Started process (PID=19850) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:04:52.619+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:04:52.621+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:04:52.621+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:04:52.645+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:04:52.682+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:04:52.681+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:04:52.744+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:04:52.743+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:32:00+00:00, run_after=2025-10-30 11:34:00+00:00
+[2025-10-30T17:04:52.810+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.226 seconds
+[2025-10-30T17:05:43.054+0530] {processor.py:161} INFO - Started process (PID=19960) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:05:43.068+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:05:43.071+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:05:43.070+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:05:43.086+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:05:43.113+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:05:43.113+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:05:43.133+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:05:43.132+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:32:00+00:00, run_after=2025-10-30 11:34:00+00:00
+[2025-10-30T17:05:43.154+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.111 seconds
+[2025-10-30T17:06:33.653+0530] {processor.py:161} INFO - Started process (PID=20060) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:06:33.667+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:06:33.670+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:06:33.670+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:06:33.685+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:06:33.710+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:06:33.710+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:06:33.732+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:06:33.732+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:34:00+00:00, run_after=2025-10-30 11:36:00+00:00
+[2025-10-30T17:06:33.761+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-30T17:07:26.201+0530] {processor.py:161} INFO - Started process (PID=20158) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:07:26.214+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:07:26.218+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:07:26.217+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:07:26.233+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:07:26.259+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:07:26.258+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:07:26.280+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:07:26.280+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:34:00+00:00, run_after=2025-10-30 11:36:00+00:00
+[2025-10-30T17:07:26.315+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.126 seconds
+[2025-10-30T17:08:17.340+0530] {processor.py:161} INFO - Started process (PID=20222) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:08:17.354+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:08:17.357+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:08:17.356+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:08:17.373+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:08:17.400+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:08:17.400+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:08:17.421+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:08:17.421+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:36:00+00:00, run_after=2025-10-30 11:38:00+00:00
+[2025-10-30T17:08:17.449+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.121 seconds
+[2025-10-30T17:09:08.597+0530] {processor.py:161} INFO - Started process (PID=20291) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:09:08.612+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:09:08.618+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:09:08.618+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:09:08.641+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:09:08.680+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:09:08.680+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:09:08.711+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:09:08.711+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:36:00+00:00, run_after=2025-10-30 11:38:00+00:00
+[2025-10-30T17:09:08.749+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.170 seconds
+[2025-10-30T17:10:01.062+0530] {processor.py:161} INFO - Started process (PID=20426) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:10:01.076+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:10:01.079+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:10:01.078+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:10:01.094+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:10:01.121+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:10:01.121+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:10:01.142+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:10:01.141+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:38:00+00:00, run_after=2025-10-30 11:40:00+00:00
+[2025-10-30T17:10:01.163+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.113 seconds
+[2025-10-30T17:10:53.026+0530] {processor.py:161} INFO - Started process (PID=20533) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:10:53.040+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:10:53.043+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:10:53.042+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:10:53.059+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:10:53.086+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:10:53.085+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:10:53.107+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:10:53.107+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:38:00+00:00, run_after=2025-10-30 11:40:00+00:00
+[2025-10-30T17:10:53.128+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.114 seconds
+[2025-10-30T17:11:48.290+0530] {processor.py:161} INFO - Started process (PID=20643) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:11:48.303+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:11:48.306+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:11:48.305+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:11:48.321+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:11:48.347+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:11:48.346+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:11:48.368+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:11:48.368+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:38:00+00:00, run_after=2025-10-30 11:40:00+00:00
+[2025-10-30T17:11:48.395+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T17:12:41.349+0530] {processor.py:161} INFO - Started process (PID=20742) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:12:41.362+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:12:41.365+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:12:41.364+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:12:41.373+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:12:41.388+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:12:41.388+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:12:41.406+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:12:41.406+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:40:00+00:00, run_after=2025-10-30 11:42:00+00:00
+[2025-10-30T17:12:41.426+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.084 seconds
+[2025-10-30T17:13:31.247+0530] {processor.py:161} INFO - Started process (PID=20808) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:13:31.260+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:13:31.263+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:13:31.262+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:13:31.278+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:13:31.303+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:13:31.303+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:13:31.325+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:13:31.325+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:40:00+00:00, run_after=2025-10-30 11:42:00+00:00
+[2025-10-30T17:13:31.354+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-30T17:14:20.798+0530] {processor.py:161} INFO - Started process (PID=20872) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:14:20.811+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:14:20.814+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:14:20.814+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:14:20.831+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:14:20.858+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:14:20.857+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:14:20.878+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:14:20.878+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:42:00+00:00, run_after=2025-10-30 11:44:00+00:00
+[2025-10-30T17:14:20.900+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.113 seconds
+[2025-10-30T17:15:08.159+0530] {processor.py:161} INFO - Started process (PID=20978) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:15:08.162+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:15:08.164+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:15:08.164+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:15:08.183+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:15:08.212+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:15:08.212+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:15:08.242+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:15:08.242+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:42:00+00:00, run_after=2025-10-30 11:44:00+00:00
+[2025-10-30T17:15:08.280+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.141 seconds
+[2025-10-30T17:15:58.376+0530] {processor.py:161} INFO - Started process (PID=21084) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:15:58.390+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:15:58.393+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:15:58.393+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:15:58.409+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:15:58.434+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:15:58.433+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:15:58.457+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:15:58.456+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:42:00+00:00, run_after=2025-10-30 11:44:00+00:00
+[2025-10-30T17:15:58.485+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.125 seconds
+[2025-10-30T17:16:52.423+0530] {processor.py:161} INFO - Started process (PID=21199) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:16:52.437+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:16:52.440+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:16:52.439+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:16:52.456+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:16:52.483+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:16:52.483+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:16:52.503+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:16:52.503+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:44:00+00:00, run_after=2025-10-30 11:46:00+00:00
+[2025-10-30T17:16:52.523+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.110 seconds
+[2025-10-30T17:17:43.939+0530] {processor.py:161} INFO - Started process (PID=21305) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:17:43.952+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:17:43.955+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:17:43.954+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:17:43.970+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:17:43.996+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:17:43.996+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:17:44.017+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:17:44.017+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:44:00+00:00, run_after=2025-10-30 11:46:00+00:00
+[2025-10-30T17:17:44.044+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T17:18:34.308+0530] {processor.py:161} INFO - Started process (PID=21369) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:18:34.321+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:18:34.324+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:18:34.324+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:18:34.340+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:18:34.367+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:18:34.367+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:18:34.388+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:18:34.387+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:46:00+00:00, run_after=2025-10-30 11:48:00+00:00
+[2025-10-30T17:18:34.414+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T17:19:25.825+0530] {processor.py:161} INFO - Started process (PID=21428) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:19:25.839+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:19:25.842+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:19:25.841+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:19:25.857+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:19:25.885+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:19:25.884+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:19:25.906+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:19:25.906+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:46:00+00:00, run_after=2025-10-30 11:48:00+00:00
+[2025-10-30T17:19:25.935+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.122 seconds
+[2025-10-30T17:20:14.923+0530] {processor.py:161} INFO - Started process (PID=21519) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:20:14.934+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:20:14.937+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:20:14.936+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:20:14.952+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:20:14.977+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:20:14.977+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:20:14.996+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:20:14.996+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:48:00+00:00, run_after=2025-10-30 11:50:00+00:00
+[2025-10-30T17:20:15.032+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-30T17:21:04.064+0530] {processor.py:161} INFO - Started process (PID=21578) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:21:04.066+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:21:04.069+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:21:04.068+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:21:04.084+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:21:04.105+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:21:04.105+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:21:04.124+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:21:04.124+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:48:00+00:00, run_after=2025-10-30 11:50:00+00:00
+[2025-10-30T17:21:04.145+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.095 seconds
+[2025-10-30T17:21:55.466+0530] {processor.py:161} INFO - Started process (PID=21650) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:21:55.480+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:21:55.483+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:21:55.482+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:21:55.498+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:21:55.524+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:21:55.523+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:21:55.547+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:21:55.546+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:48:00+00:00, run_after=2025-10-30 11:50:00+00:00
+[2025-10-30T17:21:55.573+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T17:22:47.011+0530] {processor.py:161} INFO - Started process (PID=21727) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:22:47.024+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:22:47.027+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:22:47.027+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:22:47.043+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:22:47.068+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:22:47.068+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:22:47.088+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:22:47.087+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:50:00+00:00, run_after=2025-10-30 11:52:00+00:00
+[2025-10-30T17:22:47.109+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.109 seconds
+[2025-10-30T17:23:37.789+0530] {processor.py:161} INFO - Started process (PID=21788) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:23:37.802+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:23:37.805+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:23:37.805+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:23:37.820+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:23:37.845+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:23:37.845+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:23:37.867+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:23:37.867+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:50:00+00:00, run_after=2025-10-30 11:52:00+00:00
+[2025-10-30T17:23:37.894+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T17:24:29.713+0530] {processor.py:161} INFO - Started process (PID=21851) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:24:29.726+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:24:29.729+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:24:29.728+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:24:29.744+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:24:29.763+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:24:29.762+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:24:29.785+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:24:29.784+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:52:00+00:00, run_after=2025-10-30 11:54:00+00:00
+[2025-10-30T17:24:29.804+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.102 seconds
+[2025-10-30T17:25:22.988+0530] {processor.py:161} INFO - Started process (PID=21946) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:25:23.004+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:25:23.010+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:25:23.009+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:25:23.027+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:25:23.054+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:25:23.054+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:25:23.074+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:25:23.074+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:52:00+00:00, run_after=2025-10-30 11:54:00+00:00
+[2025-10-30T17:25:23.100+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.126 seconds
+[2025-10-30T17:26:16.348+0530] {processor.py:161} INFO - Started process (PID=22012) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:26:16.361+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:26:16.364+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:26:16.364+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:26:16.379+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:26:16.405+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:26:16.404+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:26:16.429+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:26:16.429+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:54:00+00:00, run_after=2025-10-30 11:56:00+00:00
+[2025-10-30T17:26:16.453+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T17:27:05.619+0530] {processor.py:161} INFO - Started process (PID=22074) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:27:05.632+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:27:05.635+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:27:05.635+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:27:05.651+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:27:05.680+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:27:05.679+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:27:05.704+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:27:05.704+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:54:00+00:00, run_after=2025-10-30 11:56:00+00:00
+[2025-10-30T17:27:05.732+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.125 seconds
+[2025-10-30T17:27:55.985+0530] {processor.py:161} INFO - Started process (PID=22151) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:27:55.998+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:27:56.002+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:27:56.001+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:27:56.017+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:27:56.047+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:27:56.046+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:27:56.072+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:27:56.072+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:54:00+00:00, run_after=2025-10-30 11:56:00+00:00
+[2025-10-30T17:27:56.111+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.139 seconds
+[2025-10-30T17:28:46.578+0530] {processor.py:161} INFO - Started process (PID=22251) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:28:46.592+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:28:46.594+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:28:46.594+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:28:46.603+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:28:46.619+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:28:46.619+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:28:46.637+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:28:46.637+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:56:00+00:00, run_after=2025-10-30 11:58:00+00:00
+[2025-10-30T17:28:46.658+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.087 seconds
+[2025-10-30T17:29:39.342+0530] {processor.py:161} INFO - Started process (PID=22383) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:29:39.356+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:29:39.360+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:29:39.359+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:29:39.377+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:29:39.405+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:29:39.404+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:29:39.425+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:29:39.425+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:56:00+00:00, run_after=2025-10-30 11:58:00+00:00
+[2025-10-30T17:29:39.452+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.122 seconds
+[2025-10-30T17:30:32.434+0530] {processor.py:161} INFO - Started process (PID=22462) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:30:32.447+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:30:32.450+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:30:32.450+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:30:32.467+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:30:32.494+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:30:32.494+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:30:32.515+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:30:32.514+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:58:00+00:00, run_after=2025-10-30 12:00:00+00:00
+[2025-10-30T17:30:32.535+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.112 seconds
+[2025-10-30T17:31:24.348+0530] {processor.py:161} INFO - Started process (PID=22537) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:31:24.361+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:31:24.365+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:31:24.364+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:31:24.380+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:31:24.408+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:31:24.407+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:31:24.429+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:31:24.429+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 11:58:00+00:00, run_after=2025-10-30 12:00:00+00:00
+[2025-10-30T17:31:24.456+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-10-30T17:32:15.151+0530] {processor.py:161} INFO - Started process (PID=22617) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:32:15.164+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:32:15.167+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:32:15.167+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:32:15.183+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:32:15.208+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:32:15.207+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:32:15.229+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:32:15.229+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:00:00+00:00, run_after=2025-10-30 12:02:00+00:00
+[2025-10-30T17:32:15.257+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T17:33:08.869+0530] {processor.py:161} INFO - Started process (PID=22687) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:33:08.882+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:33:08.885+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:33:08.885+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:33:08.900+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:33:08.926+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:33:08.925+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:33:08.947+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:33:08.947+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:00:00+00:00, run_after=2025-10-30 12:02:00+00:00
+[2025-10-30T17:33:08.968+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.110 seconds
+[2025-10-30T17:34:00.190+0530] {processor.py:161} INFO - Started process (PID=22749) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:34:00.203+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:34:00.206+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:34:00.205+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:34:00.220+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:34:00.244+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:34:00.244+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:34:00.266+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:34:00.266+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:02:00+00:00, run_after=2025-10-30 12:04:00+00:00
+[2025-10-30T17:34:00.290+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.111 seconds
+[2025-10-30T17:34:52.698+0530] {processor.py:161} INFO - Started process (PID=22872) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:34:52.711+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:34:52.714+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:34:52.713+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:34:52.729+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:34:52.753+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:34:52.753+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:34:52.773+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:34:52.773+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:02:00+00:00, run_after=2025-10-30 12:04:00+00:00
+[2025-10-30T17:34:52.791+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.101 seconds
+[2025-10-30T17:35:48.109+0530] {processor.py:161} INFO - Started process (PID=22956) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:35:48.122+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:35:48.125+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:35:48.125+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:35:48.140+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:35:48.165+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:35:48.165+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:35:48.187+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:35:48.187+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:02:00+00:00, run_after=2025-10-30 12:04:00+00:00
+[2025-10-30T17:35:48.214+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.116 seconds
+[2025-10-30T17:36:41.505+0530] {processor.py:161} INFO - Started process (PID=23019) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:36:41.518+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:36:41.521+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:36:41.521+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:36:41.537+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:36:41.564+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:36:41.564+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:36:41.585+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:36:41.585+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:04:00+00:00, run_after=2025-10-30 12:06:00+00:00
+[2025-10-30T17:36:41.613+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-10-30T17:37:32.802+0530] {processor.py:161} INFO - Started process (PID=23086) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:37:32.815+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:37:32.818+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:37:32.818+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:37:32.828+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:37:32.844+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:37:32.843+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:37:32.862+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:37:32.862+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:04:00+00:00, run_after=2025-10-30 12:06:00+00:00
+[2025-10-30T17:37:32.885+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.092 seconds
+[2025-10-30T17:38:26.113+0530] {processor.py:161} INFO - Started process (PID=23161) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:38:26.126+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:38:26.129+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:38:26.128+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:38:26.144+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:38:26.170+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:38:26.169+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:38:26.191+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:38:26.191+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:06:00+00:00, run_after=2025-10-30 12:08:00+00:00
+[2025-10-30T17:38:26.221+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-10-30T17:39:18.596+0530] {processor.py:161} INFO - Started process (PID=23223) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:39:18.609+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:39:18.612+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:39:18.611+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:39:18.628+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:39:18.653+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:39:18.653+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:39:18.674+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:39:18.674+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:06:00+00:00, run_after=2025-10-30 12:08:00+00:00
+[2025-10-30T17:39:18.703+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-10-30T17:40:10.852+0530] {processor.py:161} INFO - Started process (PID=23314) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:40:10.854+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:40:10.857+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:40:10.856+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:40:10.874+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:40:10.896+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:40:10.896+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:40:10.919+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:40:10.919+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:08:00+00:00, run_after=2025-10-30 12:10:00+00:00
+[2025-10-30T17:40:10.945+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.106 seconds
+[2025-10-30T17:41:02.842+0530] {processor.py:161} INFO - Started process (PID=23377) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:41:02.855+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:41:02.859+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:41:02.858+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:41:02.874+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:41:02.903+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:41:02.902+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:41:02.931+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:41:02.931+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:08:00+00:00, run_after=2025-10-30 12:10:00+00:00
+[2025-10-30T17:41:02.961+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.131 seconds
+[2025-10-30T17:41:55.730+0530] {processor.py:161} INFO - Started process (PID=23475) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:41:55.743+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:41:55.747+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:41:55.746+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:41:55.762+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:41:55.789+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:41:55.789+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:41:55.810+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:41:55.810+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:08:00+00:00, run_after=2025-10-30 12:10:00+00:00
+[2025-10-30T17:41:55.838+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-10-30T17:42:51.415+0530] {processor.py:161} INFO - Started process (PID=23582) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:42:51.429+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:42:51.432+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:42:51.431+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:42:51.447+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:42:51.474+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:42:51.474+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:42:51.495+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:42:51.495+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:10:00+00:00, run_after=2025-10-30 12:12:00+00:00
+[2025-10-30T17:42:51.516+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.112 seconds
+[2025-10-30T17:43:48.175+0530] {processor.py:161} INFO - Started process (PID=23651) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:43:48.189+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:43:48.192+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:43:48.191+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:43:48.206+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:43:48.230+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:43:48.230+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:43:48.251+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:43:48.251+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:10:00+00:00, run_after=2025-10-30 12:12:00+00:00
+[2025-10-30T17:43:48.273+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.114 seconds
+[2025-10-30T17:44:42.437+0530] {processor.py:161} INFO - Started process (PID=23781) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:44:42.451+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:44:42.455+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:44:42.454+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:44:42.472+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:44:42.498+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:44:42.498+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:44:42.520+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:44:42.520+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:12:00+00:00, run_after=2025-10-30 12:14:00+00:00
+[2025-10-30T17:44:42.547+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.122 seconds
+[2025-10-30T17:45:36.628+0530] {processor.py:161} INFO - Started process (PID=23872) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:45:36.642+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:45:36.645+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:45:36.644+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:45:36.660+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:45:36.687+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:45:36.686+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:45:36.707+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:45:36.707+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:12:00+00:00, run_after=2025-10-30 12:14:00+00:00
+[2025-10-30T17:45:36.729+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.112 seconds
+[2025-10-30T17:46:23.823+0530] {processor.py:161} INFO - Started process (PID=23948) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:46:23.837+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:46:23.840+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:46:23.839+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:46:23.856+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:46:23.882+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:46:23.882+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:46:23.902+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:46:23.902+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:14:00+00:00, run_after=2025-10-30 12:16:00+00:00
+[2025-10-30T17:46:23.929+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T17:47:11.011+0530] {processor.py:161} INFO - Started process (PID=24031) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:47:11.025+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:47:11.028+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:47:11.028+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:47:11.046+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:47:11.068+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:47:11.068+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:47:11.087+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:47:11.087+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:14:00+00:00, run_after=2025-10-30 12:16:00+00:00
+[2025-10-30T17:47:11.108+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.108 seconds
+[2025-10-30T17:48:03.947+0530] {processor.py:161} INFO - Started process (PID=24094) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:48:03.960+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:48:03.963+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:48:03.962+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:48:03.979+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:48:04.002+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:48:04.002+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:48:04.021+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:48:04.021+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:16:00+00:00, run_after=2025-10-30 12:18:00+00:00
+[2025-10-30T17:48:04.043+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.108 seconds
+[2025-10-30T17:48:59.534+0530] {processor.py:161} INFO - Started process (PID=24175) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:48:59.547+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:48:59.550+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:48:59.549+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:48:59.565+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:48:59.590+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:48:59.590+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:48:59.612+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:48:59.611+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:16:00+00:00, run_after=2025-10-30 12:18:00+00:00
+[2025-10-30T17:48:59.641+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-30T17:49:51.496+0530] {processor.py:161} INFO - Started process (PID=24265) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:49:51.498+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:49:51.501+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:49:51.500+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:49:51.516+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:49:51.538+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:49:51.538+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:49:51.556+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:49:51.556+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:16:00+00:00, run_after=2025-10-30 12:18:00+00:00
+[2025-10-30T17:49:51.578+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.094 seconds
+[2025-10-30T17:50:43.150+0530] {processor.py:161} INFO - Started process (PID=24328) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:50:43.163+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:50:43.166+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:50:43.166+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:50:43.181+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:50:43.207+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:50:43.206+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:50:43.230+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:50:43.230+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:18:00+00:00, run_after=2025-10-30 12:20:00+00:00
+[2025-10-30T17:50:43.256+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T17:51:34.763+0530] {processor.py:161} INFO - Started process (PID=24392) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:51:34.766+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:51:34.769+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:51:34.768+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:51:34.785+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:51:34.807+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:51:34.807+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:51:34.826+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:51:34.825+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:18:00+00:00, run_after=2025-10-30 12:20:00+00:00
+[2025-10-30T17:51:34.845+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.094 seconds
+[2025-10-30T17:52:32.318+0530] {processor.py:161} INFO - Started process (PID=24456) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:52:32.321+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:52:32.324+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:52:32.323+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:52:32.340+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:52:32.362+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:52:32.362+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:52:32.382+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:52:32.382+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:20:00+00:00, run_after=2025-10-30 12:22:00+00:00
+[2025-10-30T17:52:32.402+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.095 seconds
+[2025-10-30T17:53:27.078+0530] {processor.py:161} INFO - Started process (PID=24531) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:53:27.082+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:53:27.085+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:53:27.084+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:53:27.100+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:53:27.123+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:53:27.122+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:53:27.141+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:53:27.141+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:20:00+00:00, run_after=2025-10-30 12:22:00+00:00
+[2025-10-30T17:53:27.162+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.095 seconds
+[2025-10-30T17:54:17.232+0530] {processor.py:161} INFO - Started process (PID=24625) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:54:17.246+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:54:17.250+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:54:17.249+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:54:17.270+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:54:17.298+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:54:17.297+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:54:17.320+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:54:17.320+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:22:00+00:00, run_after=2025-10-30 12:24:00+00:00
+[2025-10-30T17:54:17.346+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.129 seconds
+[2025-10-30T17:55:06.178+0530] {processor.py:161} INFO - Started process (PID=24723) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:55:06.190+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:55:06.193+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:55:06.192+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:55:06.207+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:55:06.232+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:55:06.232+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:55:06.251+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:55:06.250+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:22:00+00:00, run_after=2025-10-30 12:24:00+00:00
+[2025-10-30T17:55:06.271+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.101 seconds
+[2025-10-30T17:55:56.932+0530] {processor.py:161} INFO - Started process (PID=24799) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:55:56.945+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:55:56.948+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:55:56.948+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:55:56.963+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:55:56.984+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:55:56.983+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:55:57.005+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:55:57.004+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:22:00+00:00, run_after=2025-10-30 12:24:00+00:00
+[2025-10-30T17:55:57.028+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.107 seconds
+[2025-10-30T17:56:45.036+0530] {processor.py:161} INFO - Started process (PID=24872) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:56:45.050+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:56:45.053+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:56:45.052+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:56:45.069+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:56:45.096+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:56:45.095+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:56:45.116+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:56:45.115+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:24:00+00:00, run_after=2025-10-30 12:26:00+00:00
+[2025-10-30T17:56:45.135+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.111 seconds
+[2025-10-30T17:57:38.777+0530] {processor.py:161} INFO - Started process (PID=24950) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:57:38.790+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:57:38.794+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:57:38.793+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:57:38.809+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:57:38.835+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:57:38.834+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:57:38.855+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:57:38.855+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:24:00+00:00, run_after=2025-10-30 12:26:00+00:00
+[2025-10-30T17:57:38.882+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T17:58:31.298+0530] {processor.py:161} INFO - Started process (PID=25026) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:58:31.312+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:58:31.315+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:58:31.315+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:58:31.331+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:58:31.358+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:58:31.357+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:58:31.380+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:58:31.380+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:26:00+00:00, run_after=2025-10-30 12:28:00+00:00
+[2025-10-30T17:58:31.401+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.114 seconds
+[2025-10-30T17:59:27.750+0530] {processor.py:161} INFO - Started process (PID=25092) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:59:27.765+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T17:59:27.768+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:59:27.767+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:59:27.783+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T17:59:27.809+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:59:27.808+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T17:59:27.833+0530] {logging_mixin.py:188} INFO - [2025-10-30T17:59:27.833+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:26:00+00:00, run_after=2025-10-30 12:28:00+00:00
+[2025-10-30T17:59:27.859+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-10-30T18:00:19.694+0530] {processor.py:161} INFO - Started process (PID=25185) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:00:19.707+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:00:19.710+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:00:19.709+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:00:19.721+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:00:19.739+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:00:19.739+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:00:19.760+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:00:19.760+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:28:00+00:00, run_after=2025-10-30 12:30:00+00:00
+[2025-10-30T18:00:19.784+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.102 seconds
+[2025-10-30T18:01:07.994+0530] {processor.py:161} INFO - Started process (PID=25260) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:01:08.008+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:01:08.011+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:01:08.011+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:01:08.027+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:01:08.048+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:01:08.048+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:01:08.069+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:01:08.069+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:28:00+00:00, run_after=2025-10-30 12:30:00+00:00
+[2025-10-30T18:01:08.091+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.110 seconds
+[2025-10-30T18:01:55.541+0530] {processor.py:161} INFO - Started process (PID=25322) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:01:55.555+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:01:55.559+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:01:55.558+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:01:55.584+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:01:55.618+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:01:55.618+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:01:55.647+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:01:55.646+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:28:00+00:00, run_after=2025-10-30 12:30:00+00:00
+[2025-10-30T18:01:55.680+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.156 seconds
+[2025-10-30T18:02:43.784+0530] {processor.py:161} INFO - Started process (PID=25419) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:02:43.797+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:02:43.800+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:02:43.800+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:02:43.816+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:02:43.845+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:02:43.844+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:02:43.868+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:02:43.867+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:30:00+00:00, run_after=2025-10-30 12:32:00+00:00
+[2025-10-30T18:02:43.889+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.117 seconds
+[2025-10-30T18:03:34.002+0530] {processor.py:161} INFO - Started process (PID=25481) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:03:34.017+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:03:34.020+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:03:34.019+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:03:34.036+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:03:34.063+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:03:34.063+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:03:34.085+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:03:34.085+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:30:00+00:00, run_after=2025-10-30 12:32:00+00:00
+[2025-10-30T18:03:34.106+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.116 seconds
+[2025-10-30T18:04:25.232+0530] {processor.py:161} INFO - Started process (PID=25541) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:04:25.245+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:04:25.249+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:04:25.248+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:04:25.265+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:04:25.295+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:04:25.294+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:04:25.315+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:04:25.315+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:32:00+00:00, run_after=2025-10-30 12:34:00+00:00
+[2025-10-30T18:04:25.335+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.115 seconds
+[2025-10-30T18:05:15.728+0530] {processor.py:161} INFO - Started process (PID=25635) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:05:15.741+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:05:15.745+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:05:15.744+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:05:15.761+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:05:15.786+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:05:15.785+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:05:15.807+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:05:15.806+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:32:00+00:00, run_after=2025-10-30 12:34:00+00:00
+[2025-10-30T18:05:15.834+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.118 seconds
+[2025-10-30T18:06:05.082+0530] {processor.py:161} INFO - Started process (PID=25694) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:06:05.095+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:06:05.097+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:06:05.097+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:06:05.106+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:06:05.128+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:06:05.128+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:06:05.147+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:06:05.146+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:34:00+00:00, run_after=2025-10-30 12:36:00+00:00
+[2025-10-30T18:06:05.168+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.095 seconds
+[2025-10-30T18:06:55.105+0530] {processor.py:161} INFO - Started process (PID=25758) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:06:55.118+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:06:55.121+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:06:55.121+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:06:55.136+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:06:55.161+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:06:55.161+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:06:55.183+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:06:55.183+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:34:00+00:00, run_after=2025-10-30 12:36:00+00:00
+[2025-10-30T18:06:55.204+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.110 seconds
+[2025-10-30T18:07:44.998+0530] {processor.py:161} INFO - Started process (PID=25820) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:07:45.011+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:07:45.014+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:07:45.014+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:07:45.028+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:07:45.052+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:07:45.051+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:07:45.074+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:07:45.074+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:34:00+00:00, run_after=2025-10-30 12:36:00+00:00
+[2025-10-30T18:07:45.099+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.112 seconds
+[2025-10-30T18:08:38.394+0530] {processor.py:161} INFO - Started process (PID=25887) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:08:38.407+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-30T18:08:38.410+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:08:38.410+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:08:38.426+0530] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-30T18:08:38.452+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:08:38.451+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T18:08:38.475+0530] {logging_mixin.py:188} INFO - [2025-10-30T18:08:38.475+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-30 12:36:00+00:00, run_after=2025-10-30 12:38:00+00:00
+[2025-10-30T18:08:38.496+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.113 seconds

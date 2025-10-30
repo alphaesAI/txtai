@@ -1,10 +1,10 @@
 from src.config import get_settings
 from src.connector.interfaces.base import BaseDatabase
 from src.connector.interfaces.database import RDBMSDatabase
-from src.schemas.database.config import DatabaseSettings
+from src.schemas.database.config import DatabaseConfig
 
 
-def make_database() -> BaseDatabase:
+def create_database_connection() -> BaseDatabase:
     """Factory function to create a database instance.
 
     :returns: An instance of the database
@@ -14,7 +14,7 @@ def make_database() -> BaseDatabase:
     settings = get_settings()
 
     # Create PostgreSQL config from settings
-    config = DatabaseSettings(
+    config = DatabaseConfig(
         database_url=settings.postgres_database_url,
         echo_sql=settings.postgres_echo_sql,
         pool_size=settings.postgres_pool_size,

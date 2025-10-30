@@ -1,3 +1,7 @@
+""" 
+- split connection + index exist into a class and separate class for single and bulk ingestion. 
+"""
+
 import logging
 import json
 from typing import Dict, Any
