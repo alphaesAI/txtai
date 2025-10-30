@@ -1,0 +1,11 @@
+[2025-10-30T13:23:32.208+0530] {processor.py:161} INFO - Started process (PID=14238) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-10-30T13:23:32.209+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-10-30T13:23:32.211+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:32.210+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-10-30T13:23:32.223+0530] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-10-30T13:23:32.322+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:32.321+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_short_circuit_decorator
+[2025-10-30T13:23:32.331+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:32.331+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_short_circuit_decorator
+[2025-10-30T13:23:32.339+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:32.338+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_short_circuit_decorator
+[2025-10-30T13:23:32.339+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:32.339+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:23:32.349+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:32.349+0530] {dag.py:3111} INFO - Creating ORM DAG for example_short_circuit_decorator
+[2025-10-30T13:23:32.357+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:32.357+0530] {dag.py:3947} INFO - Setting next_dagrun for example_short_circuit_decorator to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:23:32.376+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.176 seconds

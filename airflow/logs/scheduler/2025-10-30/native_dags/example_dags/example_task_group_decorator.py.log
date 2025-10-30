@@ -1,0 +1,11 @@
+[2025-10-30T13:23:37.445+0530] {processor.py:161} INFO - Started process (PID=14273) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-10-30T13:23:37.447+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-10-30T13:23:37.450+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:37.449+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-10-30T13:23:37.468+0530] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-10-30T13:23:37.559+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:37.558+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2025-10-30T13:23:37.569+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:37.569+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2025-10-30T13:23:37.575+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:37.574+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2025-10-30T13:23:37.575+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:37.575+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:23:37.583+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:37.582+0530] {dag.py:3111} INFO - Creating ORM DAG for example_task_group_decorator
+[2025-10-30T13:23:37.589+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:37.588+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group_decorator to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:23:37.604+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.170 seconds

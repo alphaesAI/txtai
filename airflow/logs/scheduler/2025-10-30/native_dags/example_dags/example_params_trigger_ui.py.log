@@ -1,0 +1,11 @@
+[2025-10-30T13:23:42.707+0530] {processor.py:161} INFO - Started process (PID=14280) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-30T13:23:42.708+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-30T13:23:42.711+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:42.710+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-30T13:23:42.719+0530] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-30T13:23:42.883+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:42.882+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2025-10-30T13:23:42.900+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:42.899+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2025-10-30T13:23:42.915+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:42.914+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2025-10-30T13:23:42.916+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:42.916+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:23:42.938+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:42.937+0530] {dag.py:3111} INFO - Creating ORM DAG for example_params_trigger_ui
+[2025-10-30T13:23:42.940+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:42.939+0530] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-30T13:23:43.024+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.324 seconds

@@ -1,0 +1,12 @@
+[2025-10-30T13:23:44.172+0530] {processor.py:161} INFO - Started process (PID=14301) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-10-30T13:23:44.174+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-10-30T13:23:44.177+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:44.176+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-10-30T13:23:44.188+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:44.188+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-30T13:23:44.189+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-10-30T13:23:44.306+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:44.306+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2025-10-30T13:23:44.323+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:44.322+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_python_operator
+[2025-10-30T13:23:44.333+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:44.332+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2025-10-30T13:23:44.333+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:44.333+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:23:44.343+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:44.343+0530] {dag.py:3111} INFO - Creating ORM DAG for example_python_operator
+[2025-10-30T13:23:44.344+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:44.344+0530] {dag.py:3947} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-10-30T13:23:44.366+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.207 seconds

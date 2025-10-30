@@ -1,0 +1,16 @@
+[2025-10-30T13:23:28.213+0530] {processor.py:161} INFO - Started process (PID=14190) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-10-30T13:23:28.216+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-10-30T13:23:28.218+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.218+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-10-30T13:23:28.235+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-10-30T13:23:28.387+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.386+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2025-10-30T13:23:28.403+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.403+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2025-10-30T13:23:28.415+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.413+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2025-10-30T13:23:28.435+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.435+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2025-10-30T13:23:28.445+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.445+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2025-10-30T13:23:28.456+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.456+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2025-10-30T13:23:28.456+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.456+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-10-30T13:23:28.475+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.474+0530] {dag.py:3111} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2025-10-30T13:23:28.476+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.475+0530] {dag.py:3111} INFO - Creating ORM DAG for example_xcom_args
+[2025-10-30T13:23:28.478+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.477+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-10-30T13:23:28.479+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:28.479+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-10-30T13:23:28.537+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.341 seconds

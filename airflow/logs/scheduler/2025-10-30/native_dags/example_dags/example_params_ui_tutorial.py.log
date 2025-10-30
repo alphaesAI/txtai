@@ -1,0 +1,11 @@
+[2025-10-30T13:23:41.470+0530] {processor.py:161} INFO - Started process (PID=14278) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2025-10-30T13:23:41.472+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2025-10-30T13:23:41.475+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:41.474+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2025-10-30T13:23:41.486+0530] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2025-10-30T13:23:41.596+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:41.595+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_params_ui_tutorial
+[2025-10-30T13:23:41.605+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:41.605+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_params_ui_tutorial
+[2025-10-30T13:23:41.611+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:41.611+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_params_ui_tutorial
+[2025-10-30T13:23:41.611+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:41.611+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:23:41.619+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:41.619+0530] {dag.py:3111} INFO - Creating ORM DAG for example_params_ui_tutorial
+[2025-10-30T13:23:41.619+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:41.619+0530] {dag.py:3947} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2025-10-30T13:23:41.635+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.175 seconds

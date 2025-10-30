@@ -1,0 +1,11 @@
+[2025-10-30T13:23:23.682+0530] {processor.py:161} INFO - Started process (PID=14182) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-10-30T13:23:23.684+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-10-30T13:23:23.686+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:23.686+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-10-30T13:23:23.699+0530] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-10-30T13:23:23.787+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:23.787+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-10-30T13:23:23.796+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:23.795+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:tutorial
+[2025-10-30T13:23:23.802+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:23.802+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-10-30T13:23:23.802+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:23.802+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:23:23.811+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:23.811+0530] {dag.py:3111} INFO - Creating ORM DAG for tutorial
+[2025-10-30T13:23:23.817+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:23.817+0530] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:23:23.833+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.161 seconds

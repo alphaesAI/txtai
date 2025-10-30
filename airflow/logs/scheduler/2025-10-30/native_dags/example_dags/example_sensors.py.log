@@ -1,0 +1,11 @@
+[2025-10-30T13:23:45.469+0530] {processor.py:161} INFO - Started process (PID=14317) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-10-30T13:23:45.471+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-10-30T13:23:45.474+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:45.473+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-10-30T13:23:45.488+0530] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-10-30T13:23:45.582+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:45.582+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-10-30T13:23:45.590+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:45.590+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-10-30T13:23:45.596+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:45.596+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-10-30T13:23:45.596+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:45.596+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:23:45.604+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:45.603+0530] {dag.py:3111} INFO - Creating ORM DAG for example_sensors
+[2025-10-30T13:23:45.604+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:45.604+0530] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-10-30T13:23:45.620+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.161 seconds

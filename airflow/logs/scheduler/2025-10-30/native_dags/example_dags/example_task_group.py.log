@@ -1,0 +1,11 @@
+[2025-10-30T13:23:36.201+0530] {processor.py:161} INFO - Started process (PID=14257) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-10-30T13:23:36.202+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-10-30T13:23:36.204+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:36.203+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-10-30T13:23:36.212+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-10-30T13:23:36.300+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:36.299+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_task_group
+[2025-10-30T13:23:36.309+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:36.308+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_task_group
+[2025-10-30T13:23:36.317+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:36.317+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_task_group
+[2025-10-30T13:23:36.317+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:36.317+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:23:36.325+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:36.325+0530] {dag.py:3111} INFO - Creating ORM DAG for example_task_group
+[2025-10-30T13:23:36.331+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:36.331+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:23:36.347+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.151 seconds

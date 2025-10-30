@@ -1,0 +1,11 @@
+[2025-10-30T13:24:04.056+0530] {processor.py:161} INFO - Started process (PID=14465) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2025-10-30T13:24:04.057+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2025-10-30T13:24:04.060+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:04.060+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2025-10-30T13:24:04.075+0530] {processor.py:840} INFO - DAG(s) 'example_branch_dop_operator_v3' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2025-10-30T13:24:04.164+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:04.163+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_branch_dop_operator_v3
+[2025-10-30T13:24:04.182+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:04.181+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_branch_dop_operator_v3
+[2025-10-30T13:24:04.190+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:04.190+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_branch_dop_operator_v3
+[2025-10-30T13:24:04.190+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:04.190+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:24:04.198+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:04.198+0530] {dag.py:3111} INFO - Creating ORM DAG for example_branch_dop_operator_v3
+[2025-10-30T13:24:04.208+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:04.208+0530] {dag.py:3947} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2025-10-30 07:53:00+00:00, run_after=2025-10-30 07:54:00+00:00
+[2025-10-30T13:24:04.223+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.177 seconds

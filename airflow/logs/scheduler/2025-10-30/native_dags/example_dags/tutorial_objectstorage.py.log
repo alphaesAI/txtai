@@ -1,0 +1,11 @@
+[2025-10-30T13:23:22.655+0530] {processor.py:161} INFO - Started process (PID=14181) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-30T13:23:22.657+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-30T13:23:22.659+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:22.659+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-30T13:23:22.671+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-30T13:23:22.755+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:22.754+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2025-10-30T13:23:22.763+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:22.763+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2025-10-30T13:23:22.773+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:22.773+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2025-10-30T13:23:22.774+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:22.774+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:23:22.790+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:22.790+0530] {dag.py:3111} INFO - Creating ORM DAG for tutorial_objectstorage
+[2025-10-30T13:23:22.791+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:22.791+0530] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-30T13:23:22.813+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.167 seconds
