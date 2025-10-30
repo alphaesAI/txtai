@@ -9,3 +9,661 @@
 [2025-10-30T13:23:46.887+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:46.886+0530] {dag.py:3111} INFO - Creating ORM DAG for example_setup_teardown
 [2025-10-30T13:23:46.896+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:23:46.895+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
 [2025-10-30T13:23:46.915+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.192 seconds
+[2025-10-30T13:24:42.718+0530] {processor.py:161} INFO - Started process (PID=14729) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:24:42.730+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T13:24:42.732+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:42.732+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:24:42.738+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:24:42.753+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:42.753+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:24:42.773+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:24:42.773+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:24:42.792+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.080 seconds
+[2025-10-30T13:25:34.578+0530] {processor.py:161} INFO - Started process (PID=14802) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:25:34.591+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T13:25:34.594+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:25:34.593+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:25:34.605+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:25:34.630+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:25:34.629+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:25:34.650+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:25:34.649+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:25:34.667+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.099 seconds
+[2025-10-30T13:26:23.121+0530] {processor.py:161} INFO - Started process (PID=14867) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:26:23.123+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T13:26:23.125+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:26:23.125+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:26:23.136+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:26:23.160+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:26:23.159+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:26:23.176+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:26:23.176+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:26:23.196+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.086 seconds
+[2025-10-30T13:27:08.554+0530] {processor.py:161} INFO - Started process (PID=14925) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:27:08.566+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T13:27:08.569+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:27:08.569+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:27:08.577+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:27:08.593+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:27:08.592+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:27:08.607+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:27:08.607+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:27:08.625+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.078 seconds
+[2025-10-30T13:28:14.772+0530] {processor.py:161} INFO - Started process (PID=15031) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:28:14.785+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T13:28:14.788+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:28:14.787+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:28:14.801+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:28:14.826+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:28:14.826+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:28:14.846+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:28:14.846+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:28:14.865+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.105 seconds
+[2025-10-30T13:29:00.878+0530] {processor.py:161} INFO - Started process (PID=15116) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:29:00.890+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T13:29:00.893+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:29:00.893+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:29:00.899+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:29:00.918+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:29:00.918+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:29:00.932+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:29:00.932+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:29:00.949+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.080 seconds
+[2025-10-30T13:29:45.501+0530] {processor.py:161} INFO - Started process (PID=15178) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:29:45.514+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T13:29:45.517+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:29:45.517+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:29:45.528+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T13:29:45.554+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:29:45.554+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T13:29:45.574+0530] {logging_mixin.py:188} INFO - [2025-10-30T13:29:45.574+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T13:29:45.599+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.108 seconds
+[2025-10-30T15:04:55.200+0530] {processor.py:161} INFO - Started process (PID=5821) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:04:55.213+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:04:55.216+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:04:55.215+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:04:55.228+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:04:55.259+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:04:55.258+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:04:55.275+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:04:55.275+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:04:55.292+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.102 seconds
+[2025-10-30T15:05:51.279+0530] {processor.py:161} INFO - Started process (PID=5921) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:05:51.292+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:05:51.296+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:05:51.295+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:05:51.308+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:05:51.336+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:05:51.335+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:05:51.357+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:05:51.357+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:05:51.385+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.117 seconds
+[2025-10-30T15:06:44.970+0530] {processor.py:161} INFO - Started process (PID=6013) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:06:44.983+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:06:44.986+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:06:44.985+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:06:44.998+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:06:45.024+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:06:45.024+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:06:45.044+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:06:45.044+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:06:45.063+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.104 seconds
+[2025-10-30T15:07:36.317+0530] {processor.py:161} INFO - Started process (PID=6100) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:07:36.330+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:07:36.332+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:07:36.332+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:07:36.340+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:07:36.362+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:07:36.361+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:07:36.383+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:07:36.382+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:07:36.407+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.098 seconds
+[2025-10-30T15:08:27.250+0530] {processor.py:161} INFO - Started process (PID=6190) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:08:27.263+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:08:27.267+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:08:27.266+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:08:27.279+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:08:27.307+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:08:27.307+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:08:27.328+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:08:27.328+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:08:27.348+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.110 seconds
+[2025-10-30T15:09:19.006+0530] {processor.py:161} INFO - Started process (PID=6260) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:09:19.019+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:09:19.022+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:09:19.021+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:09:19.033+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:09:19.060+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:09:19.060+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:09:19.080+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:09:19.080+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:09:19.101+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.106 seconds
+[2025-10-30T15:10:11.237+0530] {processor.py:161} INFO - Started process (PID=6366) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:10:11.251+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:10:11.254+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:10:11.253+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:10:11.266+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:10:11.292+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:10:11.292+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:10:11.311+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:10:11.311+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:10:11.341+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:11:00.391+0530] {processor.py:161} INFO - Started process (PID=6474) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:11:00.404+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:11:00.407+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:11:00.407+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:11:00.413+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:11:00.427+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:11:00.426+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:11:00.440+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:11:00.440+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:11:00.459+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.075 seconds
+[2025-10-30T15:11:47.058+0530] {processor.py:161} INFO - Started process (PID=6548) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:11:47.071+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:11:47.074+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:11:47.074+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:11:47.087+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:11:47.115+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:11:47.115+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:11:47.136+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:11:47.136+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:11:47.161+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2025-10-30T15:12:38.297+0530] {processor.py:161} INFO - Started process (PID=6636) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:12:38.310+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:12:38.313+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:12:38.312+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:12:38.324+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:12:38.356+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:12:38.355+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:12:38.377+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:12:38.376+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:12:38.407+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.122 seconds
+[2025-10-30T15:13:28.032+0530] {processor.py:161} INFO - Started process (PID=6711) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:13:28.046+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:13:28.049+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:13:28.048+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:13:28.061+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:13:28.089+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:13:28.088+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:13:28.107+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:13:28.107+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:13:28.134+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2025-10-30T15:14:16.613+0530] {processor.py:161} INFO - Started process (PID=6781) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:14:16.627+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:14:16.630+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:14:16.629+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:14:16.642+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:14:16.670+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:14:16.670+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:14:16.691+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:14:16.691+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:14:16.719+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.117 seconds
+[2025-10-30T15:15:09.022+0530] {processor.py:161} INFO - Started process (PID=6875) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:15:09.036+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:15:09.039+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:15:09.039+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:15:09.052+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:15:09.080+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:15:09.080+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:15:09.101+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:15:09.101+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:15:09.127+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.117 seconds
+[2025-10-30T15:15:59.063+0530] {processor.py:161} INFO - Started process (PID=6936) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:15:59.070+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:15:59.081+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:15:59.079+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:15:59.116+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:15:59.136+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:15:59.135+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:15:59.153+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:15:59.152+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:15:59.173+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.147 seconds
+[2025-10-30T15:16:46.313+0530] {processor.py:161} INFO - Started process (PID=7016) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:16:46.327+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:16:46.330+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:16:46.329+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:16:46.342+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:16:46.371+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:16:46.371+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:16:46.391+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:16:46.391+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:16:46.416+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:17:35.808+0530] {processor.py:161} INFO - Started process (PID=7097) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:17:35.822+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:17:35.826+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:17:35.825+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:17:35.838+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:17:35.867+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:17:35.867+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:17:35.886+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:17:35.886+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:17:35.907+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.111 seconds
+[2025-10-30T15:18:27.934+0530] {processor.py:161} INFO - Started process (PID=7164) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:18:27.947+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:18:27.950+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:18:27.950+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:18:27.962+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:18:27.991+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:18:27.991+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:18:28.013+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:18:28.013+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:18:28.045+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.123 seconds
+[2025-10-30T15:19:21.059+0530] {processor.py:161} INFO - Started process (PID=7227) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:19:21.073+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:19:21.076+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:19:21.075+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:19:21.087+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:19:21.113+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:19:21.113+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:19:21.131+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:19:21.131+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:19:21.159+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.112 seconds
+[2025-10-30T15:20:12.184+0530] {processor.py:161} INFO - Started process (PID=7336) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:20:12.197+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:20:12.200+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:20:12.200+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:20:12.212+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:20:12.241+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:20:12.240+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:20:12.263+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:20:12.262+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:20:12.294+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.122 seconds
+[2025-10-30T15:21:01.973+0530] {processor.py:161} INFO - Started process (PID=7421) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:21:01.986+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:21:01.989+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:21:01.989+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:21:02.001+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:21:02.028+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:21:02.027+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:21:02.049+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:21:02.049+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:21:02.077+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.116 seconds
+[2025-10-30T15:21:52.722+0530] {processor.py:161} INFO - Started process (PID=7498) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:21:52.736+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:21:52.739+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:21:52.738+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:21:52.751+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:21:52.780+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:21:52.780+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:21:52.800+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:21:52.800+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:21:52.829+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.118 seconds
+[2025-10-30T15:22:39.078+0530] {processor.py:161} INFO - Started process (PID=7563) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:22:39.091+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:22:39.094+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:22:39.093+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:22:39.105+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:22:39.132+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:22:39.132+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:22:39.152+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:22:39.152+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:22:39.180+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2025-10-30T15:23:28.490+0530] {processor.py:161} INFO - Started process (PID=7641) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:23:28.503+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:23:28.506+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:23:28.506+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:23:28.518+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:23:28.546+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:23:28.545+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:23:28.565+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:23:28.565+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:23:28.592+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2025-10-30T15:24:20.955+0530] {processor.py:161} INFO - Started process (PID=7702) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:24:20.968+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:24:20.971+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:24:20.970+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:24:20.983+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:24:21.009+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:24:21.009+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:24:21.030+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:24:21.029+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:24:21.058+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.114 seconds
+[2025-10-30T15:25:11.453+0530] {processor.py:161} INFO - Started process (PID=7796) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:25:11.466+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:25:11.469+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:25:11.468+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:25:11.480+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:25:11.508+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:25:11.508+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:25:11.529+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:25:11.529+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:25:11.559+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.118 seconds
+[2025-10-30T15:26:01.858+0530] {processor.py:161} INFO - Started process (PID=7873) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:26:01.871+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:26:01.874+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:26:01.874+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:26:01.887+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:26:01.915+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:26:01.915+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:26:01.935+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:26:01.935+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:26:01.955+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.108 seconds
+[2025-10-30T15:27:13.126+0530] {processor.py:161} INFO - Started process (PID=7967) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:27:13.139+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:27:13.143+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:27:13.142+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:27:13.155+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:27:13.183+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:27:13.183+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:27:13.203+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:27:13.203+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:27:13.230+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:28:02.738+0530] {processor.py:161} INFO - Started process (PID=8030) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:28:02.753+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:28:02.756+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:28:02.755+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:28:02.768+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:28:02.796+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:28:02.796+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:28:02.817+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:28:02.816+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:28:02.843+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.116 seconds
+[2025-10-30T15:28:52.483+0530] {processor.py:161} INFO - Started process (PID=8093) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:28:52.497+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:28:52.500+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:28:52.499+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:28:52.512+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:28:52.540+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:28:52.539+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:28:52.559+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:28:52.559+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:28:52.586+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2025-10-30T15:29:43.041+0530] {processor.py:161} INFO - Started process (PID=8182) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:29:43.054+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:29:43.057+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:29:43.056+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:29:43.069+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:29:43.096+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:29:43.095+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:29:43.116+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:29:43.116+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:29:43.147+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.118 seconds
+[2025-10-30T15:30:31.380+0530] {processor.py:161} INFO - Started process (PID=8245) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:30:31.394+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:30:31.397+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:30:31.396+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:30:31.408+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:30:31.435+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:30:31.435+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:30:31.456+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:30:31.456+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:30:31.483+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.114 seconds
+[2025-10-30T15:31:20.649+0530] {processor.py:161} INFO - Started process (PID=8304) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:31:20.663+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:31:20.666+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:31:20.665+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:31:20.678+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:31:20.706+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:31:20.706+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:31:20.726+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:31:20.725+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:31:20.748+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.110 seconds
+[2025-10-30T15:32:13.411+0530] {processor.py:161} INFO - Started process (PID=8371) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:32:13.414+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:32:13.416+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:32:13.416+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:32:13.428+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:32:13.453+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:32:13.453+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:32:13.470+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:32:13.470+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:32:13.490+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.090 seconds
+[2025-10-30T15:33:03.992+0530] {processor.py:161} INFO - Started process (PID=8435) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:33:04.006+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:33:04.009+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:33:04.009+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:33:04.021+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:33:04.050+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:33:04.049+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:33:04.069+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:33:04.069+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:33:04.097+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:33:54.009+0530] {processor.py:161} INFO - Started process (PID=8497) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:33:54.023+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:33:54.026+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:33:54.025+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:33:54.038+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:33:54.067+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:33:54.067+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:33:54.087+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:33:54.087+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:33:54.113+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:34:50.480+0530] {processor.py:161} INFO - Started process (PID=8591) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:34:50.497+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:34:50.500+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:34:50.500+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:34:50.512+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:34:50.541+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:34:50.540+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:34:50.563+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:34:50.563+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:34:50.590+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.122 seconds
+[2025-10-30T15:35:52.584+0530] {processor.py:161} INFO - Started process (PID=8661) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:35:52.597+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:35:52.600+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:35:52.600+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:35:52.612+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:35:52.640+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:35:52.639+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:35:52.658+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:35:52.658+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:35:52.684+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.111 seconds
+[2025-10-30T15:36:46.961+0530] {processor.py:161} INFO - Started process (PID=8738) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:36:46.975+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:36:46.978+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:36:46.977+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:36:46.990+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:36:47.019+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:36:47.019+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:36:47.038+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:36:47.037+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:36:47.064+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.114 seconds
+[2025-10-30T15:37:39.887+0530] {processor.py:161} INFO - Started process (PID=8804) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:37:39.900+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:37:39.904+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:37:39.903+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:37:39.916+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:37:39.944+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:37:39.944+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:37:39.965+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:37:39.965+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:37:39.992+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.116 seconds
+[2025-10-30T15:38:33.620+0530] {processor.py:161} INFO - Started process (PID=8872) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:38:33.633+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:38:33.637+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:38:33.636+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:38:33.649+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:38:33.676+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:38:33.676+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:38:33.695+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:38:33.695+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:38:33.724+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:39:24.296+0530] {processor.py:161} INFO - Started process (PID=8933) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:39:24.309+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:39:24.312+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:39:24.312+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:39:24.325+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:39:24.353+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:39:24.353+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:39:24.373+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:39:24.373+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:39:24.400+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:40:15.035+0530] {processor.py:161} INFO - Started process (PID=9103) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:40:15.049+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:40:15.052+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:40:15.051+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:40:15.064+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:40:15.092+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:40:15.092+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:40:15.110+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:40:15.110+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:40:15.131+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.106 seconds
+[2025-10-30T15:41:23.780+0530] {processor.py:161} INFO - Started process (PID=9240) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:41:23.793+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:41:23.796+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:41:23.795+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:41:23.808+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:41:23.836+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:41:23.836+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:41:23.857+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:41:23.856+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:41:23.886+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.118 seconds
+[2025-10-30T15:42:15.972+0530] {processor.py:161} INFO - Started process (PID=9448) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:42:15.986+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:42:15.989+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:42:15.988+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:42:16.000+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:42:16.026+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:42:16.026+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:42:16.046+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:42:16.046+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:42:16.073+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.110 seconds
+[2025-10-30T15:43:04.568+0530] {processor.py:161} INFO - Started process (PID=9600) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:43:04.570+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:43:04.573+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:43:04.572+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:43:04.585+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:43:04.611+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:43:04.611+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:43:04.629+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:43:04.629+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:43:04.651+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.094 seconds
+[2025-10-30T15:43:54.966+0530] {processor.py:161} INFO - Started process (PID=9832) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:43:54.979+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:43:54.983+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:43:54.982+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:43:54.995+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:43:55.024+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:43:55.023+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:43:55.044+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:43:55.044+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:43:55.073+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.119 seconds
+[2025-10-30T15:44:44.305+0530] {processor.py:161} INFO - Started process (PID=9990) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:44:44.319+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:44:44.322+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:44:44.321+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:44:44.334+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:44:44.364+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:44:44.363+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:44:44.391+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:44:44.390+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:44:44.413+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.119 seconds
+[2025-10-30T15:45:32.445+0530] {processor.py:161} INFO - Started process (PID=10138) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:45:32.459+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:45:32.462+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:45:32.461+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:45:32.474+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:45:32.502+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:45:32.501+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:45:32.522+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:45:32.522+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:45:32.553+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.118 seconds
+[2025-10-30T15:46:22.521+0530] {processor.py:161} INFO - Started process (PID=10210) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:46:22.534+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:46:22.537+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:46:22.537+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:46:22.549+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:46:22.576+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:46:22.575+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:46:22.596+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:46:22.595+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:46:22.623+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2025-10-30T15:47:09.270+0530] {processor.py:161} INFO - Started process (PID=10269) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:47:09.283+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:47:09.286+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:47:09.286+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:47:09.298+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:47:09.327+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:47:09.326+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:47:09.345+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:47:09.344+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:47:09.374+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:47:59.854+0530] {processor.py:161} INFO - Started process (PID=10348) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:47:59.867+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:47:59.870+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:47:59.869+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:47:59.881+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:47:59.909+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:47:59.909+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:47:59.930+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:47:59.930+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:47:59.957+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:48:50.140+0530] {processor.py:161} INFO - Started process (PID=10425) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:48:50.153+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:48:50.156+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:48:50.156+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:48:50.168+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:48:50.194+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:48:50.194+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:48:50.213+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:48:50.212+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:48:50.240+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.110 seconds
+[2025-10-30T15:49:40.672+0530] {processor.py:161} INFO - Started process (PID=10541) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:49:40.686+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:49:40.689+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:49:40.688+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:49:40.701+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:49:40.729+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:49:40.728+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:49:40.749+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:49:40.748+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:49:40.770+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.109 seconds
+[2025-10-30T15:50:28.660+0530] {processor.py:161} INFO - Started process (PID=10608) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:50:28.673+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:50:28.676+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:50:28.675+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:50:28.687+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:50:28.715+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:50:28.714+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:50:28.734+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:50:28.733+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:50:28.760+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.112 seconds
+[2025-10-30T15:51:17.918+0530] {processor.py:161} INFO - Started process (PID=10668) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:51:17.931+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:51:17.934+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:51:17.933+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:51:17.946+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:51:17.974+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:51:17.973+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:51:17.993+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:51:17.993+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:51:18.017+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.110 seconds
+[2025-10-30T15:52:06.249+0530] {processor.py:161} INFO - Started process (PID=10746) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:52:06.262+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:52:06.265+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:52:06.265+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:52:06.277+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:52:06.304+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:52:06.304+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:52:06.325+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:52:06.324+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:52:06.351+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2025-10-30T15:52:58.008+0530] {processor.py:161} INFO - Started process (PID=10924) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:52:58.023+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:52:58.026+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:52:58.025+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:52:58.039+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:52:58.068+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:52:58.067+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:52:58.086+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:52:58.085+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:52:58.114+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.117 seconds
+[2025-10-30T15:53:50.812+0530] {processor.py:161} INFO - Started process (PID=11232) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:53:50.828+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:53:50.833+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:53:50.832+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:53:50.850+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:53:50.903+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:53:50.901+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:53:50.970+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:53:50.969+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:53:51.065+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.271 seconds
+[2025-10-30T15:54:43.215+0530] {processor.py:161} INFO - Started process (PID=11428) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:54:43.228+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:54:43.231+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:54:43.231+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:54:43.243+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:54:43.270+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:54:43.270+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:54:43.289+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:54:43.288+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:54:43.318+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T15:55:36.013+0530] {processor.py:161} INFO - Started process (PID=11544) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:55:36.027+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:55:36.030+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:55:36.029+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:55:36.042+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:55:36.076+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:55:36.076+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:55:36.093+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:55:36.093+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:55:36.114+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.112 seconds
+[2025-10-30T15:56:31.865+0530] {processor.py:161} INFO - Started process (PID=11653) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:56:31.878+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:56:31.882+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:56:31.881+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:56:31.900+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:56:31.930+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:56:31.930+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:56:31.948+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:56:31.947+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:56:31.976+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.118 seconds
+[2025-10-30T15:57:29.778+0530] {processor.py:161} INFO - Started process (PID=11785) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:57:29.790+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:57:29.798+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:57:29.797+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:57:29.822+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:57:29.879+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:57:29.878+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:57:29.916+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:57:29.916+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:57:29.954+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.230 seconds
+[2025-10-30T15:58:29.615+0530] {processor.py:161} INFO - Started process (PID=11931) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:58:29.630+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:58:29.636+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:58:29.635+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:58:29.648+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:58:29.676+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:58:29.676+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:58:29.694+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:58:29.693+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:58:29.722+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.125 seconds
+[2025-10-30T15:59:26.394+0530] {processor.py:161} INFO - Started process (PID=12062) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:59:26.407+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T15:59:26.410+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:59:26.410+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:59:26.421+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T15:59:26.439+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:59:26.439+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T15:59:26.459+0530] {logging_mixin.py:188} INFO - [2025-10-30T15:59:26.458+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T15:59:26.484+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.098 seconds
+[2025-10-30T16:00:20.882+0530] {processor.py:161} INFO - Started process (PID=12245) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:00:20.896+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:00:20.899+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:00:20.898+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:00:20.911+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:00:20.939+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:00:20.939+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:00:20.959+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:00:20.959+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:00:20.988+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.117 seconds
+[2025-10-30T16:01:13.830+0530] {processor.py:161} INFO - Started process (PID=12376) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:01:13.843+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:01:13.846+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:01:13.845+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:01:13.860+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:01:13.902+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:01:13.900+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:01:13.920+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:01:13.920+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:01:13.942+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.123 seconds
+[2025-10-30T16:02:11.457+0530] {processor.py:161} INFO - Started process (PID=12563) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:02:11.473+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:02:11.479+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:02:11.477+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:02:11.508+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:02:11.566+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:02:11.565+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:02:11.604+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:02:11.604+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:02:11.626+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.187 seconds
+[2025-10-30T16:03:07.907+0530] {processor.py:161} INFO - Started process (PID=12722) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:03:07.923+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:03:07.930+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:03:07.928+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:03:07.954+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:03:07.999+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:03:07.998+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:03:08.044+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:03:08.043+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:03:08.118+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.231 seconds
+[2025-10-30T16:04:06.681+0530] {processor.py:161} INFO - Started process (PID=12860) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:04:06.694+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:04:06.697+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:04:06.697+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:04:06.709+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:04:06.737+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:04:06.736+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:04:06.757+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:04:06.756+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:04:06.785+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.116 seconds
+[2025-10-30T16:05:04.785+0530] {processor.py:161} INFO - Started process (PID=13027) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:05:04.798+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:05:04.802+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:05:04.801+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:05:04.814+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:05:04.844+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:05:04.843+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:05:04.906+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:05:04.905+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:05:04.973+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.207 seconds
+[2025-10-30T16:05:58.734+0530] {processor.py:161} INFO - Started process (PID=13140) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:05:58.747+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:05:58.750+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:05:58.750+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:05:58.759+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:05:58.776+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:05:58.775+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:05:58.794+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:05:58.794+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:05:58.818+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.090 seconds
+[2025-10-30T16:06:48.341+0530] {processor.py:161} INFO - Started process (PID=13224) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:06:48.355+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:06:48.358+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:06:48.357+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:06:48.370+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:06:48.399+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:06:48.398+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:06:48.417+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:06:48.417+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:06:48.445+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T16:07:41.831+0530] {processor.py:161} INFO - Started process (PID=13293) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:07:41.833+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:07:41.835+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:07:41.835+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:07:41.843+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:07:41.859+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:07:41.858+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:07:41.876+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:07:41.876+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:07:41.896+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.076 seconds
+[2025-10-30T16:08:32.957+0530] {processor.py:161} INFO - Started process (PID=13367) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:08:32.971+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:08:32.974+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:08:32.973+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:08:32.986+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:08:33.014+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:08:33.014+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:08:33.034+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:08:33.034+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:08:33.054+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.108 seconds
+[2025-10-30T16:09:25.495+0530] {processor.py:161} INFO - Started process (PID=13489) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:09:25.508+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:09:25.511+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:09:25.511+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:09:25.523+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:09:25.551+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:09:25.551+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:09:25.572+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:09:25.572+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:09:25.603+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.120 seconds
+[2025-10-30T16:10:22.150+0530] {processor.py:161} INFO - Started process (PID=13627) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:10:22.153+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:10:22.156+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:10:22.155+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:10:22.168+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:10:22.194+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:10:22.194+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:10:22.212+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:10:22.212+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:10:22.240+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.102 seconds
+[2025-10-30T16:11:14.104+0530] {processor.py:161} INFO - Started process (PID=13730) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:11:14.118+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:11:14.121+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:11:14.120+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:11:14.133+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:11:14.160+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:11:14.160+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:11:14.180+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:11:14.180+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:11:14.204+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.111 seconds
+[2025-10-30T16:12:07.911+0530] {processor.py:161} INFO - Started process (PID=13843) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:12:07.925+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:12:07.928+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:12:07.927+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:12:07.940+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:12:07.968+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:12:07.968+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:12:07.988+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:12:07.987+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:12:08.014+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2025-10-30T16:12:56.416+0530] {processor.py:161} INFO - Started process (PID=13931) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:12:56.431+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:12:56.434+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:12:56.433+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:12:56.451+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:12:56.482+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:12:56.482+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:12:56.518+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:12:56.517+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:12:56.551+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.146 seconds
+[2025-10-30T16:13:48.691+0530] {processor.py:161} INFO - Started process (PID=14064) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:13:48.705+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:13:48.708+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:13:48.707+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:13:48.719+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:13:48.746+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:13:48.746+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:13:48.766+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:13:48.766+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:13:48.792+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.112 seconds
+[2025-10-30T16:14:36.448+0530] {processor.py:161} INFO - Started process (PID=14188) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:14:36.451+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:14:36.453+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:14:36.453+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:14:36.465+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:14:36.488+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:14:36.488+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:14:36.504+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:14:36.504+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:14:36.524+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.087 seconds
+[2025-10-30T16:15:27.407+0530] {processor.py:161} INFO - Started process (PID=14278) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:15:27.420+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:15:27.423+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:15:27.423+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:15:27.435+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:15:27.462+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:15:27.461+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:15:27.484+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:15:27.483+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:15:27.512+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-30T16:16:23.418+0530] {processor.py:161} INFO - Started process (PID=14363) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:16:23.432+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:16:23.435+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:16:23.434+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:16:23.447+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:16:23.476+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:16:23.475+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:16:23.495+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:16:23.495+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:16:23.516+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.109 seconds
+[2025-10-30T16:17:17.099+0530] {processor.py:161} INFO - Started process (PID=14440) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:17:17.113+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:17:17.116+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:17:17.115+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:17:17.128+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:17:17.156+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:17:17.155+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:17:17.176+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:17:17.176+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:17:17.204+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.116 seconds
+[2025-10-30T16:18:08.580+0530] {processor.py:161} INFO - Started process (PID=14573) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:18:08.594+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:18:08.597+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:18:08.596+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:18:08.609+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:18:08.637+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:18:08.637+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:18:08.658+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:18:08.658+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:18:08.681+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.112 seconds
+[2025-10-30T16:19:02.274+0530] {processor.py:161} INFO - Started process (PID=14636) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:19:02.288+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:19:02.291+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:19:02.290+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:19:02.304+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:19:02.336+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:19:02.335+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:19:02.354+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:19:02.354+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:19:02.382+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.119 seconds
+[2025-10-30T16:19:52.244+0530] {processor.py:161} INFO - Started process (PID=14725) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:19:52.247+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-30T16:19:52.248+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:19:52.248+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:19:52.255+0530] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-30T16:19:52.272+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:19:52.272+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-30T16:19:52.290+0530] {logging_mixin.py:188} INFO - [2025-10-30T16:19:52.289+0530] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-29 00:00:00+00:00, run_after=2025-10-30 00:00:00+00:00
+[2025-10-30T16:19:52.311+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.074 seconds

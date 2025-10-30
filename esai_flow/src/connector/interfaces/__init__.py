@@ -1,2 +1,2 @@
-from esai_flow.src.connector.interfaces.base import BaseDatabase, BaseRepository
-from esai_flow.src.connector.interfaces.database import RDBMSDatabase
+from .base import BaseDatabase, BaseRepository
+from .database import RDBMSDatabase

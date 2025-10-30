@@ -4,10 +4,10 @@ import json
 from pathlib import Path
 from sqlalchemy import text
 
-sys.path.append(os.path.abspath("paper_curator/"))
+sys.path.append(os.path.abspath("esai_flow/"))
 
-from src.db.interfaces.postgresql import PostgreSQLDatabase
-from src.schemas.database.config import PostgreSQLSettings
+from src.connector.interfaces import RDBMSDatabase
+from src.schemas.database.config import DatabaseSettings
 from src.extractor.dbextractor import DBExtractor
 from src.transmission import DataTransmitter
 from src.elasticsearch.connection import ElasticsearchConfig, ElasticsearchClientFactory
@@ -17,12 +17,12 @@ def setup_database():
     """ 
      Create table and insert sample data if missing.
     """
-    config = PostgreSQLSettings(
+    config = DatabaseSettings(
         database_url="postgresql://rag_user:rag_password@localhost:5432/paper_curator",
         echo_sql=True,
     )
 
-    db = PostgreSQLDatabase(config)
+    db = RDBMSDatabase(config)
     db.startup()
     print("Database connection successful")
     return db
