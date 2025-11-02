@@ -1,0 +1,1225 @@
+[2025-10-31T13:23:29.045+0530] {processor.py:161} INFO - Started process (PID=6294) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:23:29.046+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T13:23:29.048+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:23:29.047+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:23:29.051+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:23:29.050+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/airflow/dags/esai_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/airflow/dags/esai_dag.py", line 8, in <module>
+    from esai_flow.src.connector.interfaces import RDBMSDatabase
+ModuleNotFoundError: No module named 'esai_flow'
+[2025-10-31T13:23:29.051+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:23:29.066+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.036 seconds
+[2025-10-31T13:24:29.770+0530] {processor.py:161} INFO - Started process (PID=6626) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:24:29.790+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T13:24:29.803+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:24:29.800+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:24:29.818+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:24:29.815+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/airflow/dags/esai_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/airflow/dags/esai_dag.py", line 8, in <module>
+    from esai_flow.src.connector.interfaces import RDBMSDatabase
+ModuleNotFoundError: No module named 'esai_flow'
+[2025-10-31T13:24:29.820+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:24:29.903+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.184 seconds
+[2025-10-31T13:24:50.234+0530] {processor.py:161} INFO - Started process (PID=6847) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:24:50.244+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T13:24:50.247+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:24:50.247+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:24:50.919+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:24:50.984+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:24:50.984+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T13:24:50.991+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:24:50.990+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T13:24:51.012+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.783 seconds
+[2025-10-31T13:25:49.409+0530] {processor.py:161} INFO - Started process (PID=7219) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:25:49.422+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T13:25:49.425+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:25:49.425+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:25:49.982+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:25:49.992+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:25:49.992+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T13:25:50.002+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:25:50.002+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T13:25:50.032+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.636 seconds
+[2025-10-31T13:26:39.342+0530] {processor.py:161} INFO - Started process (PID=7292) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:26:39.354+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T13:26:39.357+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:26:39.357+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:26:39.962+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:26:39.971+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:26:39.970+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T13:26:39.977+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:26:39.977+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T13:26:40.006+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.670 seconds
+[2025-10-31T13:27:28.513+0530] {processor.py:161} INFO - Started process (PID=7369) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:27:28.526+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T13:27:28.529+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:27:28.529+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:27:29.035+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:27:29.045+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:27:29.044+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T13:27:29.054+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:27:29.053+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T13:27:29.085+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.578 seconds
+[2025-10-31T13:28:18.743+0530] {processor.py:161} INFO - Started process (PID=7441) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:28:18.755+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T13:28:18.758+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:28:18.758+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:28:19.275+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:28:19.284+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:28:19.284+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T13:28:19.292+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:28:19.292+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T13:28:19.321+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.584 seconds
+[2025-10-31T13:29:07.029+0530] {processor.py:161} INFO - Started process (PID=7574) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:29:07.042+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T13:29:07.045+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:29:07.045+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:29:07.554+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:29:07.564+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:29:07.564+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T13:29:07.571+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:29:07.571+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T13:29:07.598+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.582 seconds
+[2025-10-31T13:29:50.838+0530] {processor.py:161} INFO - Started process (PID=7661) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:29:50.839+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T13:29:50.841+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:29:50.841+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:29:51.351+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T13:29:51.360+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:29:51.360+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T13:29:51.367+0530] {logging_mixin.py:188} INFO - [2025-10-31T13:29:51.367+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T13:29:51.404+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.573 seconds
+[2025-10-31T16:44:33.632+0530] {processor.py:161} INFO - Started process (PID=6916) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:44:33.634+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:44:33.637+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:44:33.636+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:44:34.952+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:44:34.965+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:44:34.965+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:44:34.972+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:44:34.972+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:44:34.988+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 1.368 seconds
+[2025-10-31T16:45:52.824+0530] {processor.py:161} INFO - Started process (PID=7668) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:45:52.837+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:45:52.840+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:45:52.840+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:45:53.609+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:45:53.618+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:45:53.618+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:45:53.625+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:45:53.625+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:45:53.654+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.841 seconds
+[2025-10-31T16:46:28.588+0530] {processor.py:161} INFO - Started process (PID=7844) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:46:28.602+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:46:28.605+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:46:28.604+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:46:29.273+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:46:29.287+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:46:29.287+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:46:29.298+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:46:29.297+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:46:29.330+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.754 seconds
+[2025-10-31T16:47:03.674+0530] {processor.py:161} INFO - Started process (PID=8208) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:47:03.676+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:47:03.679+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:47:03.678+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:47:04.241+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:47:04.252+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:47:04.251+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:47:04.260+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:47:04.260+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:47:04.291+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.627 seconds
+[2025-10-31T16:47:36.642+0530] {processor.py:161} INFO - Started process (PID=8288) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:47:36.659+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:47:36.666+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:47:36.665+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:47:37.429+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:47:37.439+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:47:37.438+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:47:37.452+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:47:37.452+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:47:37.487+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.870 seconds
+[2025-10-31T16:48:40.551+0530] {processor.py:161} INFO - Started process (PID=8762) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:48:40.564+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:48:40.568+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:48:40.567+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:48:41.269+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:48:41.282+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:48:41.281+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:48:41.291+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:48:41.290+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:48:41.324+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.785 seconds
+[2025-10-31T16:49:18.909+0530] {processor.py:161} INFO - Started process (PID=8881) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:49:18.923+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:49:18.926+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:49:18.925+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:49:19.601+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:49:19.612+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:49:19.611+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:49:19.620+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:49:19.620+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:49:19.651+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.754 seconds
+[2025-10-31T16:50:14.451+0530] {processor.py:161} INFO - Started process (PID=9049) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:50:14.466+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:50:14.470+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:50:14.469+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:50:15.328+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:50:15.347+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:50:15.346+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:50:15.356+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:50:15.356+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:50:15.388+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.951 seconds
+[2025-10-31T16:51:06.806+0530] {processor.py:161} INFO - Started process (PID=9183) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:51:06.809+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:51:06.812+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:51:06.811+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:51:07.405+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:51:07.416+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:51:07.416+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:51:07.427+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:51:07.427+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:51:07.458+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.663 seconds
+[2025-10-31T16:52:01.072+0530] {processor.py:161} INFO - Started process (PID=9262) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:52:01.076+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:52:01.080+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:52:01.079+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:52:01.716+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:52:01.732+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:52:01.731+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:52:01.744+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:52:01.744+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:52:01.799+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.738 seconds
+[2025-10-31T16:52:57.084+0530] {processor.py:161} INFO - Started process (PID=9339) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:52:57.098+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:52:57.101+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:52:57.100+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:52:57.690+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:52:57.703+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:52:57.702+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:52:57.712+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:52:57.712+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:52:57.742+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.669 seconds
+[2025-10-31T16:53:49.642+0530] {processor.py:161} INFO - Started process (PID=9415) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:53:49.655+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:53:49.658+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:53:49.658+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:53:50.256+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:53:50.267+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:53:50.267+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:53:50.277+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:53:50.277+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:53:50.307+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.677 seconds
+[2025-10-31T16:54:42.502+0530] {processor.py:161} INFO - Started process (PID=9524) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:54:42.516+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:54:42.520+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:54:42.519+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:54:43.186+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:54:43.197+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:54:43.197+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:54:43.205+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:54:43.205+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:54:43.236+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.745 seconds
+[2025-10-31T16:55:38.317+0530] {processor.py:161} INFO - Started process (PID=9604) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:55:38.331+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:55:38.334+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:55:38.334+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:55:38.946+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:55:38.959+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:55:38.959+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:55:38.967+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:55:38.967+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:55:38.997+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.693 seconds
+[2025-10-31T16:56:32.438+0530] {processor.py:161} INFO - Started process (PID=9681) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:56:32.452+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:56:32.455+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:56:32.454+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:56:33.056+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:56:33.068+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:56:33.067+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:56:33.078+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:56:33.077+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:56:33.109+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.683 seconds
+[2025-10-31T16:57:23.508+0530] {processor.py:161} INFO - Started process (PID=9756) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:57:23.522+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:57:23.525+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:57:23.525+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:57:24.139+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:57:24.151+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:57:24.150+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:57:24.159+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:57:24.158+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:57:24.188+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.691 seconds
+[2025-10-31T16:58:16.571+0530] {processor.py:161} INFO - Started process (PID=9832) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:58:16.585+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:58:16.588+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:58:16.588+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:58:17.198+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:58:17.211+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:58:17.210+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:58:17.219+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:58:17.218+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:58:17.248+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.688 seconds
+[2025-10-31T16:59:10.839+0530] {processor.py:161} INFO - Started process (PID=9909) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:59:10.852+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T16:59:10.855+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:59:10.855+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:59:11.486+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T16:59:11.501+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:59:11.499+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T16:59:11.512+0530] {logging_mixin.py:188} INFO - [2025-10-31T16:59:11.511+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T16:59:11.544+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.717 seconds
+[2025-10-31T17:00:04.938+0530] {processor.py:161} INFO - Started process (PID=10016) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:00:04.940+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:00:04.943+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:00:04.942+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:00:05.577+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:00:05.588+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:00:05.588+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:00:05.596+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:00:05.596+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:00:05.625+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.698 seconds
+[2025-10-31T17:00:56.168+0530] {processor.py:161} INFO - Started process (PID=10093) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:00:56.182+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:00:56.185+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:00:56.184+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:00:56.782+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:00:56.795+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:00:56.794+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:00:56.803+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:00:56.803+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:00:56.826+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.669 seconds
+[2025-10-31T17:01:48.898+0530] {processor.py:161} INFO - Started process (PID=10167) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:01:48.912+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:01:48.915+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:01:48.915+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:01:49.514+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:01:49.525+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:01:49.525+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:01:49.534+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:01:49.533+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:01:49.565+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.679 seconds
+[2025-10-31T17:02:42.716+0530] {processor.py:161} INFO - Started process (PID=10248) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:02:42.718+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:02:42.722+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:02:42.721+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:02:43.305+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:02:43.318+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:02:43.317+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:02:43.326+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:02:43.326+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:02:43.357+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.653 seconds
+[2025-10-31T17:03:35.606+0530] {processor.py:161} INFO - Started process (PID=10324) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:03:35.620+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:03:35.623+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:03:35.623+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:03:36.219+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:03:36.230+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:03:36.229+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:03:36.240+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:03:36.240+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:03:36.270+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.677 seconds
+[2025-10-31T17:04:29.359+0530] {processor.py:161} INFO - Started process (PID=10401) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:04:29.373+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:04:29.376+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:04:29.376+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:04:29.967+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:04:29.978+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:04:29.978+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:04:29.986+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:04:29.986+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:04:30.018+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.670 seconds
+[2025-10-31T17:05:20.551+0530] {processor.py:161} INFO - Started process (PID=10514) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:05:20.564+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:05:20.567+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:05:20.567+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:05:21.153+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:05:21.164+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:05:21.164+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:05:21.172+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:05:21.172+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:05:21.202+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.663 seconds
+[2025-10-31T17:06:14.082+0530] {processor.py:161} INFO - Started process (PID=10594) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:06:14.095+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:06:14.098+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:06:14.098+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:06:14.677+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:06:14.689+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:06:14.688+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:06:14.699+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:06:14.699+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:06:14.718+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.647 seconds
+[2025-10-31T17:07:07.705+0530] {processor.py:161} INFO - Started process (PID=10672) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:07:07.718+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:07:07.721+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:07:07.721+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:07:08.283+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:07:08.294+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:07:08.294+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:07:08.302+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:07:08.302+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:07:08.336+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.637 seconds
+[2025-10-31T17:08:01.282+0530] {processor.py:161} INFO - Started process (PID=10748) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:08:01.296+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:08:01.299+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:08:01.298+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:08:01.882+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:08:01.893+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:08:01.893+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:08:01.902+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:08:01.901+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:08:01.933+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.663 seconds
+[2025-10-31T17:08:53.050+0530] {processor.py:161} INFO - Started process (PID=10854) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:08:53.064+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:08:53.068+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:08:53.067+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:08:53.654+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:08:53.665+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:08:53.664+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:08:53.675+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:08:53.674+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:08:53.704+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.666 seconds
+[2025-10-31T17:09:45.168+0530] {processor.py:161} INFO - Started process (PID=10957) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:09:45.182+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:09:45.185+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:09:45.184+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:09:45.772+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:09:45.783+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:09:45.783+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:09:45.791+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:09:45.791+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:09:45.826+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.669 seconds
+[2025-10-31T17:10:37.598+0530] {processor.py:161} INFO - Started process (PID=11032) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:10:37.611+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:10:37.615+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:10:37.614+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:10:38.150+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:10:38.161+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:10:38.160+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:10:38.169+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:10:38.169+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:10:38.199+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.613 seconds
+[2025-10-31T17:11:32.329+0530] {processor.py:161} INFO - Started process (PID=11111) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:11:32.342+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:11:32.345+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:11:32.345+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:11:32.932+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:11:32.943+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:11:32.942+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:11:32.953+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:11:32.953+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:11:32.983+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.666 seconds
+[2025-10-31T17:12:25.238+0530] {processor.py:161} INFO - Started process (PID=11191) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:12:25.253+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:12:25.256+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:12:25.256+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:12:25.838+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:12:25.849+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:12:25.849+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:12:25.858+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:12:25.857+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:12:25.887+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.661 seconds
+[2025-10-31T17:13:18.400+0530] {processor.py:161} INFO - Started process (PID=11270) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:13:18.414+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:13:18.417+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:13:18.417+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:13:19.003+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:13:19.015+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:13:19.014+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:13:19.023+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:13:19.022+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:13:19.053+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.664 seconds
+[2025-10-31T17:14:10.334+0530] {processor.py:161} INFO - Started process (PID=11349) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:14:10.347+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:14:10.350+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:14:10.350+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:14:10.927+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:14:10.939+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:14:10.938+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:14:10.949+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:14:10.948+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:14:10.979+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.656 seconds
+[2025-10-31T17:14:59.453+0530] {processor.py:161} INFO - Started process (PID=11456) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:14:59.467+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:14:59.471+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:14:59.470+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:15:00.056+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:15:00.067+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:15:00.066+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:15:00.075+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:15:00.075+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:15:00.105+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.663 seconds
+[2025-10-31T17:15:51.694+0530] {processor.py:161} INFO - Started process (PID=11534) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:15:51.708+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:15:51.711+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:15:51.711+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:15:52.303+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:15:52.314+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:15:52.313+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:15:52.322+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:15:52.322+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:15:52.352+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.670 seconds
+[2025-10-31T17:16:44.475+0530] {processor.py:161} INFO - Started process (PID=11620) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:16:44.477+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:16:44.480+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:16:44.479+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:16:45.068+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:16:45.080+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:16:45.079+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:16:45.090+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:16:45.089+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:16:45.120+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.656 seconds
+[2025-10-31T17:17:36.263+0530] {processor.py:161} INFO - Started process (PID=11698) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:17:36.277+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:17:36.280+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:17:36.279+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:17:36.908+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:17:36.926+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:17:36.925+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:17:36.940+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:17:36.939+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:17:36.987+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.735 seconds
+[2025-10-31T17:18:31.836+0530] {processor.py:161} INFO - Started process (PID=11776) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:18:31.849+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:18:31.852+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:18:31.852+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:18:32.394+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:18:32.405+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:18:32.405+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:18:32.413+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:18:32.413+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:18:32.445+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.620 seconds
+[2025-10-31T17:19:22.979+0530] {processor.py:161} INFO - Started process (PID=11853) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:19:22.993+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:19:22.996+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:19:22.995+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:19:23.574+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:19:23.585+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:19:23.585+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:19:23.595+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:19:23.595+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:19:23.626+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.658 seconds
+[2025-10-31T17:20:16.885+0530] {processor.py:161} INFO - Started process (PID=11965) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:20:16.899+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:20:16.902+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:20:16.901+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:20:17.444+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:20:17.455+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:20:17.455+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:20:17.464+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:20:17.464+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:20:17.495+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.622 seconds
+[2025-10-31T17:21:10.296+0530] {processor.py:161} INFO - Started process (PID=12044) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:21:10.310+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:21:10.314+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:21:10.313+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:21:10.900+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:21:10.911+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:21:10.911+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:21:10.920+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:21:10.919+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:21:10.950+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.665 seconds
+[2025-10-31T17:22:04.073+0530] {processor.py:161} INFO - Started process (PID=12121) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:22:04.086+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:22:04.089+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:22:04.089+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:22:04.665+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:22:04.677+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:22:04.676+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:22:04.687+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:22:04.687+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:22:04.718+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.656 seconds
+[2025-10-31T17:22:55.828+0530] {processor.py:161} INFO - Started process (PID=12198) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:22:55.841+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:22:55.844+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:22:55.843+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:22:56.412+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:22:56.423+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:22:56.423+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:22:56.431+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:22:56.431+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:22:56.462+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.646 seconds
+[2025-10-31T17:23:47.091+0530] {processor.py:161} INFO - Started process (PID=12271) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:23:47.106+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:23:47.109+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:23:47.108+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:23:47.690+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:23:47.702+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:23:47.701+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:23:47.710+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:23:47.710+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:23:47.741+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.661 seconds
+[2025-10-31T17:24:41.576+0530] {processor.py:161} INFO - Started process (PID=12378) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:24:41.589+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:24:41.592+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:24:41.592+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:24:42.204+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:24:42.215+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:24:42.215+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:24:42.225+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:24:42.225+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:24:42.256+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.692 seconds
+[2025-10-31T17:25:34.962+0530] {processor.py:161} INFO - Started process (PID=12578) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:25:34.975+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:25:34.978+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:25:34.978+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:25:35.579+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:25:35.590+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:25:35.590+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:25:35.600+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:25:35.599+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:25:35.632+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.681 seconds
+[2025-10-31T17:26:33.221+0530] {processor.py:161} INFO - Started process (PID=12686) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:26:33.229+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:26:33.232+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:26:33.231+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:26:33.871+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:26:33.885+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:26:33.884+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:26:33.895+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:26:33.895+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:26:33.933+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.723 seconds
+[2025-10-31T17:27:40.903+0530] {processor.py:161} INFO - Started process (PID=13232) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:27:40.916+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:27:40.920+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:27:40.919+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:27:41.526+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:27:41.539+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:27:41.538+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:27:41.547+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:27:41.547+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:27:41.577+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.686 seconds
+[2025-10-31T17:28:15.091+0530] {processor.py:161} INFO - Started process (PID=13391) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:28:15.104+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:28:15.107+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:28:15.106+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:28:15.725+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:28:15.739+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:28:15.738+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:28:15.749+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:28:15.748+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:28:15.783+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.700 seconds
+[2025-10-31T17:29:11.016+0530] {processor.py:161} INFO - Started process (PID=13559) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:29:11.029+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:29:11.031+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:29:11.030+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:29:11.592+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:29:11.603+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:29:11.603+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:29:11.611+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:29:11.611+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:29:11.641+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.632 seconds
+[2025-10-31T17:30:07.470+0530] {processor.py:161} INFO - Started process (PID=13787) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:30:07.484+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:30:07.487+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:30:07.486+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:30:08.156+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:30:08.169+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:30:08.169+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:30:08.182+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:30:08.181+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:30:08.204+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.746 seconds
+[2025-10-31T17:30:44.637+0530] {processor.py:161} INFO - Started process (PID=14141) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:30:44.639+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:30:44.642+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:30:44.641+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:30:45.228+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:30:45.240+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:30:45.239+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:30:45.248+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:30:45.248+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:30:45.278+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.653 seconds
+[2025-10-31T17:31:22.365+0530] {processor.py:161} INFO - Started process (PID=14317) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:31:22.379+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:31:22.382+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:31:22.381+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:31:23.062+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:31:23.079+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:31:23.079+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:31:23.099+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:31:23.099+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:31:23.142+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.793 seconds
+[2025-10-31T17:32:20.861+0530] {processor.py:161} INFO - Started process (PID=14554) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:32:20.863+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:32:20.866+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:32:20.866+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:32:21.467+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:32:21.478+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:32:21.477+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:32:21.487+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:32:21.486+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:32:21.519+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.671 seconds
+[2025-10-31T17:32:57.879+0530] {processor.py:161} INFO - Started process (PID=14904) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:32:57.892+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:32:57.896+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:32:57.895+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:32:58.865+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:32:58.881+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:32:58.881+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:32:58.892+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:32:58.892+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:32:58.922+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 1.059 seconds
+[2025-10-31T17:33:34.058+0530] {processor.py:161} INFO - Started process (PID=15114) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:33:34.072+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:33:34.076+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:33:34.075+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:33:34.798+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:33:34.811+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:33:34.810+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:33:34.822+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:33:34.821+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:33:34.860+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.815 seconds
+[2025-10-31T17:34:08.963+0530] {processor.py:161} INFO - Started process (PID=15432) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:34:08.966+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:34:08.969+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:34:08.969+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:34:09.580+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:34:09.594+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:34:09.593+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:34:09.602+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:34:09.602+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:34:09.632+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.684 seconds
+[2025-10-31T17:34:43.059+0530] {processor.py:161} INFO - Started process (PID=15518) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:34:43.072+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T17:34:43.075+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:34:43.074+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:34:43.604+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T17:34:43.615+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:34:43.614+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T17:34:43.623+0530] {logging_mixin.py:188} INFO - [2025-10-31T17:34:43.622+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T17:34:43.659+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.613 seconds
+[2025-10-31T19:15:05.027+0530] {processor.py:161} INFO - Started process (PID=5085) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:15:05.029+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:15:05.032+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:15:05.032+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:15:06.323+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:15:06.339+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:15:06.338+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:15:06.346+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:15:06.345+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:15:06.363+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 1.346 seconds
+[2025-10-31T19:16:02.589+0530] {processor.py:161} INFO - Started process (PID=5408) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:16:02.590+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:16:02.594+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:16:02.593+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:16:03.295+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:16:03.304+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:16:03.303+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:16:03.311+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:16:03.311+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:16:03.333+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.755 seconds
+[2025-10-31T19:16:52.970+0530] {processor.py:161} INFO - Started process (PID=5572) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:16:52.983+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:16:52.986+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:16:52.985+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:16:53.547+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:16:53.557+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:16:53.556+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:16:53.564+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:16:53.564+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:16:53.594+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.636 seconds
+[2025-10-31T19:17:42.599+0530] {processor.py:161} INFO - Started process (PID=5659) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:17:42.612+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:17:42.615+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:17:42.614+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:17:43.129+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:17:43.138+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:17:43.137+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:17:43.147+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:17:43.146+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:17:43.174+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.585 seconds
+[2025-10-31T19:18:36.207+0530] {processor.py:161} INFO - Started process (PID=5943) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:18:36.220+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:18:36.223+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:18:36.223+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:18:36.881+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:18:36.893+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:18:36.892+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:18:36.902+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:18:36.902+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:18:36.933+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.738 seconds
+[2025-10-31T19:19:27.387+0530] {processor.py:161} INFO - Started process (PID=6081) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:19:27.401+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:19:27.404+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:19:27.403+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:19:28.014+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:19:28.027+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:19:28.027+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:19:28.035+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:19:28.035+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:19:28.065+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.689 seconds
+[2025-10-31T19:20:23.702+0530] {processor.py:161} INFO - Started process (PID=6185) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:20:23.715+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:20:23.718+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:20:23.718+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:20:24.403+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:20:24.412+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:20:24.411+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:20:24.420+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:20:24.420+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:20:24.447+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.756 seconds
+[2025-10-31T19:21:17.628+0530] {processor.py:161} INFO - Started process (PID=6266) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:21:17.641+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:21:17.644+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:21:17.643+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:21:18.163+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:21:18.173+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:21:18.172+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:21:18.180+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:21:18.180+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:21:18.209+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.592 seconds
+[2025-10-31T19:22:11.934+0530] {processor.py:161} INFO - Started process (PID=6347) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:22:11.947+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:22:11.950+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:22:11.950+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:22:12.459+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:22:12.468+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:22:12.468+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:22:12.476+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:22:12.475+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:22:12.504+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.580 seconds
+[2025-10-31T19:23:04.388+0530] {processor.py:161} INFO - Started process (PID=6500) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:23:04.390+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:23:04.392+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:23:04.392+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:23:04.900+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:23:04.909+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:23:04.909+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:23:04.917+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:23:04.917+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:23:04.947+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.570 seconds
+[2025-10-31T19:23:51.421+0530] {processor.py:161} INFO - Started process (PID=6588) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:23:51.422+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:23:51.424+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:23:51.423+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:23:51.927+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:23:51.936+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:23:51.936+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:23:51.944+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:23:51.943+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:23:51.972+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.557 seconds
+[2025-10-31T19:24:39.905+0530] {processor.py:161} INFO - Started process (PID=6660) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:24:39.917+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:24:39.920+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:24:39.920+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:24:40.398+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:24:40.408+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:24:40.408+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:24:40.416+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:24:40.415+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:24:40.443+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.544 seconds
+[2025-10-31T19:25:28.003+0530] {processor.py:161} INFO - Started process (PID=6770) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:25:28.016+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:25:28.019+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:25:28.019+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:25:28.534+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:25:28.544+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:25:28.544+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:25:28.551+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:25:28.551+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to None, run_after=None
+[2025-10-31T19:25:28.581+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.588 seconds
+[2025-10-31T19:26:20.204+0530] {processor.py:161} INFO - Started process (PID=6873) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:26:20.218+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:26:20.221+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:26:20.220+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:26:20.746+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:26:20.804+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:26:20.803+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:26:20.818+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:26:20.818+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 13:55:00+00:00, run_after=2025-10-31 13:56:00+00:00
+[2025-10-31T19:26:20.851+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.657 seconds
+[2025-10-31T19:26:52.279+0530] {processor.py:161} INFO - Started process (PID=7197) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:26:52.292+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:26:52.295+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:26:52.294+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:26:52.801+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:26:52.810+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:26:52.810+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:26:52.826+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:26:52.825+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 13:56:00+00:00, run_after=2025-10-31 13:57:00+00:00
+[2025-10-31T19:26:52.856+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.587 seconds
+[2025-10-31T19:27:33.341+0530] {processor.py:161} INFO - Started process (PID=7495) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:27:33.354+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:27:33.357+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:27:33.357+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:27:33.885+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:27:33.894+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:27:33.894+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:27:33.911+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:27:33.911+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 13:57:00+00:00, run_after=2025-10-31 13:58:00+00:00
+[2025-10-31T19:27:33.939+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.609 seconds
+[2025-10-31T19:28:10.693+0530] {processor.py:161} INFO - Started process (PID=7689) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:28:10.696+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:28:10.699+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:28:10.698+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:28:11.200+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:28:11.209+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:28:11.209+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:28:11.226+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:28:11.225+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 13:58:00+00:00, run_after=2025-10-31 13:59:00+00:00
+[2025-10-31T19:28:11.254+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.571 seconds
+[2025-10-31T19:28:41.866+0530] {processor.py:161} INFO - Started process (PID=7782) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:28:41.879+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:28:41.883+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:28:41.883+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:28:42.454+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:28:42.464+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:28:42.464+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:28:42.479+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:28:42.479+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 13:58:00+00:00, run_after=2025-10-31 13:59:00+00:00
+[2025-10-31T19:28:42.509+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.648 seconds
+[2025-10-31T19:29:14.683+0530] {processor.py:161} INFO - Started process (PID=7949) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:29:14.696+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:29:14.698+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:29:14.698+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:29:15.177+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:29:15.188+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:29:15.187+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:29:15.207+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:29:15.207+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 13:59:00+00:00, run_after=2025-10-31 14:00:00+00:00
+[2025-10-31T19:29:15.234+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.557 seconds
+[2025-10-31T19:29:47.085+0530] {processor.py:161} INFO - Started process (PID=8006) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:29:47.098+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:29:47.099+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:29:47.099+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:29:47.579+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:29:47.588+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:29:47.587+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:29:47.604+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:29:47.603+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 13:59:00+00:00, run_after=2025-10-31 14:00:00+00:00
+[2025-10-31T19:29:47.632+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.553 seconds
+[2025-10-31T19:30:18.302+0530] {processor.py:161} INFO - Started process (PID=8187) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:30:18.315+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:30:18.318+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:30:18.317+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:30:18.838+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:30:18.848+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:30:18.847+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:30:18.864+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:30:18.864+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:00:00+00:00, run_after=2025-10-31 14:01:00+00:00
+[2025-10-31T19:30:18.894+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.602 seconds
+[2025-10-31T19:30:48.234+0530] {processor.py:161} INFO - Started process (PID=8255) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:30:48.236+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:30:48.239+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:30:48.238+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:30:48.961+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:30:49.030+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:30:49.030+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:30:49.049+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:30:49.048+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:00:00+00:00, run_after=2025-10-31 14:02:00+00:00
+[2025-10-31T19:30:49.067+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.843 seconds
+[2025-10-31T19:31:41.095+0530] {processor.py:161} INFO - Started process (PID=8349) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:31:41.109+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:31:41.111+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:31:41.111+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:31:41.611+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:31:41.620+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:31:41.620+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:31:41.637+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:31:41.637+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:00:00+00:00, run_after=2025-10-31 14:02:00+00:00
+[2025-10-31T19:31:41.654+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.568 seconds
+[2025-10-31T19:32:41.365+0530] {processor.py:161} INFO - Started process (PID=8558) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:32:41.366+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:32:41.368+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:32:41.368+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:32:41.854+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:32:41.863+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:32:41.863+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:32:41.878+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:32:41.878+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:02:00+00:00, run_after=2025-10-31 14:04:00+00:00
+[2025-10-31T19:32:41.895+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.536 seconds
+[2025-10-31T19:33:32.067+0530] {processor.py:161} INFO - Started process (PID=8635) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:33:32.069+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:33:32.072+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:33:32.072+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:33:32.615+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:33:32.627+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:33:32.626+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:33:32.642+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:33:32.642+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:02:00+00:00, run_after=2025-10-31 14:04:00+00:00
+[2025-10-31T19:33:32.668+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.611 seconds
+[2025-10-31T19:34:26.436+0530] {processor.py:161} INFO - Started process (PID=8836) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:34:26.449+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:34:26.450+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:34:26.450+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:34:26.997+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:34:27.008+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:34:27.007+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:34:27.024+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:34:27.024+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:04:00+00:00, run_after=2025-10-31 14:06:00+00:00
+[2025-10-31T19:34:27.056+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.627 seconds
+[2025-10-31T19:35:19.142+0530] {processor.py:161} INFO - Started process (PID=8942) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:35:19.156+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:35:19.159+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:35:19.158+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:35:19.656+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:35:19.665+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:35:19.665+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:35:19.681+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:35:19.680+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:04:00+00:00, run_after=2025-10-31 14:06:00+00:00
+[2025-10-31T19:35:19.708+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.579 seconds
+[2025-10-31T19:36:13.944+0530] {processor.py:161} INFO - Started process (PID=9130) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:36:13.958+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:36:13.961+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:36:13.960+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:36:14.523+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:36:14.534+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:36:14.534+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:36:14.553+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:36:14.553+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:06:00+00:00, run_after=2025-10-31 14:08:00+00:00
+[2025-10-31T19:36:14.584+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.650 seconds
+[2025-10-31T19:37:04.828+0530] {processor.py:161} INFO - Started process (PID=9219) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:37:04.841+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:37:04.844+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:37:04.844+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:37:05.371+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:37:05.381+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:37:05.381+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:37:05.398+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:37:05.398+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:06:00+00:00, run_after=2025-10-31 14:08:00+00:00
+[2025-10-31T19:37:05.425+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.609 seconds
+[2025-10-31T19:37:55.970+0530] {processor.py:161} INFO - Started process (PID=9311) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:37:55.984+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:37:55.988+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:37:55.987+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:37:56.529+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:37:56.538+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:37:56.537+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:37:56.553+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:37:56.552+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:06:00+00:00, run_after=2025-10-31 14:08:00+00:00
+[2025-10-31T19:37:56.580+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.622 seconds
+[2025-10-31T19:38:56.658+0530] {processor.py:161} INFO - Started process (PID=9565) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:38:56.660+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:38:56.663+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:38:56.663+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:38:57.176+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:38:57.185+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:38:57.185+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:38:57.199+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:38:57.199+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:08:00+00:00, run_after=2025-10-31 14:10:00+00:00
+[2025-10-31T19:38:57.226+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.578 seconds
+[2025-10-31T19:39:45.801+0530] {processor.py:161} INFO - Started process (PID=9653) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:39:45.809+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:39:45.812+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:39:45.811+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:39:46.452+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:39:46.461+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:39:46.460+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:39:46.476+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:39:46.476+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:08:00+00:00, run_after=2025-10-31 14:10:00+00:00
+[2025-10-31T19:39:46.504+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.714 seconds
+[2025-10-31T19:40:16.935+0530] {processor.py:161} INFO - Started process (PID=9820) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:40:16.949+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:40:16.952+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:40:16.951+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:40:17.568+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:40:17.578+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:40:17.578+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:40:17.593+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:40:17.593+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:10:00+00:00, run_after=2025-10-31 14:12:00+00:00
+[2025-10-31T19:40:17.610+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.685 seconds
+[2025-10-31T19:40:49.144+0530] {processor.py:161} INFO - Started process (PID=9893) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:40:49.158+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:40:49.161+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:40:49.161+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:40:49.649+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:40:49.658+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:40:49.657+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:40:49.673+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:40:49.673+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:10:00+00:00, run_after=2025-10-31 14:12:00+00:00
+[2025-10-31T19:40:49.701+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.569 seconds
+[2025-10-31T19:41:38.351+0530] {processor.py:161} INFO - Started process (PID=10055) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:41:38.364+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:41:38.367+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:41:38.367+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:41:38.894+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:41:38.903+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:41:38.902+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:41:38.918+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:41:38.918+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:10:00+00:00, run_after=2025-10-31 14:12:00+00:00
+[2025-10-31T19:41:38.945+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.604 seconds
+[2025-10-31T19:42:40.640+0530] {processor.py:161} INFO - Started process (PID=10261) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:42:40.653+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:42:40.656+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:42:40.656+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:42:41.169+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:42:41.179+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:42:41.178+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:42:41.194+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:42:41.194+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:12:00+00:00, run_after=2025-10-31 14:14:00+00:00
+[2025-10-31T19:42:41.222+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.593 seconds
+[2025-10-31T19:43:35.729+0530] {processor.py:161} INFO - Started process (PID=10337) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:43:35.743+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:43:35.746+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:43:35.746+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:43:36.356+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:43:36.368+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:43:36.368+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:43:36.385+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:43:36.385+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:12:00+00:00, run_after=2025-10-31 14:14:00+00:00
+[2025-10-31T19:43:36.418+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.701 seconds
+[2025-10-31T19:44:31.428+0530] {processor.py:161} INFO - Started process (PID=10540) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:44:31.442+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:44:31.445+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:44:31.444+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:44:31.939+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:44:31.948+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:44:31.948+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:44:31.964+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:44:31.964+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:14:00+00:00, run_after=2025-10-31 14:16:00+00:00
+[2025-10-31T19:44:31.992+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.576 seconds
+[2025-10-31T19:45:06.469+0530] {processor.py:161} INFO - Started process (PID=10762) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:45:06.473+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:45:06.475+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:45:06.475+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:45:07.016+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:45:07.026+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:45:07.025+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:45:07.042+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:45:07.042+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:14:00+00:00, run_after=2025-10-31 14:16:00+00:00
+[2025-10-31T19:45:07.073+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.610 seconds
+[2025-10-31T19:46:07.301+0530] {processor.py:161} INFO - Started process (PID=11150) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:46:07.314+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:46:07.317+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:46:07.316+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:46:07.880+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:46:07.890+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:46:07.889+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:46:07.906+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:46:07.906+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:16:00+00:00, run_after=2025-10-31 14:18:00+00:00
+[2025-10-31T19:46:07.935+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.645 seconds
+[2025-10-31T19:46:42.836+0530] {processor.py:161} INFO - Started process (PID=11349) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:46:42.849+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:46:42.853+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:46:42.852+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:46:43.465+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:46:43.476+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:46:43.476+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:46:43.496+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:46:43.496+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:16:00+00:00, run_after=2025-10-31 14:18:00+00:00
+[2025-10-31T19:46:43.528+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.703 seconds
+[2025-10-31T19:47:38.935+0530] {processor.py:161} INFO - Started process (PID=11444) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:47:38.937+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:47:38.941+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:47:38.940+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:47:39.579+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:47:39.588+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:47:39.588+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:47:39.602+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:47:39.602+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:16:00+00:00, run_after=2025-10-31 14:18:00+00:00
+[2025-10-31T19:47:39.630+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.708 seconds
+[2025-10-31T19:48:12.419+0530] {processor.py:161} INFO - Started process (PID=11599) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:48:12.433+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:48:12.436+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:48:12.435+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:48:13.064+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:48:13.076+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:48:13.076+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:48:13.093+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:48:13.093+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:18:00+00:00, run_after=2025-10-31 14:20:00+00:00
+[2025-10-31T19:48:13.127+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.719 seconds
+[2025-10-31T19:48:44.510+0530] {processor.py:161} INFO - Started process (PID=11681) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:48:44.523+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:48:44.526+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:48:44.526+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:48:45.155+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:48:45.168+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:48:45.167+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:48:45.187+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:48:45.187+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:18:00+00:00, run_after=2025-10-31 14:20:00+00:00
+[2025-10-31T19:48:45.219+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.720 seconds
+[2025-10-31T19:49:37.348+0530] {processor.py:161} INFO - Started process (PID=11760) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:49:37.361+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:49:37.365+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:49:37.364+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:49:37.978+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:49:37.990+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:49:37.989+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:49:38.007+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:49:38.007+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:18:00+00:00, run_after=2025-10-31 14:20:00+00:00
+[2025-10-31T19:49:38.038+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.702 seconds
+[2025-10-31T19:50:40.861+0530] {processor.py:161} INFO - Started process (PID=11993) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:50:40.874+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:50:40.878+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:50:40.877+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:50:41.586+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:50:41.601+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:50:41.600+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:50:41.649+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:50:41.649+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:20:00+00:00, run_after=2025-10-31 14:22:00+00:00
+[2025-10-31T19:50:41.710+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.861 seconds
+[2025-10-31T19:51:33.934+0530] {processor.py:161} INFO - Started process (PID=12165) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:51:33.936+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:51:33.939+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:51:33.938+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:51:34.521+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:51:34.532+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:51:34.532+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:51:34.551+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:51:34.551+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:20:00+00:00, run_after=2025-10-31 14:22:00+00:00
+[2025-10-31T19:51:34.581+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.659 seconds
+[2025-10-31T19:52:36.220+0530] {processor.py:161} INFO - Started process (PID=12393) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:52:36.234+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:52:36.237+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:52:36.236+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:52:36.826+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:52:36.838+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:52:36.837+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:52:36.854+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:52:36.854+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:22:00+00:00, run_after=2025-10-31 14:24:00+00:00
+[2025-10-31T19:52:36.887+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.678 seconds
+[2025-10-31T19:53:10.175+0530] {processor.py:161} INFO - Started process (PID=12447) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:53:10.188+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:53:10.191+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:53:10.190+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:53:10.778+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:53:10.790+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:53:10.789+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:53:10.808+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:53:10.808+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:22:00+00:00, run_after=2025-10-31 14:24:00+00:00
+[2025-10-31T19:53:10.837+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.674 seconds
+[2025-10-31T19:54:15.933+0530] {processor.py:161} INFO - Started process (PID=12649) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:54:15.949+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:54:15.953+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:54:15.952+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:54:16.818+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:54:16.835+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:54:16.834+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:54:16.856+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:54:16.855+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:24:00+00:00, run_after=2025-10-31 14:26:00+00:00
+[2025-10-31T19:54:16.894+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.979 seconds
+[2025-10-31T19:54:52.781+0530] {processor.py:161} INFO - Started process (PID=12756) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:54:52.784+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:54:52.793+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:54:52.791+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:54:53.584+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:54:53.615+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:54:53.614+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:54:53.644+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:54:53.644+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:24:00+00:00, run_after=2025-10-31 14:26:00+00:00
+[2025-10-31T19:54:53.683+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.922 seconds
+[2025-10-31T19:55:52.697+0530] {processor.py:161} INFO - Started process (PID=12962) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:55:52.710+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:55:52.715+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:55:52.714+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:55:53.284+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:55:53.292+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:55:53.292+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:55:53.308+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:55:53.308+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:24:00+00:00, run_after=2025-10-31 14:26:00+00:00
+[2025-10-31T19:55:53.335+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.650 seconds
+[2025-10-31T19:56:30.045+0530] {processor.py:161} INFO - Started process (PID=13187) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:56:30.059+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:56:30.062+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:56:30.062+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:56:30.658+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:56:30.667+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:56:30.667+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:56:30.681+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:56:30.681+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:26:00+00:00, run_after=2025-10-31 14:28:00+00:00
+[2025-10-31T19:56:30.707+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.674 seconds
+[2025-10-31T19:57:07.705+0530] {processor.py:161} INFO - Started process (PID=13250) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:57:07.719+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:57:07.722+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:57:07.721+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:57:08.316+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:57:08.329+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:57:08.328+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:57:08.349+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:57:08.349+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:26:00+00:00, run_after=2025-10-31 14:28:00+00:00
+[2025-10-31T19:57:08.381+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.687 seconds
+[2025-10-31T19:57:58.405+0530] {processor.py:161} INFO - Started process (PID=13505) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:57:58.418+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:57:58.421+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:57:58.420+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:57:58.931+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:57:58.944+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:57:58.942+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:57:58.965+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:57:58.964+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:26:00+00:00, run_after=2025-10-31 14:28:00+00:00
+[2025-10-31T19:57:58.995+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.601 seconds
+[2025-10-31T19:58:30.765+0530] {processor.py:161} INFO - Started process (PID=13712) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:58:30.778+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:58:30.780+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:58:30.780+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:58:31.341+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:58:31.350+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:58:31.350+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:58:31.366+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:58:31.366+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:28:00+00:00, run_after=2025-10-31 14:30:00+00:00
+[2025-10-31T19:58:31.403+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.648 seconds
+[2025-10-31T19:59:05.301+0530] {processor.py:161} INFO - Started process (PID=13785) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:59:05.315+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T19:59:05.318+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:59:05.317+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:59:06.079+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T19:59:06.095+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:59:06.095+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T19:59:06.117+0530] {logging_mixin.py:188} INFO - [2025-10-31T19:59:06.117+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:28:00+00:00, run_after=2025-10-31 14:30:00+00:00
+[2025-10-31T19:59:06.155+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.865 seconds
+[2025-10-31T20:00:00.363+0530] {processor.py:161} INFO - Started process (PID=13900) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:00:00.372+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:00:00.374+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:00:00.373+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:00:00.902+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:00:00.912+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:00:00.911+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:00:00.930+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:00:00.929+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:28:00+00:00, run_after=2025-10-31 14:30:00+00:00
+[2025-10-31T20:00:00.959+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.602 seconds
+[2025-10-31T20:00:32.633+0530] {processor.py:161} INFO - Started process (PID=14103) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:00:32.647+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:00:32.650+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:00:32.649+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:00:33.230+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:00:33.243+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:00:33.242+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:00:33.259+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:00:33.259+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:30:00+00:00, run_after=2025-10-31 14:32:00+00:00
+[2025-10-31T20:00:33.292+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.671 seconds
+[2025-10-31T20:01:04.165+0530] {processor.py:161} INFO - Started process (PID=14148) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:01:04.179+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:01:04.182+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:01:04.181+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:01:04.793+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:01:04.805+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:01:04.804+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:01:04.822+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:01:04.822+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:30:00+00:00, run_after=2025-10-31 14:32:00+00:00
+[2025-10-31T20:01:04.845+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.692 seconds
+[2025-10-31T20:01:59.998+0530] {processor.py:161} INFO - Started process (PID=14289) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:02:00.011+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:02:00.014+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:02:00.013+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:02:00.499+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:02:00.508+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:02:00.508+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:02:00.524+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:02:00.524+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:30:00+00:00, run_after=2025-10-31 14:32:00+00:00
+[2025-10-31T20:02:00.542+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.550 seconds
+[2025-10-31T20:02:59.950+0530] {processor.py:161} INFO - Started process (PID=14513) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:02:59.962+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:02:59.963+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:02:59.963+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:03:00.517+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:03:00.531+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:03:00.530+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:03:00.549+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:03:00.549+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:32:00+00:00, run_after=2025-10-31 14:34:00+00:00
+[2025-10-31T20:03:00.584+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.641 seconds
+[2025-10-31T20:03:48.764+0530] {processor.py:161} INFO - Started process (PID=14599) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:03:48.777+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:03:48.780+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:03:48.779+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:03:49.314+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:03:49.324+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:03:49.323+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:03:49.342+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:03:49.342+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:32:00+00:00, run_after=2025-10-31 14:34:00+00:00
+[2025-10-31T20:03:49.371+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.618 seconds
+[2025-10-31T20:04:20.240+0530] {processor.py:161} INFO - Started process (PID=14789) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:04:20.253+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:04:20.255+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:04:20.255+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:04:20.740+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:04:20.749+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:04:20.749+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:04:20.765+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:04:20.765+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:34:00+00:00, run_after=2025-10-31 14:36:00+00:00
+[2025-10-31T20:04:20.795+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.561 seconds
+[2025-10-31T20:04:57.554+0530] {processor.py:161} INFO - Started process (PID=14989) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:04:57.570+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:04:57.576+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:04:57.575+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:04:58.298+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:04:58.312+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:04:58.311+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:04:58.335+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:04:58.335+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:34:00+00:00, run_after=2025-10-31 14:36:00+00:00
+[2025-10-31T20:04:58.382+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.840 seconds
+[2025-10-31T20:05:29.615+0530] {processor.py:161} INFO - Started process (PID=15090) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:05:29.629+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:05:29.632+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:05:29.631+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:05:30.957+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:05:30.967+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:05:30.967+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:05:30.993+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:05:30.993+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:34:00+00:00, run_after=2025-10-31 14:36:00+00:00
+[2025-10-31T20:05:31.015+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 1.410 seconds
+[2025-10-31T20:06:38.941+0530] {processor.py:161} INFO - Started process (PID=15409) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:06:38.955+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:06:38.957+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:06:38.957+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:06:39.646+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:06:39.664+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:06:39.663+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:06:39.696+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:06:39.695+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:36:00+00:00, run_after=2025-10-31 14:38:00+00:00
+[2025-10-31T20:06:39.741+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.813 seconds
+[2025-10-31T20:07:14.998+0530] {processor.py:161} INFO - Started process (PID=15465) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:07:15.011+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:07:15.014+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:07:15.013+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:07:15.692+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:07:15.708+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:07:15.707+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:07:15.724+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:07:15.723+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:36:00+00:00, run_after=2025-10-31 14:38:00+00:00
+[2025-10-31T20:07:15.760+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.777 seconds
+[2025-10-31T20:08:23.084+0530] {processor.py:161} INFO - Started process (PID=15698) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:08:23.097+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:08:23.101+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:08:23.100+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:08:23.773+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:08:23.782+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:08:23.781+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:08:23.803+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:08:23.803+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:38:00+00:00, run_after=2025-10-31 14:40:00+00:00
+[2025-10-31T20:08:23.837+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.759 seconds
+[2025-10-31T20:09:03.632+0530] {processor.py:161} INFO - Started process (PID=15788) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:09:03.642+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:09:03.645+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:09:03.644+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:09:04.448+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:09:04.457+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:09:04.457+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:09:04.478+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:09:04.478+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:38:00+00:00, run_after=2025-10-31 14:40:00+00:00
+[2025-10-31T20:09:04.507+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.886 seconds
+[2025-10-31T20:09:53.869+0530] {processor.py:161} INFO - Started process (PID=16013) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:09:53.883+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:09:53.886+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:09:53.886+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:09:54.474+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:09:54.489+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:09:54.489+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:09:54.509+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:09:54.509+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:38:00+00:00, run_after=2025-10-31 14:40:00+00:00
+[2025-10-31T20:09:54.546+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.687 seconds
+[2025-10-31T20:10:29.081+0530] {processor.py:161} INFO - Started process (PID=16214) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:10:29.094+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:10:29.097+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:10:29.096+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:10:29.696+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:10:29.711+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:10:29.710+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:10:29.731+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:10:29.731+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:40:00+00:00, run_after=2025-10-31 14:42:00+00:00
+[2025-10-31T20:10:29.759+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.688 seconds
+[2025-10-31T20:11:02.791+0530] {processor.py:161} INFO - Started process (PID=16346) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:11:02.805+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:11:02.808+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:11:02.807+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:11:03.402+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:11:03.416+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:11:03.416+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:11:03.433+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:11:03.432+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:40:00+00:00, run_after=2025-10-31 14:42:00+00:00
+[2025-10-31T20:11:03.478+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.698 seconds
+[2025-10-31T20:11:51.936+0530] {processor.py:161} INFO - Started process (PID=16542) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:11:51.937+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:11:51.938+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:11:51.938+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:11:52.540+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:11:52.554+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:11:52.554+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:11:52.570+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:11:52.570+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:40:00+00:00, run_after=2025-10-31 14:42:00+00:00
+[2025-10-31T20:11:52.604+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.678 seconds
+[2025-10-31T20:12:28.977+0530] {processor.py:161} INFO - Started process (PID=16803) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:12:28.990+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:12:28.993+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:12:28.992+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:12:29.623+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:12:29.633+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:12:29.632+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:12:29.653+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:12:29.653+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:42:00+00:00, run_after=2025-10-31 14:44:00+00:00
+[2025-10-31T20:12:29.686+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.721 seconds
+[2025-10-31T20:13:05.332+0530] {processor.py:161} INFO - Started process (PID=16882) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:13:05.345+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:13:05.346+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:13:05.346+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:13:05.839+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:13:05.849+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:13:05.849+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:13:05.865+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:13:05.865+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:42:00+00:00, run_after=2025-10-31 14:44:00+00:00
+[2025-10-31T20:13:05.893+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.567 seconds
+[2025-10-31T20:13:57.851+0530] {processor.py:161} INFO - Started process (PID=17001) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:13:57.864+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:13:57.867+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:13:57.866+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:13:58.386+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:13:58.396+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:13:58.396+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:13:58.412+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:13:58.412+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:42:00+00:00, run_after=2025-10-31 14:44:00+00:00
+[2025-10-31T20:13:58.439+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.593 seconds
+[2025-10-31T20:14:32.630+0530] {processor.py:161} INFO - Started process (PID=17287) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:14:32.644+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:14:32.646+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:14:32.646+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:14:33.391+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:14:33.403+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:14:33.403+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:14:33.418+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:14:33.418+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:44:00+00:00, run_after=2025-10-31 14:46:00+00:00
+[2025-10-31T20:14:33.448+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.829 seconds
+[2025-10-31T20:15:08.416+0530] {processor.py:161} INFO - Started process (PID=17376) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:15:08.429+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:15:08.431+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:15:08.431+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:15:08.947+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:15:08.957+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:15:08.957+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:15:08.972+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:15:08.972+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:44:00+00:00, run_after=2025-10-31 14:46:00+00:00
+[2025-10-31T20:15:09.000+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.589 seconds
+[2025-10-31T20:15:56.647+0530] {processor.py:161} INFO - Started process (PID=17521) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:15:56.661+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:15:56.663+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:15:56.663+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:15:57.328+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:15:57.337+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:15:57.337+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:15:57.355+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:15:57.354+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:44:00+00:00, run_after=2025-10-31 14:46:00+00:00
+[2025-10-31T20:15:57.384+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.749 seconds
+[2025-10-31T20:16:30.189+0530] {processor.py:161} INFO - Started process (PID=17751) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:16:30.204+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:16:30.210+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:16:30.209+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:16:30.713+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:16:30.724+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:16:30.724+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:16:30.739+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:16:30.738+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:46:00+00:00, run_after=2025-10-31 14:48:00+00:00
+[2025-10-31T20:16:30.766+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.583 seconds
+[2025-10-31T20:17:02.234+0530] {processor.py:161} INFO - Started process (PID=17825) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:17:02.247+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:17:02.251+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:17:02.250+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:17:02.767+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:17:02.776+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:17:02.776+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:17:02.792+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:17:02.792+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:46:00+00:00, run_after=2025-10-31 14:48:00+00:00
+[2025-10-31T20:17:02.821+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.597 seconds
+[2025-10-31T20:17:49.303+0530] {processor.py:161} INFO - Started process (PID=17934) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:17:49.316+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:17:49.321+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:17:49.320+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:17:49.847+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:17:49.856+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:17:49.855+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:17:49.871+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:17:49.871+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:46:00+00:00, run_after=2025-10-31 14:48:00+00:00
+[2025-10-31T20:17:49.899+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.602 seconds
+[2025-10-31T20:18:23.618+0530] {processor.py:161} INFO - Started process (PID=18162) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:18:23.633+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:18:23.638+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:18:23.637+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:18:24.391+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:18:24.400+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:18:24.400+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:18:24.416+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:18:24.416+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:48:00+00:00, run_after=2025-10-31 14:50:00+00:00
+[2025-10-31T20:18:24.433+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.826 seconds
+[2025-10-31T20:18:56.981+0530] {processor.py:161} INFO - Started process (PID=18242) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:18:56.996+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:18:57.004+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:18:57.003+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:18:57.519+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:18:57.530+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:18:57.529+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:18:57.545+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:18:57.544+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:48:00+00:00, run_after=2025-10-31 14:50:00+00:00
+[2025-10-31T20:18:57.573+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.602 seconds
+[2025-10-31T20:19:54.036+0530] {processor.py:161} INFO - Started process (PID=18360) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:19:54.049+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:19:54.052+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:19:54.051+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:19:54.652+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:19:54.665+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:19:54.665+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:19:54.685+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:19:54.684+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:48:00+00:00, run_after=2025-10-31 14:50:00+00:00
+[2025-10-31T20:19:54.717+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.692 seconds
+[2025-10-31T20:20:26.976+0530] {processor.py:161} INFO - Started process (PID=18586) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:20:26.989+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:20:26.992+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:20:26.991+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:20:27.660+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:20:27.683+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:20:27.682+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:20:27.713+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:20:27.713+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:50:00+00:00, run_after=2025-10-31 14:52:00+00:00
+[2025-10-31T20:20:27.746+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.782 seconds
+[2025-10-31T20:21:00.315+0530] {processor.py:161} INFO - Started process (PID=18659) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:21:00.330+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:21:00.332+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:21:00.331+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:21:00.945+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:21:00.956+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:21:00.955+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:21:00.975+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:21:00.975+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:50:00+00:00, run_after=2025-10-31 14:52:00+00:00
+[2025-10-31T20:21:01.005+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.701 seconds
+[2025-10-31T20:21:54.414+0530] {processor.py:161} INFO - Started process (PID=19021) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:21:54.428+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:21:54.432+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:21:54.431+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:21:55.174+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:21:55.194+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:21:55.194+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:21:55.224+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:21:55.224+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:50:00+00:00, run_after=2025-10-31 14:52:00+00:00
+[2025-10-31T20:21:55.258+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.861 seconds
+[2025-10-31T20:22:30.522+0530] {processor.py:161} INFO - Started process (PID=19199) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:22:30.524+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:22:30.525+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:22:30.525+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:22:31.010+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:22:31.019+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:22:31.019+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:22:31.035+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:22:31.035+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:52:00+00:00, run_after=2025-10-31 14:54:00+00:00
+[2025-10-31T20:22:31.063+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.546 seconds
+[2025-10-31T20:23:02.181+0530] {processor.py:161} INFO - Started process (PID=19253) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:23:02.194+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:23:02.197+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:23:02.196+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:23:02.728+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:23:02.740+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:23:02.739+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:23:02.754+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:23:02.754+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:52:00+00:00, run_after=2025-10-31 14:54:00+00:00
+[2025-10-31T20:23:02.772+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.603 seconds
+[2025-10-31T20:23:52.322+0530] {processor.py:161} INFO - Started process (PID=19326) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:23:52.323+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:23:52.326+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:23:52.325+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:23:52.854+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:23:52.865+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:23:52.864+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:23:52.881+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:23:52.881+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:52:00+00:00, run_after=2025-10-31 14:54:00+00:00
+[2025-10-31T20:23:52.912+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.601 seconds
+[2025-10-31T20:24:24.818+0530] {processor.py:161} INFO - Started process (PID=19487) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:24:24.831+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:24:24.834+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:24:24.834+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:24:25.362+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:24:25.373+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:24:25.372+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:24:25.387+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:24:25.387+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:54:00+00:00, run_after=2025-10-31 14:56:00+00:00
+[2025-10-31T20:24:25.407+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.600 seconds
+[2025-10-31T20:24:56.993+0530] {processor.py:161} INFO - Started process (PID=19541) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:24:57.006+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:24:57.009+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:24:57.008+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:24:57.564+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:24:57.574+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:24:57.574+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:24:57.591+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:24:57.591+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:54:00+00:00, run_after=2025-10-31 14:56:00+00:00
+[2025-10-31T20:24:57.723+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.742 seconds
+[2025-10-31T20:25:46.703+0530] {processor.py:161} INFO - Started process (PID=19647) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:25:46.716+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:25:46.719+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:25:46.718+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:25:47.338+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:25:47.356+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:25:47.356+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:25:47.392+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:25:47.392+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:54:00+00:00, run_after=2025-10-31 14:56:00+00:00
+[2025-10-31T20:25:47.426+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.734 seconds
+[2025-10-31T20:26:17.661+0530] {processor.py:161} INFO - Started process (PID=19809) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:26:17.674+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:26:17.677+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:26:17.676+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:26:18.211+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:26:18.220+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:26:18.220+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:26:18.354+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:26:18.354+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:56:00+00:00, run_after=2025-10-31 14:58:00+00:00
+[2025-10-31T20:26:18.384+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.729 seconds
+[2025-10-31T20:27:12.332+0530] {processor.py:161} INFO - Started process (PID=19889) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:27:12.346+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:27:12.348+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:27:12.348+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:27:12.869+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:27:12.880+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:27:12.879+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:27:12.896+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:27:12.896+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:56:00+00:00, run_after=2025-10-31 14:58:00+00:00
+[2025-10-31T20:27:12.926+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.601 seconds
+[2025-10-31T20:28:12.388+0530] {processor.py:161} INFO - Started process (PID=20063) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:28:12.402+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:28:12.405+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:28:12.404+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:28:12.997+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:28:13.006+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:28:13.005+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:28:13.021+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:28:13.021+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:58:00+00:00, run_after=2025-10-31 15:00:00+00:00
+[2025-10-31T20:28:13.050+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.674 seconds
+[2025-10-31T20:28:45.453+0530] {processor.py:161} INFO - Started process (PID=20147) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:28:45.466+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:28:45.470+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:28:45.469+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:28:45.989+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:28:45.998+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:28:45.998+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:28:46.015+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:28:46.014+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:58:00+00:00, run_after=2025-10-31 15:00:00+00:00
+[2025-10-31T20:28:46.133+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.691 seconds
+[2025-10-31T20:29:38.135+0530] {processor.py:161} INFO - Started process (PID=20224) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:29:38.148+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:29:38.150+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:29:38.149+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:29:38.695+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:29:38.704+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:29:38.704+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:29:38.719+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:29:38.719+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 14:58:00+00:00, run_after=2025-10-31 15:00:00+00:00
+[2025-10-31T20:29:38.747+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.617 seconds
+[2025-10-31T20:30:38.298+0530] {processor.py:161} INFO - Started process (PID=20459) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:30:38.311+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:30:38.314+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:30:38.313+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:30:38.856+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:30:38.966+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:30:38.966+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:30:38.983+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:30:38.983+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 15:00:00+00:00, run_after=2025-10-31 15:02:00+00:00
+[2025-10-31T20:30:39.015+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.724 seconds
+[2025-10-31T20:31:30.728+0530] {processor.py:161} INFO - Started process (PID=20555) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:31:30.741+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:31:30.745+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:31:30.744+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:31:31.255+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:31:31.264+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:31:31.264+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:31:31.371+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:31:31.371+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 15:00:00+00:00, run_after=2025-10-31 15:02:00+00:00
+[2025-10-31T20:31:31.401+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.683 seconds
+[2025-10-31T20:32:25.350+0530] {processor.py:161} INFO - Started process (PID=20754) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:32:25.352+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:32:25.355+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:32:25.354+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:32:25.948+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:32:25.957+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:32:25.957+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:32:25.972+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:32:25.972+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 15:02:00+00:00, run_after=2025-10-31 15:04:00+00:00
+[2025-10-31T20:32:26.000+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.656 seconds
+[2025-10-31T20:33:00.635+0530] {processor.py:161} INFO - Started process (PID=20808) to work on /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:33:00.648+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/airflow/dags/esai_dag.py for tasks to queue
+[2025-10-31T20:33:00.651+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:33:00.650+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:33:01.208+0530] {processor.py:840} INFO - DAG(s) 'esai_pipeline_dag' retrieved from /home/logi/txtai/airflow/dags/esai_dag.py
+[2025-10-31T20:33:01.218+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:33:01.217+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-31T20:33:01.331+0530] {logging_mixin.py:188} INFO - [2025-10-31T20:33:01.330+0530] {dag.py:3947} INFO - Setting next_dagrun for esai_pipeline_dag to 2025-10-31 15:02:00+00:00, run_after=2025-10-31 15:04:00+00:00
+[2025-10-31T20:33:01.360+0530] {processor.py:183} INFO - Processing /home/logi/txtai/airflow/dags/esai_dag.py took 0.736 seconds
