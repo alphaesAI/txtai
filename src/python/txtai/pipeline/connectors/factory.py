@@ -1,30 +1,46 @@
-from typing import Any, Optional, Dict
-
-from .base import BaseConnector
+from typing import Dict, Any, Union
 from .postgres import PostgresConnector
 from .elasticsearch import ElasticsearchConnector
 
+
 class ConnectorFactory:
-    """Factory class for creating database connectors"""
+    """Factory to create connectors without hardcoding."""
+
+    @staticmethod
+    def create_postgres(db_url: str) -> PostgresConnector:
+        connector = PostgresConnector({"db_url": db_url})
+        connector.connect()
+        return connector
+
+    @staticmethod
+    def create_elasticsearch(hosts: Any) -> ElasticsearchConnector:
+        connector = ElasticsearchConnector({"hosts": hosts})
+        connector.connect()
+        return connector
     
     @staticmethod
-    def create_connector(connector_type: str, connection_params: Dict[str, Any]) -> BaseConnector:
+    def create_connector(connector_type: str, params: Dict[str, Any]) -> Union[PostgresConnector, ElasticsearchConnector]:
         """
-        Create and return a specific connector instance
+        Unified factory method to create any connector by type.
         
         Args:
-            connector_type (str): Type of connector ('postgres' or 'elasticsearch')
-            connection_params (dict): Connection parameters
+            connector_type: Type of connector ('postgres', 'elasticsearch')
+            params: Connection parameters dictionary
             
         Returns:
-            BaseConnector: Instance of the specified connector
+            Connector instance
+            
+        Raises:
+            ValueError: If connector type is not supported
         """
-        connectors = {
-            'postgres': PostgresConnector,
-            'elasticsearch': ElasticsearchConnector
-        }
+        connector_type = connector_type.lower()
         
-        if connector_type not in connectors:
+        if connector_type in ['postgres', 'postgresql']:
+            # For PostgreSQL, params should contain connection details
+            connector = PostgresConnector(params)
+            return connector
+        elif connector_type in ['elasticsearch', 'es']:
+            connector = ElasticsearchConnector(params)
+            return connector
+        else:
             raise ValueError(f"Unsupported connector type: {connector_type}")
-        
-        return connectors[connector_type](connection_params)

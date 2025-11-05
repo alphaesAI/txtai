@@ -1,30 +1,16 @@
 from abc import ABC, abstractmethod
+from typing import Any
+
 
 class BaseConnector(ABC):
-    """Abstract base connector class"""
-    
-    def __init__(self):
-        self._connection = None
-        self._connection_params = {}
-        
+    """Base connector abstraction."""
+
     @abstractmethod
-    def connect(self) -> None:
-        """Establish connection to the database"""
+    def connect(self) -> Any:
+        """Establish a connection or initialize a client."""
         pass
-    
+
     @abstractmethod
     def disconnect(self) -> None:
-        """Close the database connection"""
+        """Close or dispose the connection."""
         pass
-    
-    @abstractmethod
-    def test_connection(self) -> bool:
-        """Test if the connection is valid"""
-        pass
-    
-    @property
-    def connection(self):
-        """Get the database connection"""
-        if not self._connection:
-            self.connect()
-        return self._connection

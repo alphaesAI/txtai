@@ -1,0 +1,101 @@
+# ETL Pipeline Configuration
+
+# PostgreSQL Connection
+postgres:
+  connection_string: "postgresql://rag_user:rag_password@localhost:5432/paper_curator"
+  pool_size: 5
+  max_overflow: 10
+  pool_timeout: 30
+  echo: false
+
+# Elasticsearch Connection
+elasticsearch:
+  connection_string: "http://localhost:9200"
+  use_ssl: false
+  verify_certs: false
+  timeout: 30
+  max_retries: 3
+
+# Extraction Configuration
+extraction:
+  # State file for tracking incremental loads
+  state_file: "/tmp/etl_state.json"
+  
+  # Tables to extract
+  tables:
+    - table_name: "users"
+      schema: "public"
+      columns:
+        - "id"
+        - "username"
+        - "email"
+        - "created_at"
+        - "updated_at"
+      extraction_mode: "incremental_cdc"
+      cdc_column: "id"
+      batch_size: 1000
+      order_by: "id"
+    
+    - table_name: "orders"
+      schema: "public"
+      columns:
+        - "order_id"
+        - "user_id"
+        - "order_date"
+        - "total_amount"
+        - "status"
+      extraction_mode: "incremental_date"
+      date_column: "order_date"
+      batch_size: 1000
+      order_by: "order_date"
+    
+    - table_name: "products"
+      schema: "public"
+      columns: null  # null means all columns
+      extraction_mode: "full"
+      batch_size: 5000
+
+# Transformation Configuration
+transformation:
+  orient: "records"
+  date_format: "iso"
+  handle_nan: "null"
+  include_index: false
+
+# Loading Configuration
+loading:
+  elasticsearch:
+    index_prefix: "etl_"
+    bulk_size: 1000
+    max_retries: 3
+    raise_on_error: false
+  
+  # Index mappings per table
+  index_mappings:
+    users:
+      index_name: "etl_users"
+      id_field: "id"
+    orders:
+      index_name: "etl_orders"
+      id_field: "order_id"
+    products:
+      index_name: "etl_products"
+      id_field: "id"
+
+# Airflow DAG Configuration
+airflow:
+  dag_id: "postgres_to_elasticsearch_etl"
+  schedule_interval: "0 */6 * * *"  # Every 6 hours
+  start_date: "2024-01-01"
+  catchup: false
+  max_active_runs: 1
+  tags:
+    - "etl"
+    - "postgres"
+    - "elasticsearch"
+  default_args:
+    owner: "data_engineering"
+    retries: 2
+    retry_delay_minutes: 5
+    email_on_failure: true
+    email_on_retry: false
