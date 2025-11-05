@@ -15,3 +15,8 @@ from .nop import Nop
 from .text import *
 from .tensors import Tensors
 from .train import *
+
+from .connectors import *
+from .extractors import *
+from .loaders import *
+from .transformers import *
