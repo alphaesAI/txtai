@@ -1,0 +1,935 @@
+[2025-11-11T18:16:06.194+0530] {processor.py:161} INFO - Started process (PID=8543) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:16:06.196+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:16:06.200+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:06.200+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:16:06.210+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:16:06.304+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:06.303+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_time_delta_sensor_async
+[2025-11-11T18:16:06.321+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:06.320+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_time_delta_sensor_async
+[2025-11-11T18:16:06.332+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:06.332+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_time_delta_sensor_async
+[2025-11-11T18:16:06.333+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:06.333+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:16:06.351+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:06.350+0530] {dag.py:3111} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2025-11-11T18:16:06.352+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:06.351+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:16:06.381+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.197 seconds
+[2025-11-11T18:17:07.274+0530] {processor.py:161} INFO - Started process (PID=8854) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:17:07.277+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:17:07.280+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:17:07.279+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:17:07.289+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:17:07.315+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:17:07.315+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:17:07.326+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:17:07.326+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:17:07.347+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.085 seconds
+[2025-11-11T18:18:01.110+0530] {processor.py:161} INFO - Started process (PID=9057) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:18:01.124+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:18:01.129+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:01.128+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:18:01.139+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:18:01.168+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:01.167+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:18:01.182+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:01.182+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:18:01.204+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:18:53.801+0530] {processor.py:161} INFO - Started process (PID=9273) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:18:53.815+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:18:53.818+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:53.817+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:18:53.827+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:18:53.855+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:53.855+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:18:53.869+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:53.868+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:18:53.896+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T18:19:44.015+0530] {processor.py:161} INFO - Started process (PID=9586) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:19:44.029+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:19:44.032+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:19:44.031+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:19:44.040+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:19:44.066+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:19:44.066+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:19:44.082+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:19:44.081+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:19:44.109+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.104 seconds
+[2025-11-11T18:25:51.570+0530] {processor.py:161} INFO - Started process (PID=10504) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:25:51.579+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:25:51.584+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:25:51.583+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:25:51.595+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:25:51.680+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:25:51.680+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:25:51.688+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:25:51.688+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:25:51.720+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.160 seconds
+[2025-11-11T18:26:47.939+0530] {processor.py:161} INFO - Started process (PID=10586) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:26:47.952+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:26:47.956+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:26:47.955+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:26:47.964+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:26:47.992+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:26:47.992+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:26:48.007+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:26:48.007+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:26:48.035+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:27:40.022+0530] {processor.py:161} INFO - Started process (PID=10650) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:27:40.036+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:27:40.039+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:27:40.039+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:27:40.048+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:27:40.075+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:27:40.075+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:27:40.091+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:27:40.090+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:27:40.117+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.106 seconds
+[2025-11-11T18:28:30.431+0530] {processor.py:161} INFO - Started process (PID=10711) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:28:30.445+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:28:30.448+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:28:30.447+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:28:30.456+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:28:30.485+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:28:30.484+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:28:30.500+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:28:30.500+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:28:30.528+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.109 seconds
+[2025-11-11T18:29:20.255+0530] {processor.py:161} INFO - Started process (PID=10805) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:29:20.268+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:29:20.271+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:29:20.270+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:29:20.279+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:29:20.305+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:29:20.305+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:29:20.322+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:29:20.321+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:29:20.348+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T18:30:13.572+0530] {processor.py:161} INFO - Started process (PID=10870) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:30:13.585+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:30:13.589+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:30:13.588+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:30:13.597+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:30:13.625+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:30:13.625+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:30:13.640+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:30:13.640+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:30:13.670+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.109 seconds
+[2025-11-11T18:31:04.084+0530] {processor.py:161} INFO - Started process (PID=10959) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:31:04.097+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:31:04.101+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:31:04.100+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:31:04.109+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:31:04.137+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:31:04.136+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:31:04.152+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:31:04.152+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:31:04.179+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:31:58.923+0530] {processor.py:161} INFO - Started process (PID=11024) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:31:58.937+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:31:58.940+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:31:58.939+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:31:58.948+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:31:58.975+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:31:58.975+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:31:58.991+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:31:58.991+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:31:59.018+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:32:51.127+0530] {processor.py:161} INFO - Started process (PID=11086) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:32:51.141+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:32:51.144+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:32:51.143+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:32:51.152+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:32:51.180+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:32:51.179+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:32:51.196+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:32:51.196+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:32:51.227+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.111 seconds
+[2025-11-11T18:33:42.202+0530] {processor.py:161} INFO - Started process (PID=11147) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:33:42.215+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:33:42.218+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:33:42.218+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:33:42.227+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:33:42.254+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:33:42.254+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:33:42.270+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:33:42.269+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:33:42.297+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.106 seconds
+[2025-11-11T18:34:36.048+0530] {processor.py:161} INFO - Started process (PID=11212) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:34:36.062+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:34:36.065+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:34:36.064+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:34:36.074+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:34:36.102+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:34:36.102+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:34:36.118+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:34:36.117+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:34:36.144+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:35:26.181+0530] {processor.py:161} INFO - Started process (PID=11275) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:35:26.194+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:35:26.197+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:35:26.197+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:35:26.206+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:35:26.232+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:35:26.232+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:35:26.249+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:35:26.248+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:35:26.276+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:36:15.617+0530] {processor.py:161} INFO - Started process (PID=11363) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:36:15.631+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:36:15.634+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:36:15.633+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:36:15.642+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:36:15.670+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:36:15.669+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:36:15.685+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:36:15.684+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:36:15.711+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T18:37:06.648+0530] {processor.py:161} INFO - Started process (PID=11423) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:37:06.661+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:37:06.665+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:06.664+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:37:06.673+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:37:06.701+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:06.700+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:37:06.716+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:06.715+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:37:06.742+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.106 seconds
+[2025-11-11T18:37:56.463+0530] {processor.py:161} INFO - Started process (PID=11484) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:37:56.477+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:37:56.480+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:56.480+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:37:56.489+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:37:56.517+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:56.516+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:37:56.532+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:56.532+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:37:56.553+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.100 seconds
+[2025-11-11T18:38:52.044+0530] {processor.py:161} INFO - Started process (PID=11552) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:38:52.058+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:38:52.061+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:38:52.060+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:38:52.069+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:38:52.097+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:38:52.097+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:38:52.113+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:38:52.112+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:38:52.139+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:39:41.771+0530] {processor.py:161} INFO - Started process (PID=11611) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:39:41.785+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:39:41.788+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:39:41.787+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:39:41.796+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:39:41.824+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:39:41.824+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:39:41.839+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:39:41.838+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:39:41.865+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T18:40:32.712+0530] {processor.py:161} INFO - Started process (PID=11701) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:40:32.725+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:40:32.728+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:40:32.728+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:40:32.737+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:40:32.765+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:40:32.764+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:40:32.781+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:40:32.780+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:40:32.809+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.109 seconds
+[2025-11-11T18:41:18.924+0530] {processor.py:161} INFO - Started process (PID=11760) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:41:18.938+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:41:18.942+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:41:18.941+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:41:18.950+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:41:18.978+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:41:18.977+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:41:18.994+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:41:18.993+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:41:19.020+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.108 seconds
+[2025-11-11T18:42:07.509+0530] {processor.py:161} INFO - Started process (PID=11820) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:42:07.523+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:42:07.526+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:42:07.525+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:42:07.534+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:42:07.562+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:42:07.561+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:42:07.578+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:42:07.577+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:42:07.605+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:42:58.669+0530] {processor.py:161} INFO - Started process (PID=11880) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:42:58.683+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:42:58.686+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:42:58.686+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:42:58.695+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:42:58.723+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:42:58.722+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:42:58.738+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:42:58.738+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:42:58.766+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.108 seconds
+[2025-11-11T18:43:50.923+0530] {processor.py:161} INFO - Started process (PID=11961) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:43:50.936+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:43:50.939+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:43:50.939+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:43:50.948+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:43:50.974+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:43:50.973+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:43:50.990+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:43:50.990+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:43:51.017+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.106 seconds
+[2025-11-11T18:44:43.283+0530] {processor.py:161} INFO - Started process (PID=12022) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:44:43.296+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:44:43.299+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:44:43.299+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:44:43.307+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:44:43.334+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:44:43.333+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:44:43.349+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:44:43.349+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:44:43.376+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.104 seconds
+[2025-11-11T18:45:36.790+0530] {processor.py:161} INFO - Started process (PID=12116) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:45:36.804+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:45:36.807+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:45:36.807+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:45:36.815+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:45:36.842+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:45:36.842+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:45:36.858+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:45:36.858+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:45:36.885+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.108 seconds
+[2025-11-11T18:46:22.777+0530] {processor.py:161} INFO - Started process (PID=12172) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:46:22.791+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:46:22.794+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:46:22.793+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:46:22.802+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:46:22.830+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:46:22.829+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:46:22.845+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:46:22.845+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:46:22.872+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.106 seconds
+[2025-11-11T18:47:18.983+0530] {processor.py:161} INFO - Started process (PID=12235) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:47:18.996+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:47:18.999+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:47:18.999+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:47:19.008+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:47:19.036+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:47:19.035+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:47:19.051+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:47:19.051+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:47:19.078+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:48:11.597+0530] {processor.py:161} INFO - Started process (PID=12297) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:48:11.610+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:48:11.614+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:48:11.613+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:48:11.622+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:48:11.649+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:48:11.649+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:48:11.665+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:48:11.665+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:48:11.693+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.108 seconds
+[2025-11-11T18:51:41.470+0530] {processor.py:161} INFO - Started process (PID=12628) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:51:41.483+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:51:41.485+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:51:41.485+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:51:41.492+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:51:41.506+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:51:41.506+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:51:41.518+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:51:41.517+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:51:41.538+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.075 seconds
+[2025-11-11T18:52:33.920+0530] {processor.py:161} INFO - Started process (PID=12743) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:52:33.934+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:52:33.938+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:52:33.937+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:52:33.945+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:52:33.973+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:52:33.973+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:52:33.990+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:52:33.990+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:52:34.011+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.103 seconds
+[2025-11-11T18:53:22.482+0530] {processor.py:161} INFO - Started process (PID=12890) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:53:22.495+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:53:22.499+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:53:22.498+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:53:22.507+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:53:22.533+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:53:22.532+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:53:22.555+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:53:22.555+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:53:22.575+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.104 seconds
+[2025-11-11T18:54:16.977+0530] {processor.py:161} INFO - Started process (PID=12987) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:54:16.991+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:54:16.994+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:54:16.993+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:54:17.000+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:54:17.018+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:54:17.018+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:54:17.029+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:54:17.029+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:54:17.052+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.084 seconds
+[2025-11-11T18:55:11.047+0530] {processor.py:161} INFO - Started process (PID=13132) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:55:11.060+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:55:11.063+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:55:11.062+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:55:11.070+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:55:11.094+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:55:11.094+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:55:11.111+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:55:11.111+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:55:11.140+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.102 seconds
+[2025-11-11T18:56:00.349+0530] {processor.py:161} INFO - Started process (PID=13195) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:56:00.362+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:56:00.365+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:00.364+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:56:00.375+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:56:00.402+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:00.401+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:56:00.416+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:00.416+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:56:00.438+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.101 seconds
+[2025-11-11T18:56:53.876+0530] {processor.py:161} INFO - Started process (PID=13261) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:56:53.890+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:56:53.893+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:53.892+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:56:53.901+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:56:53.929+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:53.929+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:56:53.943+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:53.943+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:56:53.964+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds
+[2025-11-11T18:57:45.601+0530] {processor.py:161} INFO - Started process (PID=13322) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:57:45.615+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:57:45.618+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:57:45.617+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:57:45.626+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:57:45.655+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:57:45.654+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:57:45.670+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:57:45.670+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:57:45.698+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T18:58:37.163+0530] {processor.py:161} INFO - Started process (PID=13415) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:58:37.177+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:58:37.180+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:58:37.179+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:58:37.189+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:58:37.217+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:58:37.216+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:58:37.233+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:58:37.232+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:58:37.254+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.102 seconds
+[2025-11-11T18:59:26.773+0530] {processor.py:161} INFO - Started process (PID=13511) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:59:26.786+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T18:59:26.789+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:59:26.788+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:59:26.797+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T18:59:26.824+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:59:26.823+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:59:26.839+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:59:26.838+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T18:59:26.865+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.104 seconds
+[2025-11-11T19:00:16.523+0530] {processor.py:161} INFO - Started process (PID=13579) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:00:16.537+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:00:16.540+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:00:16.539+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:00:16.548+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:00:16.575+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:00:16.574+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:00:16.591+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:00:16.590+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:00:16.618+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.106 seconds
+[2025-11-11T19:01:08.601+0530] {processor.py:161} INFO - Started process (PID=13643) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:01:08.614+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:01:08.618+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:01:08.617+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:01:08.626+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:01:08.652+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:01:08.652+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:01:08.669+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:01:08.668+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:01:08.695+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T19:02:00.814+0530] {processor.py:161} INFO - Started process (PID=13706) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:02:00.828+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:02:00.831+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:00.830+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:02:00.839+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:02:00.867+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:00.867+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:02:00.882+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:00.882+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:02:00.901+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds
+[2025-11-11T19:02:52.371+0530] {processor.py:161} INFO - Started process (PID=13768) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:02:52.384+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:02:52.387+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:52.387+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:02:52.395+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:02:52.421+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:52.421+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:02:52.438+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:52.438+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:02:52.465+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T19:03:40.555+0530] {processor.py:161} INFO - Started process (PID=13861) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:03:40.568+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:03:40.571+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:03:40.570+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:03:40.580+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:03:40.605+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:03:40.605+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:03:40.622+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:03:40.621+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:03:40.657+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.114 seconds
+[2025-11-11T19:04:32.729+0530] {processor.py:161} INFO - Started process (PID=13934) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:04:32.743+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:04:32.746+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:04:32.745+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:04:32.754+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:04:32.782+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:04:32.782+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:04:32.796+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:04:32.796+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:04:32.817+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds
+[2025-11-11T19:05:24.412+0530] {processor.py:161} INFO - Started process (PID=14065) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:05:24.414+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:05:24.417+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:05:24.416+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:05:24.424+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:05:24.450+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:05:24.450+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:05:24.460+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:05:24.460+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:05:24.489+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.089 seconds
+[2025-11-11T19:06:11.454+0530] {processor.py:161} INFO - Started process (PID=14154) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:06:11.467+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:06:11.470+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:06:11.469+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:06:11.478+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:06:11.502+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:06:11.501+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:06:11.519+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:06:11.519+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:06:11.538+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.094 seconds
+[2025-11-11T19:08:51.885+0530] {processor.py:161} INFO - Started process (PID=14853) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:08:51.908+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:08:51.927+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:08:51.924+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:08:51.975+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:08:52.304+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:08:52.302+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:08:52.335+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:08:52.334+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:08:52.393+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.575 seconds
+[2025-11-11T19:09:52.297+0530] {processor.py:161} INFO - Started process (PID=14994) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:09:52.303+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:09:52.306+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:09:52.306+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:09:52.311+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:09:52.330+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:09:52.330+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:09:52.344+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:09:52.343+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:09:52.368+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.078 seconds
+[2025-11-11T19:10:53.838+0530] {processor.py:161} INFO - Started process (PID=15088) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:10:53.851+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:10:53.854+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:10:53.854+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:10:53.861+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:10:53.883+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:10:53.883+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:10:53.895+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:10:53.895+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:10:53.929+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.098 seconds
+[2025-11-11T19:11:50.297+0530] {processor.py:161} INFO - Started process (PID=15180) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:11:50.311+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:11:50.314+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:11:50.313+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:11:50.323+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:11:50.351+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:11:50.351+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:11:50.366+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:11:50.366+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:11:50.396+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.110 seconds
+[2025-11-11T19:12:45.161+0530] {processor.py:161} INFO - Started process (PID=15340) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:12:45.175+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:12:45.178+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:12:45.177+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:12:45.186+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:12:45.217+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:12:45.216+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:12:45.231+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:12:45.231+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:12:45.251+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.100 seconds
+[2025-11-11T19:13:38.877+0530] {processor.py:161} INFO - Started process (PID=15480) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:13:38.890+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:13:38.893+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:13:38.893+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:13:38.903+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:13:38.929+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:13:38.929+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:13:38.945+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:13:38.945+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:13:38.972+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.109 seconds
+[2025-11-11T19:14:41.805+0530] {processor.py:161} INFO - Started process (PID=15647) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:14:41.819+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:14:41.822+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:14:41.821+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:14:41.831+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:14:41.858+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:14:41.858+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:14:41.877+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:14:41.877+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:14:41.904+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.104 seconds
+[2025-11-11T19:15:45.155+0530] {processor.py:161} INFO - Started process (PID=15785) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:15:45.168+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:15:45.171+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:15:45.171+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:15:45.180+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:15:45.207+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:15:45.207+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:15:45.223+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:15:45.222+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:15:45.250+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T19:16:43.464+0530] {processor.py:161} INFO - Started process (PID=15928) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:16:43.478+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:16:43.481+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:16:43.481+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:16:43.489+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:16:43.516+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:16:43.515+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:16:43.530+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:16:43.530+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:16:43.557+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.106 seconds
+[2025-11-11T19:17:39.970+0530] {processor.py:161} INFO - Started process (PID=16000) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:17:39.984+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:17:39.987+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:17:39.986+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:17:39.995+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:17:40.023+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:17:40.023+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:17:40.038+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:17:40.038+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:17:40.065+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T19:18:35.839+0530] {processor.py:161} INFO - Started process (PID=16275) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:18:35.852+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:18:35.855+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:18:35.854+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:18:35.863+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:18:35.890+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:18:35.890+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:18:35.907+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:18:35.906+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:18:35.939+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.112 seconds
+[2025-11-11T19:19:29.793+0530] {processor.py:161} INFO - Started process (PID=16341) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:19:29.807+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:19:29.810+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:19:29.809+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:19:29.818+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:19:29.845+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:19:29.845+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:19:29.861+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:19:29.861+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:19:29.890+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.108 seconds
+[2025-11-11T19:20:31.598+0530] {processor.py:161} INFO - Started process (PID=16735) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:20:31.612+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:20:31.616+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:20:31.616+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:20:31.628+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:20:31.661+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:20:31.661+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:20:31.671+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:20:31.671+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:20:31.700+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.113 seconds
+[2025-11-11T19:21:31.427+0530] {processor.py:161} INFO - Started process (PID=16828) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:21:31.440+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:21:31.443+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:21:31.443+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:21:31.451+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:21:31.478+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:21:31.477+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:21:31.493+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:21:31.493+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:21:31.520+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.104 seconds
+[2025-11-11T19:22:27.116+0530] {processor.py:161} INFO - Started process (PID=16960) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:22:27.131+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:22:27.134+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:22:27.133+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:22:27.142+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:22:27.170+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:22:27.170+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:22:27.186+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:22:27.185+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:22:27.214+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.111 seconds
+[2025-11-11T19:23:20.835+0530] {processor.py:161} INFO - Started process (PID=17137) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:23:20.837+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:23:20.840+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:23:20.839+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:23:20.849+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:23:20.883+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:23:20.882+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:23:20.958+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:23:20.956+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:23:21.064+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.243 seconds
+[2025-11-11T19:24:17.129+0530] {processor.py:161} INFO - Started process (PID=17386) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:24:17.143+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:24:17.146+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:24:17.146+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:24:17.154+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:24:17.180+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:24:17.179+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:24:17.197+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:24:17.196+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:24:17.224+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.106 seconds
+[2025-11-11T19:25:18.030+0530] {processor.py:161} INFO - Started process (PID=17657) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:25:18.043+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:25:18.046+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:25:18.046+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:25:18.055+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:25:18.080+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:25:18.079+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:25:18.091+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:25:18.091+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:25:18.120+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.096 seconds
+[2025-11-11T19:26:16.215+0530] {processor.py:161} INFO - Started process (PID=17886) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:26:16.228+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:26:16.232+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:26:16.231+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:26:16.240+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:26:16.268+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:26:16.267+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:26:16.283+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:26:16.282+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:26:16.309+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T19:27:13.610+0530] {processor.py:161} INFO - Started process (PID=18031) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:27:13.612+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:27:13.616+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:27:13.615+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:27:13.624+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:27:13.649+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:27:13.649+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:27:13.659+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:27:13.659+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:27:13.679+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.080 seconds
+[2025-11-11T19:28:10.537+0530] {processor.py:161} INFO - Started process (PID=18170) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:28:10.551+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:28:10.554+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:28:10.554+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:28:10.562+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:28:10.590+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:28:10.590+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:28:10.607+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:28:10.606+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:28:10.634+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.108 seconds
+[2025-11-11T19:29:06.329+0530] {processor.py:161} INFO - Started process (PID=18514) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:29:06.344+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:29:06.348+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:29:06.347+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:29:06.359+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:29:06.396+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:29:06.396+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:29:06.416+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:29:06.415+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:29:06.469+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.169 seconds
+[2025-11-11T19:30:02.695+0530] {processor.py:161} INFO - Started process (PID=18600) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:30:02.708+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:30:02.712+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:30:02.711+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:30:02.720+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:30:02.748+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:30:02.747+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:30:02.764+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:30:02.763+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:30:02.792+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.108 seconds
+[2025-11-11T19:31:01.294+0530] {processor.py:161} INFO - Started process (PID=18710) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:31:01.308+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:31:01.312+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:01.311+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:31:01.317+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:31:01.336+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:01.336+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:31:01.348+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:01.347+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:31:01.370+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.089 seconds
+[2025-11-11T19:31:56.401+0530] {processor.py:161} INFO - Started process (PID=18789) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:31:56.414+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:31:56.418+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:56.417+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:31:56.426+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:31:56.455+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:56.454+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:31:56.469+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:56.469+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:31:56.498+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T19:32:52.780+0530] {processor.py:161} INFO - Started process (PID=18872) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:32:52.793+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:32:52.797+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:32:52.796+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:32:52.805+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:32:52.834+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:32:52.833+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:32:52.849+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:32:52.848+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:32:52.878+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.110 seconds
+[2025-11-11T19:33:48.142+0530] {processor.py:161} INFO - Started process (PID=18953) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:33:48.156+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:33:48.162+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:33:48.160+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:33:48.172+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:33:48.202+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:33:48.201+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:33:48.216+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:33:48.215+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:33:48.245+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.114 seconds
+[2025-11-11T19:35:36.090+0530] {processor.py:161} INFO - Started process (PID=19575) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:35:36.105+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:35:36.116+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:35:36.116+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:35:36.133+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:35:36.170+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:35:36.170+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:35:36.187+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:35:36.186+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:35:36.219+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.145 seconds
+[2025-11-11T19:36:37.287+0530] {processor.py:161} INFO - Started process (PID=19718) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:36:37.301+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:36:37.304+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:36:37.303+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:36:37.313+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:36:37.343+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:36:37.343+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:36:37.367+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:36:37.366+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:36:37.396+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.120 seconds
+[2025-11-11T19:37:34.419+0530] {processor.py:161} INFO - Started process (PID=19847) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:37:34.432+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:37:34.436+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:37:34.435+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:37:34.444+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:37:34.473+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:37:34.472+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:37:34.488+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:37:34.488+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:37:34.510+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.103 seconds
+[2025-11-11T19:38:30.920+0530] {processor.py:161} INFO - Started process (PID=20118) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:38:30.933+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:38:30.935+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:38:30.934+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:38:30.943+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:38:30.971+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:38:30.970+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:38:30.987+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:38:30.987+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:38:31.013+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T19:39:29.211+0530] {processor.py:161} INFO - Started process (PID=20356) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:39:29.224+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:39:29.226+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:39:29.225+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:39:29.235+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:39:29.261+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:39:29.261+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:39:29.279+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:39:29.278+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:39:29.304+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.104 seconds
+[2025-11-11T19:40:25.243+0530] {processor.py:161} INFO - Started process (PID=20462) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:40:25.257+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:40:25.258+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:40:25.258+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:40:25.267+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:40:25.296+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:40:25.295+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:40:25.310+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:40:25.309+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:40:25.335+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.103 seconds
+[2025-11-11T19:41:16.945+0530] {processor.py:161} INFO - Started process (PID=20597) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:41:16.957+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:41:16.959+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:41:16.958+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:41:16.967+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:41:16.995+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:41:16.995+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:41:17.010+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:41:17.010+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:41:17.039+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T19:42:11.390+0530] {processor.py:161} INFO - Started process (PID=20673) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:42:11.404+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:42:11.405+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:42:11.405+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:42:11.413+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:42:11.441+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:42:11.441+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:42:11.458+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:42:11.458+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:42:11.478+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds
+[2025-11-11T19:43:07.447+0530] {processor.py:161} INFO - Started process (PID=20813) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:43:07.461+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:43:07.463+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:43:07.462+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:43:07.471+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:43:07.501+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:43:07.500+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:43:07.518+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:43:07.517+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:43:07.547+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.111 seconds
+[2025-11-11T19:44:01.819+0530] {processor.py:161} INFO - Started process (PID=20949) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:44:01.832+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:44:01.834+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:01.833+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:44:01.842+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:44:01.869+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:01.869+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:44:01.885+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:01.885+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:44:01.913+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T19:44:55.414+0530] {processor.py:161} INFO - Started process (PID=21028) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:44:55.427+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:44:55.429+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:55.428+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:44:55.438+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:44:55.469+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:55.468+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:44:55.484+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:55.484+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:44:55.516+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.113 seconds
+[2025-11-11T19:45:49.415+0530] {processor.py:161} INFO - Started process (PID=21193) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:45:49.428+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:45:49.430+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:49.429+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:45:49.438+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:45:49.467+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:49.467+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:45:49.481+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:49.481+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:45:49.505+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.101 seconds
+[2025-11-11T19:46:45.389+0530] {processor.py:161} INFO - Started process (PID=21320) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:46:45.402+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:46:45.404+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:46:45.403+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:46:45.410+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:46:45.431+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:46:45.431+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:46:45.443+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:46:45.443+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:46:45.464+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.085 seconds
+[2025-11-11T19:47:38.296+0530] {processor.py:161} INFO - Started process (PID=21399) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:47:38.308+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:47:38.310+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:47:38.309+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:47:38.318+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:47:38.335+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:47:38.335+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:47:38.346+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:47:38.346+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:47:38.366+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.078 seconds
+[2025-11-11T19:48:34.078+0530] {processor.py:161} INFO - Started process (PID=21476) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:48:34.092+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:48:34.093+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:48:34.093+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:48:34.102+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:48:34.131+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:48:34.130+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:48:34.146+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:48:34.146+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:48:34.174+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.109 seconds
+[2025-11-11T19:49:30.260+0530] {processor.py:161} INFO - Started process (PID=21554) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:49:30.273+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:49:30.274+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:49:30.273+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:49:30.282+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:49:30.307+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:49:30.306+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:49:30.322+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:49:30.322+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:49:30.351+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.101 seconds
+[2025-11-11T19:50:23.998+0530] {processor.py:161} INFO - Started process (PID=21673) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:50:24.011+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:50:24.013+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:50:24.012+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:50:24.023+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:50:24.051+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:50:24.050+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:50:24.066+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:50:24.065+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:50:24.086+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds
+[2025-11-11T19:51:21.002+0530] {processor.py:161} INFO - Started process (PID=21753) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:51:21.003+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:51:21.005+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:51:21.004+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:51:21.012+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:51:21.038+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:51:21.038+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:51:21.047+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:51:21.047+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:51:21.070+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.078 seconds
+[2025-11-11T19:52:15.015+0530] {processor.py:161} INFO - Started process (PID=21830) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:52:15.028+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:52:15.030+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:52:15.029+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:52:15.038+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:52:15.064+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:52:15.064+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:52:15.081+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:52:15.081+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:52:15.109+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.104 seconds
+[2025-11-11T19:53:10.491+0530] {processor.py:161} INFO - Started process (PID=21906) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:53:10.504+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:53:10.506+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:53:10.505+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:53:10.514+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:53:10.543+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:53:10.543+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:53:10.558+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:53:10.558+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:53:10.580+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.100 seconds
+[2025-11-11T19:54:04.272+0530] {processor.py:161} INFO - Started process (PID=21983) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:54:04.286+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:54:04.288+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:54:04.287+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:54:04.295+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:54:04.323+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:54:04.322+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:54:04.339+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:54:04.339+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:54:04.366+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T19:55:00.008+0530] {processor.py:161} INFO - Started process (PID=22062) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:55:00.022+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:55:00.025+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:00.024+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:55:00.035+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:55:00.068+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:00.067+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:55:00.082+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:00.082+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:55:00.104+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.109 seconds
+[2025-11-11T19:55:55.922+0530] {processor.py:161} INFO - Started process (PID=22214) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:55:55.936+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:55:55.937+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:55.937+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:55:55.945+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:55:55.974+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:55.973+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:55:55.989+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:55.989+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:55:56.013+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.102 seconds
+[2025-11-11T19:56:48.743+0530] {processor.py:161} INFO - Started process (PID=22297) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:56:48.757+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:56:48.758+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:48.758+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:56:48.767+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:56:48.796+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:48.795+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:56:48.811+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:48.811+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:56:48.840+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.108 seconds
+[2025-11-11T19:57:44.332+0530] {processor.py:161} INFO - Started process (PID=22377) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:57:44.345+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:57:44.347+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:57:44.346+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:57:44.354+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:57:44.379+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:57:44.379+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:57:44.396+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:57:44.395+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:57:44.413+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.091 seconds
+[2025-11-11T19:58:39.586+0530] {processor.py:161} INFO - Started process (PID=22455) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:58:39.599+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:58:39.601+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:58:39.600+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:58:39.608+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:58:39.635+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:58:39.634+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:58:39.648+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:58:39.648+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:58:39.675+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds
+[2025-11-11T19:59:32.625+0530] {processor.py:161} INFO - Started process (PID=22530) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:59:32.639+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T19:59:32.640+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:59:32.640+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:59:32.649+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T19:59:32.677+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:59:32.676+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:59:32.693+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:59:32.693+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T19:59:32.721+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2025-11-11T20:00:26.135+0530] {processor.py:161} INFO - Started process (PID=22642) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:00:26.148+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:00:26.150+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:00:26.149+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:00:26.157+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:00:26.185+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:00:26.185+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:00:26.201+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:00:26.201+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:00:26.235+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.111 seconds
+[2025-11-11T20:01:20.594+0530] {processor.py:161} INFO - Started process (PID=22726) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:01:20.608+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:01:20.609+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:01:20.609+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:01:20.618+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:01:20.646+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:01:20.646+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:01:20.662+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:01:20.662+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:01:20.688+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.105 seconds
+[2025-11-11T20:02:17.202+0530] {processor.py:161} INFO - Started process (PID=22808) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:02:17.216+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:02:17.218+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:02:17.217+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:02:17.226+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:02:17.256+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:02:17.256+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:02:17.271+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:02:17.271+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:02:17.301+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.110 seconds
+[2025-11-11T20:03:16.198+0530] {processor.py:161} INFO - Started process (PID=22891) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:03:16.211+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:03:16.213+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:03:16.212+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:03:16.221+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:03:16.250+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:03:16.250+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:03:16.265+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:03:16.265+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:03:16.285+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.098 seconds
+[2025-11-11T20:04:14.756+0530] {processor.py:161} INFO - Started process (PID=22995) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:04:14.770+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:04:14.772+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:04:14.771+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:04:14.780+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:04:14.809+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:04:14.809+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:04:14.825+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:04:14.824+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:04:14.853+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.108 seconds
+[2025-11-11T20:05:11.205+0530] {processor.py:161} INFO - Started process (PID=23144) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:05:11.219+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:05:11.221+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:05:11.220+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:05:11.230+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:05:11.259+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:05:11.258+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:05:11.274+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:05:11.274+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:05:11.294+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.100 seconds
+[2025-11-11T20:06:07.564+0530] {processor.py:161} INFO - Started process (PID=23283) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:06:07.577+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:06:07.579+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:06:07.578+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:06:07.587+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:06:07.617+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:06:07.616+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:06:07.633+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:06:07.633+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:06:07.653+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds
+[2025-11-11T20:07:06.476+0530] {processor.py:161} INFO - Started process (PID=23364) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:07:06.489+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:07:06.491+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:07:06.490+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:07:06.500+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:07:06.529+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:07:06.528+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:07:06.544+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:07:06.544+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:07:06.564+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds
+[2025-11-11T20:08:04.419+0530] {processor.py:161} INFO - Started process (PID=23444) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:08:04.432+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:08:04.434+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:04.433+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:08:04.442+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:08:04.468+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:04.468+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:08:04.482+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:04.482+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:08:04.502+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.093 seconds
+[2025-11-11T20:08:57.554+0530] {processor.py:161} INFO - Started process (PID=23519) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:08:57.567+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:08:57.569+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:57.569+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:08:57.578+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:08:57.608+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:57.608+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:08:57.623+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:57.623+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:08:57.645+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.102 seconds
+[2025-11-11T20:09:50.638+0530] {processor.py:161} INFO - Started process (PID=23595) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:09:50.651+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:09:50.653+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:50.652+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:09:50.661+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:09:50.689+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:50.688+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:09:50.705+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:50.705+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:09:50.725+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.098 seconds
+[2025-11-11T20:10:43.987+0530] {processor.py:161} INFO - Started process (PID=23701) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:10:44.000+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:10:44.002+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:10:44.001+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:10:44.010+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:10:44.028+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:10:44.027+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:10:44.039+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:10:44.039+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:10:44.063+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.083 seconds
+[2025-11-11T20:11:37.926+0530] {processor.py:161} INFO - Started process (PID=23776) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:11:37.939+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:11:37.941+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:11:37.940+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:11:37.949+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:11:37.978+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:11:37.978+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:11:37.994+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:11:37.994+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:11:38.014+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds
+[2025-11-11T20:12:30.301+0530] {processor.py:161} INFO - Started process (PID=23855) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:12:30.314+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:12:30.316+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:12:30.316+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:12:30.325+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:12:30.353+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:12:30.352+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:12:30.370+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:12:30.369+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:12:30.391+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.100 seconds
+[2025-11-11T20:13:27.298+0530] {processor.py:161} INFO - Started process (PID=23932) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:13:27.312+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:13:27.313+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:13:27.313+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:13:27.321+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:13:27.348+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:13:27.348+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:13:27.364+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:13:27.363+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:13:27.383+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.098 seconds
+[2025-11-11T20:14:22.529+0530] {processor.py:161} INFO - Started process (PID=24014) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:14:22.543+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:14:22.545+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:14:22.544+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:14:22.555+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:14:22.591+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:14:22.591+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:14:22.607+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:14:22.606+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:14:22.634+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.120 seconds
+[2025-11-11T20:15:16.180+0530] {processor.py:161} INFO - Started process (PID=24120) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:15:16.193+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:15:16.195+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:15:16.194+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:15:16.203+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:15:16.230+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:15:16.229+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:15:16.242+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:15:16.242+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:15:16.261+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.089 seconds
+[2025-11-11T20:16:08.930+0530] {processor.py:161} INFO - Started process (PID=24198) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:16:08.944+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:16:08.946+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:16:08.945+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:16:08.954+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:16:08.982+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:16:08.981+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:16:08.998+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:16:08.997+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:16:09.017+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.098 seconds
+[2025-11-11T20:17:03.049+0530] {processor.py:161} INFO - Started process (PID=24279) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:17:03.062+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:17:03.064+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:03.063+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:17:03.072+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:17:03.099+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:03.099+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:17:03.115+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:03.115+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:17:03.135+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.097 seconds
+[2025-11-11T20:17:55.620+0530] {processor.py:161} INFO - Started process (PID=24361) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:17:55.633+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:17:55.634+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:55.634+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:17:55.643+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:17:55.670+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:55.670+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:17:55.686+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:55.686+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:17:55.706+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.097 seconds
+[2025-11-11T20:18:49.423+0530] {processor.py:161} INFO - Started process (PID=24439) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:18:49.437+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:18:49.439+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:49.438+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:18:49.446+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:18:49.464+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:49.464+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:18:49.476+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:49.475+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:18:49.497+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.082 seconds
+[2025-11-11T20:19:44.748+0530] {processor.py:161} INFO - Started process (PID=24517) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:19:44.761+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:19:44.763+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:19:44.762+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:19:44.772+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:19:44.801+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:19:44.800+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:19:44.814+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:19:44.814+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:19:44.834+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.097 seconds
+[2025-11-11T20:20:40.766+0530] {processor.py:161} INFO - Started process (PID=24622) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:20:40.781+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:20:40.783+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:20:40.782+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:20:40.791+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:20:40.821+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:20:40.821+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:20:40.832+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:20:40.831+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:20:40.852+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.100 seconds
+[2025-11-11T20:21:36.007+0530] {processor.py:161} INFO - Started process (PID=24699) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:21:36.021+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:21:36.022+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:21:36.022+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:21:36.030+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:21:36.058+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:21:36.058+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:21:36.076+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:21:36.076+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:21:36.099+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.103 seconds
+[2025-11-11T20:22:32.478+0530] {processor.py:161} INFO - Started process (PID=24775) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:22:32.479+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:22:32.480+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:22:32.479+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:22:32.488+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:22:32.509+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:22:32.508+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:22:32.519+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:22:32.519+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:22:32.539+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.068 seconds
+[2025-11-11T20:23:29.821+0530] {processor.py:161} INFO - Started process (PID=24853) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:23:29.835+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:23:29.837+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:23:29.836+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:23:29.844+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:23:29.868+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:23:29.867+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:23:29.883+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:23:29.882+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:23:29.908+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.104 seconds
+[2025-11-11T20:24:28.887+0530] {processor.py:161} INFO - Started process (PID=24932) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:24:28.900+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:24:28.902+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:24:28.901+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:24:28.910+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:24:28.942+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:24:28.942+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:24:28.957+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:24:28.956+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:24:28.977+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.100 seconds
+[2025-11-11T20:25:23.235+0530] {processor.py:161} INFO - Started process (PID=25041) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:25:23.249+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T20:25:23.250+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:25:23.250+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:25:23.258+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T20:25:23.274+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:25:23.274+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:25:23.284+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:25:23.284+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T20:25:23.302+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.076 seconds
+[2025-11-11T22:22:05.045+0530] {processor.py:161} INFO - Started process (PID=5810) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T22:22:05.050+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-11-11T22:22:05.057+0530] {logging_mixin.py:188} INFO - [2025-11-11T22:22:05.057+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T22:22:05.068+0530] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-11-11T22:22:05.086+0530] {logging_mixin.py:188} INFO - [2025-11-11T22:22:05.085+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T22:22:05.096+0530] {logging_mixin.py:188} INFO - [2025-11-11T22:22:05.096+0530] {dag.py:3947} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-11-11T22:22:05.117+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.079 seconds

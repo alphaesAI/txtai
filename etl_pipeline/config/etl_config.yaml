@@ -84,7 +84,7 @@ loading:
 
 # Airflow DAG Configuration
 airflow:
-  dag_id: "postgres_to_elasticsearch_etl"
+  dag_id: "structured_data_pipeline"
   schedule_interval: "0 */6 * * *"  # Every 6 hours
   start_date: "2024-01-01"
   catchup: false

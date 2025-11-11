@@ -29,9 +29,7 @@ class ConnectorFactory:
     
     _connector_registry: Dict[ConnectorType, type] = {
         ConnectorType.POSTGRES: PostgresConnector,
-        ConnectorType.POSTGRESQL: PostgresConnector,
         ConnectorType.ELASTICSEARCH: ElasticsearchConnector,
-        ConnectorType.ES: ElasticsearchConnector,
     }
     
     @classmethod

@@ -5,10 +5,10 @@ from pathlib import Path
 
 import logging
 
-from connector import ConnectorFactory, ConnectionManager
-from extractor import ExtractorFactory, TableConfig, StateManager, ExtractionMode
-from transformer import TransformerFactory
-from loader import LoaderFactory
+from etl_pipeline.connector import ConnectorFactory, ConnectionManager
+from etl_pipeline.extractor import ExtractorFactory, TableConfig, StateManager, ExtractionMode
+from etl_pipeline.transformer import TransformerFactory
+from etl_pipeline.loader import LoaderFactory
 
 logger = logging.getLogger(__name__)
 

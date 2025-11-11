@@ -1,6 +1,6 @@
-from dags.tasks import load_config
-from dags.tasks import create_postgres_connector, create_elasticsearch_connector, extract_table_data, transform_data
-from dags.tasks import load_to_elasticsearch, cleanup_connections
+from etl_pipeline.dags.tasks import load_config
+from etl_pipeline.dags.tasks import create_postgres_connector, create_elasticsearch_connector, extract_table_data, transform_data
+from etl_pipeline.dags.tasks import load_to_elasticsearch, cleanup_connections
 
 from datetime import datetime, timedelta
 

@@ -1,0 +1,602 @@
+[2025-11-11T19:09:33.145+0530] {processor.py:161} INFO - Started process (PID=14962) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:09:33.147+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:09:33.150+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:09:33.150+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:09:33.341+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:09:33.340+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:09:33.342+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:09:33.357+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.228 seconds
+[2025-11-11T19:10:31.039+0530] {processor.py:161} INFO - Started process (PID=15050) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:10:31.053+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:10:31.056+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:10:31.055+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:10:31.229+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:10:31.228+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:10:31.229+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:10:31.258+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.231 seconds
+[2025-11-11T19:11:30.529+0530] {processor.py:161} INFO - Started process (PID=15149) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:11:30.543+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:11:30.546+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:11:30.545+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:11:30.717+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:11:30.716+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:11:30.717+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:11:30.745+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.228 seconds
+[2025-11-11T19:12:50.464+0530] {processor.py:161} INFO - Started process (PID=15345) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:12:50.477+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:12:50.480+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:12:50.480+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:12:50.650+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:12:50.649+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:12:50.651+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:12:50.680+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.227 seconds
+[2025-11-11T19:13:49.292+0530] {processor.py:161} INFO - Started process (PID=15504) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:13:49.294+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:13:49.297+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:13:49.296+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:13:49.458+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:13:49.457+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:13:49.459+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:13:49.487+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.207 seconds
+[2025-11-11T19:14:49.558+0530] {processor.py:161} INFO - Started process (PID=15684) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:14:49.571+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:14:49.575+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:14:49.574+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:14:49.814+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:14:49.813+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:14:49.815+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:14:49.855+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.308 seconds
+[2025-11-11T19:15:55.678+0530] {processor.py:161} INFO - Started process (PID=15806) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:15:55.692+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:15:55.695+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:15:55.695+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:15:55.862+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:15:55.861+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:15:55.862+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:15:55.891+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.229 seconds
+[2025-11-11T19:17:20.415+0530] {processor.py:161} INFO - Started process (PID=15968) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:17:20.429+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:17:20.432+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:17:20.431+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:17:20.600+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:17:20.599+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:17:20.600+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:17:20.629+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.225 seconds
+[2025-11-11T19:18:44.009+0530] {processor.py:161} INFO - Started process (PID=16284) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:18:44.022+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:18:44.025+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:18:44.025+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:18:44.196+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:18:44.195+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:18:44.196+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:18:44.224+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.227 seconds
+[2025-11-11T19:21:08.081+0530] {processor.py:161} INFO - Started process (PID=16772) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:21:08.095+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:21:08.098+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:21:08.097+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:21:08.272+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:21:08.271+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:21:08.272+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:21:08.302+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.231 seconds
+[2025-11-11T19:22:09.451+0530] {processor.py:161} INFO - Started process (PID=16912) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:22:09.465+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:22:09.468+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:22:09.467+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:22:09.622+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:22:09.621+0530] {dagbag.py:355} ERROR - Failed to import: /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 20, in <module>
+    from connector import ConnectorFactory, ConnectionManager
+  File "/home/logi/txtai/etl_pipeline/connector/__init__.py", line 9, in <module>
+    from .factory import ConnectorFactory, ConnectorType
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 24, in <module>
+    class ConnectorFactory:
+  File "/home/logi/txtai/etl_pipeline/connector/factory.py", line 32, in ConnectorFactory
+    ConnectorType.POSTGRESQL: PostgresConnector,
+  File "/usr/lib/python3.10/enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: POSTGRESQL. Did you mean: 'POSTGRES'?
+[2025-11-11T19:22:09.622+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:22:09.653+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.212 seconds
+[2025-11-11T19:23:28.802+0530] {processor.py:161} INFO - Started process (PID=17169) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:23:28.815+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:23:28.818+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:23:28.817+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:23:28.822+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:23:28.842+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T19:24:28.651+0530] {processor.py:161} INFO - Started process (PID=17409) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:24:28.665+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:24:28.668+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:24:28.668+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:24:28.672+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:24:28.690+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.051 seconds
+[2025-11-11T19:24:58.801+0530] {processor.py:161} INFO - Started process (PID=17523) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:24:58.815+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:24:58.819+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:24:58.818+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:24:58.823+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:24:58.849+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.063 seconds
+[2025-11-11T19:25:29.040+0530] {processor.py:161} INFO - Started process (PID=17698) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:25:29.054+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:25:29.057+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:25:29.056+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:25:29.060+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:25:29.078+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.049 seconds
+[2025-11-11T19:26:26.801+0530] {processor.py:161} INFO - Started process (PID=17929) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:26:26.814+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:26:26.816+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:26:26.815+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:26:26.817+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:26:26.834+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.044 seconds
+[2025-11-11T19:27:23.341+0530] {processor.py:161} INFO - Started process (PID=18041) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:27:23.355+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:27:23.358+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:27:23.357+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:27:23.361+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:27:23.379+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.050 seconds
+[2025-11-11T19:28:20.502+0530] {processor.py:161} INFO - Started process (PID=18180) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:28:20.515+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:28:20.518+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:28:20.517+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:28:20.520+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:28:20.534+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.040 seconds
+[2025-11-11T19:29:14.317+0530] {processor.py:161} INFO - Started process (PID=18522) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:29:14.330+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:29:14.333+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:29:14.333+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:29:14.337+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:29:14.356+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.051 seconds
+[2025-11-11T19:30:13.130+0530] {processor.py:161} INFO - Started process (PID=18637) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:30:13.143+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:30:13.146+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:30:13.146+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:30:13.150+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:30:13.168+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T19:31:10.468+0530] {processor.py:161} INFO - Started process (PID=18719) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:31:10.481+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:31:10.484+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:10.483+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:31:10.487+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:31:10.505+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T19:32:06.102+0530] {processor.py:161} INFO - Started process (PID=18798) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:32:06.116+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:32:06.118+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:32:06.118+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:32:06.122+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:32:06.140+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T19:33:01.893+0530] {processor.py:161} INFO - Started process (PID=18881) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:33:01.907+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:33:01.910+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:33:01.909+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:33:01.913+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:33:01.932+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.050 seconds
+[2025-11-11T19:33:57.422+0530] {processor.py:161} INFO - Started process (PID=18962) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:33:57.436+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:33:57.439+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:33:57.438+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:33:57.442+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:33:57.460+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.050 seconds
+[2025-11-11T19:35:10.779+0530] {processor.py:161} INFO - Started process (PID=19377) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:35:10.781+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:35:10.782+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:35:10.782+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:35:10.784+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:35:10.792+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.019 seconds
+[2025-11-11T19:36:14.069+0530] {processor.py:161} INFO - Started process (PID=19639) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:36:14.082+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:36:14.085+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:36:14.085+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:36:14.089+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:36:14.110+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.051 seconds
+[2025-11-11T19:37:12.563+0530] {processor.py:161} INFO - Started process (PID=19781) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:37:12.577+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:37:12.580+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:37:12.579+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:37:12.583+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:37:12.602+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.050 seconds
+[2025-11-11T19:38:09.195+0530] {processor.py:161} INFO - Started process (PID=19914) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:38:09.208+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:38:09.212+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:38:09.211+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:38:09.217+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:38:09.239+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.054 seconds
+[2025-11-11T19:38:39.827+0530] {processor.py:161} INFO - Started process (PID=20179) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:38:39.840+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:38:39.842+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:38:39.841+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:38:39.845+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:38:39.863+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T19:39:36.845+0530] {processor.py:161} INFO - Started process (PID=20363) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:39:36.858+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:39:36.860+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:39:36.859+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:39:36.862+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:39:36.877+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.040 seconds
+[2025-11-11T19:40:31.859+0530] {processor.py:161} INFO - Started process (PID=20469) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:40:31.873+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:40:31.875+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:40:31.874+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:40:31.878+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:40:31.896+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T19:41:23.344+0530] {processor.py:161} INFO - Started process (PID=20605) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:41:23.357+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:41:23.359+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:41:23.358+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:41:23.362+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:41:23.380+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T19:42:18.212+0530] {processor.py:161} INFO - Started process (PID=20682) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:42:18.226+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:42:18.227+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:42:18.227+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:42:18.231+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:42:18.249+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T19:43:13.170+0530] {processor.py:161} INFO - Started process (PID=20819) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:43:13.184+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:43:13.186+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:43:13.185+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:43:13.190+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:43:13.209+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.051 seconds
+[2025-11-11T19:44:07.108+0530] {processor.py:161} INFO - Started process (PID=20954) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:44:07.121+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:44:07.123+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:07.122+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:44:07.126+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:44:07.145+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T19:45:02.823+0530] {processor.py:161} INFO - Started process (PID=21038) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:45:02.825+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:45:02.827+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:02.826+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:45:02.830+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:45:02.843+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.030 seconds
+[2025-11-11T19:45:56.793+0530] {processor.py:161} INFO - Started process (PID=21200) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:45:56.807+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:45:56.808+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:56.808+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:45:56.812+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:45:56.831+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.050 seconds
+[2025-11-11T19:46:50.679+0530] {processor.py:161} INFO - Started process (PID=21325) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:46:50.693+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:46:50.695+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:46:50.694+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:46:50.698+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:46:50.716+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T19:47:44.280+0530] {processor.py:161} INFO - Started process (PID=21404) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:47:44.293+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:47:44.296+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:47:44.295+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:47:44.298+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:47:44.310+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.037 seconds
+[2025-11-11T19:48:42.782+0530] {processor.py:161} INFO - Started process (PID=21484) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:48:42.795+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:48:42.797+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:48:42.796+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:48:42.801+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:48:42.822+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.051 seconds
+[2025-11-11T19:49:37.282+0530] {processor.py:161} INFO - Started process (PID=21563) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:49:37.295+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:49:37.297+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:49:37.296+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:49:37.300+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:49:37.315+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.045 seconds
+[2025-11-11T19:50:31.368+0530] {processor.py:161} INFO - Started process (PID=21682) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:50:31.381+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:50:31.383+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:50:31.382+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:50:31.386+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:50:31.404+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.046 seconds
+[2025-11-11T19:51:27.767+0530] {processor.py:161} INFO - Started process (PID=21761) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:51:27.780+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:51:27.781+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:51:27.781+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:51:27.785+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:51:27.800+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.045 seconds
+[2025-11-11T19:52:21.595+0530] {processor.py:161} INFO - Started process (PID=21837) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:52:21.609+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:52:21.610+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:52:21.610+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:52:21.614+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:52:21.633+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.050 seconds
+[2025-11-11T19:53:15.671+0530] {processor.py:161} INFO - Started process (PID=21911) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:53:15.684+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:53:15.686+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:53:15.685+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:53:15.689+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:53:15.709+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.049 seconds
+[2025-11-11T19:54:09.794+0530] {processor.py:161} INFO - Started process (PID=21989) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:54:09.808+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:54:09.809+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:54:09.809+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:54:09.813+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:54:09.830+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T19:55:08.241+0530] {processor.py:161} INFO - Started process (PID=22073) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:55:08.254+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:55:08.256+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:08.255+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:55:08.259+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:55:08.277+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T19:56:00.545+0530] {processor.py:161} INFO - Started process (PID=22219) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:56:00.559+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:56:00.561+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:00.560+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:56:00.564+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:56:00.583+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.049 seconds
+[2025-11-11T19:56:54.213+0530] {processor.py:161} INFO - Started process (PID=22303) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:56:54.215+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:56:54.216+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:54.216+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:56:54.220+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:56:54.239+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.037 seconds
+[2025-11-11T19:57:51.675+0530] {processor.py:161} INFO - Started process (PID=22384) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:57:51.688+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:57:51.690+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:57:51.689+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:57:51.693+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:57:51.710+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.045 seconds
+[2025-11-11T19:58:45.198+0530] {processor.py:161} INFO - Started process (PID=22460) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:58:45.211+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:58:45.213+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:58:45.212+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:58:45.216+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:58:45.237+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.049 seconds
+[2025-11-11T19:59:40.454+0530] {processor.py:161} INFO - Started process (PID=22538) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:59:40.468+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T19:59:40.470+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:59:40.469+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:59:40.474+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T19:59:40.492+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.049 seconds
+[2025-11-11T20:00:33.337+0530] {processor.py:161} INFO - Started process (PID=22648) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:00:33.351+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:00:33.353+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:00:33.352+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:00:33.356+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:00:33.376+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.050 seconds
+[2025-11-11T20:01:28.432+0530] {processor.py:161} INFO - Started process (PID=22736) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:01:28.445+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:01:28.447+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:01:28.446+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:01:28.451+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:01:28.469+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.049 seconds
+[2025-11-11T20:02:23.758+0530] {processor.py:161} INFO - Started process (PID=22815) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:02:23.771+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:02:23.773+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:02:23.772+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:02:23.776+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:02:23.794+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T20:02:54.691+0530] {processor.py:161} INFO - Started process (PID=22845) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:02:54.705+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:02:54.706+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:02:54.706+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:02:54.710+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:02:54.728+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.049 seconds
+[2025-11-11T20:03:52.814+0530] {processor.py:161} INFO - Started process (PID=22926) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:03:52.817+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:03:52.818+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:03:52.818+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:03:52.822+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:03:52.841+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.038 seconds
+[2025-11-11T20:04:48.709+0530] {processor.py:161} INFO - Started process (PID=23074) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:04:48.724+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:04:48.725+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:04:48.725+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:04:48.729+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:04:48.746+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.054 seconds
+[2025-11-11T20:05:45.138+0530] {processor.py:161} INFO - Started process (PID=23237) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:05:45.151+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:05:45.153+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:05:45.153+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:05:45.156+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:05:45.175+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T20:06:15.296+0530] {processor.py:161} INFO - Started process (PID=23290) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:06:15.309+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:06:15.311+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:06:15.310+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:06:15.314+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:06:15.331+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.045 seconds
+[2025-11-11T20:07:14.316+0530] {processor.py:161} INFO - Started process (PID=23371) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:07:14.330+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:07:14.331+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:07:14.331+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:07:14.335+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:07:14.353+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T20:08:09.926+0530] {processor.py:161} INFO - Started process (PID=23450) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:08:09.928+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:08:09.928+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:09.928+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:08:09.930+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:08:09.941+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.021 seconds
+[2025-11-11T20:09:04.366+0530] {processor.py:161} INFO - Started process (PID=23526) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:09:04.379+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:09:04.380+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:04.380+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:09:04.383+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:09:04.393+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.039 seconds
+[2025-11-11T20:09:55.928+0530] {processor.py:161} INFO - Started process (PID=23600) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:09:55.942+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:09:55.943+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:55.943+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:09:55.947+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:09:55.959+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.038 seconds
+[2025-11-11T20:10:49.858+0530] {processor.py:161} INFO - Started process (PID=23706) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:10:49.870+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:10:49.872+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:10:49.871+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:10:49.874+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:10:49.885+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.034 seconds
+[2025-11-11T20:11:44.688+0530] {processor.py:161} INFO - Started process (PID=23784) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:11:44.697+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:11:44.698+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:11:44.698+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:11:44.702+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:11:44.721+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.044 seconds
+[2025-11-11T20:12:37.589+0530] {processor.py:161} INFO - Started process (PID=23862) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:12:37.603+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:12:37.604+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:12:37.604+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:12:37.608+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:12:37.626+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T20:13:35.211+0530] {processor.py:161} INFO - Started process (PID=23940) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:13:35.225+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:13:35.226+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:13:35.226+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:13:35.230+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:13:35.248+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T20:14:29.109+0530] {processor.py:161} INFO - Started process (PID=24020) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:14:29.123+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:14:29.124+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:14:29.124+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:14:29.128+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:14:29.146+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.049 seconds
+[2025-11-11T20:15:22.694+0530] {processor.py:161} INFO - Started process (PID=24128) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:15:22.707+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:15:22.709+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:15:22.708+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:15:22.712+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:15:22.730+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T20:16:15.485+0530] {processor.py:161} INFO - Started process (PID=24204) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:16:15.499+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:16:15.500+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:16:15.500+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:16:15.504+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:16:15.522+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T20:17:10.003+0530] {processor.py:161} INFO - Started process (PID=24285) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:17:10.005+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:17:10.006+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:10.006+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:17:10.010+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:17:10.028+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.037 seconds
+[2025-11-11T20:17:59.984+0530] {processor.py:161} INFO - Started process (PID=24366) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:17:59.998+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:18:00.000+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:59.999+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:18:00.003+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:18:00.023+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.050 seconds
+[2025-11-11T20:18:55.864+0530] {processor.py:161} INFO - Started process (PID=24446) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:18:55.878+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:18:55.879+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:55.879+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:18:55.883+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:18:55.901+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T20:19:51.205+0530] {processor.py:161} INFO - Started process (PID=24523) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:19:51.219+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:19:51.221+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:19:51.220+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:19:51.224+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:19:51.243+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.049 seconds
+[2025-11-11T20:20:47.953+0530] {processor.py:161} INFO - Started process (PID=24629) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:20:47.966+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:20:47.968+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:20:47.968+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:20:47.972+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:20:47.995+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.053 seconds
+[2025-11-11T20:21:43.929+0530] {processor.py:161} INFO - Started process (PID=24707) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:21:43.942+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:21:43.944+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:21:43.943+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:21:43.947+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:21:43.965+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T20:22:38.932+0530] {processor.py:161} INFO - Started process (PID=24782) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:22:38.945+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:22:38.947+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:22:38.946+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:22:38.950+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:22:38.968+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.048 seconds
+[2025-11-11T20:23:37.721+0530] {processor.py:161} INFO - Started process (PID=24860) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:23:37.734+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:23:37.736+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:23:37.735+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:23:37.739+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:23:37.757+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T20:24:08.186+0530] {processor.py:161} INFO - Started process (PID=24888) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:24:08.200+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:24:08.202+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:24:08.202+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:24:08.206+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:24:08.225+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.050 seconds
+[2025-11-11T20:25:04.748+0530] {processor.py:161} INFO - Started process (PID=24970) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:25:04.762+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:25:04.764+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:25:04.763+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:25:04.767+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:25:04.785+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T20:25:53.838+0530] {processor.py:161} INFO - Started process (PID=25070) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:25:53.852+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T20:25:53.853+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:25:53.853+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:25:53.857+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T20:25:53.874+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.047 seconds
+[2025-11-11T22:21:39.594+0530] {processor.py:161} INFO - Started process (PID=5634) to work on /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T22:21:39.601+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py for tasks to queue
+[2025-11-11T22:21:39.604+0530] {logging_mixin.py:188} INFO - [2025-11-11T22:21:39.604+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T22:21:39.607+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py
+[2025-11-11T22:21:39.621+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py took 0.033 seconds

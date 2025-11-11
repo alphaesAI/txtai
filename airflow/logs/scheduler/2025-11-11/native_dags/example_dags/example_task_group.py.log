@@ -1,0 +1,935 @@
+[2025-11-11T18:16:08.961+0530] {processor.py:161} INFO - Started process (PID=8562) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:16:08.964+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:16:08.967+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:08.967+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:16:08.979+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:16:09.072+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:09.071+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:example_task_group
+[2025-11-11T18:16:09.082+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:09.081+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_task_group
+[2025-11-11T18:16:09.089+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:09.089+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_task_group
+[2025-11-11T18:16:09.089+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:09.089+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:16:09.098+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:09.098+0530] {dag.py:3111} INFO - Creating ORM DAG for example_task_group
+[2025-11-11T18:16:09.105+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:16:09.105+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:16:09.125+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.179 seconds
+[2025-11-11T18:17:09.041+0530] {processor.py:161} INFO - Started process (PID=8856) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:17:09.054+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:17:09.058+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:17:09.057+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:17:09.070+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:17:09.099+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:17:09.098+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:17:09.118+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:17:09.117+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:17:09.144+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T18:18:03.098+0530] {processor.py:161} INFO - Started process (PID=9059) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:18:03.112+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:18:03.116+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:03.115+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:18:03.130+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:18:03.160+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:03.160+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:18:03.181+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:03.180+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:18:03.200+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T18:18:56.362+0530] {processor.py:161} INFO - Started process (PID=9275) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:18:56.375+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:18:56.378+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:56.378+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:18:56.390+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:18:56.418+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:56.418+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:18:56.444+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:18:56.444+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:18:56.465+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T18:19:46.405+0530] {processor.py:161} INFO - Started process (PID=9624) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:19:46.419+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:19:46.422+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:19:46.422+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:19:46.435+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:19:46.466+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:19:46.466+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:19:46.484+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:19:46.484+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:19:46.512+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2025-11-11T18:25:54.110+0530] {processor.py:161} INFO - Started process (PID=10521) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:25:54.124+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:25:54.127+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:25:54.127+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:25:54.144+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:25:54.263+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:25:54.263+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:25:54.280+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:25:54.279+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:25:54.301+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.202 seconds
+[2025-11-11T18:26:50.451+0530] {processor.py:161} INFO - Started process (PID=10588) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:26:50.464+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:26:50.467+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:26:50.467+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:26:50.480+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:26:50.509+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:26:50.508+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:26:50.529+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:26:50.528+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:26:50.555+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T18:27:41.674+0530] {processor.py:161} INFO - Started process (PID=10652) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:27:41.687+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:27:41.691+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:27:41.690+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:27:41.704+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:27:41.733+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:27:41.733+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:27:41.752+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:27:41.752+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:27:41.780+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T18:28:36.375+0530] {processor.py:161} INFO - Started process (PID=10717) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:28:36.389+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:28:36.392+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:28:36.391+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:28:36.404+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:28:36.432+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:28:36.432+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:28:36.451+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:28:36.451+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:28:36.478+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds
+[2025-11-11T18:29:28.079+0530] {processor.py:161} INFO - Started process (PID=10813) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:29:28.081+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:29:28.084+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:29:28.083+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:29:28.097+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:29:28.121+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:29:28.121+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:29:28.137+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:29:28.137+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:29:28.158+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.090 seconds
+[2025-11-11T18:30:19.648+0530] {processor.py:161} INFO - Started process (PID=10875) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:30:19.662+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:30:19.665+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:30:19.664+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:30:19.678+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:30:19.707+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:30:19.707+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:30:19.726+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:30:19.726+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:30:19.753+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T18:31:09.889+0530] {processor.py:161} INFO - Started process (PID=10965) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:31:09.903+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:31:09.906+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:31:09.905+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:31:09.918+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:31:09.946+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:31:09.946+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:31:09.967+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:31:09.966+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:31:09.997+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.119 seconds
+[2025-11-11T18:32:01.020+0530] {processor.py:161} INFO - Started process (PID=11026) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:32:01.034+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:32:01.037+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:32:01.036+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:32:01.049+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:32:01.078+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:32:01.077+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:32:01.097+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:32:01.097+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:32:01.117+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
+[2025-11-11T18:32:53.403+0530] {processor.py:161} INFO - Started process (PID=11088) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:32:53.417+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:32:53.420+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:32:53.419+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:32:53.433+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:32:53.462+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:32:53.462+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:32:53.481+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:32:53.481+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:32:53.508+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T18:33:44.385+0530] {processor.py:161} INFO - Started process (PID=11151) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:33:44.398+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:33:44.402+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:33:44.401+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:33:44.414+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:33:44.442+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:33:44.441+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:33:44.461+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:33:44.461+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:33:44.491+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T18:34:37.729+0530] {processor.py:161} INFO - Started process (PID=11214) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:34:37.743+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:34:37.746+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:34:37.746+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:34:37.759+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:34:37.790+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:34:37.789+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:34:37.808+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:34:37.808+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:34:37.836+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2025-11-11T18:35:28.707+0530] {processor.py:161} INFO - Started process (PID=11278) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:35:28.710+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:35:28.713+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:35:28.712+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:35:28.726+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:35:28.751+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:35:28.751+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:35:28.768+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:35:28.768+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:35:28.788+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.093 seconds
+[2025-11-11T18:36:17.688+0530] {processor.py:161} INFO - Started process (PID=11365) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:36:17.701+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:36:17.704+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:36:17.704+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:36:17.717+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:36:17.747+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:36:17.746+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:36:17.764+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:36:17.764+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:36:17.786+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.110 seconds
+[2025-11-11T18:37:08.418+0530] {processor.py:161} INFO - Started process (PID=11426) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:37:08.431+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:37:08.434+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:08.434+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:37:08.446+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:37:08.474+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:08.474+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:37:08.493+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:08.492+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:37:08.512+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.105 seconds
+[2025-11-11T18:37:58.992+0530] {processor.py:161} INFO - Started process (PID=11486) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:37:59.005+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:37:59.008+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:59.008+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:37:59.021+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:37:59.049+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:59.049+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:37:59.069+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:37:59.069+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:37:59.097+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T18:38:53.533+0530] {processor.py:161} INFO - Started process (PID=11554) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:38:53.548+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:38:53.551+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:38:53.551+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:38:53.564+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:38:53.593+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:38:53.593+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:38:53.613+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:38:53.613+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:38:53.636+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.113 seconds
+[2025-11-11T18:39:44.103+0530] {processor.py:161} INFO - Started process (PID=11613) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:39:44.116+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:39:44.119+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:39:44.119+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:39:44.132+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:39:44.161+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:39:44.161+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:39:44.180+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:39:44.179+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:39:44.200+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.107 seconds
+[2025-11-11T18:40:35.250+0530] {processor.py:161} INFO - Started process (PID=11703) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:40:35.265+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:40:35.268+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:40:35.267+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:40:35.281+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:40:35.311+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:40:35.310+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:40:35.330+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:40:35.330+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:40:35.357+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2025-11-11T18:41:21.484+0530] {processor.py:161} INFO - Started process (PID=11762) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:41:21.497+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:41:21.500+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:41:21.499+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:41:21.512+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:41:21.540+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:41:21.540+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:41:21.559+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:41:21.559+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:41:21.586+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds
+[2025-11-11T18:42:10.027+0530] {processor.py:161} INFO - Started process (PID=11822) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:42:10.041+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:42:10.044+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:42:10.044+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:42:10.057+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:42:10.087+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:42:10.086+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:42:10.105+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:42:10.105+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:42:10.132+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T18:43:01.021+0530] {processor.py:161} INFO - Started process (PID=11882) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:43:01.034+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:43:01.038+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:43:01.037+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:43:01.050+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:43:01.078+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:43:01.078+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:43:01.098+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:43:01.098+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:43:01.126+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T18:43:53.477+0530] {processor.py:161} INFO - Started process (PID=11963) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:43:53.492+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:43:53.495+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:43:53.494+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:43:53.508+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:43:53.537+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:43:53.536+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:43:53.554+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:43:53.554+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:43:53.583+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T18:44:45.843+0530] {processor.py:161} INFO - Started process (PID=12024) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:44:45.856+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:44:45.859+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:44:45.859+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:44:45.872+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:44:45.902+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:44:45.901+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:44:45.920+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:44:45.920+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:44:45.948+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T18:45:39.322+0530] {processor.py:161} INFO - Started process (PID=12118) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:45:39.324+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:45:39.327+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:45:39.326+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:45:39.339+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:45:39.364+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:45:39.364+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:45:39.381+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:45:39.380+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:45:39.400+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.090 seconds
+[2025-11-11T18:46:25.333+0530] {processor.py:161} INFO - Started process (PID=12174) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:46:25.346+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:46:25.349+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:46:25.349+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:46:25.362+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:46:25.390+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:46:25.390+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:46:25.410+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:46:25.410+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:46:25.437+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T18:47:20.446+0530] {processor.py:161} INFO - Started process (PID=12237) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:47:20.460+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:47:20.463+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:47:20.462+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:47:20.475+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:47:20.503+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:47:20.503+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:47:20.522+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:47:20.522+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:47:20.549+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds
+[2025-11-11T18:48:13.299+0530] {processor.py:161} INFO - Started process (PID=12299) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:48:13.313+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:48:13.316+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:48:13.315+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:48:13.328+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:48:13.358+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:48:13.357+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:48:13.378+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:48:13.377+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:48:13.404+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T18:51:43.914+0530] {processor.py:161} INFO - Started process (PID=12630) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:51:43.916+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:51:43.919+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:51:43.918+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:51:43.932+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:51:43.959+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:51:43.958+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:51:43.979+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:51:43.979+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:51:43.999+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.099 seconds
+[2025-11-11T18:52:36.451+0530] {processor.py:161} INFO - Started process (PID=12751) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:52:36.464+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:52:36.467+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:52:36.467+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:52:36.480+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:52:36.510+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:52:36.509+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:52:36.528+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:52:36.528+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:52:36.555+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T18:53:24.802+0530] {processor.py:161} INFO - Started process (PID=12892) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:53:24.805+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:53:24.808+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:53:24.807+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:53:24.820+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:53:24.845+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:53:24.845+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:53:24.862+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:53:24.862+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:53:24.882+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2025-11-11T18:54:19.435+0530] {processor.py:161} INFO - Started process (PID=12990) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:54:19.448+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:54:19.451+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:54:19.451+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:54:19.464+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:54:19.492+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:54:19.491+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:54:19.512+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:54:19.512+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:54:19.539+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T18:55:13.469+0530] {processor.py:161} INFO - Started process (PID=13134) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:55:13.483+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:55:13.486+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:55:13.485+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:55:13.498+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:55:13.526+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:55:13.525+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:55:13.545+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:55:13.545+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:55:13.572+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.113 seconds
+[2025-11-11T18:56:02.905+0530] {processor.py:161} INFO - Started process (PID=13197) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:56:02.918+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:56:02.921+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:02.920+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:56:02.933+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:56:02.962+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:02.962+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:56:02.982+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:02.981+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:56:03.009+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T18:56:56.436+0530] {processor.py:161} INFO - Started process (PID=13263) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:56:56.449+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:56:56.452+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:56.452+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:56:56.465+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:56:56.494+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:56.494+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:56:56.514+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:56:56.514+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:56:56.534+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
+[2025-11-11T18:57:47.443+0530] {processor.py:161} INFO - Started process (PID=13324) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:57:47.456+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:57:47.459+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:57:47.459+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:57:47.472+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:57:47.502+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:57:47.501+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:57:47.520+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:57:47.520+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:57:47.547+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T18:58:38.633+0530] {processor.py:161} INFO - Started process (PID=13417) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:58:38.647+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:58:38.650+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:58:38.649+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:58:38.662+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:58:38.692+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:58:38.692+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:58:38.712+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:58:38.711+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:58:38.740+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.119 seconds
+[2025-11-11T18:59:28.445+0530] {processor.py:161} INFO - Started process (PID=13513) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:59:28.458+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T18:59:28.462+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:59:28.461+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:59:28.474+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T18:59:28.502+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:59:28.502+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T18:59:28.519+0530] {logging_mixin.py:188} INFO - [2025-11-11T18:59:28.518+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T18:59:28.538+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.105 seconds
+[2025-11-11T19:00:18.499+0530] {processor.py:161} INFO - Started process (PID=13582) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:00:18.512+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:00:18.515+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:00:18.515+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:00:18.528+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:00:18.556+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:00:18.556+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:00:18.576+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:00:18.576+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:00:18.603+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T19:01:10.475+0530] {processor.py:161} INFO - Started process (PID=13645) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:01:10.489+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:01:10.492+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:01:10.491+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:01:10.504+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:01:10.532+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:01:10.532+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:01:10.551+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:01:10.551+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:01:10.572+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.108 seconds
+[2025-11-11T19:02:02.853+0530] {processor.py:161} INFO - Started process (PID=13708) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:02:02.867+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:02:02.870+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:02.869+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:02:02.883+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:02:02.912+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:02.912+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:02:02.931+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:02.931+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:02:02.951+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
+[2025-11-11T19:02:53.841+0530] {processor.py:161} INFO - Started process (PID=13770) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:02:53.855+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:02:53.858+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:53.858+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:02:53.871+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:02:53.901+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:53.900+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:02:53.919+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:02:53.918+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:02:53.938+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
+[2025-11-11T19:03:42.177+0530] {processor.py:161} INFO - Started process (PID=13863) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:03:42.190+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:03:42.194+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:03:42.193+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:03:42.207+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:03:42.236+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:03:42.236+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:03:42.254+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:03:42.253+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:03:42.283+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2025-11-11T19:04:35.296+0530] {processor.py:161} INFO - Started process (PID=13937) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:04:35.309+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:04:35.313+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:04:35.312+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:04:35.327+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:04:35.360+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:04:35.360+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:04:35.377+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:04:35.377+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:04:35.399+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T19:05:25.901+0530] {processor.py:161} INFO - Started process (PID=14067) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:05:25.914+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:05:25.918+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:05:25.917+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:05:25.930+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:05:25.960+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:05:25.959+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:05:25.980+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:05:25.980+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:05:26.009+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.120 seconds
+[2025-11-11T19:06:13.766+0530] {processor.py:161} INFO - Started process (PID=14156) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:06:13.779+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:06:13.781+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:06:13.781+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:06:13.787+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:06:13.803+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:06:13.802+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:06:13.820+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:06:13.820+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:06:13.838+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.080 seconds
+[2025-11-11T19:08:54.957+0530] {processor.py:161} INFO - Started process (PID=14861) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:08:54.970+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:08:54.973+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:08:54.972+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:08:54.992+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:08:55.076+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:08:55.076+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:08:55.091+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:08:55.090+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:08:55.133+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.187 seconds
+[2025-11-11T19:09:54.716+0530] {processor.py:161} INFO - Started process (PID=14997) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:09:54.729+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:09:54.731+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:09:54.731+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:09:54.738+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:09:54.755+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:09:54.755+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:09:54.772+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:09:54.771+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:09:54.791+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.086 seconds
+[2025-11-11T19:10:56.358+0530] {processor.py:161} INFO - Started process (PID=15090) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:10:56.371+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:10:56.373+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:10:56.373+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:10:56.382+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:10:56.399+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:10:56.398+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:10:56.420+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:10:56.419+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:10:56.446+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.094 seconds
+[2025-11-11T19:11:52.834+0530] {processor.py:161} INFO - Started process (PID=15185) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:11:52.847+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:11:52.850+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:11:52.849+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:11:52.860+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:11:52.882+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:11:52.882+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:11:52.919+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:11:52.919+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:11:52.952+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.128 seconds
+[2025-11-11T19:12:47.720+0530] {processor.py:161} INFO - Started process (PID=15342) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:12:47.734+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:12:47.736+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:12:47.736+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:12:47.745+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:12:47.774+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:12:47.774+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:12:47.791+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:12:47.790+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:12:47.819+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.110 seconds
+[2025-11-11T19:13:41.430+0530] {processor.py:161} INFO - Started process (PID=15482) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:13:41.443+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:13:41.446+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:13:41.446+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:13:41.459+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:13:41.487+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:13:41.486+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:13:41.506+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:13:41.505+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:13:41.525+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.106 seconds
+[2025-11-11T19:14:44.371+0530] {processor.py:161} INFO - Started process (PID=15679) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:14:44.384+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:14:44.387+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:14:44.386+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:14:44.394+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:14:44.411+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:14:44.410+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:14:44.428+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:14:44.428+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:14:44.451+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.088 seconds
+[2025-11-11T19:15:47.682+0530] {processor.py:161} INFO - Started process (PID=15793) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:15:47.696+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:15:47.703+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:15:47.701+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:15:47.720+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:15:47.748+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:15:47.748+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:15:47.765+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:15:47.765+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:15:47.784+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds
+[2025-11-11T19:16:45.981+0530] {processor.py:161} INFO - Started process (PID=15930) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:16:45.984+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:16:45.986+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:16:45.986+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:16:46.000+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:16:46.026+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:16:46.026+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:16:46.049+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:16:46.049+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:16:46.069+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.099 seconds
+[2025-11-11T19:17:42.595+0530] {processor.py:161} INFO - Started process (PID=16008) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:17:42.608+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:17:42.612+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:17:42.611+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:17:42.625+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:17:42.655+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:17:42.655+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:17:42.674+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:17:42.674+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:17:42.703+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.121 seconds
+[2025-11-11T19:18:37.524+0530] {processor.py:161} INFO - Started process (PID=16278) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:18:37.538+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:18:37.541+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:18:37.540+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:18:37.554+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:18:37.584+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:18:37.583+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:18:37.602+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:18:37.602+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:18:37.634+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.121 seconds
+[2025-11-11T19:19:32.217+0530] {processor.py:161} INFO - Started process (PID=16343) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:19:32.230+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:19:32.233+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:19:32.232+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:19:32.240+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:19:32.258+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:19:32.258+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:19:32.275+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:19:32.275+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:19:32.296+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.086 seconds
+[2025-11-11T19:20:34.131+0530] {processor.py:161} INFO - Started process (PID=16737) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:20:34.145+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:20:34.148+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:20:34.148+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:20:34.167+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:20:34.199+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:20:34.198+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:20:34.219+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:20:34.219+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:20:34.254+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.134 seconds
+[2025-11-11T19:21:34.274+0530] {processor.py:161} INFO - Started process (PID=16833) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:21:34.288+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:21:34.291+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:21:34.291+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:21:34.303+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:21:34.332+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:21:34.331+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:21:34.351+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:21:34.350+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:21:34.378+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T19:22:29.749+0530] {processor.py:161} INFO - Started process (PID=16962) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:22:29.764+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:22:29.769+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:22:29.768+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:22:29.791+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:22:29.836+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:22:29.835+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:22:29.886+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:22:29.885+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:22:29.965+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.271 seconds
+[2025-11-11T19:23:23.530+0530] {processor.py:161} INFO - Started process (PID=17148) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:23:23.543+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:23:23.547+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:23:23.546+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:23:23.559+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:23:23.585+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:23:23.585+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:23:23.605+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:23:23.605+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:23:23.636+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T19:24:19.641+0530] {processor.py:161} INFO - Started process (PID=17389) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:24:19.655+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:24:19.661+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:24:19.660+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:24:19.676+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:24:19.708+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:24:19.708+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:24:19.727+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:24:19.727+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:24:19.753+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.124 seconds
+[2025-11-11T19:25:19.925+0530] {processor.py:161} INFO - Started process (PID=17675) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:25:19.929+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:25:19.935+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:25:19.934+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:25:19.962+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:25:20.012+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:25:20.011+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:25:20.048+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:25:20.047+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:25:20.100+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.200 seconds
+[2025-11-11T19:26:17.981+0530] {processor.py:161} INFO - Started process (PID=17888) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:26:17.994+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:26:17.997+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:26:17.997+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:26:18.011+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:26:18.045+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:26:18.044+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:26:18.063+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:26:18.063+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:26:18.091+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.120 seconds
+[2025-11-11T19:27:16.056+0530] {processor.py:161} INFO - Started process (PID=18033) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:27:16.069+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:27:16.072+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:27:16.072+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:27:16.088+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:27:16.119+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:27:16.118+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:27:16.137+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:27:16.137+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:27:16.156+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.112 seconds
+[2025-11-11T19:28:12.676+0530] {processor.py:161} INFO - Started process (PID=18172) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:28:12.690+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:28:12.693+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:28:12.692+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:28:12.705+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:28:12.733+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:28:12.733+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:28:12.750+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:28:12.750+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:28:12.770+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.104 seconds
+[2025-11-11T19:29:08.716+0530] {processor.py:161} INFO - Started process (PID=18516) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:29:08.729+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:29:08.733+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:29:08.732+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:29:08.748+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:29:08.782+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:29:08.782+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:29:08.809+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:29:08.809+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:29:08.836+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.136 seconds
+[2025-11-11T19:30:04.354+0530] {processor.py:161} INFO - Started process (PID=18602) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:30:04.368+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:30:04.371+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:30:04.370+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:30:04.383+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:30:04.413+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:30:04.413+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:30:04.432+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:30:04.432+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:30:04.461+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2025-11-11T19:31:03.710+0530] {processor.py:161} INFO - Started process (PID=18712) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:31:03.712+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:31:03.716+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:03.715+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:31:03.726+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:31:03.744+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:03.744+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:31:03.762+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:03.762+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:31:03.784+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.087 seconds
+[2025-11-11T19:31:58.954+0530] {processor.py:161} INFO - Started process (PID=18792) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:31:58.968+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:31:58.971+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:58.971+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:31:58.984+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:31:59.014+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:59.013+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:31:59.033+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:31:59.032+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:31:59.060+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2025-11-11T19:32:55.336+0530] {processor.py:161} INFO - Started process (PID=18874) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:32:55.350+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:32:55.353+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:32:55.353+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:32:55.366+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:32:55.397+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:32:55.396+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:32:55.417+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:32:55.417+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:32:55.437+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.113 seconds
+[2025-11-11T19:33:50.153+0530] {processor.py:161} INFO - Started process (PID=18955) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:33:50.167+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:33:50.170+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:33:50.170+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:33:50.183+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:33:50.213+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:33:50.212+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:33:50.234+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:33:50.233+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:33:50.254+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.112 seconds
+[2025-11-11T19:35:38.655+0530] {processor.py:161} INFO - Started process (PID=19578) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:35:38.670+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:35:38.674+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:35:38.674+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:35:38.698+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:35:38.730+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:35:38.730+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:35:38.751+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:35:38.751+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:35:38.772+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.130 seconds
+[2025-11-11T19:36:39.829+0530] {processor.py:161} INFO - Started process (PID=19726) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:36:39.843+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:36:39.846+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:36:39.845+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:36:39.858+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:36:39.887+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:36:39.887+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:36:39.906+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:36:39.906+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:36:39.926+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.107 seconds
+[2025-11-11T19:37:36.953+0530] {processor.py:161} INFO - Started process (PID=19855) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:37:36.967+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:37:36.970+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:37:36.970+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:37:36.983+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:37:37.014+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:37:37.014+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:37:37.033+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:37:37.033+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:37:37.060+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T19:38:33.474+0530] {processor.py:161} INFO - Started process (PID=20150) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:38:33.488+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:38:33.489+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:38:33.489+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:38:33.503+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:38:33.531+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:38:33.530+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:38:33.550+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:38:33.550+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:38:33.573+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.110 seconds
+[2025-11-11T19:39:31.285+0530] {processor.py:161} INFO - Started process (PID=20358) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:39:31.299+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:39:31.301+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:39:31.300+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:39:31.314+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:39:31.341+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:39:31.340+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:39:31.361+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:39:31.361+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:39:31.380+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.107 seconds
+[2025-11-11T19:40:26.684+0530] {processor.py:161} INFO - Started process (PID=20464) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:40:26.698+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:40:26.699+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:40:26.698+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:40:26.707+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:40:26.726+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:40:26.725+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:40:26.742+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:40:26.742+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:40:26.762+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds
+[2025-11-11T19:41:18.770+0530] {processor.py:161} INFO - Started process (PID=20601) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:41:18.783+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:41:18.785+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:41:18.784+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:41:18.800+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:41:18.837+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:41:18.836+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:41:18.858+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:41:18.858+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:41:18.880+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.121 seconds
+[2025-11-11T19:42:13.317+0530] {processor.py:161} INFO - Started process (PID=20677) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:42:13.319+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:42:13.320+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:42:13.320+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:42:13.333+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:42:13.357+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:42:13.357+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:42:13.372+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:42:13.372+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:42:13.392+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.086 seconds
+[2025-11-11T19:43:09.975+0530] {processor.py:161} INFO - Started process (PID=20815) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:43:09.988+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:43:09.991+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:43:09.990+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:43:10.007+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:43:10.032+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:43:10.032+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:43:10.049+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:43:10.049+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:43:10.069+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.106 seconds
+[2025-11-11T19:44:08.290+0530] {processor.py:161} INFO - Started process (PID=20955) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:44:08.307+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:44:08.309+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:08.308+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:44:08.321+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:44:08.339+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:08.339+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:44:08.356+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:44:08.356+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:44:08.375+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.096 seconds
+[2025-11-11T19:45:03.987+0530] {processor.py:161} INFO - Started process (PID=21039) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:45:04.000+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:45:04.002+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:04.001+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:45:04.015+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:45:04.044+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:04.044+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:45:04.063+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:04.063+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:45:04.090+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T19:45:57.228+0530] {processor.py:161} INFO - Started process (PID=21201) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:45:57.242+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:45:57.243+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:57.243+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:45:57.257+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:45:57.287+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:57.286+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:45:57.308+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:45:57.308+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:45:57.331+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds
+[2025-11-11T19:46:51.845+0530] {processor.py:161} INFO - Started process (PID=21326) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:46:51.847+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:46:51.849+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:46:51.848+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:46:51.862+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:46:51.888+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:46:51.888+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:46:51.907+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:46:51.906+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:46:51.928+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.094 seconds
+[2025-11-11T19:47:45.456+0530] {processor.py:161} INFO - Started process (PID=21405) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:47:45.469+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:47:45.471+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:47:45.470+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:47:45.485+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:47:45.505+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:47:45.505+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:47:45.522+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:47:45.521+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:47:45.541+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.095 seconds
+[2025-11-11T19:48:43.932+0530] {processor.py:161} INFO - Started process (PID=21485) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:48:43.946+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:48:43.948+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:48:43.947+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:48:43.965+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:48:43.995+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:48:43.995+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:48:44.012+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:48:44.012+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:48:44.039+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2025-11-11T19:49:37.613+0530] {processor.py:161} INFO - Started process (PID=21564) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:49:37.626+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:49:37.628+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:49:37.627+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:49:37.640+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:49:37.666+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:49:37.666+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:49:37.686+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:49:37.685+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:49:37.711+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.108 seconds
+[2025-11-11T19:50:31.730+0530] {processor.py:161} INFO - Started process (PID=21683) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:50:31.743+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:50:31.745+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:50:31.744+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:50:31.758+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:50:31.787+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:50:31.786+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:50:31.806+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:50:31.805+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:50:31.832+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds
+[2025-11-11T19:51:28.928+0530] {processor.py:161} INFO - Started process (PID=21762) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:51:28.941+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:51:28.942+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:51:28.942+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:51:28.955+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:51:28.981+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:51:28.981+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:51:29.003+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:51:29.003+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:51:29.022+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.104 seconds
+[2025-11-11T19:52:22.757+0530] {processor.py:161} INFO - Started process (PID=21838) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:52:22.770+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:52:22.772+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:52:22.772+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:52:22.787+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:52:22.816+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:52:22.816+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:52:22.836+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:52:22.836+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:52:22.861+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T19:53:16.218+0530] {processor.py:161} INFO - Started process (PID=21912) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:53:16.231+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:53:16.233+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:53:16.232+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:53:16.246+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:53:16.274+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:53:16.273+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:53:16.293+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:53:16.293+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:53:16.318+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.111 seconds
+[2025-11-11T19:54:10.957+0530] {processor.py:161} INFO - Started process (PID=21990) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:54:10.970+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:54:10.972+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:54:10.971+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:54:10.985+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:54:11.015+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:54:11.014+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:54:11.033+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:54:11.033+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:54:11.055+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
+[2025-11-11T19:55:08.578+0530] {processor.py:161} INFO - Started process (PID=22074) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:55:08.591+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:55:08.593+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:08.592+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:55:08.607+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:55:08.635+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:08.635+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:55:08.655+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:55:08.655+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:55:08.674+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.108 seconds
+[2025-11-11T19:56:00.856+0530] {processor.py:161} INFO - Started process (PID=22220) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:56:00.870+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:56:00.871+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:00.871+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:56:00.885+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:56:00.914+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:00.913+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:56:00.934+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:00.933+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:56:00.955+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.110 seconds
+[2025-11-11T19:56:55.398+0530] {processor.py:161} INFO - Started process (PID=22304) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:56:55.411+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:56:55.413+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:55.412+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:56:55.425+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:56:55.454+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:55.453+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:56:55.473+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:56:55.473+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:56:55.503+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T19:57:52.867+0530] {processor.py:161} INFO - Started process (PID=22385) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:57:52.869+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:57:52.871+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:57:52.870+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:57:52.883+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:57:52.908+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:57:52.908+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:57:52.923+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:57:52.923+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:57:52.941+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds
+[2025-11-11T19:58:46.362+0530] {processor.py:161} INFO - Started process (PID=22461) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:58:46.376+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:58:46.377+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:58:46.376+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:58:46.390+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:58:46.417+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:58:46.417+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:58:46.437+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:58:46.436+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:58:46.454+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.102 seconds
+[2025-11-11T19:59:41.642+0530] {processor.py:161} INFO - Started process (PID=22539) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:59:41.655+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T19:59:41.657+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:59:41.656+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:59:41.671+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T19:59:41.700+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:59:41.700+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T19:59:41.721+0530] {logging_mixin.py:188} INFO - [2025-11-11T19:59:41.720+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T19:59:41.748+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T20:00:33.627+0530] {processor.py:161} INFO - Started process (PID=22649) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:00:33.642+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:00:33.644+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:00:33.643+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:00:33.657+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:00:33.687+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:00:33.686+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:00:33.706+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:00:33.705+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:00:33.732+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T20:01:29.593+0530] {processor.py:161} INFO - Started process (PID=22737) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:01:29.606+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:01:29.608+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:01:29.607+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:01:29.622+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:01:29.651+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:01:29.651+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:01:29.671+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:01:29.671+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:01:29.699+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T20:02:24.941+0530] {processor.py:161} INFO - Started process (PID=22816) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:02:24.955+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:02:24.956+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:02:24.956+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:02:24.969+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:02:25.000+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:02:24.999+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:02:25.019+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:02:25.019+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:02:25.046+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T20:03:23.946+0530] {processor.py:161} INFO - Started process (PID=22899) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:03:23.959+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:03:23.961+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:03:23.960+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:03:23.972+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:03:23.996+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:03:23.996+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:03:24.021+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:03:24.020+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:03:24.050+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.123 seconds
+[2025-11-11T20:04:21.108+0530] {processor.py:161} INFO - Started process (PID=23008) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:04:21.122+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:04:21.124+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:04:21.123+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:04:21.143+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:04:21.161+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:04:21.161+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:04:21.178+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:04:21.178+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:04:21.197+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.104 seconds
+[2025-11-11T20:05:15.502+0530] {processor.py:161} INFO - Started process (PID=23182) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:05:15.516+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:05:15.518+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:05:15.517+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:05:15.533+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:05:15.562+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:05:15.562+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:05:15.581+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:05:15.581+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:05:15.608+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T20:06:16.459+0530] {processor.py:161} INFO - Started process (PID=23291) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:06:16.472+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:06:16.474+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:06:16.473+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:06:16.487+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:06:16.515+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:06:16.515+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:06:16.533+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:06:16.533+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:06:16.557+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.108 seconds
+[2025-11-11T20:07:14.499+0530] {processor.py:161} INFO - Started process (PID=23372) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:07:14.513+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:07:14.515+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:07:14.514+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:07:14.528+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:07:14.558+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:07:14.557+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:07:14.577+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:07:14.577+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:07:14.605+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T20:08:11.122+0530] {processor.py:161} INFO - Started process (PID=23451) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:08:11.135+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:08:11.137+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:11.136+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:08:11.150+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:08:11.171+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:11.171+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:08:11.189+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:08:11.189+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:08:11.210+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.099 seconds
+[2025-11-11T20:09:05.514+0530] {processor.py:161} INFO - Started process (PID=23527) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:09:05.527+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:09:05.529+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:05.528+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:09:05.542+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:09:05.571+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:05.571+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:09:05.591+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:05.591+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:09:05.619+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T20:09:57.091+0530] {processor.py:161} INFO - Started process (PID=23601) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:09:57.105+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:09:57.106+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:57.106+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:09:57.121+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:09:57.140+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:57.139+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:09:57.161+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:09:57.160+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:09:57.184+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.099 seconds
+[2025-11-11T20:10:51.042+0530] {processor.py:161} INFO - Started process (PID=23707) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:10:51.044+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:10:51.045+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:10:51.045+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:10:51.059+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:10:51.083+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:10:51.083+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:10:51.100+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:10:51.100+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:10:51.120+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.090 seconds
+[2025-11-11T20:11:45.861+0530] {processor.py:161} INFO - Started process (PID=23785) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:11:45.867+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:11:45.872+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:11:45.871+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:11:45.894+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:11:45.925+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:11:45.925+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:11:45.947+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:11:45.946+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:11:45.976+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.130 seconds
+[2025-11-11T20:12:37.780+0530] {processor.py:161} INFO - Started process (PID=23863) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:12:37.794+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:12:37.796+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:12:37.795+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:12:37.809+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:12:37.838+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:12:37.838+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:12:37.858+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:12:37.858+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:12:37.885+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.116 seconds
+[2025-11-11T20:13:36.400+0530] {processor.py:161} INFO - Started process (PID=23941) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:13:36.413+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:13:36.414+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:13:36.414+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:13:36.427+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:13:36.445+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:13:36.444+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:13:36.462+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:13:36.462+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:13:36.481+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.093 seconds
+[2025-11-11T20:14:30.294+0530] {processor.py:161} INFO - Started process (PID=24021) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:14:30.309+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:14:30.311+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:14:30.310+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:14:30.329+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:14:30.366+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:14:30.365+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:14:30.391+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:14:30.391+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:14:30.418+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.140 seconds
+[2025-11-11T20:15:23.859+0530] {processor.py:161} INFO - Started process (PID=24129) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:15:23.872+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:15:23.874+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:15:23.874+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:15:23.887+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:15:23.916+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:15:23.915+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:15:23.935+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:15:23.935+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:15:23.961+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.113 seconds
+[2025-11-11T20:16:16.648+0530] {processor.py:161} INFO - Started process (PID=24205) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:16:16.661+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:16:16.663+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:16:16.662+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:16:16.676+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:16:16.704+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:16:16.704+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:16:16.724+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:16:16.724+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:16:16.750+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.113 seconds
+[2025-11-11T20:17:10.855+0530] {processor.py:161} INFO - Started process (PID=24286) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:17:10.868+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:17:10.870+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:10.869+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:17:10.884+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:17:10.913+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:10.913+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:17:10.932+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:17:10.932+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:17:10.960+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T20:18:01.153+0530] {processor.py:161} INFO - Started process (PID=24367) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:18:01.156+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:18:01.158+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:01.157+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:18:01.171+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:18:01.197+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:01.197+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:18:01.217+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:01.216+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:18:01.240+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.098 seconds
+[2025-11-11T20:18:57.373+0530] {processor.py:161} INFO - Started process (PID=24448) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:18:57.386+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:18:57.388+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:57.387+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:18:57.401+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:18:57.430+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:57.429+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:18:57.449+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:18:57.449+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:18:57.470+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
+[2025-11-11T20:19:53.250+0530] {processor.py:161} INFO - Started process (PID=24525) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:19:53.263+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:19:53.265+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:19:53.264+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:19:53.278+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:19:53.309+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:19:53.308+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:19:53.327+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:19:53.327+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:19:53.356+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2025-11-11T20:20:50.383+0530] {processor.py:161} INFO - Started process (PID=24631) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:20:50.397+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:20:50.398+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:20:50.397+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:20:50.412+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:20:50.440+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:20:50.440+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:20:50.460+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:20:50.460+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:20:50.487+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2025-11-11T20:21:45.009+0530] {processor.py:161} INFO - Started process (PID=24709) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:21:45.022+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:21:45.024+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:21:45.023+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:21:45.038+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:21:45.068+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:21:45.067+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:21:45.086+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:21:45.086+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:21:45.106+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.108 seconds
+[2025-11-11T20:22:40.637+0530] {processor.py:161} INFO - Started process (PID=24784) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:22:40.650+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:22:40.652+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:22:40.651+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:22:40.666+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:22:40.696+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:22:40.695+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:22:40.717+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:22:40.717+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:22:40.743+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2025-11-11T20:23:40.104+0530] {processor.py:161} INFO - Started process (PID=24863) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:23:40.106+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:23:40.107+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:23:40.107+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:23:40.120+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:23:40.145+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:23:40.145+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:23:40.162+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:23:40.161+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:23:40.182+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.089 seconds
+[2025-11-11T20:24:38.608+0530] {processor.py:161} INFO - Started process (PID=24942) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:24:38.610+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:24:38.612+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:24:38.611+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:24:38.627+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:24:38.655+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:24:38.655+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:24:38.672+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:24:38.672+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:24:38.693+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.097 seconds
+[2025-11-11T20:25:29.972+0530] {processor.py:161} INFO - Started process (PID=25048) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:25:29.985+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T20:25:29.987+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:25:29.986+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:25:29.999+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T20:25:30.025+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:25:30.024+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T20:25:30.044+0530] {logging_mixin.py:188} INFO - [2025-11-11T20:25:30.044+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T20:25:30.064+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.101 seconds
+[2025-11-11T22:22:07.527+0530] {processor.py:161} INFO - Started process (PID=5832) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T22:22:07.541+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-11-11T22:22:07.545+0530] {logging_mixin.py:188} INFO - [2025-11-11T22:22:07.544+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T22:22:07.561+0530] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-11-11T22:22:07.594+0530] {logging_mixin.py:188} INFO - [2025-11-11T22:22:07.593+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-11T22:22:07.614+0530] {logging_mixin.py:188} INFO - [2025-11-11T22:22:07.614+0530] {dag.py:3947} INFO - Setting next_dagrun for example_task_group to 2025-11-10 00:00:00+00:00, run_after=2025-11-11 00:00:00+00:00
+[2025-11-11T22:22:07.637+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.122 seconds
