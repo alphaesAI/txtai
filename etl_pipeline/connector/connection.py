@@ -17,6 +17,8 @@ class ConnectionManager:
     def __new__(cls):
         """
         Singleton pattern implementation using thread-safe approach.
+        
+        Ensures only one instance manages all connections.
         """
         if cls._instance is None:
             with cls._lock:

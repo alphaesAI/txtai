@@ -16,9 +16,9 @@ logger = logging.getLogger(__name__)
 class ConnectorType(Enum):
     """Enumeration of supported connector types."""
     POSTGRES = "postgres"
-    POSTGRESQL = "postgresql"
+    #POSTGRESQL = "postgresql"
     ELASTICSEARCH = "elasticsearch"
-    ES = "es"
+    #ES = "es"
 
 
 class ConnectorFactory:

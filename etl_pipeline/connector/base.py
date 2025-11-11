@@ -17,8 +17,10 @@ class BaseConnector(ABC):
         Initialize the base connector.
         
         Args:
-            connection_string: Connection string for the data source
+            self.connection_string: Connection string for the data source "postgresql://user:pass[host/db"](cci:4://file://host/db"
             **kwargs: Additional connection parameters
+            self._connection: connection object
+            self._engine: connection factory responsible for creating connections
         """
         self.connection_string = connection_string
         self.connection_params = kwargs
