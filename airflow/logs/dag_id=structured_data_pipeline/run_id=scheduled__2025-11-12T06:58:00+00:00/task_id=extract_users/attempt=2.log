@@ -1,0 +1,60 @@
+[2025-11-12T12:36:20.712+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-12T12:36:20.725+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_users scheduled__2025-11-12T06:58:00+00:00 [queued]>
+[2025-11-12T12:36:20.730+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_users scheduled__2025-11-12T06:58:00+00:00 [queued]>
+[2025-11-12T12:36:20.731+0530] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2025-11-12T12:36:20.741+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_users> on 2025-11-12 06:58:00+00:00
+[2025-11-12T12:36:20.749+0530] {standard_task_runner.py:64} INFO - Started process 17059 to run task
+[2025-11-12T12:36:20.754+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'extract_users', 'scheduled__2025-11-12T06:58:00+00:00', '--job-id', '149', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpdwkh10va']
+[2025-11-12T12:36:20.755+0530] {standard_task_runner.py:91} INFO - Job 149: Subtask extract_users
+[2025-11-12T12:36:20.793+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.extract_users scheduled__2025-11-12T06:58:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-12T12:36:20.856+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_users' AIRFLOW_CTX_EXECUTION_DATE='2025-11-12T06:58:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-12T06:58:00+00:00'
+[2025-11-12T12:36:20.857+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-12T12:36:20.857+0530] {tasks.py:126} INFO - Extracting data from table: users
+[2025-11-12T12:36:20.861+0530] {tasks.py:136} INFO - Using postgres connector: postgres_source, found: False
+[2025-11-12T12:36:20.862+0530] {tasks.py:37} INFO - Creating postgresql connector
+[2025-11-12T12:36:20.862+0530] {factory.py:68} INFO - Created postgres connector
+[2025-11-12T12:36:20.880+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T12:36:20.884+0530] {postgres.py:100} INFO - PostgreSQL connection established successfully
+[2025-11-12T12:36:20.885+0530] {postgres.py:188} INFO - PostgreSQL connection test successful: PostgreSQL 14.19 (Ubuntu 14.19-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+[2025-11-12T12:36:20.885+0530] {tasks.py:61} INFO - postgresql connector created and registered: postgres_source
+[2025-11-12T12:36:20.886+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T12:36:20.893+0530] {factory.py:64} INFO - Created postgres extractor
+[2025-11-12T12:36:20.893+0530] {state_manager.py:38} INFO - Loaded state from /tmp/etl_state.json
+[2025-11-12T12:36:20.893+0530] {postgres_extractor.py:209} INFO - Performing CDC extraction from users using column id
+[2025-11-12T12:36:20.898+0530] {logging_mixin.py:188} WARNING - /home/logi/txtai/etl_pipeline/extractor/postgres_extractor.py:253 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-11-12T12:36:20.904+0530] {postgres_extractor.py:263} ERROR - Error in CDC extraction: Invalid datetime unit in metadata string "[ns, tz]"
+[2025-11-12T12:36:20.904+0530] {tasks.py:194} ERROR - Error extracting data: Invalid datetime unit in metadata string "[ns, tz]"
+[2025-11-12T12:36:20.904+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-12T12:36:20.904+0530] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/logi/txtai/etl_pipeline/dags/tasks.py", line 166, in extract_table_data
+    df = extractor.extract_with_config(table_config)
+  File "/home/logi/txtai/etl_pipeline/extractor/postgres_extractor.py", line 87, in extract_with_config
+    return self._extract_incremental_cdc(config)
+  File "/home/logi/txtai/etl_pipeline/extractor/postgres_extractor.py", line 254, in _extract_incremental_cdc
+    df = self._serialize_timestamps(df)
+  File "/home/logi/txtai/etl_pipeline/extractor/postgres_extractor.py", line 38, in _serialize_timestamps
+    for col in df.select_dtypes(include=['datetime64[ns]', 'datetime64[ns, tz]']).columns:
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 5073, in select_dtypes
+    include = check_int_infer_dtype(include)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 5070, in check_int_infer_dtype
+    converted_dtypes.append(infer_dtype_from_object(dtype))
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/pandas/core/dtypes/common.py", line 1552, in infer_dtype_from_object
+    return infer_dtype_from_object(np.dtype(dtype))
+TypeError: Invalid datetime unit in metadata string "[ns, tz]"
+[2025-11-12T12:36:20.908+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T12:36:20.910+0530] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=structured_data_pipeline, task_id=extract_users, run_id=scheduled__2025-11-12T06:58:00+00:00, execution_date=20251112T065800, start_date=20251112T070620, end_date=20251112T070620
+[2025-11-12T12:36:20.919+0530] {standard_task_runner.py:110} ERROR - Failed to execute job 149 for task extract_users (Invalid datetime unit in metadata string "[ns, tz]"; 17059)
+[2025-11-12T12:36:20.966+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-11-12T12:36:21.002+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T12:36:21.003+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

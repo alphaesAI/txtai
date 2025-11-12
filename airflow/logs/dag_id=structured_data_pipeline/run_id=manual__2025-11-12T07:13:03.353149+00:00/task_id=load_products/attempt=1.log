@@ -1,0 +1,33 @@
+[2025-11-12T12:52:14.181+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-12T12:52:14.192+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.load_products manual__2025-11-12T07:13:03.353149+00:00 [queued]>
+[2025-11-12T12:52:14.197+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.load_products manual__2025-11-12T07:13:03.353149+00:00 [queued]>
+[2025-11-12T12:52:14.197+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-11-12T12:52:14.207+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_products> on 2025-11-12 07:13:03.353149+00:00
+[2025-11-12T12:52:14.213+0530] {standard_task_runner.py:64} INFO - Started process 21211 to run task
+[2025-11-12T12:52:14.217+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'load_products', 'manual__2025-11-12T07:13:03.353149+00:00', '--job-id', '172', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpm0j3ddy7']
+[2025-11-12T12:52:14.218+0530] {standard_task_runner.py:91} INFO - Job 172: Subtask load_products
+[2025-11-12T12:52:14.246+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.load_products manual__2025-11-12T07:13:03.353149+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-12T12:52:14.299+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='load_products' AIRFLOW_CTX_EXECUTION_DATE='2025-11-12T07:13:03.353149+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-12T07:13:03.353149+00:00'
+[2025-11-12T12:52:14.300+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-12T12:52:14.300+0530] {tasks.py:361} ERROR - Error loading to elasticsearch: string indices must be integers
+[2025-11-12T12:52:14.300+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-12T12:52:14.300+0530] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/logi/txtai/etl_pipeline/dags/tasks.py", line 304, in load_to_elasticsearch
+    table_name = transformation_result['table_name']
+TypeError: string indices must be integers
+[2025-11-12T12:52:14.304+0530] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=structured_data_pipeline, task_id=load_products, run_id=manual__2025-11-12T07:13:03.353149+00:00, execution_date=20251112T071303, start_date=20251112T072214, end_date=20251112T072214
+[2025-11-12T12:52:14.312+0530] {standard_task_runner.py:110} ERROR - Failed to execute job 172 for task load_products (string indices must be integers; 21211)
+[2025-11-12T12:52:14.349+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-11-12T12:52:14.374+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T12:52:14.375+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

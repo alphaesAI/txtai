@@ -95,7 +95,7 @@ airflow:
     - "elasticsearch"
   default_args:
     owner: "data_engineering"
-    retries: 2
-    retry_delay_minutes: 5
+    retries: 0
+    retry_delay_minutes: 0
     email_on_failure: true
     email_on_retry: false

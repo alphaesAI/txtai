@@ -80,7 +80,7 @@ with DAG(
         load_task = PythonOperator(
             task_id=f'load_{table_name}',
             python_callable=load_to_elasticsearch,
-            op_kwargs={'transformation_result': "{{ task_instance.xcom_pull(task_ids='transform_" + table_name + "') }}"},
+            op_kwargs={'table_name': table_name},
             provide_context=True,
         )
 

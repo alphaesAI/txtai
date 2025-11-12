@@ -1,0 +1,21 @@
+[2025-11-12T12:41:29.645+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-12T12:41:29.656+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.transform_users scheduled__2025-11-12T06:58:00+00:00 [queued]>
+[2025-11-12T12:41:29.661+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.transform_users scheduled__2025-11-12T06:58:00+00:00 [queued]>
+[2025-11-12T12:41:29.661+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-11-12T12:41:29.672+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_users> on 2025-11-12 06:58:00+00:00
+[2025-11-12T12:41:29.679+0530] {standard_task_runner.py:64} INFO - Started process 17869 to run task
+[2025-11-12T12:41:29.683+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'transform_users', 'scheduled__2025-11-12T06:58:00+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmppnczybqa']
+[2025-11-12T12:41:29.683+0530] {standard_task_runner.py:91} INFO - Job 154: Subtask transform_users
+[2025-11-12T12:41:29.713+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.transform_users scheduled__2025-11-12T06:58:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-12T12:41:29.762+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='transform_users' AIRFLOW_CTX_EXECUTION_DATE='2025-11-12T06:58:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-12T06:58:00+00:00'
+[2025-11-12T12:41:29.763+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-12T12:41:29.767+0530] {tasks.py:209} INFO - Transforming data for table: users
+[2025-11-12T12:41:29.768+0530] {factory.py:60} INFO - Created json transformer
+[2025-11-12T12:41:29.772+0530] {json_transformer.py:101} INFO - Transformed 3 rows to JSON format
+[2025-11-12T12:41:29.773+0530] {tasks.py:234} INFO - Transformed 3 rows for users
+[2025-11-12T12:41:29.773+0530] {python.py:237} INFO - Done. Returned value was: {'table_name': 'users', 'row_count': 3, 'data': [{'id': 1, 'username': 'alice', 'email': 'alice@example.com', 'created_at': '2025-11-11T23:32:22.320908', 'updated_at': '2025-11-11T23:32:22.320908'}, {'id': 2, 'username': 'bob', 'email': 'bob@example.com', 'created_at': '2025-11-11T23:32:22.320908', 'updated_at': '2025-11-11T23:32:22.320908'}, {'id': 3, 'username': 'charlie', 'email': 'charlie@example.com', 'created_at': '2025-11-11T23:32:22.320908', 'updated_at': '2025-11-11T23:32:22.320908'}]}
+[2025-11-12T12:41:29.773+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-12T12:41:29.783+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=transform_users, run_id=scheduled__2025-11-12T06:58:00+00:00, execution_date=20251112T065800, start_date=20251112T071129, end_date=20251112T071129
+[2025-11-12T12:41:29.814+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-12T12:41:29.851+0530] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T12:41:29.854+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

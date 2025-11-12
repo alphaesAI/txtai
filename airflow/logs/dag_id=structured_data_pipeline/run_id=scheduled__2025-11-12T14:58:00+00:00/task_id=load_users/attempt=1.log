@@ -1,0 +1,33 @@
+[2025-11-12T20:33:06.512+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-12T20:33:06.531+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.load_users scheduled__2025-11-12T14:58:00+00:00 [queued]>
+[2025-11-12T20:33:06.536+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.load_users scheduled__2025-11-12T14:58:00+00:00 [queued]>
+[2025-11-12T20:33:06.537+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-11-12T20:33:06.548+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_users> on 2025-11-12 14:58:00+00:00
+[2025-11-12T20:33:06.560+0530] {standard_task_runner.py:64} INFO - Started process 6445 to run task
+[2025-11-12T20:33:06.566+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'load_users', 'scheduled__2025-11-12T14:58:00+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp2m02pdrf']
+[2025-11-12T20:33:06.566+0530] {standard_task_runner.py:91} INFO - Job 189: Subtask load_users
+[2025-11-12T20:33:06.602+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.load_users scheduled__2025-11-12T14:58:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-12T20:33:06.671+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='load_users' AIRFLOW_CTX_EXECUTION_DATE='2025-11-12T14:58:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-12T14:58:00+00:00'
+[2025-11-12T20:33:06.672+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-12T20:33:06.672+0530] {tasks.py:372} ERROR - Error loading to elasticsearch: string indices must be integers
+[2025-11-12T20:33:06.672+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-12T20:33:06.672+0530] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/logi/txtai/etl_pipeline/dags/tasks.py", line 315, in load_to_elasticsearch
+    table_name = transformation_result['table_name']
+TypeError: string indices must be integers
+[2025-11-12T20:33:06.678+0530] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=structured_data_pipeline, task_id=load_users, run_id=scheduled__2025-11-12T14:58:00+00:00, execution_date=20251112T145800, start_date=20251112T150306, end_date=20251112T150306
+[2025-11-12T20:33:06.686+0530] {standard_task_runner.py:110} ERROR - Failed to execute job 189 for task load_users (string indices must be integers; 6445)
+[2025-11-12T20:33:06.699+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-11-12T20:33:06.729+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T20:33:06.730+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

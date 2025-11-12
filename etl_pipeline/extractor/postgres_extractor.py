@@ -30,6 +30,18 @@ class PostgresExtractor(BaseExtractor):
         """
         super().__init__(connector, **kwargs)
         self.metadata = MetaData()
+
+    def _serialize_timestamps(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Convert all pandas Timestamp columns in the DataFrame to ISO strings.
+        """
+        # Create a copy to avoid modifying the original DataFrame
+        df = df.copy()
+        
+        for col in df.columns:
+            if pd.api.types.is_datetime64_any_dtype(df[col]):
+                df[col] = df[col].apply(lambda x: x.isoformat() if pd.notnull(x) else None)
+        return df
     
     def extract(
         self,
@@ -113,6 +125,7 @@ class PostgresExtractor(BaseExtractor):
                 # Access the underlying DBAPI connection
                 raw_conn = conn.connection
                 df = pd.read_sql(query, raw_conn)
+                df = self._serialize_timestamps(df)
             
             logger.info(f"Extracted {len(df)} rows from {config.table_name}")
             return df
@@ -175,6 +188,7 @@ class PostgresExtractor(BaseExtractor):
             with engine.connect() as conn:
                 raw_conn = conn.connection
                 df = pd.read_sql(query, raw_conn)
+                df = self._serialize_timestamps(df)
             
             logger.info(
                 f"Extracted {len(df)} rows from {config.table_name} "
@@ -241,6 +255,7 @@ class PostgresExtractor(BaseExtractor):
             with engine.connect() as conn:
                 raw_conn = conn.connection
                 df = pd.read_sql(query, raw_conn)
+                df = self._serialize_timestamps(df)
             
             logger.info(
                 f"Extracted {len(df)} rows from {config.table_name} "

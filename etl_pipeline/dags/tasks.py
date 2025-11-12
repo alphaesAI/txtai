@@ -169,15 +169,26 @@ def extract_table_data(table_config_dict: Dict[str, Any], **context) -> Dict[str
         if not df.empty:
             if table_config.extraction_mode == ExtractionMode.INCREMENTAL_DATE:
                 max_date = df[table_config.date_column].max()
+                # Ensure max_date is converted to ISO format if it's a datetime object
+                if hasattr(max_date, 'isoformat'):
+                    max_date_iso = max_date.isoformat()
+                else:
+                    max_date_iso = str(max_date)
                 state_manager.set_last_extracted_value(
                     table_name, 
                     table_config.date_column,
-                    max_date.isoformat()
+                    max_date_iso
                 )
-                logger.info(f"Updated date state: {max_date}")
+                logger.info(f"Updated date state: {max_date_iso}")
 
         #convert dataframe to dict for XCom
         data_dict = df.to_dict('records')
+        
+        # Ensure all datetime objects are serialized to ISO format
+        for record in data_dict:
+            for key, value in record.items():
+                if hasattr(value, 'isoformat'):  # Check if it's a datetime-like object
+                    record[key] = value.isoformat()
 
         result = {
             'table_name': table_name,
@@ -290,19 +301,27 @@ def transform_data(table_name: str, **context) -> Dict[str, Any]:
 #         logger.error(f"Error transforming data: {e}")
 #         raise
 
-def load_to_elasticsearch(transformation_result: Dict[str, Any], **context) -> bool:
+def load_to_elasticsearch(table_name: str, **context) -> bool:
     """ 
     Load transformed data to elasticsearch.
     
     Args:
-        transformation_result: Result from transformation task
+        table_name: Name of the table to load
         
     Returns:
         True if successful
     """
     try:
-        table_name = transformation_result['table_name']
         logger.info(f"Loading data to elasticsearch for table: {table_name}")
+
+        # Pull transformation result from XCom
+        transformation_result = context['task_instance'].xcom_pull(
+            task_ids=f"transform_{table_name}"
+        )
+        
+        if not transformation_result:
+            logger.warning(f"No transformation result found for {table_name}")
+            return True
 
         #get data
         data = transformation_result['data']

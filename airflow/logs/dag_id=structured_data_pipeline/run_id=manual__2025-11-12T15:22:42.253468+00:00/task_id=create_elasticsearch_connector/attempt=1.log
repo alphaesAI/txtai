@@ -1,0 +1,24 @@
+[2025-11-12T20:52:52.577+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-12T20:52:52.597+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.create_elasticsearch_connector manual__2025-11-12T15:22:42.253468+00:00 [queued]>
+[2025-11-12T20:52:52.602+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.create_elasticsearch_connector manual__2025-11-12T15:22:42.253468+00:00 [queued]>
+[2025-11-12T20:52:52.603+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-12T20:52:52.619+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): create_elasticsearch_connector> on 2025-11-12 15:22:42.253468+00:00
+[2025-11-12T20:52:52.625+0530] {standard_task_runner.py:64} INFO - Started process 13671 to run task
+[2025-11-12T20:52:52.630+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'create_elasticsearch_connector', 'manual__2025-11-12T15:22:42.253468+00:00', '--job-id', '212', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpj3sdtpt9']
+[2025-11-12T20:52:52.631+0530] {standard_task_runner.py:91} INFO - Job 212: Subtask create_elasticsearch_connector
+[2025-11-12T20:52:52.679+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.create_elasticsearch_connector manual__2025-11-12T15:22:42.253468+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-12T20:52:52.751+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='create_elasticsearch_connector' AIRFLOW_CTX_EXECUTION_DATE='2025-11-12T15:22:42.253468+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-12T15:22:42.253468+00:00'
+[2025-11-12T20:52:52.751+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-12T20:52:52.752+0530] {tasks.py:80} INFO - Creating Elasticsearch connector
+[2025-11-12T20:52:52.752+0530] {factory.py:68} INFO - Created elasticsearch connector
+[2025-11-12T20:52:52.769+0530] {_transport.py:349} INFO - HEAD http://localhost:9200/ [status:200 duration:0.014s]
+[2025-11-12T20:52:52.769+0530] {elasticsearch.py:83} INFO - Elasticsearch connection established successfully
+[2025-11-12T20:52:52.774+0530] {_transport.py:349} INFO - GET http://localhost:9200/ [status:200 duration:0.004s]
+[2025-11-12T20:52:52.774+0530] {elasticsearch.py:140} INFO - Elasticsearch connection test successful: 8.14.0
+[2025-11-12T20:52:52.774+0530] {tasks.py:103} INFO - Elasticsearch connector created and registered: elasticsearch_target
+[2025-11-12T20:52:52.781+0530] {python.py:237} INFO - Done. Returned value was: elasticsearch_target
+[2025-11-12T20:52:52.782+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-12T20:52:52.794+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=create_elasticsearch_connector, run_id=manual__2025-11-12T15:22:42.253468+00:00, execution_date=20251112T152242, start_date=20251112T152252, end_date=20251112T152252
+[2025-11-12T20:52:52.842+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-12T20:52:52.878+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T20:52:52.879+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
