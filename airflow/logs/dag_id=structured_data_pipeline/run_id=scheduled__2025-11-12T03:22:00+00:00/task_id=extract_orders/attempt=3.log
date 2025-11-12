@@ -1,0 +1,53 @@
+[2025-11-12T09:05:02.003+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-12T09:05:02.017+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_orders scheduled__2025-11-12T03:22:00+00:00 [queued]>
+[2025-11-12T09:05:02.022+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_orders scheduled__2025-11-12T03:22:00+00:00 [queued]>
+[2025-11-12T09:05:02.022+0530] {taskinstance.py:2306} INFO - Starting attempt 3 of 3
+[2025-11-12T09:05:02.034+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_orders> on 2025-11-12 03:22:00+00:00
+[2025-11-12T09:05:02.041+0530] {standard_task_runner.py:64} INFO - Started process 25861 to run task
+[2025-11-12T09:05:02.045+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'extract_orders', 'scheduled__2025-11-12T03:22:00+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpk70x5u5d']
+[2025-11-12T09:05:02.045+0530] {standard_task_runner.py:91} INFO - Job 102: Subtask extract_orders
+[2025-11-12T09:05:02.088+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.extract_orders scheduled__2025-11-12T03:22:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-12T09:05:02.144+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_orders' AIRFLOW_CTX_EXECUTION_DATE='2025-11-12T03:22:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-12T03:22:00+00:00'
+[2025-11-12T09:05:02.145+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-12T09:05:02.145+0530] {tasks.py:126} INFO - Extracting data from table: orders
+[2025-11-12T09:05:02.149+0530] {tasks.py:136} INFO - Using postgres connector: postgres_source, found: False
+[2025-11-12T09:05:02.149+0530] {tasks.py:37} INFO - Creating postgresql connector
+[2025-11-12T09:05:02.149+0530] {factory.py:68} INFO - Created postgres connector
+[2025-11-12T09:05:02.169+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T09:05:02.174+0530] {postgres.py:100} INFO - PostgreSQL connection established successfully
+[2025-11-12T09:05:02.175+0530] {postgres.py:188} INFO - PostgreSQL connection test successful: PostgreSQL 14.19 (Ubuntu 14.19-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+[2025-11-12T09:05:02.175+0530] {tasks.py:61} INFO - postgresql connector created and registered: postgres_source
+[2025-11-12T09:05:02.176+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T09:05:02.183+0530] {factory.py:64} INFO - Created postgres extractor
+[2025-11-12T09:05:02.183+0530] {state_manager.py:38} INFO - Loaded state from /tmp/etl_state.json
+[2025-11-12T09:05:02.184+0530] {state_manager.py:79} INFO - Last extracted value for orders.order_date: 2025-11-11T23:37:14.168459
+[2025-11-12T09:05:02.184+0530] {tasks.py:162} INFO - Using last date: 2025-11-11T23:37:14.168459
+[2025-11-12T09:05:02.184+0530] {postgres_extractor.py:134} INFO - Performing incremental date extraction from orders using column order_date
+[2025-11-12T09:05:02.184+0530] {postgres_extractor.py:186} ERROR - Error in incremental date extraction: 'str' object has no attribute 'get_connection'
+[2025-11-12T09:05:02.184+0530] {tasks.py:193} ERROR - Error extracting data: 'str' object has no attribute 'get_connection'
+[2025-11-12T09:05:02.184+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-12T09:05:02.184+0530] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/logi/txtai/etl_pipeline/dags/tasks.py", line 165, in extract_table_data
+    df = extractor.extract_with_config(table_config)
+  File "/home/logi/txtai/etl_pipeline/extractor/postgres_extractor.py", line 77, in extract_with_config
+    return self._extract_incremental_date(config)
+  File "/home/logi/txtai/etl_pipeline/extractor/postgres_extractor.py", line 172, in _extract_incremental_date
+    engine = self.connector.get_connection()
+AttributeError: 'str' object has no attribute 'get_connection'
+[2025-11-12T09:05:02.187+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T09:05:02.189+0530] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=structured_data_pipeline, task_id=extract_orders, run_id=scheduled__2025-11-12T03:22:00+00:00, execution_date=20251112T032200, start_date=20251112T033502, end_date=20251112T033502
+[2025-11-12T09:05:02.197+0530] {standard_task_runner.py:110} ERROR - Failed to execute job 102 for task extract_orders ('str' object has no attribute 'get_connection'; 25861)
+[2025-11-12T09:05:02.216+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-11-12T09:05:02.245+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T09:05:02.252+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

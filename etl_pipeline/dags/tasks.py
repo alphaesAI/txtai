@@ -133,8 +133,11 @@ def extract_table_data(table_config_dict: Dict[str, Any], **context) -> Dict[str
         )
         postgres_connector = conn_manager.get_connection(postgres_conn_id)
 
+        logger.info(f"Using postgres connector: {postgres_conn_id}, found: {bool(postgres_connector)}")
         if not postgres_connector:
-            raise ValueError(f"PostgresSQL connector not found: {postgres_conn_id}")
+            connection_id = create_postgres_connector(**context)
+            postgres_connector = conn_manager.get_connection(connection_id)
+            #raise ValueError(f"PostgresSQL connector not found: {postgres_conn_id}")
         
         #create extractor
         extractor = ExtractorFactory.create_extractor(
@@ -191,33 +194,27 @@ def extract_table_data(table_config_dict: Dict[str, Any], **context) -> Dict[str
         logger.error(f"Error extracting data: {e}")
         raise
 
-def transform_data(extraction_result: Dict[str, Any], **context) -> Dict[str, Any]:
-    """ 
-    Transform extracted data to JSON format.
-    
-    Args: 
-        extraction_result: Result from extraction task
-    
-    Returns:
-        Transformation result
-    """
-    try: 
-        table_name = extraction_result['table_name']
+def transform_data(table_name: str, **context) -> Dict[str, Any]:
+    """Transform extracted data to JSON format for a specific table."""
+    try:
+        # Pull extraction result from XCom
+        extraction_result = context['task_instance'].xcom_pull(
+            task_ids=f"extract_{table_name}"
+        )
+
+        if not extraction_result:
+            logger.warning(f"No extraction result found for {table_name}")
+            return {'table_name': table_name, 'row_count': 0, 'data': []}
+
         logger.info(f"Transforming data for table: {table_name}")
 
-        #convert data back to datframe
         import pandas as pd
         df = pd.DataFrame(extraction_result['data'])
 
         if df.empty:
             logger.warning(f"No data to transform for {table_name}")
-            return {
-                'table_name': table_name,
-                'row_count': 0,
-                'data': []
-            }
-        
-        #create transformer
+            return {'table_name': table_name, 'row_count': 0, 'data': []}
+
         transformer = TransformerFactory.create_transformer(
             transformer_type="json",
             orient=CONFIG['transformation'].get('orient', 'records'),
@@ -226,7 +223,6 @@ def transform_data(extraction_result: Dict[str, Any], **context) -> Dict[str, An
             include_index=CONFIG['transformation'].get('include_index', False)
         )
 
-        #transform to JSON
         json_data = transformer.transform(df)
 
         result = {
@@ -236,12 +232,63 @@ def transform_data(extraction_result: Dict[str, Any], **context) -> Dict[str, An
         }
 
         logger.info(f"Transformed {len(json_data)} rows for {table_name}")
-
         return result
-    
+
     except Exception as e:
         logger.error(f"Error transforming data: {e}")
         raise
+
+# def transform_data(extraction_result: Dict[str, Any], **context) -> Dict[str, Any]:
+#     """ 
+#     Transform extracted data to JSON format.
+    
+#     Args: 
+#         extraction_result: Result from extraction task
+    
+#     Returns:
+#         Transformation result
+#     """
+#     try: 
+#         table_name = extraction_result['table_name']
+#         logger.info(f"Transforming data for table: {table_name}")
+
+#         #convert data back to datframe
+#         import pandas as pd
+#         df = pd.DataFrame(extraction_result['data'])
+
+#         if df.empty:
+#             logger.warning(f"No data to transform for {table_name}")
+#             return {
+#                 'table_name': table_name,
+#                 'row_count': 0,
+#                 'data': []
+#             }
+        
+#         #create transformer
+#         transformer = TransformerFactory.create_transformer(
+#             transformer_type="json",
+#             orient=CONFIG['transformation'].get('orient', 'records'),
+#             date_format=CONFIG['transformation'].get('date_format', 'iso'),
+#             handle_nan=CONFIG['transformation'].get('handle_nan', 'null'),
+#             include_index=CONFIG['transformation'].get('include_index', False)
+#         )
+
+#         #transform to JSON
+#         json_data = transformer.transform(df)
+
+#         result = {
+#             'table_name': table_name,
+#             'row_count': len(json_data),
+#             'data': json_data
+#         }
+
+#         logger.info(f"Transformed {len(json_data)} rows for {table_name}")
+
+#         return result
+    
+#     except Exception as e:
+#         logger.error(f"Error transforming data: {e}")
+#         raise
 
 def load_to_elasticsearch(transformation_result: Dict[str, Any], **context) -> bool:
     """ 
@@ -272,8 +319,12 @@ def load_to_elasticsearch(transformation_result: Dict[str, Any], **context) -> b
         )
         es_connector = conn_manager.get_connection(es_conn_id)
 
+        logger.info(f"using elasticsearch connector: {es_conn_id}, found: {bool(es_connector)}")
         if not es_connector:
-            raise ValueError(f"Elasticsearch connector not found: {es_conn_id}")
+            logger.warning("elasticsearch connector not found in ConnectionManager, recreating...")
+            es_conn_id = create_elasticsearch_connector(**context)
+            es_connector = conn_manager.get_connection(es_conn_id)
+            #raise ValueError(f"Elasticsearch connector not found: {es_conn_id}")
 
         #get index configuration
         index_config = CONFIG['loading']['index_mappings'].get(table_name, {})

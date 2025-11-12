@@ -68,12 +68,12 @@ with DAG(
             provide_context=True,
         )
 
-        #transform task
+        # Transform task (pass table_name only)
         transform_task = PythonOperator(
-            task_id=f'transform_{table_name}',
-            python_callable=transform_data,
-            op_kwargs={'extraction_result': "{{ task_instance.xcom_pull(task_ids='extract_" + table_name + "') }}"},
-            provide_context=True,
+        task_id=f'transform_{table_name}',
+        python_callable=transform_data,
+        op_kwargs={'table_name': table_name},
+        provide_context=True,
         )
 
         #load task

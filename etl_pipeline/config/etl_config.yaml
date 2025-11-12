@@ -2,7 +2,7 @@
 
 # PostgreSQL Connection
 postgres:
-  connection_string: "postgresql://rag_user:rag_password@localhost:5432/paper_curator"
+  connection_string: "postgresql://rag_user:rag_password@localhost:5432/structured_data_pipeline"
   pool_size: 5
   max_overflow: 10
   pool_timeout: 30
@@ -85,7 +85,7 @@ loading:
 # Airflow DAG Configuration
 airflow:
   dag_id: "structured_data_pipeline"
-  schedule_interval: "0 */6 * * *"  # Every 6 hours
+  schedule_interval: "* */2 * * *"  
   start_date: "2024-01-01"
   catchup: false
   max_active_runs: 1

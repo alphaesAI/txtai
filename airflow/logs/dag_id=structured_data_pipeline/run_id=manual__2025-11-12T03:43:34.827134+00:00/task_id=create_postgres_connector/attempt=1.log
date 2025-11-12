@@ -1,0 +1,26 @@
+[2025-11-12T09:15:39.954+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-12T09:15:39.965+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.create_postgres_connector manual__2025-11-12T03:43:34.827134+00:00 [queued]>
+[2025-11-12T09:15:39.969+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.create_postgres_connector manual__2025-11-12T03:43:34.827134+00:00 [queued]>
+[2025-11-12T09:15:39.969+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-11-12T09:15:39.979+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): create_postgres_connector> on 2025-11-12 03:43:34.827134+00:00
+[2025-11-12T09:15:39.985+0530] {standard_task_runner.py:64} INFO - Started process 28708 to run task
+[2025-11-12T09:15:39.989+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'create_postgres_connector', 'manual__2025-11-12T03:43:34.827134+00:00', '--job-id', '117', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp0s_lot1l']
+[2025-11-12T09:15:39.990+0530] {standard_task_runner.py:91} INFO - Job 117: Subtask create_postgres_connector
+[2025-11-12T09:15:40.023+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.create_postgres_connector manual__2025-11-12T03:43:34.827134+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-12T09:15:40.070+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='create_postgres_connector' AIRFLOW_CTX_EXECUTION_DATE='2025-11-12T03:43:34.827134+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-12T03:43:34.827134+00:00'
+[2025-11-12T09:15:40.071+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-12T09:15:40.071+0530] {tasks.py:37} INFO - Creating postgresql connector
+[2025-11-12T09:15:40.072+0530] {factory.py:68} INFO - Created postgres connector
+[2025-11-12T09:15:40.093+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T09:15:40.099+0530] {postgres.py:100} INFO - PostgreSQL connection established successfully
+[2025-11-12T09:15:40.100+0530] {postgres.py:188} INFO - PostgreSQL connection test successful: PostgreSQL 14.19 (Ubuntu 14.19-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+[2025-11-12T09:15:40.101+0530] {tasks.py:61} INFO - postgresql connector created and registered: postgres_source
+[2025-11-12T09:15:40.101+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T09:15:40.108+0530] {python.py:237} INFO - Done. Returned value was: postgres_source
+[2025-11-12T09:15:40.108+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-12T09:15:40.108+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T09:15:40.113+0530] {postgres.py:61} INFO - New connection established
+[2025-11-12T09:15:40.116+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=create_postgres_connector, run_id=manual__2025-11-12T03:43:34.827134+00:00, execution_date=20251112T034334, start_date=20251112T034539, end_date=20251112T034540
+[2025-11-12T09:15:40.160+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-12T09:15:40.204+0530] {taskinstance.py:3503} INFO - 3 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T09:15:40.208+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
