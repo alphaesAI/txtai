@@ -1,0 +1,36 @@
+[2025-11-13T23:44:12.987+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-13T23:44:13.047+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_users scheduled__2025-11-13T18:13:00+00:00 [queued]>
+[2025-11-13T23:44:13.063+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_users scheduled__2025-11-13T18:13:00+00:00 [queued]>
+[2025-11-13T23:44:13.064+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-13T23:44:13.087+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_users> on 2025-11-13 18:13:00+00:00
+[2025-11-13T23:44:13.097+0530] {standard_task_runner.py:64} INFO - Started process 22393 to run task
+[2025-11-13T23:44:13.102+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'extract_users', 'scheduled__2025-11-13T18:13:00+00:00', '--job-id', '456', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmprqk76es_']
+[2025-11-13T23:44:13.103+0530] {standard_task_runner.py:91} INFO - Job 456: Subtask extract_users
+[2025-11-13T23:44:13.207+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.extract_users scheduled__2025-11-13T18:13:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-13T23:44:13.460+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_users' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T18:13:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-13T18:13:00+00:00'
+[2025-11-13T23:44:13.464+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-13T23:44:13.467+0530] {tasks.py:126} INFO - Extracting data from table: users
+[2025-11-13T23:44:13.523+0530] {tasks.py:136} INFO - Using postgres connector: postgres_source, found: False
+[2025-11-13T23:44:13.524+0530] {tasks.py:37} INFO - Creating postgresql connector
+[2025-11-13T23:44:13.526+0530] {factory.py:68} INFO - Created postgres connector
+[2025-11-13T23:44:13.561+0530] {postgres.py:61} INFO - New connection established
+[2025-11-13T23:44:13.570+0530] {postgres.py:100} INFO - PostgreSQL connection established successfully
+[2025-11-13T23:44:13.573+0530] {postgres.py:188} INFO - PostgreSQL connection test successful: PostgreSQL 14.19 (Ubuntu 14.19-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+[2025-11-13T23:44:13.574+0530] {tasks.py:61} INFO - postgresql connector created and registered: postgres_source
+[2025-11-13T23:44:13.607+0530] {postgres.py:61} INFO - New connection established
+[2025-11-13T23:44:13.627+0530] {factory.py:64} INFO - Created postgres extractor
+[2025-11-13T23:44:13.630+0530] {state_manager.py:38} INFO - Loaded state from /home/logi/txtai/etl_pipeline/etl_state.json
+[2025-11-13T23:44:13.632+0530] {state_manager.py:79} INFO - Last extracted value for users.updated_at: 2025-11-13T05:27:33.628145
+[2025-11-13T23:44:13.632+0530] {tasks.py:170} INFO - Using last date: 2025-11-13T05:27:33.628145
+[2025-11-13T23:44:13.633+0530] {postgres_extractor.py:145} INFO - Performing incremental date extraction from users using column updated_at
+[2025-11-13T23:44:13.656+0530] {logging_mixin.py:188} WARNING - /home/logi/txtai/etl_pipeline/extractor/postgres_extractor.py:188 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-11-13T23:44:13.682+0530] {postgres_extractor.py:191} INFO - Extracted 0 rows from users (date range: 2025-11-13T05:27:33.628145 to None)
+[2025-11-13T23:44:13.687+0530] {tasks.py:207} INFO - Extracted 0 rows from users
+[2025-11-13T23:44:13.688+0530] {python.py:237} INFO - Done. Returned value was: {'table_name': 'users', 'row_count': 0, 'data': [], 'columns': ['id', 'username', 'email', 'created_at', 'updated_at']}
+[2025-11-13T23:44:13.689+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-13T23:44:13.713+0530] {postgres.py:61} INFO - New connection established
+[2025-11-13T23:44:13.764+0530] {postgres.py:61} INFO - New connection established
+[2025-11-13T23:44:13.776+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=extract_users, run_id=scheduled__2025-11-13T18:13:00+00:00, execution_date=20251113T181300, start_date=20251113T181413, end_date=20251113T181413
+[2025-11-13T23:44:13.837+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-13T23:44:13.929+0530] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T23:44:13.933+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,65 @@
+[2025-11-13T23:34:26.111+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-13T23:34:26.161+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.transform_products scheduled__2025-11-13T18:03:00+00:00 [queued]>
+[2025-11-13T23:34:26.177+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.transform_products scheduled__2025-11-13T18:03:00+00:00 [queued]>
+[2025-11-13T23:34:26.177+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-13T23:34:26.211+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_products> on 2025-11-13 18:03:00+00:00
+[2025-11-13T23:34:26.218+0530] {standard_task_runner.py:64} INFO - Started process 14420 to run task
+[2025-11-13T23:34:26.221+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'transform_products', 'scheduled__2025-11-13T18:03:00+00:00', '--job-id', '389', '--raw', '--subdir', 'DAGS_FOLDER/postgres_to_elasticsearch_dag.py', '--cfg-path', '/tmp/tmpjxb83k6_']
+[2025-11-13T23:34:26.222+0530] {standard_task_runner.py:91} INFO - Job 389: Subtask transform_products
+[2025-11-13T23:34:26.339+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.transform_products scheduled__2025-11-13T18:03:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-13T23:34:26.587+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='transform_products' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T18:03:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-13T18:03:00+00:00'
+[2025-11-13T23:34:26.589+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-13T23:34:26.590+0530] {postgres_to_elasticsearch_dag.py:306} ERROR - Error transforming data: Failed to parse extraction result: {'table_name': 'products', 'row_count': 0, 'data': [], 'columns': ['id', 'name', 'price', 'stock', 'created_at', 'updated_at']}
+Traceback (most recent call last):
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 250, in transform_data
+    extraction_result = json.loads(extraction_result)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 252, in transform_data
+    raise ValueError(f"Failed to parse extraction result: {extraction_result}")
+ValueError: Failed to parse extraction result: {'table_name': 'products', 'row_count': 0, 'data': [], 'columns': ['id', 'name', 'price', 'stock', 'created_at', 'updated_at']}
+[2025-11-13T23:34:26.591+0530] {postgres_to_elasticsearch_dag.py:307} ERROR - Extraction result type: str
+[2025-11-13T23:34:26.591+0530] {postgres_to_elasticsearch_dag.py:308} ERROR - Extraction result content: {'table_name': 'products', 'row_count': 0, 'data': [], 'columns': ['id', 'name', 'price', 'stock', 'created_at', 'updated_at']}
+[2025-11-13T23:34:26.592+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-13T23:34:26.592+0530] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 250, in transform_data
+    extraction_result = json.loads(extraction_result)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 252, in transform_data
+    raise ValueError(f"Failed to parse extraction result: {extraction_result}")
+ValueError: Failed to parse extraction result: {'table_name': 'products', 'row_count': 0, 'data': [], 'columns': ['id', 'name', 'price', 'stock', 'created_at', 'updated_at']}
+[2025-11-13T23:34:26.616+0530] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=structured_data_pipeline, task_id=transform_products, run_id=scheduled__2025-11-13T18:03:00+00:00, execution_date=20251113T180300, start_date=20251113T180426, end_date=20251113T180426
+[2025-11-13T23:34:26.631+0530] {standard_task_runner.py:110} ERROR - Failed to execute job 389 for task transform_products (Failed to parse extraction result: {'table_name': 'products', 'row_count': 0, 'data': [], 'columns': ['id', 'name', 'price', 'stock', 'created_at', 'updated_at']}; 14420)
+[2025-11-13T23:34:26.674+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-11-13T23:34:26.736+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T23:34:26.754+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

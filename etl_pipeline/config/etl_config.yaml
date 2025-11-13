@@ -18,7 +18,7 @@ elasticsearch:
 
 # Airflow-managed PostgreSQL Connection
 airflow_postgres:
-  conn_id: "postgres_source"
+  conn_id: "postgres_structured_source"
 
 # Extraction Configuration
 extraction:

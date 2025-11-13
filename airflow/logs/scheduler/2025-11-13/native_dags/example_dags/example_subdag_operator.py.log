@@ -760,3 +760,519 @@
 [2025-11-13T23:23:14.549+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:14.548+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
 [2025-11-13T23:23:14.549+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:14.549+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
 [2025-11-13T23:23:14.568+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.149 seconds
+[2025-11-13T23:23:46.387+0530] {processor.py:161} INFO - Started process (PID=7465) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:23:46.389+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:23:46.393+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:46.393+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:23:46.460+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:23:46.488+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:46.487+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:23:46.528+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:46.528+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:23:46.535+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:46.534+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:23:46.537+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:46.537+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:23:46.551+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:46.551+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:23:46.561+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:46.560+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:23:46.561+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:46.561+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:23:46.580+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.203 seconds
+[2025-11-13T23:24:17.261+0530] {processor.py:161} INFO - Started process (PID=7753) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:24:17.262+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:24:17.266+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:17.266+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:24:17.326+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:24:17.354+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:17.353+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:24:17.396+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:17.396+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:24:17.403+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:17.403+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:24:17.406+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:17.406+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:24:17.419+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:17.418+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:24:17.428+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:17.427+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:24:17.428+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:17.428+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:24:17.441+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.191 seconds
+[2025-11-13T23:24:48.959+0530] {processor.py:161} INFO - Started process (PID=7995) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:24:48.960+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:24:48.962+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:48.962+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:24:49.001+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:24:49.017+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:49.017+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:24:49.041+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:49.041+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:24:49.045+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:49.045+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:24:49.047+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:49.047+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:24:49.056+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:49.056+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:24:49.063+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:49.063+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:24:49.063+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:24:49.063+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:24:49.081+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.131 seconds
+[2025-11-13T23:25:20.877+0530] {processor.py:161} INFO - Started process (PID=8849) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:25:20.881+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:25:20.889+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:20.888+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:25:20.980+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:25:21.023+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:21.022+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:25:21.093+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:21.092+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:25:21.104+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:21.104+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:25:21.109+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:21.108+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:25:21.132+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:21.131+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:25:21.155+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:21.154+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:25:21.156+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:21.156+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:25:21.201+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.351 seconds
+[2025-11-13T23:25:52.014+0530] {processor.py:161} INFO - Started process (PID=9328) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:25:52.015+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:25:52.017+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:52.017+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:25:52.064+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:25:52.081+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:52.081+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:25:52.107+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:52.106+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:25:52.110+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:52.110+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:25:52.112+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:52.112+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:25:52.121+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:52.120+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:25:52.128+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:52.128+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:25:52.129+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:25:52.128+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:25:52.147+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.139 seconds
+[2025-11-13T23:26:23.956+0530] {processor.py:161} INFO - Started process (PID=9544) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:26:23.957+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:26:23.961+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:23.961+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:26:24.018+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:26:24.049+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:24.049+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:26:24.090+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:24.090+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:26:24.097+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:24.097+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:26:24.100+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:24.099+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:26:24.113+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:24.112+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:26:24.123+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:24.123+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:26:24.124+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:24.124+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:26:24.144+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.200 seconds
+[2025-11-13T23:26:55.460+0530] {processor.py:161} INFO - Started process (PID=9707) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:26:55.462+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:26:55.465+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:55.465+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:26:55.525+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:26:55.551+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:55.551+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:26:55.594+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:55.593+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:26:55.602+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:55.602+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:26:55.606+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:55.605+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:26:55.620+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:55.620+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:26:55.631+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:55.631+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:26:55.632+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:26:55.632+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:26:55.655+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.206 seconds
+[2025-11-13T23:27:26.568+0530] {processor.py:161} INFO - Started process (PID=9893) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:27:26.570+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:27:26.573+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:26.573+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:27:26.634+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:27:26.663+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:26.663+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:27:26.704+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:26.704+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:27:26.711+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:26.711+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:27:26.714+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:26.714+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:27:26.728+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:26.727+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:27:26.740+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:26.740+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:27:26.741+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:26.741+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:27:26.762+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.205 seconds
+[2025-11-13T23:27:57.800+0530] {processor.py:161} INFO - Started process (PID=10049) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:27:57.802+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:27:57.805+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:57.805+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:27:57.867+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:27:57.895+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:57.895+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:27:57.936+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:57.936+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:27:57.943+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:57.942+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:27:57.945+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:57.945+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:27:57.958+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:57.958+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:27:57.969+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:57.968+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:27:57.969+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:27:57.969+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:27:57.990+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.201 seconds
+[2025-11-13T23:28:29.134+0530] {processor.py:161} INFO - Started process (PID=10206) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:28:29.135+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:28:29.139+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:28:29.139+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:28:29.199+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:28:29.228+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:28:29.227+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:28:29.268+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:28:29.268+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:28:29.275+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:28:29.275+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:28:29.278+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:28:29.277+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:28:29.291+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:28:29.290+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:28:29.301+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:28:29.301+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:28:29.302+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:28:29.302+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:28:29.324+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.201 seconds
+[2025-11-13T23:29:00.479+0530] {processor.py:161} INFO - Started process (PID=10466) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:29:00.480+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:29:00.484+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:00.484+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:29:00.545+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:29:00.575+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:00.574+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:29:00.615+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:00.615+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:29:00.621+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:00.621+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:29:00.624+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:00.623+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:29:00.636+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:00.636+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:29:00.646+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:00.645+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:29:00.646+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:00.646+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:29:00.666+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.199 seconds
+[2025-11-13T23:29:32.701+0530] {processor.py:161} INFO - Started process (PID=10646) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:29:32.703+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:29:32.706+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:32.705+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:29:32.771+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:29:32.799+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:32.798+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:29:32.837+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:32.837+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:29:32.844+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:32.844+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:29:32.846+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:32.846+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:29:32.859+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:32.859+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:29:32.869+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:32.869+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:29:32.870+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:29:32.870+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:29:32.891+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.201 seconds
+[2025-11-13T23:30:03.878+0530] {processor.py:161} INFO - Started process (PID=10864) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:30:03.879+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:30:03.881+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:03.880+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:30:03.927+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:30:03.952+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:03.952+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:30:03.989+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:03.989+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:30:03.996+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:03.996+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:30:03.999+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:03.999+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:30:04.012+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:04.012+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:30:04.021+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:04.021+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:30:04.022+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:04.022+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:30:04.040+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.168 seconds
+[2025-11-13T23:30:35.095+0530] {processor.py:161} INFO - Started process (PID=11358) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:30:35.099+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:30:35.102+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:35.102+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:30:35.156+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:30:35.176+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:35.176+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:30:35.211+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:35.210+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:30:35.218+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:35.218+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:30:35.221+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:35.220+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:30:35.232+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:35.232+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:30:35.243+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:35.243+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:30:35.244+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:30:35.244+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:30:35.269+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.187 seconds
+[2025-11-13T23:31:06.340+0530] {processor.py:161} INFO - Started process (PID=11579) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:31:06.341+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:31:06.343+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:06.343+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:31:06.387+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:31:06.410+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:06.409+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:31:06.466+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:06.465+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:31:06.477+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:06.476+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:31:06.487+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:06.487+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:31:06.500+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:06.500+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:31:06.508+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:06.507+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:31:06.508+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:06.508+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:31:06.567+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.234 seconds
+[2025-11-13T23:31:36.888+0530] {processor.py:161} INFO - Started process (PID=12076) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:31:36.890+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:31:36.893+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:36.892+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:31:36.940+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:31:36.965+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:36.964+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:31:37.000+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:36.999+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:31:37.006+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:37.006+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:31:37.009+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:37.008+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:31:37.021+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:37.021+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:31:37.032+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:37.032+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:31:37.033+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:31:37.033+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:31:37.057+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.182 seconds
+[2025-11-13T23:32:08.295+0530] {processor.py:161} INFO - Started process (PID=12440) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:32:08.297+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:32:08.300+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:08.300+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:32:08.353+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:32:08.380+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:08.380+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:32:08.419+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:08.419+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:32:08.426+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:08.425+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:32:08.428+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:08.428+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:32:08.442+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:08.442+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:32:08.453+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:08.453+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:32:08.454+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:08.454+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:32:08.477+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.192 seconds
+[2025-11-13T23:32:40.476+0530] {processor.py:161} INFO - Started process (PID=12856) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:32:40.478+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:32:40.480+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:40.480+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:32:40.540+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:32:40.568+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:40.567+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:32:40.606+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:40.606+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:32:40.613+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:40.612+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:32:40.615+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:40.615+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:32:40.629+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:40.629+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:32:40.641+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:40.641+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:32:40.642+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:32:40.642+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:32:40.660+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.195 seconds
+[2025-11-13T23:33:11.208+0530] {processor.py:161} INFO - Started process (PID=13177) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:33:11.209+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:33:11.212+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:11.212+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:33:11.257+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:33:11.280+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:11.279+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:33:11.314+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:11.313+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:33:11.318+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:11.318+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:33:11.320+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:11.320+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:33:11.328+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:11.327+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:33:11.335+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:11.334+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:33:11.335+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:11.335+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:33:11.348+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.147 seconds
+[2025-11-13T23:33:42.915+0530] {processor.py:161} INFO - Started process (PID=13768) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:33:42.917+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:33:42.920+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:42.920+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:33:42.982+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:33:43.009+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:43.009+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:33:43.050+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:43.050+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:33:43.057+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:43.057+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:33:43.060+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:43.059+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:33:43.073+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:43.072+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:33:43.084+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:43.083+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:33:43.084+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:33:43.084+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:33:43.107+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.203 seconds
+[2025-11-13T23:34:14.352+0530] {processor.py:161} INFO - Started process (PID=14192) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:34:14.354+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:34:14.356+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:14.356+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:34:14.399+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:34:14.423+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:14.423+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:34:14.452+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:14.452+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:34:14.458+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:14.458+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:34:14.460+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:14.460+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:34:14.475+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:14.475+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:34:14.486+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:14.485+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:34:14.486+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:14.486+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:34:14.519+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.172 seconds
+[2025-11-13T23:34:46.504+0530] {processor.py:161} INFO - Started process (PID=14640) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:34:46.506+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:34:46.509+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:46.509+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:34:46.570+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:34:46.599+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:46.598+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:34:46.635+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:46.634+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:34:46.642+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:46.641+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:34:46.645+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:46.644+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:34:46.657+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:46.656+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:34:46.667+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:46.666+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:34:46.667+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:34:46.667+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:34:46.701+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.209 seconds
+[2025-11-13T23:35:17.868+0530] {processor.py:161} INFO - Started process (PID=15076) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:35:17.869+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:35:17.872+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:17.871+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:35:17.937+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:35:17.964+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:17.964+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:35:18.009+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:18.008+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:35:18.016+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:18.015+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:35:18.019+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:18.018+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:35:18.031+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:18.031+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:35:18.044+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:18.043+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:35:18.044+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:18.044+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:35:18.066+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.210 seconds
+[2025-11-13T23:35:49.654+0530] {processor.py:161} INFO - Started process (PID=15482) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:35:49.656+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:35:49.659+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:49.659+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:35:49.720+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:35:49.747+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:49.746+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:35:49.786+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:49.786+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:35:49.793+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:49.793+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:35:49.796+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:49.795+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:35:49.810+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:49.809+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:35:49.820+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:49.820+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:35:49.821+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:35:49.821+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:35:49.842+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.199 seconds
+[2025-11-13T23:36:20.846+0530] {processor.py:161} INFO - Started process (PID=16016) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:36:20.848+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:36:20.851+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:20.850+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:36:20.893+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:36:20.908+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:20.907+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:36:20.950+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:20.949+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:36:20.953+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:20.953+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:36:20.955+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:20.955+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:36:20.962+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:20.962+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:36:20.967+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:20.967+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:36:20.968+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:20.967+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:36:20.978+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.149 seconds
+[2025-11-13T23:36:52.932+0530] {processor.py:161} INFO - Started process (PID=16244) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:36:52.934+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:36:52.938+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:52.937+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:36:52.993+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:36:53.020+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:53.020+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:36:53.059+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:53.059+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:36:53.065+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:53.065+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:36:53.068+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:53.067+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:36:53.081+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:53.080+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:36:53.090+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:53.090+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:36:53.091+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:36:53.091+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:36:53.112+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.190 seconds
+[2025-11-13T23:37:23.228+0530] {processor.py:161} INFO - Started process (PID=16805) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:37:23.230+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:37:23.232+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:23.232+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:37:23.270+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:37:23.283+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:23.283+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:37:23.305+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:23.305+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:37:23.309+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:23.309+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:37:23.311+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:23.311+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:37:23.322+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:23.322+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:37:23.331+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:23.331+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:37:23.331+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:23.331+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:37:23.347+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.130 seconds
+[2025-11-13T23:37:55.213+0530] {processor.py:161} INFO - Started process (PID=17174) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:37:55.214+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:37:55.219+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:55.217+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:37:55.271+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:37:55.285+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:55.285+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:37:55.307+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:55.307+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:37:55.311+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:55.311+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:37:55.312+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:55.312+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:37:55.319+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:55.319+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:37:55.327+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:55.327+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:37:55.327+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:37:55.327+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:37:55.339+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.137 seconds
+[2025-11-13T23:38:26.878+0530] {processor.py:161} INFO - Started process (PID=17667) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:38:26.879+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:38:26.880+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:26.880+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:38:26.919+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:38:26.933+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:26.932+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:38:26.955+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:26.955+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:38:26.959+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:26.959+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:38:26.960+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:26.960+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:38:26.967+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:26.967+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:38:26.973+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:26.973+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:38:26.974+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:26.974+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:38:26.987+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.116 seconds
+[2025-11-13T23:38:58.583+0530] {processor.py:161} INFO - Started process (PID=17937) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:38:58.588+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:38:58.595+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:58.595+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:38:58.665+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:38:58.694+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:58.694+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:38:58.720+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:58.720+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:38:58.724+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:58.724+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:38:58.726+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:58.726+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:38:58.740+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:58.739+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:38:58.756+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:58.756+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:38:58.756+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:38:58.756+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:38:58.774+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.220 seconds
+[2025-11-13T23:39:29.918+0530] {processor.py:161} INFO - Started process (PID=18512) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:39:29.933+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:39:29.938+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:39:29.938+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:39:29.974+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:39:29.991+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:39:29.991+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:39:30.013+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:39:30.013+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:39:30.016+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:39:30.016+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:39:30.018+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:39:30.018+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:39:30.028+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:39:30.027+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:39:30.034+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:39:30.034+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:39:30.034+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:39:30.034+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:39:30.158+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.262 seconds
+[2025-11-13T23:40:01.262+0530] {processor.py:161} INFO - Started process (PID=18741) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:40:01.266+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:40:01.275+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:01.273+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:40:01.380+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:40:01.423+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:01.422+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:40:01.477+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:01.476+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:40:01.487+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:01.487+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:40:01.494+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:01.493+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:40:01.517+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:01.517+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:40:01.530+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:01.529+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:40:01.530+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:01.530+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:40:01.546+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.308 seconds
+[2025-11-13T23:40:33.009+0530] {processor.py:161} INFO - Started process (PID=19295) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:40:33.022+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:40:33.025+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:33.025+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:40:33.087+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:40:33.115+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:33.114+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:40:33.177+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:33.176+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:40:33.188+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:33.187+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:40:33.192+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:33.192+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:40:33.204+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:33.203+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:40:33.583+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:33.583+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:40:33.584+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:40:33.583+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:40:33.625+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.627 seconds
+[2025-11-13T23:41:06.380+0530] {processor.py:161} INFO - Started process (PID=19637) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:41:06.394+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:41:06.398+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:06.397+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:41:06.464+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:41:06.499+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:06.499+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:41:06.554+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:06.554+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:41:06.560+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:06.560+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:41:06.563+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:06.562+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:41:06.716+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:06.716+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:41:06.724+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:06.724+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:41:06.725+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:06.725+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:41:06.738+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.370 seconds
+[2025-11-13T23:41:38.864+0530] {processor.py:161} INFO - Started process (PID=20160) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:41:38.867+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:41:38.875+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:38.874+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:41:38.952+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:41:38.973+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:38.973+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:41:39.329+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:39.328+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:41:39.337+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:39.336+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:41:39.340+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:39.340+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:41:39.357+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:39.356+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:41:39.372+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:39.371+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:41:39.372+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:41:39.372+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:41:39.412+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.566 seconds
+[2025-11-13T23:42:09.936+0530] {processor.py:161} INFO - Started process (PID=20469) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:42:09.938+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:42:09.939+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:09.939+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:42:09.975+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:42:09.989+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:09.988+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:42:10.012+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:10.011+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:42:10.016+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:10.016+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:42:10.018+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:10.017+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:42:10.025+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:10.025+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:42:10.034+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:10.033+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:42:10.034+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:10.034+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:42:10.050+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.120 seconds
+[2025-11-13T23:42:40.495+0530] {processor.py:161} INFO - Started process (PID=21080) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:42:40.497+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:42:40.500+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:40.499+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:42:40.543+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:42:40.566+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:40.566+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:42:40.606+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:40.606+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:42:40.611+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:40.611+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:42:40.613+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:40.613+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:42:40.623+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:40.622+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:42:40.630+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:40.630+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:42:40.630+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:42:40.630+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:42:40.644+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.161 seconds
+[2025-11-13T23:43:11.540+0530] {processor.py:161} INFO - Started process (PID=21587) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:43:11.556+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:43:11.569+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:11.567+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:43:11.690+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:43:11.743+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:11.741+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:43:11.817+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:11.816+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:43:11.830+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:11.829+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:43:11.836+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:11.834+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:43:11.863+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:11.862+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:43:11.886+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:11.885+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:43:11.887+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:11.886+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:43:11.925+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.415 seconds
+[2025-11-13T23:43:42.268+0530] {processor.py:161} INFO - Started process (PID=22060) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:43:42.269+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:43:42.272+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:42.272+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:43:42.314+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:43:42.338+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:42.338+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:43:42.388+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:42.387+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:43:42.397+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:42.396+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:43:42.401+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:42.400+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:43:42.414+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:42.413+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:43:42.424+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:42.424+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:43:42.424+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:43:42.424+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:43:42.444+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.182 seconds
+[2025-11-13T23:44:13.696+0530] {processor.py:161} INFO - Started process (PID=22417) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:44:13.700+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:44:13.710+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:13.710+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:44:13.809+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:44:13.852+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:13.852+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:44:13.909+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:13.908+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:44:13.919+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:13.918+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:44:13.923+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:13.922+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:44:13.944+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:13.943+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:44:13.960+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:13.959+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:44:13.961+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:13.961+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:44:14.005+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.344 seconds
+[2025-11-13T23:44:44.380+0530] {processor.py:161} INFO - Started process (PID=22978) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:44:44.381+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:44:44.384+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:44.384+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:44:44.424+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:44:44.445+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:44.445+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:44:44.480+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:44.480+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:44:44.484+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:44.484+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:44:44.486+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:44.486+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:44:44.494+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:44.494+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:44:44.499+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:44.499+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:44:44.500+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:44:44.500+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:44:44.512+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.140 seconds
+[2025-11-13T23:45:16.279+0530] {processor.py:161} INFO - Started process (PID=23507) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:45:16.283+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:45:16.289+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:16.288+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:45:16.342+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:45:16.368+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:16.368+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:45:16.404+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:16.404+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:45:16.413+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:16.412+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:45:16.415+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:16.415+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:45:16.429+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:16.429+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:45:16.439+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:16.439+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:45:16.440+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:16.440+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:45:16.458+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.194 seconds
+[2025-11-13T23:45:47.200+0530] {processor.py:161} INFO - Started process (PID=23893) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:45:47.201+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-11-13T23:45:47.203+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:47.203+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:45:47.246+0530] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-11-13T23:45:47.272+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:47.271+0530] {dag.py:3089} INFO - Sync 3 DAGs
+[2025-11-13T23:45:47.307+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:47.307+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-11-13T23:45:47.314+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:47.313+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:45:47.316+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:47.316+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:45:47.329+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:47.329+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:45:47.340+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:47.339+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-11-13T23:45:47.340+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:47.340+0530] {dag.py:3947} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-11-13T23:45:47.363+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.169 seconds

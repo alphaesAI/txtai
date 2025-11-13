@@ -37,7 +37,7 @@ def run_etl_test():
         raise ConnectionError("Airflow Postgres connection test failed")
 
     conn_manager = ConnectionManager()
-    postgres_conn_id = "postgres_source"
+    postgres_conn_id = "postgres_structured_source"
     conn_manager.register_connection(postgres_conn_id, postgres_connector)
 
     logger.info("=== STEP 2: Create Elasticsearch connector ===")

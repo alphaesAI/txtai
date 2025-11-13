@@ -1,0 +1,19 @@
+[2025-11-13T23:38:29.332+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-13T23:38:29.375+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.cleanup_connections scheduled__2025-11-13T18:07:00+00:00 [queued]>
+[2025-11-13T23:38:29.390+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.cleanup_connections scheduled__2025-11-13T18:07:00+00:00 [queued]>
+[2025-11-13T23:38:29.391+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-13T23:38:29.412+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): cleanup_connections> on 2025-11-13 18:07:00+00:00
+[2025-11-13T23:38:29.425+0530] {standard_task_runner.py:64} INFO - Started process 17731 to run task
+[2025-11-13T23:38:29.429+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'cleanup_connections', 'scheduled__2025-11-13T18:07:00+00:00', '--job-id', '417', '--raw', '--subdir', 'DAGS_FOLDER/postgres_to_elasticsearch_dag.py', '--cfg-path', '/tmp/tmp67wcuhhj']
+[2025-11-13T23:38:29.429+0530] {standard_task_runner.py:91} INFO - Job 417: Subtask cleanup_connections
+[2025-11-13T23:38:29.514+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.cleanup_connections scheduled__2025-11-13T18:07:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-13T23:38:29.733+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='cleanup_connections' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T18:07:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-13T18:07:00+00:00'
+[2025-11-13T23:38:29.736+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-13T23:38:29.738+0530] {postgres_to_elasticsearch_dag.py:385} INFO - Cleaning up connections
+[2025-11-13T23:38:29.738+0530] {postgres_to_elasticsearch_dag.py:388} INFO - All connections closed
+[2025-11-13T23:38:29.739+0530] {python.py:237} INFO - Done. Returned value was: None
+[2025-11-13T23:38:29.739+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-13T23:38:29.793+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=cleanup_connections, run_id=scheduled__2025-11-13T18:07:00+00:00, execution_date=20251113T180700, start_date=20251113T180829, end_date=20251113T180829
+[2025-11-13T23:38:29.884+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-13T23:38:29.942+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T23:38:29.960+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
