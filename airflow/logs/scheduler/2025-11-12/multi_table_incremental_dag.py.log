@@ -1,0 +1,20 @@
+[2025-11-12T23:42:48.935+0530] {processor.py:161} INFO - Started process (PID=37297) to work on /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py
+[2025-11-12T23:42:48.937+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py for tasks to queue
+[2025-11-12T23:42:48.940+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:42:48.939+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py
+[2025-11-12T23:42:50.280+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:42:50.279+0530] {multi_table_incremental_dag.py:398} INFO - Created DAG with 5 tables for incremental extraction
+[2025-11-12T23:42:50.293+0530] {processor.py:840} INFO - DAG(s) 'multi_table_incremental_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py
+[2025-11-12T23:42:50.484+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:42:50.482+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:multi_table_incremental_pipeline
+[2025-11-12T23:42:50.501+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:42:50.501+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:multi_table_incremental_pipeline
+[2025-11-12T23:42:50.517+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:42:50.516+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:multi_table_incremental_pipeline
+[2025-11-12T23:42:50.520+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:42:50.518+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:42:50.536+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:42:50.535+0530] {dag.py:3111} INFO - Creating ORM DAG for multi_table_incremental_pipeline
+[2025-11-12T23:42:50.548+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:42:50.548+0530] {dag.py:3947} INFO - Setting next_dagrun for multi_table_incremental_pipeline to 2025-11-11 02:00:00+00:00, run_after=2025-11-12 02:00:00+00:00
+[2025-11-12T23:42:50.565+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py took 1.642 seconds
+[2025-11-12T23:44:12.311+0530] {processor.py:161} INFO - Started process (PID=38130) to work on /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py
+[2025-11-12T23:44:12.325+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py for tasks to queue
+[2025-11-12T23:44:12.328+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:44:12.327+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py
+[2025-11-12T23:44:13.359+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:44:13.358+0530] {multi_table_incremental_dag.py:398} INFO - Created DAG with 5 tables for incremental extraction
+[2025-11-12T23:44:13.360+0530] {processor.py:840} INFO - DAG(s) 'multi_table_incremental_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py
+[2025-11-12T23:44:13.391+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:44:13.390+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:44:13.420+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:44:13.420+0530] {dag.py:3947} INFO - Setting next_dagrun for multi_table_incremental_pipeline to 2025-11-11 02:00:00+00:00, run_after=2025-11-12 02:00:00+00:00
+[2025-11-12T23:44:13.452+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/multi_table_incremental_dag.py took 1.157 seconds

@@ -1,0 +1,19 @@
+[2025-11-13T10:42:17.068+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-13T10:42:17.126+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.cleanup_connections manual__2025-11-13T05:11:06.484708+00:00 [queued]>
+[2025-11-13T10:42:17.141+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.cleanup_connections manual__2025-11-13T05:11:06.484708+00:00 [queued]>
+[2025-11-13T10:42:17.142+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-13T10:42:17.174+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): cleanup_connections> on 2025-11-13 05:11:06.484708+00:00
+[2025-11-13T10:42:17.181+0530] {standard_task_runner.py:64} INFO - Started process 18766 to run task
+[2025-11-13T10:42:17.184+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'cleanup_connections', 'manual__2025-11-13T05:11:06.484708+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpl91lpy8b']
+[2025-11-13T10:42:17.185+0530] {standard_task_runner.py:91} INFO - Job 19: Subtask cleanup_connections
+[2025-11-13T10:42:17.318+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.cleanup_connections manual__2025-11-13T05:11:06.484708+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-13T10:42:17.571+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='cleanup_connections' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T05:11:06.484708+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-13T05:11:06.484708+00:00'
+[2025-11-13T10:42:17.574+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-13T10:42:17.576+0530] {tasks.py:395} INFO - cleaning up connections
+[2025-11-13T10:42:17.577+0530] {tasks.py:398} INFO - All connections closed
+[2025-11-13T10:42:17.577+0530] {python.py:237} INFO - Done. Returned value was: None
+[2025-11-13T10:42:17.577+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-13T10:42:17.605+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=cleanup_connections, run_id=manual__2025-11-13T05:11:06.484708+00:00, execution_date=20251113T051106, start_date=20251113T051217, end_date=20251113T051217
+[2025-11-13T10:42:17.678+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-13T10:42:17.724+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T10:42:17.727+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

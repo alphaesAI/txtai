@@ -1,0 +1,19 @@
+[2025-11-13T05:54:30.869+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-13T05:54:30.882+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.transform_users scheduled__2025-11-13T00:23:00+00:00 [queued]>
+[2025-11-13T05:54:30.888+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.transform_users scheduled__2025-11-13T00:23:00+00:00 [queued]>
+[2025-11-13T05:54:30.889+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-13T05:54:30.901+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_users> on 2025-11-13 00:23:00+00:00
+[2025-11-13T05:54:30.911+0530] {standard_task_runner.py:64} INFO - Started process 9037 to run task
+[2025-11-13T05:54:30.915+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'transform_users', 'scheduled__2025-11-13T00:23:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpa43uymtq']
+[2025-11-13T05:54:30.916+0530] {standard_task_runner.py:91} INFO - Job 40: Subtask transform_users
+[2025-11-13T05:54:30.958+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.transform_users scheduled__2025-11-13T00:23:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-13T05:54:31.014+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='transform_users' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T00:23:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-13T00:23:00+00:00'
+[2025-11-13T05:54:31.015+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-13T05:54:31.019+0530] {tasks.py:227} INFO - Transforming data for table: users
+[2025-11-13T05:54:31.024+0530] {tasks.py:233} WARNING - No data to transform for users
+[2025-11-13T05:54:31.025+0530] {python.py:237} INFO - Done. Returned value was: {'table_name': 'users', 'row_count': 0, 'data': []}
+[2025-11-13T05:54:31.025+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-13T05:54:31.047+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=transform_users, run_id=scheduled__2025-11-13T00:23:00+00:00, execution_date=20251113T002300, start_date=20251113T002430, end_date=20251113T002431
+[2025-11-13T05:54:31.087+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-13T05:54:31.132+0530] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T05:54:31.137+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

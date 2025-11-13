@@ -1,0 +1,32 @@
+[2025-11-12T23:51:34.715+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-12T23:51:34.727+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.load_products scheduled__2025-11-12T18:20:00+00:00 [queued]>
+[2025-11-12T23:51:34.732+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.load_products scheduled__2025-11-12T18:20:00+00:00 [queued]>
+[2025-11-12T23:51:34.732+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-12T23:51:34.742+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_products> on 2025-11-12 18:20:00+00:00
+[2025-11-12T23:51:34.748+0530] {standard_task_runner.py:64} INFO - Started process 43334 to run task
+[2025-11-12T23:51:34.753+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'load_products', 'scheduled__2025-11-12T18:20:00+00:00', '--job-id', '318', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmprgg_v17l']
+[2025-11-12T23:51:34.754+0530] {standard_task_runner.py:91} INFO - Job 318: Subtask load_products
+[2025-11-12T23:51:34.807+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.load_products scheduled__2025-11-12T18:20:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-12T23:51:34.887+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='load_products' AIRFLOW_CTX_EXECUTION_DATE='2025-11-12T18:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-12T18:20:00+00:00'
+[2025-11-12T23:51:34.888+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-12T23:51:34.888+0530] {tasks.py:315} INFO - Loading data to elasticsearch for table: products
+[2025-11-12T23:51:34.895+0530] {tasks.py:341} INFO - using elasticsearch connector: elasticsearch_target, found: False
+[2025-11-12T23:51:34.895+0530] {tasks.py:343} WARNING - elasticsearch connector not found in ConnectionManager, recreating...
+[2025-11-12T23:51:34.895+0530] {tasks.py:80} INFO - Creating Elasticsearch connector
+[2025-11-12T23:51:34.895+0530] {factory.py:68} INFO - Created elasticsearch connector
+[2025-11-12T23:51:34.903+0530] {_transport.py:349} INFO - HEAD http://localhost:9200/ [status:200 duration:0.005s]
+[2025-11-12T23:51:34.904+0530] {elasticsearch.py:83} INFO - Elasticsearch connection established successfully
+[2025-11-12T23:51:34.910+0530] {_transport.py:349} INFO - GET http://localhost:9200/ [status:200 duration:0.006s]
+[2025-11-12T23:51:34.911+0530] {elasticsearch.py:140} INFO - Elasticsearch connection test successful: 8.14.0
+[2025-11-12T23:51:34.911+0530] {tasks.py:103} INFO - Elasticsearch connector created and registered: elasticsearch_target
+[2025-11-12T23:51:34.925+0530] {_transport.py:349} INFO - HEAD http://localhost:9200/etl_products [status:200 duration:0.003s]
+[2025-11-12T23:51:34.925+0530] {factory.py:64} INFO - Created elasticsearch loader
+[2025-11-12T23:51:34.947+0530] {_transport.py:349} INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.021s]
+[2025-11-12T23:51:34.947+0530] {elasticsearch_loader.py:136} INFO - Bulk load completed: 3 successful, 0 failed
+[2025-11-12T23:51:34.947+0530] {tasks.py:373} INFO - Successfully loaded 3 documents to etl_products
+[2025-11-12T23:51:34.948+0530] {python.py:237} INFO - Done. Returned value was: True
+[2025-11-12T23:51:34.950+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-12T23:51:34.964+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=load_products, run_id=scheduled__2025-11-12T18:20:00+00:00, execution_date=20251112T182000, start_date=20251112T182134, end_date=20251112T182134
+[2025-11-12T23:51:35.004+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-12T23:51:35.027+0530] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T23:51:35.029+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -11,7 +11,6 @@ class ExtractionMode(Enum):
     """Extraction mode enumeration."""
     FULL = "full"
     INCREMENTAL_DATE = "incremental_date"
-    INCREMENTAL_CDC = "incremental_cdc"
 
 
 @dataclass
@@ -27,10 +26,6 @@ class TableConfig:
     date_column: Optional[str] = None
     start_date: Optional[datetime] = None
     end_date: Optional[datetime] = None
-    
-    # CDC-based extraction
-    cdc_column: Optional[str] = None  # e.g., 'id', 'version', 'updated_at'
-    last_extracted_value: Optional[Any] = None
     
     # Common options
     batch_size: int = 10000
@@ -53,14 +48,6 @@ class TableConfig:
             if not self.date_column:
                 raise ValueError(
                     f"date_column is required for incremental date extraction "
-                    f"on table {self.table_name}"
-                )
-        
-        # Validate CDC configuration
-        if self.extraction_mode == ExtractionMode.INCREMENTAL_CDC:
-            if not self.cdc_column:
-                raise ValueError(
-                    f"cdc_column is required for CDC extraction "
                     f"on table {self.table_name}"
                 )
     

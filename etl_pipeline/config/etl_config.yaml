@@ -18,8 +18,8 @@ elasticsearch:
 
 # Extraction Configuration
 extraction:
-  # State file for tracking incremental loads
-  state_file: "/tmp/etl_state.json"
+  # State file for tracking incremental loads (will be set dynamically)
+  state_file: null
   
   # Tables to extract
   tables:
@@ -31,10 +31,10 @@ extraction:
         - "email"
         - "created_at"
         - "updated_at"
-      extraction_mode: "incremental_cdc"
-      cdc_column: "id"
+      extraction_mode: "incremental_date"
+      date_column: "updated_at"
       batch_size: 1000
-      order_by: "id"
+      order_by: "updated_at"
     
     - table_name: "orders"
       schema: "public"
@@ -52,8 +52,10 @@ extraction:
     - table_name: "products"
       schema: "public"
       columns: null  # null means all columns
-      extraction_mode: "full"
+      extraction_mode: "incremental_date"
+      date_column: "updated_at"
       batch_size: 5000
+      order_by: "updated_at"
 
 # Transformation Configuration
 transformation:

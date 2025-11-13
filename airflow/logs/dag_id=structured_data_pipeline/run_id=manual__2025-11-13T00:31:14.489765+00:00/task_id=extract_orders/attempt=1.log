@@ -1,0 +1,36 @@
+[2025-11-13T06:01:45.226+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-13T06:01:45.238+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_orders manual__2025-11-13T00:31:14.489765+00:00 [queued]>
+[2025-11-13T06:01:45.243+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_orders manual__2025-11-13T00:31:14.489765+00:00 [queued]>
+[2025-11-13T06:01:45.243+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-13T06:01:45.253+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_orders> on 2025-11-13 00:31:14.489765+00:00
+[2025-11-13T06:01:45.259+0530] {standard_task_runner.py:64} INFO - Started process 13617 to run task
+[2025-11-13T06:01:45.263+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'extract_orders', 'manual__2025-11-13T00:31:14.489765+00:00', '--job-id', '146', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpgakkmkfh']
+[2025-11-13T06:01:45.264+0530] {standard_task_runner.py:91} INFO - Job 146: Subtask extract_orders
+[2025-11-13T06:01:45.291+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.extract_orders manual__2025-11-13T00:31:14.489765+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-13T06:01:45.341+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_orders' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T00:31:14.489765+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-13T00:31:14.489765+00:00'
+[2025-11-13T06:01:45.342+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-13T06:01:45.343+0530] {tasks.py:126} INFO - Extracting data from table: orders
+[2025-11-13T06:01:45.346+0530] {tasks.py:136} INFO - Using postgres connector: postgres_source, found: False
+[2025-11-13T06:01:45.346+0530] {tasks.py:37} INFO - Creating postgresql connector
+[2025-11-13T06:01:45.347+0530] {factory.py:68} INFO - Created postgres connector
+[2025-11-13T06:01:45.368+0530] {postgres.py:61} INFO - New connection established
+[2025-11-13T06:01:45.374+0530] {postgres.py:100} INFO - PostgreSQL connection established successfully
+[2025-11-13T06:01:45.375+0530] {postgres.py:188} INFO - PostgreSQL connection test successful: PostgreSQL 14.19 (Ubuntu 14.19-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+[2025-11-13T06:01:45.375+0530] {tasks.py:61} INFO - postgresql connector created and registered: postgres_source
+[2025-11-13T06:01:45.376+0530] {postgres.py:61} INFO - New connection established
+[2025-11-13T06:01:45.382+0530] {factory.py:64} INFO - Created postgres extractor
+[2025-11-13T06:01:45.382+0530] {state_manager.py:38} INFO - Loaded state from /home/logi/txtai/etl_pipeline/etl_state.json
+[2025-11-13T06:01:45.383+0530] {state_manager.py:79} INFO - Last extracted value for orders.order_date: 2025-11-13T00:40:08.845146
+[2025-11-13T06:01:45.383+0530] {tasks.py:170} INFO - Using last date: 2025-11-13T00:40:08.845146
+[2025-11-13T06:01:45.383+0530] {postgres_extractor.py:145} INFO - Performing incremental date extraction from orders using column order_date
+[2025-11-13T06:01:45.387+0530] {logging_mixin.py:188} WARNING - /home/logi/txtai/etl_pipeline/extractor/postgres_extractor.py:188 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-11-13T06:01:45.393+0530] {postgres_extractor.py:191} INFO - Extracted 0 rows from orders (date range: 2025-11-13T00:40:08.845146 to None)
+[2025-11-13T06:01:45.394+0530] {tasks.py:207} INFO - Extracted 0 rows from orders
+[2025-11-13T06:01:45.395+0530] {python.py:237} INFO - Done. Returned value was: {'table_name': 'orders', 'row_count': 0, 'data': [], 'columns': ['order_id', 'user_id', 'order_date', 'total_amount', 'status']}
+[2025-11-13T06:01:45.395+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-13T06:01:45.395+0530] {postgres.py:61} INFO - New connection established
+[2025-11-13T06:01:45.403+0530] {postgres.py:61} INFO - New connection established
+[2025-11-13T06:01:45.405+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=extract_orders, run_id=manual__2025-11-13T00:31:14.489765+00:00, execution_date=20251113T003114, start_date=20251113T003145, end_date=20251113T003145
+[2025-11-13T06:01:45.435+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-13T06:01:45.469+0530] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T06:01:45.473+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -145,8 +145,15 @@ def extract_table_data(table_config_dict: Dict[str, Any], **context) -> Dict[str
             connector=postgres_connector
         )
 
-        #load state manager
-        state_file = CONFIG['extraction']['state_file']
+        #load state manager with dynamic state file path
+        if CONFIG['extraction']['state_file'] is None:
+            # Generate state file path in project root
+            import os
+            project_root = os.path.dirname(os.path.dirname(__file__))
+            state_file = os.path.join(project_root, "etl_state.json")
+        else:
+            state_file = CONFIG['extraction']['state_file']
+        
         state_manager = StateManager(state_file)
 
         #build table config

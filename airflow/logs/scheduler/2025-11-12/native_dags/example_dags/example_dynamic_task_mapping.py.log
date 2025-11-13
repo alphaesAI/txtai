@@ -1181,3 +1181,45 @@
 [2025-11-12T21:18:43.490+0530] {logging_mixin.py:188} INFO - [2025-11-12T21:18:43.490+0530] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-11-12T21:18:43.508+0530] {logging_mixin.py:188} INFO - [2025-11-12T21:18:43.507+0530] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
 [2025-11-12T21:18:43.529+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.097 seconds
+[2025-11-12T23:43:59.197+0530] {processor.py:161} INFO - Started process (PID=38106) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:43:59.200+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-11-12T23:43:59.204+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:43:59.203+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:43:59.221+0530] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:43:59.260+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:43:59.260+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:43:59.301+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:43:59.301+0530] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-11-12T23:43:59.335+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.153 seconds
+[2025-11-12T23:45:01.032+0530] {processor.py:161} INFO - Started process (PID=38269) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:45:01.037+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-11-12T23:45:01.039+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:45:01.038+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:45:01.056+0530] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:45:01.084+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:45:01.084+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:45:01.119+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:45:01.118+0530] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-11-12T23:45:01.154+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.133 seconds
+[2025-11-12T23:50:32.806+0530] {processor.py:161} INFO - Started process (PID=42558) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:50:32.808+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-11-12T23:50:32.809+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:50:32.809+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:50:32.821+0530] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:50:32.840+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:50:32.840+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:50:32.854+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:50:32.854+0530] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-11-12T23:50:32.870+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.073 seconds
+[2025-11-12T23:52:38.789+0530] {processor.py:161} INFO - Started process (PID=44030) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:52:38.791+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-11-12T23:52:38.792+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:52:38.792+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:52:38.804+0530] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:52:38.827+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:52:38.827+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:52:38.841+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:52:38.841+0530] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-11-12T23:52:38.859+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.079 seconds
+[2025-11-12T23:54:49.017+0530] {processor.py:161} INFO - Started process (PID=45327) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:54:49.030+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-11-12T23:54:49.034+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:54:49.033+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:54:49.045+0530] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:54:49.071+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:54:49.071+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:54:49.091+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:54:49.091+0530] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-11-12T23:54:49.111+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.105 seconds
+[2025-11-12T23:56:49.112+0530] {processor.py:161} INFO - Started process (PID=46441) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:56:49.125+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-11-12T23:56:49.128+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:56:49.128+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:56:49.140+0530] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-11-12T23:56:49.167+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:56:49.167+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:56:49.187+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:56:49.187+0530] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-11-12T23:56:49.207+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.105 seconds

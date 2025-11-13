@@ -46,7 +46,7 @@ etl_pipeline/
 1. **Abstract Factory Pattern**: Used in connector, extractor, transformer, and loader modules for creating instances
 2. **Factory Method Pattern**: Specific factories for each module type
 3. **Singleton Pattern**: ConnectionManager ensures single instance for connection pooling
-4. **Strategy Pattern**: Different extraction strategies (full, incremental date, CDC)
+4. **Strategy Pattern**: Different extraction strategies (full, incremental date)
 5. **Template Method Pattern**: Base classes define workflow, subclasses implement specifics
 
 ### Key Capabilities
@@ -54,7 +54,6 @@ etl_pipeline/
 - ✅ **Multiple Extraction Modes**:
   - Full table extraction
   - Incremental date-based extraction
-  - CDC (Change Data Capture) based extraction using primary keys or update columns
 
 - ✅ **Connection Management**:
   - SQLAlchemy ORM for PostgreSQL
@@ -148,8 +147,8 @@ extraction:
     - table_name: "users"
       schema: "public"
       columns: ["id", "username", "email", "created_at"]
-      extraction_mode: "incremental_cdc"  # full, incremental_date, incremental_cdc
-      cdc_column: "id"
+      extraction_mode: "incremental_date"  # full, incremental_date
+      date_column: "updated_at"
       batch_size: 1000
 
 # Transformation Configuration
@@ -184,12 +183,6 @@ extraction_mode: "incremental_date"
 date_column: "updated_at"
 ```
 
-#### 3. CDC-Based Extraction
-Extracts only records with CDC column values greater than the last extracted value.
-```yaml
-extraction_mode: "incremental_cdc"
-cdc_column: "id"  # or "version", "sequence_number", etc.
-```
 
 ## 🎯 Usage
 

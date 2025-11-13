@@ -68,7 +68,17 @@ def run_etl_test():
         # --- Extract ---
         logger.info(f"-> Extracting data from {table_name}")
         table_config = TableConfig(**table_config_dict)
-        state_manager = StateManager(config['extraction']['state_file'])
+        
+        # Load state manager with dynamic state file path
+        if config['extraction']['state_file'] is None:
+            # Generate state file path in project root
+            import os
+            project_root = os.path.dirname(os.path.dirname(__file__))
+            state_file = os.path.join(project_root, "etl_state.json")
+        else:
+            state_file = config['extraction']['state_file']
+        
+        state_manager = StateManager(state_file)
 
         # Load last extracted value for incremental loads
         if table_config.extraction_mode == ExtractionMode.INCREMENTAL_DATE:
@@ -88,8 +98,13 @@ def run_etl_test():
         # Update state
         if not df.empty and table_config.extraction_mode == ExtractionMode.INCREMENTAL_DATE:
             max_date = df[table_config.date_column].max()
+            # Ensure max_date is converted to ISO format if it's a datetime object
+            if hasattr(max_date, 'isoformat'):
+                max_date_iso = max_date.isoformat()
+            else:
+                max_date_iso = str(max_date)
             state_manager.set_last_extracted_value(
-                table_name, table_config.date_column, max_date.isoformat()
+                table_name, table_config.date_column, max_date_iso
             )
 
         extraction_result = {

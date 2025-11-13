@@ -1,0 +1,19 @@
+[2025-11-13T05:59:53.800+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-13T05:59:53.812+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.load_orders scheduled__2025-11-13T00:28:00+00:00 [queued]>
+[2025-11-13T05:59:53.817+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.load_orders scheduled__2025-11-13T00:28:00+00:00 [queued]>
+[2025-11-13T05:59:53.818+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-13T05:59:53.829+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_orders> on 2025-11-13 00:28:00+00:00
+[2025-11-13T05:59:53.835+0530] {standard_task_runner.py:64} INFO - Started process 12381 to run task
+[2025-11-13T05:59:53.839+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'load_orders', 'scheduled__2025-11-13T00:28:00+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp3t2sjhil']
+[2025-11-13T05:59:53.840+0530] {standard_task_runner.py:91} INFO - Job 116: Subtask load_orders
+[2025-11-13T05:59:53.873+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.load_orders scheduled__2025-11-13T00:28:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-13T05:59:53.923+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='load_orders' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T00:28:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-13T00:28:00+00:00'
+[2025-11-13T05:59:53.924+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-13T05:59:53.924+0530] {tasks.py:322} INFO - Loading data to elasticsearch for table: orders
+[2025-11-13T05:59:53.928+0530] {tasks.py:337} WARNING - No data to load for orders
+[2025-11-13T05:59:53.928+0530] {python.py:237} INFO - Done. Returned value was: True
+[2025-11-13T05:59:53.929+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-13T05:59:53.939+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=load_orders, run_id=scheduled__2025-11-13T00:28:00+00:00, execution_date=20251113T002800, start_date=20251113T002953, end_date=20251113T002953
+[2025-11-13T05:59:53.971+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-13T05:59:54.002+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T05:59:54.003+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

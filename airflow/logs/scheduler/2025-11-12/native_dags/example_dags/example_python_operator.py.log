@@ -1406,3 +1406,51 @@
 [2025-11-12T21:18:58.753+0530] {logging_mixin.py:188} INFO - [2025-11-12T21:18:58.753+0530] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-11-12T21:18:58.764+0530] {logging_mixin.py:188} INFO - [2025-11-12T21:18:58.764+0530] {dag.py:3947} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2025-11-12T21:18:58.790+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.120 seconds
+[2025-11-12T23:43:45.616+0530] {processor.py:161} INFO - Started process (PID=37983) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:43:45.618+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-11-12T23:43:45.622+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:43:45.621+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:43:45.634+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:43:45.634+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-11-12T23:43:45.635+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:43:45.667+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:43:45.667+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:43:45.704+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:43:45.703+0530] {dag.py:3947} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-11-12T23:43:45.791+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.186 seconds
+[2025-11-12T23:44:47.413+0530] {processor.py:161} INFO - Started process (PID=38227) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:44:47.427+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-11-12T23:44:47.429+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:44:47.428+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:44:47.448+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:44:47.448+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-11-12T23:44:47.450+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:44:47.486+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:44:47.486+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:44:47.501+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:44:47.501+0530] {dag.py:3947} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-11-12T23:44:47.535+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.140 seconds
+[2025-11-12T23:49:53.086+0530] {processor.py:161} INFO - Started process (PID=42169) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:49:53.099+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-11-12T23:49:53.101+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:49:53.101+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:49:53.113+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:49:53.113+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-11-12T23:49:53.114+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:49:53.142+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:49:53.142+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:49:53.154+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:49:53.153+0530] {dag.py:3947} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-11-12T23:49:53.181+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.113 seconds
+[2025-11-12T23:51:51.134+0530] {processor.py:161} INFO - Started process (PID=43500) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:51:51.136+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-11-12T23:51:51.137+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:51:51.137+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:51:51.150+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:51:51.150+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-11-12T23:51:51.151+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:51:51.192+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:51:51.191+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:51:51.203+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:51:51.202+0530] {dag.py:3947} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-11-12T23:51:51.224+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.102 seconds
+[2025-11-12T23:54:35.156+0530] {processor.py:161} INFO - Started process (PID=45287) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:54:35.170+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-11-12T23:54:35.173+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:54:35.172+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:54:35.185+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:54:35.184+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-11-12T23:54:35.185+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:54:35.218+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:54:35.217+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:54:35.236+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:54:35.235+0530] {dag.py:3947} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-11-12T23:54:35.265+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.120 seconds
+[2025-11-12T23:56:25.319+0530] {processor.py:161} INFO - Started process (PID=46122) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:56:25.321+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-11-12T23:56:25.325+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:56:25.324+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:56:25.336+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:56:25.335+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-11-12T23:56:25.337+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-11-12T23:56:25.359+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:56:25.359+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-12T23:56:25.368+0530] {logging_mixin.py:188} INFO - [2025-11-12T23:56:25.368+0530] {dag.py:3947} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-11-12T23:56:25.384+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.075 seconds

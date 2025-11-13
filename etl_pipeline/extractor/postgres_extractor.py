@@ -16,8 +16,8 @@ logger = logging.getLogger(__name__)
 
 class PostgresExtractor(BaseExtractor):
     """
-    PostgreSQL data extractor with support for full, incremental date-based,
-    and CDC-based extraction strategies.
+    PostgreSQL data extractor with support for full and incremental date-based
+    extraction strategies.
     """
     
     def __init__(self, connector: Any, **kwargs):
@@ -87,8 +87,6 @@ class PostgresExtractor(BaseExtractor):
             return self._extract_full(config)
         elif config.extraction_mode == ExtractionMode.INCREMENTAL_DATE:
             return self._extract_incremental_date(config)
-        elif config.extraction_mode == ExtractionMode.INCREMENTAL_CDC:
-            return self._extract_incremental_cdc(config)
         else:
             raise ValueError(f"Unsupported extraction mode: {config.extraction_mode}")
     
@@ -160,7 +158,7 @@ class PostgresExtractor(BaseExtractor):
         
         if config.start_date:
             where_conditions.append(
-                f"{config.date_column} >= '{config.start_date.isoformat()}'"
+                f"{config.date_column} > '{config.start_date.isoformat()}'"  # Changed >= to > to avoid duplicates
             )
         
         if config.end_date:
@@ -192,80 +190,15 @@ class PostgresExtractor(BaseExtractor):
             
             logger.info(
                 f"Extracted {len(df)} rows from {config.table_name} "
-                f"(date range: {config.start_date} to {config.end_date})"
+                f"(date range: {config.start_date.isoformat() if config.start_date else 'None'} to {config.end_date.isoformat() if config.end_date else 'None'})"
             )
+            logger.debug(f"SQL Query: {query}")
             return df
             
         except Exception as e:
             logger.error(f"Error in incremental date extraction: {e}")
             raise
     
-    def _extract_incremental_cdc(self, config: TableConfig) -> pd.DataFrame:
-        """
-        Perform CDC-based incremental extraction.
-        
-        Args:
-            config: Table extraction configuration
-            
-        Returns:
-            Pandas DataFrame containing incremental data
-        """
-        logger.info(
-            f"Performing CDC extraction from {config.table_name} "
-            f"using column {config.cdc_column}"
-        )
-        
-        # Build query
-        columns_str = self._build_column_list(config.columns)
-        table_name = config.get_full_table_name()
-        
-        query = f"SELECT {columns_str} FROM {table_name}"
-        
-        # Build WHERE clause for CDC
-        where_conditions = []
-        
-        if config.last_extracted_value is not None:
-            # Extract rows where CDC column is greater than last extracted value
-            if isinstance(config.last_extracted_value, str):
-                where_conditions.append(
-                    f"{config.cdc_column} > '{config.last_extracted_value}'"
-                )
-            else:
-                where_conditions.append(
-                    f"{config.cdc_column} > {config.last_extracted_value}"
-                )
-        
-        if config.where_clause:
-            where_conditions.append(f"({config.where_clause})")
-        
-        if where_conditions:
-            query += " WHERE " + " AND ".join(where_conditions)
-        
-        if config.order_by:
-            query += f" ORDER BY {config.order_by}"
-        else:
-            # Default order by CDC column
-            query += f" ORDER BY {config.cdc_column}"
-        
-        # Execute query
-        try:
-            engine = self.connector.get_connection()
-            
-            # Get raw DBAPI connection for pandas compatibility
-            with engine.connect() as conn:
-                raw_conn = conn.connection
-                df = pd.read_sql(query, raw_conn)
-                df = self._serialize_timestamps(df)
-            
-            logger.info(
-                f"Extracted {len(df)} rows from {config.table_name} "
-                f"(CDC from {config.last_extracted_value})"
-            )
-            return df
-            
-        except Exception as e:
-            logger.error(f"Error in CDC extraction: {e}")
-            raise
     
     def validate_extraction_config(self, config: Dict) -> bool:
         """
