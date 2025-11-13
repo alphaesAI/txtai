@@ -446,3 +446,91 @@
 [2025-11-13T11:05:26.111+0530] {logging_mixin.py:188} INFO - [2025-11-13T11:05:26.111+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
 [2025-11-13T11:05:26.116+0530] {logging_mixin.py:188} INFO - [2025-11-13T11:05:26.116+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
 [2025-11-13T11:05:26.141+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.122 seconds
+[2025-11-13T17:53:55.564+0530] {processor.py:161} INFO - Started process (PID=30985) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:53:55.566+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T17:53:55.567+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:53:55.566+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:53:55.585+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:53:55.645+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:53:55.645+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T17:53:55.667+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:53:55.666+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T17:53:55.675+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:53:55.675+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T17:53:55.729+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.179 seconds
+[2025-11-13T17:54:26.556+0530] {processor.py:161} INFO - Started process (PID=31393) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:54:26.558+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T17:54:26.559+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:54:26.559+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:54:26.573+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:54:26.641+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:54:26.640+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T17:54:26.686+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:54:26.684+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T17:54:26.697+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:54:26.696+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T17:54:26.751+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.206 seconds
+[2025-11-13T17:56:08.834+0530] {processor.py:161} INFO - Started process (PID=32275) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:56:08.835+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T17:56:08.837+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:08.837+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:56:08.848+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:56:08.897+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:08.896+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T17:56:08.910+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:08.910+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T17:56:08.914+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:08.913+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T17:56:08.932+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.105 seconds
+[2025-11-13T17:56:40.016+0530] {processor.py:161} INFO - Started process (PID=32972) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:56:40.018+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T17:56:40.023+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:40.022+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:56:40.041+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:56:40.098+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:40.098+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T17:56:40.122+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:40.122+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T17:56:40.127+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:40.127+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T17:56:40.151+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.154 seconds
+[2025-11-13T17:57:11.046+0530] {processor.py:161} INFO - Started process (PID=33707) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:57:11.048+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T17:57:11.050+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:11.049+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:57:11.060+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:57:11.099+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:11.098+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T17:57:11.115+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:11.114+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T17:57:11.119+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:11.119+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T17:57:11.139+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.101 seconds
+[2025-11-13T17:57:41.867+0530] {processor.py:161} INFO - Started process (PID=34084) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:57:41.869+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T17:57:41.870+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:41.870+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:57:41.878+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:57:41.932+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:41.932+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T17:57:41.951+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:41.951+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T17:57:41.957+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:41.957+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T17:57:41.985+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.124 seconds
+[2025-11-13T17:58:12.943+0530] {processor.py:161} INFO - Started process (PID=34723) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:58:12.945+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T17:58:12.950+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:58:12.950+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:58:12.968+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T17:58:13.049+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:58:13.049+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T17:58:13.079+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:58:13.079+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T17:58:13.088+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:58:13.088+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T17:58:13.150+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.229 seconds
+[2025-11-13T23:22:11.057+0530] {processor.py:161} INFO - Started process (PID=5761) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:22:11.059+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T23:22:11.062+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:11.061+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:22:11.077+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:22:11.132+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:11.132+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:22:11.150+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:11.149+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T23:22:11.154+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:11.153+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T23:22:11.176+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.129 seconds
+[2025-11-13T23:22:42.251+0530] {processor.py:161} INFO - Started process (PID=6509) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:22:42.253+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T23:22:42.256+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:42.255+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:22:42.277+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:22:42.334+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:42.333+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:22:42.347+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:42.347+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T23:22:42.351+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:42.351+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T23:22:42.374+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.136 seconds
+[2025-11-13T23:23:13.527+0530] {processor.py:161} INFO - Started process (PID=7196) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:23:13.529+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T23:23:13.533+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:13.532+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:23:13.549+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:23:13.605+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:13.604+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:23:13.616+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:13.616+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T23:23:13.621+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:13.620+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T23:23:13.656+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.140 seconds
+[2025-11-13T23:23:45.438+0530] {processor.py:161} INFO - Started process (PID=7439) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:23:45.440+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-11-13T23:23:45.442+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:45.442+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:23:45.456+0530] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-11-13T23:23:45.520+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:45.520+0530] {dag.py:3089} INFO - Sync 2 DAGs
+[2025-11-13T23:23:45.547+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:45.547+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-11-13T23:23:45.555+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:45.554+0530] {dag.py:3947} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-11-13T23:23:45.596+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.168 seconds

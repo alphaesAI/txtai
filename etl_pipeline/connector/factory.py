@@ -8,6 +8,7 @@ import logging
 from .base import BaseConnector
 from .postgres import PostgresConnector
 from .elasticsearch import ElasticsearchConnector
+from .airflow.postgres import AirflowPostgresConnector
 
 
 logger = logging.getLogger(__name__)
@@ -16,9 +17,8 @@ logger = logging.getLogger(__name__)
 class ConnectorType(Enum):
     """Enumeration of supported connector types."""
     POSTGRES = "postgres"
-    #POSTGRESQL = "postgresql"
     ELASTICSEARCH = "elasticsearch"
-    #ES = "es"
+    AIRFLOW_POSTGRES = "airflow_postgres"
 
 
 class ConnectorFactory:
@@ -30,13 +30,13 @@ class ConnectorFactory:
     _connector_registry: Dict[ConnectorType, type] = {
         ConnectorType.POSTGRES: PostgresConnector,
         ConnectorType.ELASTICSEARCH: ElasticsearchConnector,
+        ConnectorType.AIRFLOW_POSTGRES: AirflowPostgresConnector,
     }
     
     @classmethod
     def create_connector(
         cls,
         connector_type: str,
-        connection_string: str,
         **kwargs
     ) -> BaseConnector:
         """
@@ -55,7 +55,7 @@ class ConnectorFactory:
         """
         try:
             # Normalize connector type
-            conn_type = ConnectorType(connector_type.lower())
+            conn_type = ConnectorType(connector_type.lower())  # type: ignore[arg-type]
             
             # Get connector class from registry
             connector_class = cls._connector_registry.get(conn_type)
@@ -64,7 +64,7 @@ class ConnectorFactory:
                 raise ValueError(f"Unsupported connector type: {connector_type}")
             
             # Create and return connector instance
-            connector = connector_class(connection_string, **kwargs)
+            connector = connector_class(**kwargs)
             logger.info(f"Created {connector_type} connector")
             
             return connector

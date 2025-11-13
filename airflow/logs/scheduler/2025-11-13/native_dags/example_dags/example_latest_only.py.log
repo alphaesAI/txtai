@@ -373,3 +373,66 @@
 [2025-11-13T11:05:06.100+0530] {logging_mixin.py:188} INFO - [2025-11-13T11:05:06.099+0530] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-11-13T11:05:06.135+0530] {logging_mixin.py:188} INFO - [2025-11-13T11:05:06.134+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 00:00:00+00:00, run_after=2025-11-13 04:00:00+00:00
 [2025-11-13T11:05:06.180+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.146 seconds
+[2025-11-13T17:54:03.972+0530] {processor.py:161} INFO - Started process (PID=31068) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:54:03.975+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-11-13T17:54:03.977+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:54:03.976+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:54:03.998+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:54:04.082+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:54:04.081+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T17:54:04.138+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:54:04.138+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 08:00:00+00:00, run_after=2025-11-13 12:00:00+00:00
+[2025-11-13T17:54:04.204+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.256 seconds
+[2025-11-13T17:56:11.049+0530] {processor.py:161} INFO - Started process (PID=32369) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:56:11.050+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-11-13T17:56:11.053+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:11.052+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:56:11.060+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:56:11.093+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:11.092+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T17:56:11.114+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:11.114+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 08:00:00+00:00, run_after=2025-11-13 12:00:00+00:00
+[2025-11-13T17:56:11.136+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2025-11-13T17:56:42.383+0530] {processor.py:161} INFO - Started process (PID=33035) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:56:42.384+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-11-13T17:56:42.385+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:42.385+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:56:42.391+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:56:42.436+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:42.436+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T17:56:42.471+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:56:42.471+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 08:00:00+00:00, run_after=2025-11-13 12:00:00+00:00
+[2025-11-13T17:56:42.522+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.146 seconds
+[2025-11-13T17:57:12.760+0530] {processor.py:161} INFO - Started process (PID=33776) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:57:12.761+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-11-13T17:57:12.764+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:12.763+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:57:12.771+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:57:12.810+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:12.809+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T17:57:12.841+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:12.841+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 08:00:00+00:00, run_after=2025-11-13 12:00:00+00:00
+[2025-11-13T17:57:12.863+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.111 seconds
+[2025-11-13T17:57:43.768+0530] {processor.py:161} INFO - Started process (PID=34185) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:57:43.769+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-11-13T17:57:43.771+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:43.771+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:57:43.776+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:57:43.807+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:43.807+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T17:57:43.832+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:57:43.831+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 08:00:00+00:00, run_after=2025-11-13 12:00:00+00:00
+[2025-11-13T17:57:43.851+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2025-11-13T17:58:15.927+0530] {processor.py:161} INFO - Started process (PID=34817) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:58:15.932+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-11-13T17:58:15.942+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:58:15.939+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:58:15.966+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T17:58:16.084+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:58:16.082+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T17:58:16.166+0530] {logging_mixin.py:188} INFO - [2025-11-13T17:58:16.165+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 08:00:00+00:00, run_after=2025-11-13 12:00:00+00:00
+[2025-11-13T17:58:16.241+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.337 seconds
+[2025-11-13T23:22:13.545+0530] {processor.py:161} INFO - Started process (PID=5858) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T23:22:13.549+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-11-13T23:22:13.555+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:13.554+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T23:22:13.572+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T23:22:13.679+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:13.677+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:22:13.754+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:13.752+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 12:00:00+00:00, run_after=2025-11-13 16:00:00+00:00
+[2025-11-13T23:22:13.831+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.316 seconds
+[2025-11-13T23:22:44.274+0530] {processor.py:161} INFO - Started process (PID=6596) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T23:22:44.275+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-11-13T23:22:44.277+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:44.276+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T23:22:44.283+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T23:22:44.317+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:44.317+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:22:44.353+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:22:44.353+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 12:00:00+00:00, run_after=2025-11-13 16:00:00+00:00
+[2025-11-13T23:22:44.384+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.117 seconds
+[2025-11-13T23:23:15.588+0530] {processor.py:161} INFO - Started process (PID=7270) to work on /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T23:23:15.590+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-11-13T23:23:15.592+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:15.592+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T23:23:15.600+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2025-11-13T23:23:15.648+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:15.648+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:23:15.687+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:23:15.686+0530] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-11-13 12:00:00+00:00, run_after=2025-11-13 16:00:00+00:00
+[2025-11-13T23:23:15.718+0530] {processor.py:183} INFO - Processing /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.142 seconds

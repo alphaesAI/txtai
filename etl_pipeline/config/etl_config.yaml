@@ -16,6 +16,10 @@ elasticsearch:
   timeout: 30
   max_retries: 3
 
+# Airflow-managed PostgreSQL Connection
+airflow_postgres:
+  conn_id: "postgres_source"
+
 # Extraction Configuration
 extraction:
   # State file for tracking incremental loads (will be set dynamically)
