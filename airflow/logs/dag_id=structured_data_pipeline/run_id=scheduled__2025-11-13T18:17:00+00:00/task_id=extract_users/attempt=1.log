@@ -1,0 +1,34 @@
+[2025-11-13T23:48:13.240+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-13T23:48:13.294+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_users scheduled__2025-11-13T18:17:00+00:00 [queued]>
+[2025-11-13T23:48:13.308+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.extract_users scheduled__2025-11-13T18:17:00+00:00 [queued]>
+[2025-11-13T23:48:13.308+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-13T23:48:13.341+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_users> on 2025-11-13 18:17:00+00:00
+[2025-11-13T23:48:13.348+0530] {standard_task_runner.py:64} INFO - Started process 25923 to run task
+[2025-11-13T23:48:13.358+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'extract_users', 'scheduled__2025-11-13T18:17:00+00:00', '--job-id', '486', '--raw', '--subdir', 'DAGS_FOLDER/postgres_to_elasticsearch_dag.py', '--cfg-path', '/tmp/tmps7rm3i2u']
+[2025-11-13T23:48:13.359+0530] {standard_task_runner.py:91} INFO - Job 486: Subtask extract_users
+[2025-11-13T23:48:13.467+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.extract_users scheduled__2025-11-13T18:17:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-13T23:48:13.687+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_users' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T18:17:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-13T18:17:00+00:00'
+[2025-11-13T23:48:13.689+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-13T23:48:13.689+0530] {postgres_to_elasticsearch_dag.py:145} INFO - Extracting data from table: users
+[2025-11-13T23:48:13.724+0530] {postgres_to_elasticsearch_dag.py:228} ERROR - Error extracting data: PostgreSQL connector not found: postgres_source
+[2025-11-13T23:48:13.725+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-13T23:48:13.726+0530] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/logi/txtai/etl_pipeline/dags/postgres_to_elasticsearch_dag.py", line 156, in extract_table_data
+    raise ValueError(f"PostgreSQL connector not found: {postgres_conn_id}")
+ValueError: PostgreSQL connector not found: postgres_source
+[2025-11-13T23:48:13.748+0530] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=structured_data_pipeline, task_id=extract_users, run_id=scheduled__2025-11-13T18:17:00+00:00, execution_date=20251113T181700, start_date=20251113T181813, end_date=20251113T181813
+[2025-11-13T23:48:13.760+0530] {standard_task_runner.py:110} ERROR - Failed to execute job 486 for task extract_users (PostgreSQL connector not found: postgres_source; 25923)
+[2025-11-13T23:48:13.807+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-11-13T23:48:13.871+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T23:48:13.892+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

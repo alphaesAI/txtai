@@ -34,16 +34,12 @@ def create_postgres_connector(**context) -> str:
         Connection ID
     """
     try:
-        logger.info("Creating postgresql connector")
+        logger.info("Creating Airflow-managed PostgreSQL connector")
 
-        #create connector
+        # create connector using Airflow PostgresHook
         connector = ConnectorFactory.create_connector(
-            connector_type="postgres",
-            connection_string=CONFIG['postgres']['connection_string'],
-            pool_size=CONFIG['postgres'].get('pool_size', 5),
-            max_overflow=CONFIG['postgres'].get('max_overflow', 10),
-            pool_timeout=CONFIG['postgres'].get("pool_timeout", 30),
-            echo=CONFIG['postgres'].get('echo', False)
+            connector_type="airflow_postgres",
+            conn_id=CONFIG['airflow_postgres']['conn_id'],
         )
 
         #connect
@@ -51,14 +47,14 @@ def create_postgres_connector(**context) -> str:
 
         #test connection
         if not connector.test_connection():
-            raise ConnectionError("postgresql connection test failed")
+            raise ConnectionError("Airflow PostgreSQL connection test failed")
         
         #register with connection manager
         conn_manager = ConnectionManager()
         connection_id = "postgres_source"
         conn_manager.register_connection(connection_id, connector)
 
-        logger.info(f"postgresql connector created and registered: {connection_id}")
+        logger.info(f"Airflow PostgreSQL connector created and registered: {connection_id}")
 
         #push connection id to xcom
         context['task_instance'].xcom_push(key='postgres_conn_id', value=connection_id)
@@ -66,7 +62,7 @@ def create_postgres_connector(**context) -> str:
         return connection_id
     
     except Exception as e:
-        logger.error(f"Error creating postgresql connector: {e}")
+        logger.error(f"Error creating Airflow PostgreSQL connector: {e}")
         raise
 
 def create_elasticsearch_connector(**context) -> str:

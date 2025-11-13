@@ -811,3 +811,143 @@ DETAIL:  Key (dag_id)=(structured_data_pipeline) already exists.
 [2025-11-13T23:45:45.486+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:45.486+0530] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-11-13T23:45:45.510+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:45:45.510+0530] {dag.py:3947} INFO - Setting next_dagrun for structured_data_pipeline to 2025-11-13 18:15:00+00:00, run_after=2025-11-13 18:16:00+00:00
 [2025-11-13T23:45:45.545+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.740 seconds
+[2025-11-13T23:46:16.216+0530] {processor.py:161} INFO - Started process (PID=24296) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:46:16.221+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:46:16.226+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:46:16.225+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:46:16.974+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:46:17.069+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:46:17.069+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:46:17.113+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.923 seconds
+[2025-11-13T23:46:47.517+0530] {processor.py:161} INFO - Started process (PID=24803) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:46:47.519+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:46:47.523+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:46:47.523+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:46:48.148+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:46:48.179+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:46:48.179+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:46:48.199+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:46:48.198+0530] {dag.py:3947} INFO - Setting next_dagrun for structured_data_pipeline to 2025-11-13 18:16:00+00:00, run_after=2025-11-13 18:17:00+00:00
+[2025-11-13T23:46:48.230+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.734 seconds
+[2025-11-13T23:47:18.555+0530] {processor.py:161} INFO - Started process (PID=25242) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:47:18.557+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:47:18.559+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:47:18.559+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:47:19.661+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:47:19.777+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:47:19.776+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:47:19.831+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.287 seconds
+[2025-11-13T23:47:50.223+0530] {processor.py:161} INFO - Started process (PID=25571) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:47:50.227+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:47:50.231+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:47:50.230+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:47:51.212+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:47:51.254+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:47:51.253+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:47:51.271+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:47:51.271+0530] {dag.py:3947} INFO - Setting next_dagrun for structured_data_pipeline to 2025-11-13 18:17:00+00:00, run_after=2025-11-13 18:18:00+00:00
+[2025-11-13T23:47:51.306+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.107 seconds
+[2025-11-13T23:48:21.944+0530] {processor.py:161} INFO - Started process (PID=26027) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:48:21.950+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:48:21.954+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:48:21.953+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:48:23.232+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:48:23.494+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:48:23.493+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:48:23.636+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.716 seconds
+[2025-11-13T23:48:54.163+0530] {processor.py:161} INFO - Started process (PID=26362) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:48:54.165+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:48:54.168+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:48:54.167+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:48:54.833+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:48:54.869+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:48:54.869+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:48:54.893+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:48:54.893+0530] {dag.py:3947} INFO - Setting next_dagrun for structured_data_pipeline to 2025-11-13 18:18:00+00:00, run_after=2025-11-13 18:19:00+00:00
+[2025-11-13T23:48:54.927+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.778 seconds
+[2025-11-13T23:49:25.095+0530] {processor.py:161} INFO - Started process (PID=26850) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:49:25.098+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:49:25.103+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:49:25.103+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:49:25.824+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:49:25.918+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:49:25.917+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:49:25.960+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.884 seconds
+[2025-11-13T23:49:56.101+0530] {processor.py:161} INFO - Started process (PID=27145) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:49:56.103+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:49:56.106+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:49:56.106+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:49:56.845+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:49:56.887+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:49:56.886+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:49:56.907+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:49:56.907+0530] {dag.py:3947} INFO - Setting next_dagrun for structured_data_pipeline to 2025-11-13 18:19:00+00:00, run_after=2025-11-13 18:20:00+00:00
+[2025-11-13T23:49:56.934+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.847 seconds
+[2025-11-13T23:50:27.156+0530] {processor.py:161} INFO - Started process (PID=27756) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:50:27.158+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:50:27.160+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:50:27.160+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:50:27.847+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:50:27.950+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:50:27.949+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:50:27.990+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.841 seconds
+[2025-11-13T23:50:58.440+0530] {processor.py:161} INFO - Started process (PID=28292) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:50:58.441+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:50:58.444+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:50:58.443+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:50:59.086+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:50:59.113+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:50:59.112+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:50:59.154+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.728 seconds
+[2025-11-13T23:51:29.323+0530] {processor.py:161} INFO - Started process (PID=28717) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:51:29.336+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:51:29.339+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:51:29.339+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:51:30.103+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:51:30.213+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:51:30.213+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:51:30.237+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:51:30.237+0530] {dag.py:3947} INFO - Setting next_dagrun for structured_data_pipeline to 2025-11-13 18:20:00+00:00, run_after=2025-11-13 18:21:00+00:00
+[2025-11-13T23:51:30.279+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.964 seconds
+[2025-11-13T23:52:00.876+0530] {processor.py:161} INFO - Started process (PID=29254) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:52:00.877+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:52:00.879+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:52:00.878+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:52:02.095+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:52:02.137+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:52:02.136+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:52:02.242+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.388 seconds
+[2025-11-13T23:52:32.674+0530] {processor.py:161} INFO - Started process (PID=29798) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:52:32.675+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:52:32.678+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:52:32.678+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:52:33.776+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:52:33.865+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:52:33.864+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:52:33.883+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:52:33.883+0530] {dag.py:3947} INFO - Setting next_dagrun for structured_data_pipeline to 2025-11-13 18:22:00+00:00, run_after=2025-11-13 18:23:00+00:00
+[2025-11-13T23:52:33.904+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.241 seconds
+[2025-11-13T23:53:04.299+0530] {processor.py:161} INFO - Started process (PID=30081) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:53:04.304+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:53:04.311+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:53:04.309+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:53:05.291+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:53:05.322+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:53:05.322+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:53:05.375+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.104 seconds
+[2025-11-13T23:53:35.560+0530] {processor.py:161} INFO - Started process (PID=30492) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:53:35.574+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:53:35.579+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:53:35.578+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:53:36.381+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:53:36.559+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:53:36.558+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:53:36.598+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:53:36.597+0530] {dag.py:3947} INFO - Setting next_dagrun for structured_data_pipeline to 2025-11-13 18:23:00+00:00, run_after=2025-11-13 18:24:00+00:00
+[2025-11-13T23:53:36.632+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.095 seconds
+[2025-11-13T23:54:06.829+0530] {processor.py:161} INFO - Started process (PID=30738) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:54:06.845+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:54:06.853+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:54:06.851+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:54:08.464+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:54:08.531+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:54:08.530+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:54:08.634+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.838 seconds
+[2025-11-13T23:54:38.853+0530] {processor.py:161} INFO - Started process (PID=31352) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:54:38.854+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:54:38.856+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:54:38.856+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:54:39.548+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:54:39.579+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:54:39.578+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:54:39.621+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.775 seconds
+[2025-11-13T23:55:09.944+0530] {processor.py:161} INFO - Started process (PID=31877) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:55:09.948+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:55:09.956+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:55:09.955+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:55:11.205+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:55:11.250+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:55:11.249+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:55:11.316+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.402 seconds
+[2025-11-13T23:55:41.670+0530] {processor.py:161} INFO - Started process (PID=32674) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:55:41.673+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:55:41.677+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:55:41.676+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:55:42.357+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:55:42.390+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:55:42.390+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:55:42.434+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.781 seconds
+[2025-11-13T23:56:12.633+0530] {processor.py:161} INFO - Started process (PID=33442) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:56:12.650+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:56:12.654+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:56:12.653+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:56:13.742+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:56:13.772+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:56:13.771+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:56:13.814+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.210 seconds
+[2025-11-13T23:56:43.935+0530] {processor.py:161} INFO - Started process (PID=34193) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:56:43.937+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:56:43.938+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:56:43.938+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:56:45.105+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:56:45.135+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:56:45.135+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:56:45.156+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:56:45.156+0530] {dag.py:3947} INFO - Setting next_dagrun for structured_data_pipeline to 2025-11-13 18:25:00+00:00, run_after=2025-11-13 18:26:00+00:00
+[2025-11-13T23:56:45.176+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 1.257 seconds
+[2025-11-13T23:57:15.340+0530] {processor.py:161} INFO - Started process (PID=34949) to work on /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:57:15.342+0530] {processor.py:830} INFO - Processing file /home/logi/txtai/etl_pipeline/dags/dag.py for tasks to queue
+[2025-11-13T23:57:15.344+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:57:15.343+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:57:16.070+0530] {processor.py:840} INFO - DAG(s) 'structured_data_pipeline' retrieved from /home/logi/txtai/etl_pipeline/dags/dag.py
+[2025-11-13T23:57:16.110+0530] {logging_mixin.py:188} INFO - [2025-11-13T23:57:16.109+0530] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-13T23:57:16.169+0530] {processor.py:183} INFO - Processing /home/logi/txtai/etl_pipeline/dags/dag.py took 0.842 seconds
