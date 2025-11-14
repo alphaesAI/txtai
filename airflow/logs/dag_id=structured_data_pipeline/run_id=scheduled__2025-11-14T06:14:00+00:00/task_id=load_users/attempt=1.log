@@ -1,0 +1,32 @@
+[2025-11-14T11:46:28.632+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-14T11:46:28.705+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: structured_data_pipeline.load_users scheduled__2025-11-14T06:14:00+00:00 [queued]>
+[2025-11-14T11:46:28.724+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: structured_data_pipeline.load_users scheduled__2025-11-14T06:14:00+00:00 [queued]>
+[2025-11-14T11:46:28.725+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-14T11:46:28.754+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_users> on 2025-11-14 06:14:00+00:00
+[2025-11-14T11:46:28.765+0530] {standard_task_runner.py:64} INFO - Started process 29235 to run task
+[2025-11-14T11:46:28.770+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'structured_data_pipeline', 'load_users', 'scheduled__2025-11-14T06:14:00+00:00', '--job-id', '619', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpawigx6pz']
+[2025-11-14T11:46:28.772+0530] {standard_task_runner.py:91} INFO - Job 619: Subtask load_users
+[2025-11-14T11:46:28.906+0530] {task_command.py:426} INFO - Running <TaskInstance: structured_data_pipeline.load_users scheduled__2025-11-14T06:14:00+00:00 [running]> on host logi-Inspiron-15-3525
+[2025-11-14T11:46:29.125+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering' AIRFLOW_CTX_DAG_ID='structured_data_pipeline' AIRFLOW_CTX_TASK_ID='load_users' AIRFLOW_CTX_EXECUTION_DATE='2025-11-14T06:14:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-14T06:14:00+00:00'
+[2025-11-14T11:46:29.127+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-14T11:46:29.129+0530] {tasks.py:318} INFO - Loading data to elasticsearch for table: users
+[2025-11-14T11:46:29.195+0530] {tasks.py:344} INFO - using elasticsearch connector: elasticsearch_target, found: False
+[2025-11-14T11:46:29.196+0530] {tasks.py:346} WARNING - elasticsearch connector not found in ConnectionManager, recreating...
+[2025-11-14T11:46:29.196+0530] {tasks.py:76} INFO - Creating Elasticsearch connector
+[2025-11-14T11:46:29.197+0530] {factory.py:68} INFO - Created elasticsearch connector
+[2025-11-14T11:46:29.212+0530] {_transport.py:349} INFO - HEAD http://localhost:9200/ [status:200 duration:0.010s]
+[2025-11-14T11:46:29.213+0530] {elasticsearch.py:83} INFO - Elasticsearch connection established successfully
+[2025-11-14T11:46:29.217+0530] {_transport.py:349} INFO - GET http://localhost:9200/ [status:200 duration:0.004s]
+[2025-11-14T11:46:29.218+0530] {elasticsearch.py:140} INFO - Elasticsearch connection test successful: 8.14.0
+[2025-11-14T11:46:29.218+0530] {tasks.py:99} INFO - Elasticsearch connector created and registered: elasticsearch_target
+[2025-11-14T11:46:29.259+0530] {_transport.py:349} INFO - HEAD http://localhost:9200/etl_users [status:200 duration:0.007s]
+[2025-11-14T11:46:29.260+0530] {factory.py:64} INFO - Created elasticsearch loader
+[2025-11-14T11:46:29.285+0530] {_transport.py:349} INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.023s]
+[2025-11-14T11:46:29.286+0530] {elasticsearch_loader.py:136} INFO - Bulk load completed: 4 successful, 0 failed
+[2025-11-14T11:46:29.287+0530] {tasks.py:376} INFO - Successfully loaded 4 documents to etl_users
+[2025-11-14T11:46:29.287+0530] {python.py:237} INFO - Done. Returned value was: True
+[2025-11-14T11:46:29.290+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-14T11:46:29.332+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=load_users, run_id=scheduled__2025-11-14T06:14:00+00:00, execution_date=20251114T061400, start_date=20251114T061628, end_date=20251114T061629
+[2025-11-14T11:46:29.382+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-14T11:46:29.442+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-14T11:46:29.444+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

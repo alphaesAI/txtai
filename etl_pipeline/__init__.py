@@ -14,10 +14,10 @@ Modules:
 __version__ = "1.0.0"
 __author__ = "Data Engineering Team"
 
-from . import connector
-from . import extractor
-from . import transformer
-from . import loader
+from .structure import connector
+from .structure import extractor
+from .structure import transformer
+from .structure import loader
 
 __all__ = [
     'connector',

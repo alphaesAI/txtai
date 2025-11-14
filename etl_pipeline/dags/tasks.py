@@ -5,10 +5,10 @@ from pathlib import Path
 
 import logging
 
-from etl_pipeline.connector import ConnectorFactory, ConnectionManager
-from etl_pipeline.extractor import ExtractorFactory, TableConfig, StateManager, ExtractionMode
-from etl_pipeline.transformer import TransformerFactory
-from etl_pipeline.loader import LoaderFactory
+from etl_pipeline.structure.connector import ConnectorFactory, ConnectionManager
+from etl_pipeline.structure.extractor import ExtractorFactory, TableConfig, StateManager, ExtractionMode
+from etl_pipeline.structure.transformer import TransformerFactory
+from etl_pipeline.structure.loader import LoaderFactory
 
 logger = logging.getLogger(__name__)
 
@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 def load_config(config_path: str = None) -> Dict[str, Any]:
     """ Load ETL configuration from YAML file. """
     if config_path is None:
-        config_path = Path(__file__).parent.parent / "config" / "etl_config.yaml"
+        config_path = Path(__file__).parent.parent / "structure" / "config" / "etl_config.yaml"
 
     with open(config_path, 'r') as f:
         config = yaml.safe_load(f)
