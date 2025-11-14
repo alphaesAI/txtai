@@ -14,3 +14,6 @@
 [2025-11-13T23:57:37.410+0530] {python.py:237} INFO - Done. Returned value was: None
 [2025-11-13T23:57:37.410+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
 [2025-11-13T23:57:37.456+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=structured_data_pipeline, task_id=cleanup_connections, run_id=scheduled__2025-11-13T18:25:00+00:00, execution_date=20251113T182500, start_date=20251113T182736, end_date=20251113T182737
+[2025-11-13T23:57:37.544+0530] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-13T23:57:37.581+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T23:57:37.585+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
