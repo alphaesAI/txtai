@@ -56107,3 +56107,418 @@ File Path                                                                       
 /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.09s           2025-11-14T05:40:21
 /home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.08s           2025-11-14T05:40:18
 ================================================================================
+[2025-11-14T11:10:59.145+0530] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/logi/txtai/etl_pipeline/dags/dag.py                                                                                                                    1           0  0.78s           2025-11-14T05:40:38
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.71s           2025-11-14T05:40:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.55s           2025-11-14T05:40:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.49s           2025-11-14T05:40:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.39s           2025-11-14T05:40:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.37s           2025-11-14T05:40:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.35s           2025-11-14T05:40:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.27s           2025-11-14T05:40:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.27s           2025-11-14T05:40:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.26s           2025-11-14T05:40:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.25s           2025-11-14T05:40:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.25s           2025-11-14T05:40:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.24s           2025-11-14T05:40:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.24s           2025-11-14T05:40:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.24s           2025-11-14T05:40:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.24s           2025-11-14T05:40:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.23s           2025-11-14T05:40:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.23s           2025-11-14T05:40:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.22s           2025-11-14T05:40:38
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.22s           2025-11-14T05:40:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.22s           2025-11-14T05:40:38
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.21s           2025-11-14T05:40:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.21s           2025-11-14T05:40:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.20s           2025-11-14T05:40:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.20s           2025-11-14T05:40:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.20s           2025-11-14T05:40:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.20s           2025-11-14T05:40:39
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.20s           2025-11-14T05:40:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.20s           2025-11-14T05:40:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.20s           2025-11-14T05:40:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.19s           2025-11-14T05:40:39
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.19s           2025-11-14T05:40:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.19s           2025-11-14T05:40:49
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.19s           2025-11-14T05:40:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.19s           2025-11-14T05:40:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.18s           2025-11-14T05:40:43
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.18s           2025-11-14T05:40:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.18s           2025-11-14T05:40:38
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.16s           2025-11-14T05:40:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.16s           2025-11-14T05:40:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.16s           2025-11-14T05:40:39
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.14s           2025-11-14T05:40:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.12s           2025-11-14T05:40:35
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.12s           2025-11-14T05:40:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.10s           2025-11-14T05:40:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.10s           2025-11-14T05:40:38
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.10s           2025-11-14T05:40:34
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2025-11-14T05:40:32
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2025-11-14T05:40:35
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.09s           2025-11-14T05:40:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.08s           2025-11-14T05:40:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.07s           2025-11-14T05:40:48
+================================================================================
+[2025-11-14T11:11:29.535+0530] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/logi/txtai/etl_pipeline/dags/dag.py                                                                                                                    1           0  0.80s           2025-11-14T05:41:10
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.72s           2025-11-14T05:41:20
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.47s           2025-11-14T05:41:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.27s           2025-11-14T05:41:16
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.27s           2025-11-14T05:41:17
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.26s           2025-11-14T05:41:15
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.26s           2025-11-14T05:41:17
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.26s           2025-11-14T05:41:16
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.25s           2025-11-14T05:41:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.25s           2025-11-14T05:41:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.24s           2025-11-14T05:41:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.24s           2025-11-14T05:41:12
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.23s           2025-11-14T05:41:13
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.22s           2025-11-14T05:41:12
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.22s           2025-11-14T05:41:13
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.22s           2025-11-14T05:41:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.22s           2025-11-14T05:41:20
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.22s           2025-11-14T05:41:13
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.21s           2025-11-14T05:41:12
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.21s           2025-11-14T05:41:09
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.19s           2025-11-14T05:41:19
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.19s           2025-11-14T05:41:09
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.19s           2025-11-14T05:41:17
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.19s           2025-11-14T05:41:18
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.18s           2025-11-14T05:41:09
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.18s           2025-11-14T05:41:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.17s           2025-11-14T05:41:19
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.17s           2025-11-14T05:41:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.17s           2025-11-14T05:41:18
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.17s           2025-11-14T05:41:10
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.17s           2025-11-14T05:41:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.16s           2025-11-14T05:41:10
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.15s           2025-11-14T05:41:13
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.15s           2025-11-14T05:41:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.14s           2025-11-14T05:41:18
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.14s           2025-11-14T05:41:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.14s           2025-11-14T05:41:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.12s           2025-11-14T05:41:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.12s           2025-11-14T05:41:10
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.12s           2025-11-14T05:41:06
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.12s           2025-11-14T05:41:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.11s           2025-11-14T05:41:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.11s           2025-11-14T05:41:03
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.11s           2025-11-14T05:41:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.11s           2025-11-14T05:41:06
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.11s           2025-11-14T05:41:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.11s           2025-11-14T05:41:20
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.10s           2025-11-14T05:41:05
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.09s           2025-11-14T05:41:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.08s           2025-11-14T05:41:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.08s           2025-11-14T05:41:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.07s           2025-11-14T05:41:10
+================================================================================
+[2025-11-14T11:11:59.626+0530] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/logi/txtai/etl_pipeline/dags/dag.py                                                                                                                    1           0  0.70s           2025-11-14T05:41:40
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.49s           2025-11-14T05:41:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.46s           2025-11-14T05:41:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.39s           2025-11-14T05:41:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.33s           2025-11-14T05:41:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.28s           2025-11-14T05:41:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.27s           2025-11-14T05:41:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.25s           2025-11-14T05:41:49
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.25s           2025-11-14T05:41:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.24s           2025-11-14T05:41:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.23s           2025-11-14T05:41:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.23s           2025-11-14T05:41:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.23s           2025-11-14T05:41:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.23s           2025-11-14T05:41:43
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.22s           2025-11-14T05:41:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.22s           2025-11-14T05:41:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.22s           2025-11-14T05:41:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.22s           2025-11-14T05:41:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.22s           2025-11-14T05:41:49
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.22s           2025-11-14T05:41:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.21s           2025-11-14T05:41:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.21s           2025-11-14T05:41:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.21s           2025-11-14T05:41:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.21s           2025-11-14T05:41:49
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.21s           2025-11-14T05:41:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.21s           2025-11-14T05:41:46
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.21s           2025-11-14T05:41:43
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.20s           2025-11-14T05:41:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.20s           2025-11-14T05:41:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.20s           2025-11-14T05:41:39
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.19s           2025-11-14T05:41:39
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.17s           2025-11-14T05:41:43
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.17s           2025-11-14T05:41:40
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.17s           2025-11-14T05:41:46
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.16s           2025-11-14T05:41:40
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.15s           2025-11-14T05:41:40
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.15s           2025-11-14T05:41:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.15s           2025-11-14T05:41:35
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.15s           2025-11-14T05:41:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.15s           2025-11-14T05:41:40
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.13s           2025-11-14T05:41:43
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.12s           2025-11-14T05:41:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.12s           2025-11-14T05:41:36
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.11s           2025-11-14T05:41:43
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.11s           2025-11-14T05:41:33
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.11s           2025-11-14T05:41:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.11s           2025-11-14T05:41:40
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2025-11-14T05:41:36
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2025-11-14T05:41:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.10s           2025-11-14T05:41:43
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.07s           2025-11-14T05:41:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.06s           2025-11-14T05:41:53
+================================================================================
+[2025-11-14T11:12:29.759+0530] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/logi/txtai/etl_pipeline/dags/dag.py                                                                                                                    1           0  0.60s           2025-11-14T05:42:11
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.39s           2025-11-14T05:42:20
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.39s           2025-11-14T05:42:24
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.38s           2025-11-14T05:42:20
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.31s           2025-11-14T05:42:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.28s           2025-11-14T05:42:13
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.26s           2025-11-14T05:42:13
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.25s           2025-11-14T05:42:18
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.25s           2025-11-14T05:42:15
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.25s           2025-11-14T05:42:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.23s           2025-11-14T05:42:15
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.22s           2025-11-14T05:42:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.22s           2025-11-14T05:42:17
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.21s           2025-11-14T05:42:13
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.21s           2025-11-14T05:42:13
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.21s           2025-11-14T05:42:10
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.21s           2025-11-14T05:42:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.21s           2025-11-14T05:42:15
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.20s           2025-11-14T05:42:15
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.20s           2025-11-14T05:42:11
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.20s           2025-11-14T05:42:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.19s           2025-11-14T05:42:17
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.19s           2025-11-14T05:42:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.18s           2025-11-14T05:42:11
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.18s           2025-11-14T05:42:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.18s           2025-11-14T05:42:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.18s           2025-11-14T05:42:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.18s           2025-11-14T05:42:18
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.17s           2025-11-14T05:42:11
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.17s           2025-11-14T05:42:11
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.17s           2025-11-14T05:42:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.17s           2025-11-14T05:42:18
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.16s           2025-11-14T05:42:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.16s           2025-11-14T05:42:15
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.16s           2025-11-14T05:42:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.15s           2025-11-14T05:42:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.15s           2025-11-14T05:42:19
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.15s           2025-11-14T05:42:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.15s           2025-11-14T05:42:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.15s           2025-11-14T05:42:10
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.15s           2025-11-14T05:42:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.14s           2025-11-14T05:42:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.14s           2025-11-14T05:42:19
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.14s           2025-11-14T05:42:19
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.13s           2025-11-14T05:42:04
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.13s           2025-11-14T05:42:07
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2025-11-14T05:42:07
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.09s           2025-11-14T05:42:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.09s           2025-11-14T05:42:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.08s           2025-11-14T05:42:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.07s           2025-11-14T05:42:06
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.06s           2025-11-14T05:42:10
+================================================================================
+[2025-11-14T11:13:00.298+0530] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/logi/txtai/etl_pipeline/dags/dag.py                                                                                                                    1           0  0.69s           2025-11-14T05:42:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.42s           2025-11-14T05:42:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.35s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.32s           2025-11-14T05:42:46
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.31s           2025-11-14T05:42:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.31s           2025-11-14T05:42:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.30s           2025-11-14T05:42:46
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.29s           2025-11-14T05:42:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.28s           2025-11-14T05:42:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.27s           2025-11-14T05:42:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.27s           2025-11-14T05:42:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.24s           2025-11-14T05:42:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.24s           2025-11-14T05:42:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.23s           2025-11-14T05:42:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.23s           2025-11-14T05:42:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.23s           2025-11-14T05:42:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.23s           2025-11-14T05:42:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.22s           2025-11-14T05:42:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.22s           2025-11-14T05:42:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.22s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.21s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.21s           2025-11-14T05:42:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.21s           2025-11-14T05:42:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.21s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.20s           2025-11-14T05:42:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.20s           2025-11-14T05:42:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.20s           2025-11-14T05:42:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.20s           2025-11-14T05:42:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.20s           2025-11-14T05:42:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.20s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.19s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.19s           2025-11-14T05:42:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.19s           2025-11-14T05:42:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.19s           2025-11-14T05:42:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.19s           2025-11-14T05:42:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.18s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.18s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.18s           2025-11-14T05:42:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.18s           2025-11-14T05:42:46
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.17s           2025-11-14T05:42:49
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.16s           2025-11-14T05:42:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.16s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.15s           2025-11-14T05:42:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.14s           2025-11-14T05:42:36
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.12s           2025-11-14T05:42:34
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.11s           2025-11-14T05:42:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.11s           2025-11-14T05:42:38
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2025-11-14T05:42:38
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.10s           2025-11-14T05:42:41
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2025-11-14T05:42:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.09s           2025-11-14T05:42:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.09s           2025-11-14T05:42:53
+================================================================================
+[2025-11-14T11:13:30.582+0530] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.88s           2025-11-14T05:43:25
+/home/logi/txtai/etl_pipeline/dags/dag.py                                                                                                                    1           0  0.60s           2025-11-14T05:43:13
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.42s           2025-11-14T05:43:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.36s           2025-11-14T05:43:17
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.32s           2025-11-14T05:43:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.31s           2025-11-14T05:43:11
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.29s           2025-11-14T05:43:16
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.28s           2025-11-14T05:43:12
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.28s           2025-11-14T05:43:11
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.27s           2025-11-14T05:43:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.26s           2025-11-14T05:43:15
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.26s           2025-11-14T05:43:15
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.25s           2025-11-14T05:43:16
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.25s           2025-11-14T05:43:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.24s           2025-11-14T05:43:16
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.24s           2025-11-14T05:43:22
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.24s           2025-11-14T05:43:12
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.24s           2025-11-14T05:43:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.23s           2025-11-14T05:43:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.23s           2025-11-14T05:43:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.21s           2025-11-14T05:43:20
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.21s           2025-11-14T05:43:20
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.21s           2025-11-14T05:43:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.21s           2025-11-14T05:43:18
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.21s           2025-11-14T05:43:24
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.20s           2025-11-14T05:43:24
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.20s           2025-11-14T05:43:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.20s           2025-11-14T05:43:24
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.19s           2025-11-14T05:43:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.19s           2025-11-14T05:43:19
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.19s           2025-11-14T05:43:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.18s           2025-11-14T05:43:12
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.18s           2025-11-14T05:43:15
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.18s           2025-11-14T05:43:17
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.17s           2025-11-14T05:43:24
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.17s           2025-11-14T05:43:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.16s           2025-11-14T05:43:20
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.16s           2025-11-14T05:43:24
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.16s           2025-11-14T05:43:19
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.15s           2025-11-14T05:43:14
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.15s           2025-11-14T05:43:19
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.13s           2025-11-14T05:43:18
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.12s           2025-11-14T05:43:12
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.12s           2025-11-14T05:43:07
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.12s           2025-11-14T05:43:12
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.11s           2025-11-14T05:43:05
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.11s           2025-11-14T05:43:08
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.10s           2025-11-14T05:43:24
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2025-11-14T05:43:08
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2025-11-14T05:43:21
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.09s           2025-11-14T05:43:23
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.09s           2025-11-14T05:43:24
+================================================================================
+[2025-11-14T11:13:44.533+0530] {manager.py:737} INFO - Searching for files in /home/logi/txtai/etl_pipeline/dags
+[2025-11-14T11:13:44.544+0530] {manager.py:740} INFO - There are 52 files in /home/logi/txtai/etl_pipeline/dags
+[2025-11-14T11:14:00.857+0530] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.68s           2025-11-14T05:43:56
+/home/logi/txtai/etl_pipeline/dags/dag.py                                                                                                                    1           0  0.64s           2025-11-14T05:43:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.44s           2025-11-14T05:43:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.37s           2025-11-14T05:43:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.37s           2025-11-14T05:43:48
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.36s           2025-11-14T05:43:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.33s           2025-11-14T05:43:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.30s           2025-11-14T05:43:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.28s           2025-11-14T05:43:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.26s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.24s           2025-11-14T05:43:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.24s           2025-11-14T05:43:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.24s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.24s           2025-11-14T05:43:43
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.23s           2025-11-14T05:43:46
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.23s           2025-11-14T05:43:46
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.23s           2025-11-14T05:43:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.22s           2025-11-14T05:43:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.22s           2025-11-14T05:43:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.22s           2025-11-14T05:43:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.22s           2025-11-14T05:43:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.22s           2025-11-14T05:43:55
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.21s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.21s           2025-11-14T05:43:55
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.20s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.20s           2025-11-14T05:43:50
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.20s           2025-11-14T05:43:45
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.20s           2025-11-14T05:43:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.20s           2025-11-14T05:43:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.19s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.19s           2025-11-14T05:43:51
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.18s           2025-11-14T05:43:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.18s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.18s           2025-11-14T05:43:49
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.17s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.17s           2025-11-14T05:43:52
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.17s           2025-11-14T05:43:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.16s           2025-11-14T05:43:49
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.16s           2025-11-14T05:43:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.15s           2025-11-14T05:43:44
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.15s           2025-11-14T05:43:42
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.14s           2025-11-14T05:43:47
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.14s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.14s           2025-11-14T05:43:53
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.12s           2025-11-14T05:43:37
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.11s           2025-11-14T05:43:38
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.11s           2025-11-14T05:43:55
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.11s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.11s           2025-11-14T05:43:38
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.10s           2025-11-14T05:43:54
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2025-11-14T05:43:35
+/home/logi/txtai/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.09s           2025-11-14T05:43:52
+================================================================================
