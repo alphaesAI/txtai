@@ -20,3 +20,4 @@ from .connectors import *
 from .extractors import *
 from .loaders import *
 from .transformers import *
+from .etl import ETLPipeline

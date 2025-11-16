@@ -1,0 +1,168 @@
+# ===========================
+# ETL Pipeline Configuration
+# ===========================
+
+# ---------------------------
+# Unstructured Data Sources
+# ---------------------------
+unstructure:
+  gmail:
+    credentials_path: /home/logi/txtai/etl_pipeline/unstructure/credentials.json
+    token_path: /home/logi/txtai/etl_pipeline/unstructure/token.json
+    fetch_limit: 100  # optional: max unread emails to fetch
+    mark_read: true   # mark messages as read after fetching
+
+# ---------------------------
+# Structured Data Sources
+# ---------------------------
+postgres:
+  connection_string: "postgresql://rag_user:rag_password@localhost:5432/structured_data_pipeline"
+  pool_size: 5
+  max_overflow: 10
+  pool_timeout: 30
+  echo: false
+
+# Airflow-managed PostgreSQL connection
+airflow_postgres:
+  conn_id: "postgres_structured_source"
+
+# ---------------------------
+# Elasticsearch Connection
+# ---------------------------
+elasticsearch:
+  connection_string: "http://localhost:9200"
+  use_ssl: false
+  verify_certs: false
+  timeout: 30
+  max_retries: 3
+
+# ---------------------------
+# Extraction Configuration
+# ---------------------------
+extraction:
+  # State file for tracking incremental loads
+  state_file: null
+  
+  # Structured tables to extract
+  tables:
+    - table_name: "users"
+      schema: "public"
+      columns:
+        - "id"
+        - "username"
+        - "email"
+        - "created_at"
+        - "updated_at"
+      extraction_mode: "incremental_date"
+      date_column: "updated_at"
+      batch_size: 1000
+      order_by: "updated_at"
+    
+    - table_name: "orders"
+      schema: "public"
+      columns:
+        - "order_id"
+        - "user_id"
+        - "order_date"
+        - "total_amount"
+        - "status"
+      extraction_mode: "incremental_date"
+      date_column: "order_date"
+      batch_size: 1000
+      order_by: "order_date"
+    
+    - table_name: "products"
+      schema: "public"
+      columns: null  # null means all columns
+      extraction_mode: "incremental_date"
+      date_column: "updated_at"
+      batch_size: 5000
+      order_by: "updated_at"
+  
+  # Unstructured extraction settings
+  textractor:
+    sentences: false
+    lines: false
+    paragraphs: true
+    minlength: 20
+    join: true
+    sections: false
+    cleantext: true
+    backend: "available"
+    supported_extensions:
+      - ".txt"
+      - ".pdf"
+      - ".docx"
+      - ".xlsx"
+      - ".csv"
+      - ".json"
+      - ".html"
+      - ".xml"
+      - ".rtf"
+      - ".odt"
+      - ".pptx"
+      - ".epub"
+      - ".md"
+    max_file_size: 104857600  # 100 MB
+
+# ---------------------------
+# Transformation Configuration
+# ---------------------------
+transformation:
+  orient: "records"      # Pandas orient for JSON output
+  date_format: "iso"     # convert datetime to ISO format
+  handle_nan: "null"     # replace NaN values
+  include_index: false    # include DataFrame index
+  textcolumns: null      # columns to combine for text
+  idcolumn: null         # optional id column
+  content: false         # whether to include full content
+
+# ---------------------------
+# Loading Configuration
+# ---------------------------
+loading:
+  elasticsearch:
+    index_prefix: "etl_"
+    bulk_size: 1000
+    max_retries: 3
+    raise_on_error: false
+  
+  # Index mappings per table
+  index_mappings:
+    users:
+      index_name: "etl_users"
+      id_field: "id"
+    orders:
+      index_name: "etl_orders"
+      id_field: "order_id"
+    products:
+      index_name: "etl_products"
+      id_field: "id"
+
+# ---------------------------
+# Airflow DAG Configuration
+# ---------------------------
+airflow:
+  dag_id: "structured_data_pipeline"
+  schedule_interval: "* */2 * * *"  # every 2 hours
+  start_date: "2024-01-01"
+  catchup: false
+  max_active_runs: 1
+  tags:
+    - "etl"
+    - "postgres"
+    - "elasticsearch"
+  default_args:
+    owner: "data_engineering"
+    retries: 0
+    retry_delay_minutes: 0
+    email_on_failure: true
+    email_on_retry: false
+
+# ---------------------------
+# Logging / Debugging
+# ---------------------------
+logging:
+  level: "INFO"
+  file: "/home/logi/txtai/etl_pipeline/logs/etl_pipeline.log"
+  rotation: "1 MB"  # optional, for log rotation
