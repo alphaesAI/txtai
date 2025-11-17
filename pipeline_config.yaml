@@ -25,9 +25,9 @@ connectors:
     retry_on_timeout: true
 
   gmail:
-    type: email
-    credentials_path: "credentials.json"
-    token_path: "token.json"
+    type: gmail
+    credentials_path: "/home/logi/txtai/credentials.json"
+    token_path: "/home/logi/txtai/token.json"
 
 # Extractor configurations
 extractors:

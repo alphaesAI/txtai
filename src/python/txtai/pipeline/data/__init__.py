@@ -9,7 +9,7 @@ from .tabular import Tabular
 from .textractor import Textractor
 from .tokenizer import Tokenizer
 from .preprocessor import PreProcessor
-from .pipeline import Pipeline, Tabular as TabularPipeline
+from .pipeline import Pipeline
 
 __all__ = [
     "FileToHTML",
@@ -19,6 +19,5 @@ __all__ = [
     "Textractor",
     "Tokenizer",
     "PreProcessor",
-    "Pipeline",
-    "TabularPipeline"
+    "Pipeline"
 ]

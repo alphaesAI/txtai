@@ -2,7 +2,7 @@
 
 import pandas as pd
 from sqlalchemy import MetaData, inspect, text
-from typing import Any, Dict, Iterator, Optional
+from typing import Any, Dict, Iterator, List, Optional
 import logging
 
 from .base import BaseExtractor

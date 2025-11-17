@@ -2,6 +2,7 @@
 
 import os
 import pickle
+import base64
 from typing import Any, Dict, List, Optional
 from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -133,7 +134,7 @@ class GmailConnector(BaseConnector):
                     attachments.append({
                         "filename": part["filename"],
                         "mimeType": part.get("mimeType"),
-                        "data": attachment["data"],
+                        "data": base64.urlsafe_b64decode(attachment["data"]),
                         "size": attachment.get("size", 0)
                     })
             
