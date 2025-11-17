@@ -41,11 +41,24 @@ extractors:
     type: textractor
     supported_extensions: [".txt", ".pdf", ".docx", ".xlsx", ".csv", ".json", ".html", ".htm", ".xml", ".rtf", ".odt", ".ods", ".pptx", ".epub", ".md"]
     max_file_size: 100MB
-    sentences: false
-    paragraphs: true
-    sections: false
-    cleantext: true
-    backend: "available"
+
+# Embeddings configurations  
+embeddings:
+  backend: elasticsearch
+  hosts: ["http://localhost:9200"]
+  use_ssl: false
+  verify_certs: true
+  timeout: 30
+  max_retries: 3
+  index: "gmail_embeddings"
+  dimension: 384
+  similarity: "cosine"
+  sentences: false
+  paragraphs: true
+  sections: false
+  cleantext: true
+  content: elasticsearch
+  content_index: "gmail_content"
 
 # Loader configurations
 loaders:

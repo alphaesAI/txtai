@@ -8,6 +8,7 @@ from ..util import Resolver
 
 from .client import Client
 from .duckdb import DuckDB
+from .elasticsearch import Elasticsearch
 from .sqlite import SQLite
 
 
@@ -41,6 +42,8 @@ class DatabaseFactory:
         # Create document database instance
         if content == "duckdb":
             database = DuckDB(config)
+        elif content == "elasticsearch":
+            database = Elasticsearch(config)
         elif content == "sqlite":
             database = SQLite(config)
         elif content:

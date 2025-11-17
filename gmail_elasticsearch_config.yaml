@@ -1,0 +1,48 @@
+# Gmail to Elasticsearch Configuration
+# Simplified configuration for embedding Gmail data into Elasticsearch
+
+# Elasticsearch connection settings
+elasticsearch:
+  hosts: ["http://localhost:9200"]
+  use_ssl: false
+  verify_certs: true
+  timeout: 30
+  max_retries: 3
+  
+# ANN (Embeddings) configuration
+embeddings:
+  backend: elasticsearch
+  hosts: ["http://localhost:9200"]
+  use_ssl: false
+  verify_certs: true
+  timeout: 30
+  max_retries: 3
+  index: "gmail_embeddings"
+  dimension: 384
+  similarity: "cosine"
+  
+# Database (Content) configuration  
+database:
+  content: elasticsearch
+  hosts: ["http://localhost:9200"]
+  use_ssl: false
+  verify_certs: true
+  timeout: 30
+  max_retries: 3
+  content_index: "gmail_content"
+  
+# Gmail connector configuration
+gmail:
+  credentials_path: "/home/logi/txtai/credentials.json"
+  token_path: "/home/logi/txtai/token.json"
+  
+# Textractor configuration
+textractor:
+  supported_extensions: [".txt", ".pdf", ".docx", ".xlsx", ".csv", ".json", ".html", ".htm", ".xml", ".rtf", ".odt", ".ods", ".pptx", ".epub", ".md"]
+  max_file_size: 100MB
+  
+# Processing settings
+settings:
+  batch_size: 100
+  max_retries: 3
+  timeout: 30

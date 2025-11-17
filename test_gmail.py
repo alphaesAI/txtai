@@ -9,6 +9,7 @@ import yaml
 import logging
 from pathlib import Path
 from src.python.txtai.pipeline.etl import ETLPipeline
+from src.python.txtai.embeddings import Embeddings
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
@@ -23,25 +24,29 @@ if not CONFIG_PATH.exists():
 with open(CONFIG_PATH, "r") as f:
     config = yaml.safe_load(f)
 
+# Initialize embeddings with Elasticsearch backend
+embeddings_config = config.get('embeddings', {}).get('elasticsearch', {})
+embeddings = Embeddings(embeddings_config)
+
 # Initialize ETL
-etl = ETLPipeline(config=config)
+etl_pipeline = ETLPipeline(config=config)
 
 # Get Gmail connector from config
-gmail_connector_name = next((name for name in etl.list_connectors() if "gmail" in name.lower()), None)
+gmail_connector_name = next((name for name in etl_pipeline.list_connectors() if "gmail" in name.lower()), None)
 if not gmail_connector_name:
     logger.error("No Gmail connector found in config")
     exit(1)
 
-connector = etl.get_connector(gmail_connector_name)
+connector = etl_pipeline.get_connector(gmail_connector_name)
 logger.info(f"Gmail connector loaded: {gmail_connector_name}")
 
 # Get textractor for processing Gmail data
-textractor_name = next((name for name in etl.list_extractors() if "textractor" in name.lower()), None)
+textractor_name = next((name for name in etl_pipeline.list_extractors() if "textractor" in name.lower()), None)
 if not textractor_name:
     logger.error("No textractor found in config")
     exit(1)
 
-extractor = etl.get_extractor(textractor_name)
+extractor = etl_pipeline.get_extractor(textractor_name)
 logger.info(f"Textractor loaded: {textractor_name}")
 
 # Extract emails using Gmail connector
@@ -142,6 +147,29 @@ try:
                         print(f"{'='*60}\n")
                         
                         logger.info(f"Successfully extracted {len(extracted_text)} characters from {os.path.basename(source_file)}")
+                        
+                        # Store extracted text in embeddings
+                        if extracted_text and len(extracted_text.strip()) > 10:
+                            doc_id = f"{message_id}_{os.path.basename(source_file)}"
+                            metadata = {
+                                "message_id": message_id,
+                                "subject": subject,
+                                "sender": sender,
+                                "source_file": os.path.basename(source_file),
+                                "storage_dir": storage_dir,
+                                "extraction_date": datetime.datetime.now().isoformat()
+                            }
+                            
+                            # Index the document with embeddings
+                            try:
+                                embeddings.index([(doc_id, extracted_text, metadata)])
+                                logger.info(f"Indexed document {doc_id} in Elasticsearch embeddings")
+                            except Exception as e:
+                                logger.error(f"Error indexing document {doc_id}: {e}")
+                                import traceback
+                                traceback.print_exc()
+                        else:
+                            logger.warning(f"Skipping empty or too short text from {os.path.basename(source_file)}")
                     except Exception as tex_error:
                         logger.error(f"Textractor error: {tex_error}")
                         # Fallback to basic file reading

@@ -5,6 +5,7 @@ Factory module
 from ...util import Resolver
 
 from .annoy import Annoy
+from .elasticsearch import Elasticsearch
 from .faiss import Faiss
 from .hnsw import HNSW
 from .numpy import NumPy
@@ -37,6 +38,8 @@ class ANNFactory:
         # Create ANN instance
         if backend == "annoy":
             ann = Annoy(config)
+        elif backend == "elasticsearch":
+            ann = Elasticsearch(config)
         elif backend == "faiss":
             ann = Faiss(config)
         elif backend == "hnsw":
