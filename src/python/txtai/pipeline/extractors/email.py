@@ -8,7 +8,7 @@ from googleapiclient.discovery import Resource
 class GmailExtractor:
     """Extracts messages and attachments from email services."""
 
-    def get_messages(self, service: Resource, query: str = "", max_results: int = 10) -> List[Dict[str, Any]]:
+    def get_metadata(self, service: Resource, query: str = "", max_results: int = 10) -> List[Dict[str, Any]]:
         """Fetch full emails."""
         try:
             result = service.users().messages().list(
