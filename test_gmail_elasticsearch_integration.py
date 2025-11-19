@@ -15,11 +15,11 @@ from pathlib import Path
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent / "src" / "python"))
 
-from txtai.ann.dense.factory import ANNFactory
-from txtai.database.factory import DatabaseFactory
-from txtai.pipeline.connectors.email import GmailConnector
-from txtai.pipeline.extractors.textractor import TextractorExtractor
-from txtai.embeddings import Embeddings
+from src.python.txtai.ann.dense.factory import ANNFactory
+from src.python.txtai.database.factory import DatabaseFactory
+from src.python.txtai.pipeline.connectors.email import GmailConnector
+from src.python.txtai.pipeline.extractors.textractor import TextractorExtractor
+from src.python.txtai.embeddings import Embeddings
 
 
 class GmailElasticsearchIntegration:
@@ -52,14 +52,14 @@ class GmailElasticsearchIntegration:
         # Merge configurations for Embeddings class
         config = {
             **embeddings_config,
-            'content': database_config.get('content', 'elasticsearch'),
-            'content_index': database_config.get('content_index', 'gmail_content')
+            'content': database_config.get('content'),
+            'content_index': database_config.get('content_index')
         }
         
         self.embeddings = Embeddings(config)
         print(f"✓ Embeddings backend initialized: {type(self.embeddings).__name__}")
-        print(f"✓ ANN backend: {config.get('backend', 'elasticsearch')}")
-        print(f"✓ Database backend: {config.get('content', 'elasticsearch')}")
+        print(f"✓ ANN backend: {config.get('backend')}")
+        print(f"✓ Database backend: {config.get('content')}")
     
     def initialize_gmail_connector(self):
         """Initialize Gmail connector."""
@@ -86,13 +86,13 @@ class GmailElasticsearchIntegration:
             
             # Check if we got meaningful text (not just PDF structure)
             if text and len(text.strip()) > 50 and not text.startswith('%PDF'):
-                print(f"✅ Textractor extracted {len(text)} characters from {filename}")
+                print(f"Textractor extracted {len(text)} characters from {filename}")
                 return text
             else:
-                print(f"⚠️  Textractor returned minimal text from {filename}")
+                print(f"Textractor returned minimal text from {filename}")
                 
         except Exception as e:
-            print(f"⚠️  Textractor failed for {filename}: {e}")
+            print(f"Textractor failed for {filename}: {e}")
         
         # Method 2: Try PyPDF2 as fallback
         try:
@@ -109,15 +109,15 @@ class GmailElasticsearchIntegration:
                     text += f"\n--- Page {page_num + 1} ---\n{page_text}"
             
             if text and len(text.strip()) > 50:
-                print(f"✅ PyPDF2 extracted {len(text)} characters from {filename}")
+                print(f"PyPDF2 extracted {len(text)} characters from {filename}")
                 return text
             else:
-                print(f"⚠️  PyPDF2 returned minimal text from {filename}")
+                print(f"PyPDF2 returned minimal text from {filename}")
                 
         except ImportError:
-            print("⚠️  PyPDF2 not available for PDF extraction")
+            print("PyPDF2 not available for PDF extraction")
         except Exception as e:
-            print(f"⚠️  PyPDF2 failed for {filename}: {e}")
+            print(f"PyPDF2 failed for {filename}: {e}")
         
         # Method 3: Try pdfplumber as another fallback
         try:
@@ -134,18 +134,18 @@ class GmailElasticsearchIntegration:
                         text += f"\n--- Page {page_num + 1} ---\n{page_text}"
             
             if text and len(text.strip()) > 50:
-                print(f"✅ pdfplumber extracted {len(text)} characters from {filename}")
+                print(f"pdfplumber extracted {len(text)} characters from {filename}")
                 return text
             else:
-                print(f"⚠️  pdfplumber returned minimal text from {filename}")
+                print(f"pdfplumber returned minimal text from {filename}")
                 
         except ImportError:
-            print("⚠️  pdfplumber not available for PDF extraction")
+            print("pdfplumber not available for PDF extraction")
         except Exception as e:
-            print(f"⚠️  pdfplumber failed for {filename}: {e}")
+            print(f"pdfplumber failed for {filename}: {e}")
         
         # If all methods fail, return basic info
-        print(f"❌ All PDF extraction methods failed for {filename}")
+        print(f"All PDF extraction methods failed for {filename}")
         return f"PDF file: {filename}\nSize: {len(pdf_data)} bytes\nText extraction failed - binary PDF data"
     
     def initialize_extractor(self):
@@ -156,14 +156,14 @@ class GmailElasticsearchIntegration:
     
     def process_gmail_data(self, limit: int = 5):
         """Process Gmail data and embed into Elasticsearch."""
-        print(f"\n🔄 Processing Gmail data (limit: {limit})...")
+        print(f"\nProcessing Gmail data (limit: {limit})...")
         
         # Connect to Gmail
         self.gmail_connector.connect()
         
         # Get unread messages from Gmail
         messages = self.gmail_connector.get_messages(query="is:unread", max_results=limit)
-        print(f"📧 Retrieved {len(messages)} unread messages from Gmail")
+        print(f"Retrieved {len(messages)} unread messages from Gmail")
         
         processed_count = 0
         for i, msg in enumerate(messages[:limit]):
@@ -174,7 +174,7 @@ class GmailElasticsearchIntegration:
                 sender = headers.get('from', 'Unknown sender')
                 message_id = msg.get('id', 'unknown')
                 
-                print(f"📨 Processing message {i+1}/{len(messages)}: {subject} from {sender}")
+                print(f"Processing message {i+1}/{len(messages)}: {subject} from {sender}")
                 
                 # Prepare text content for embedding
                 text_content = []
@@ -216,16 +216,16 @@ class GmailElasticsearchIntegration:
                                     
                                     if extracted_text and len(extracted_text.strip()) > 10:
                                         text_content.append(f"Attachment: {filename}\n{extracted_text}")
-                                        print(f"✅ Extracted text from {filename}")
+                                        print(f"Extracted text from {filename}")
                                     else:
-                                        print(f"⚠️  No text extracted from {filename}")
+                                        print(f"No text extracted from {filename}")
                                         
                                 except Exception as e:
-                                    print(f"⚠️  Error processing attachment {filename}: {e}")
+                                    print(f"Error processing attachment {filename}: {e}")
                     else:
                         print("📎 No attachments found")
                 except Exception as e:
-                    print(f"⚠️  Failed to download attachments: {e}")
+                    print(f"Failed to download attachments: {e}")
                 
                 # Combine all text content
                 combined_text = "\n\n".join(text_content)
@@ -245,30 +245,30 @@ class GmailElasticsearchIntegration:
                     
                     # Store in embeddings (creates both ANN vectors and database content)
                     self.embeddings.index([(doc_id, combined_text, metadata)])
-                    print(f"💾 Indexed document {doc_id} in Elasticsearch (ANN + Database)")
+                    print(f"Indexed document {doc_id} in Elasticsearch (ANN + Database)")
                     
                     processed_count += 1
-                    print(f"✅ Processed email {processed_count}: {subject[:50]}...")
+                    print(f"Processed email {processed_count}: {subject[:50]}...")
                 else:
-                    print(f"⚠️  No content to embed for message {message_id}")
+                    print(f"No content to embed for message {message_id}")
                 
             except Exception as e:
-                print(f"❌ Error processing message {msg.get('id', 'unknown')}: {e}")
+                print(f"Error processing message {msg.get('id', 'unknown')}: {e}")
         
         # Disconnect
         self.gmail_connector.disconnect()
         
-        print(f"\n🎉 Successfully processed {processed_count} emails")
+        print(f"\nSuccessfully processed {processed_count} emails")
         return processed_count
     
     def test_search(self, query: str = "email"):
         """Test search functionality."""
-        print(f"\n🔍 Testing search for: '{query}'")
+        print(f"\nTesting search for: '{query}'")
         
         try:
             # Use embeddings search which combines ANN and database
             results = self.embeddings.search(query, limit=3)
-            print(f"📊 Found {len(results)} results")
+            print(f"Found {len(results)} results")
             for i, result in enumerate(results, 1):
                 if isinstance(result, tuple):
                     doc_id = result[0]
@@ -277,21 +277,21 @@ class GmailElasticsearchIntegration:
                 else:
                     print(f"  {i}. Result: {result}")
         except Exception as e:
-            print(f"⚠️  Search test failed: {e}")
+            print(f"Search test failed: {e}")
             # Try alternative search method
             try:
-                print("🔄 Trying alternative search...")
+                print("Trying alternative search...")
                 # Direct database search
                 from txtai.database import Database
                 db_config = self.config.get('database', {})
                 db = DatabaseFactory.create(db_config)
                 db_results = db.search(query, limit=3)
-                print(f"📊 Database search found {len(db_results)} results")
+                print(f"Database search found {len(db_results)} results")
                 for i, result in enumerate(db_results, 1):
                     print(f"  {i}. Text: {result[0][:100]}..., Score: {result[1]:.4f}")
                 db.close()
             except Exception as e2:
-                print(f"⚠️  Alternative search also failed: {e2}")
+                print(f"Alternative search also failed: {e2}")
     
     def cleanup(self):
         """Clean up resources."""
@@ -304,13 +304,13 @@ class GmailElasticsearchIntegration:
 
 def main():
     """Main function to run the integration test."""
-    print("🚀 Gmail to Elasticsearch Integration Test")
+    print("Gmail to Elasticsearch Integration Test")
     print("=" * 50)
     
     # Check if virtual environment is activated
     if not os.getenv('VIRTUAL_ENV'):
-        print("⚠️  Warning: No virtual environment detected")
-        print("   Please activate your venv before running this script")
+        print("Warning: No virtual environment detected")
+        print("Please activate your venv before running this script")
     
     try:
         # Initialize integration
@@ -328,7 +328,7 @@ def main():
         integration.test_search("email")
         
     except Exception as e:
-        print(f"❌ Integration test failed: {e}")
+        print(f"Integration test failed: {e}")
         return 1
     finally:
         try:
@@ -336,7 +336,7 @@ def main():
         except:
             pass
     
-    print("\n✅ Integration test completed successfully!")
+    print("\nIntegration test completed successfully!")
     return 0
 
 

@@ -1,7 +1,7 @@
 """Elasticsearch connector for ETL pipeline."""
 
 from typing import Any, Dict, List, Optional
-from elasticsearch import Elasticsearch
+from elasticsearch import Elasticsearch as ESClient
 from elasticsearch.helpers import bulk
 import logging
 
@@ -16,7 +16,6 @@ class ElasticsearchConnector(BaseConnector):
     def __init__(
         self,
         connection_string: str,
-        use_ssl: bool = True,
         verify_certs: bool = True,
         timeout: int = 30,
         max_retries: int = 3,
@@ -28,7 +27,6 @@ class ElasticsearchConnector(BaseConnector):
         
         Args:
             connection_string: Elasticsearch connection URL(s)
-            use_ssl: Use SSL for connection
             verify_certs: Verify SSL certificates
             timeout: Connection timeout in seconds
             max_retries: Maximum number of retries
@@ -36,7 +34,6 @@ class ElasticsearchConnector(BaseConnector):
             **kwargs: Additional connection parameters (api_key, basic_auth, etc.)
         """
         super().__init__(connection_string, **kwargs)
-        self.use_ssl = use_ssl
         self.verify_certs = verify_certs
         self.timeout = timeout
         self.max_retries = max_retries
@@ -51,14 +48,12 @@ class ElasticsearchConnector(BaseConnector):
             # Parse connection string for multiple hosts
             hosts = self.connection_string.split(",") if "," in self.connection_string else [self.connection_string]
             
-            # Create Elasticsearch client
-            self._connection = Elasticsearch(
+            # Create Elasticsearch client with modern parameters
+            self._connection = ESClient(
                 hosts=hosts,
-                use_ssl=self.use_ssl,
                 verify_certs=self.verify_certs,
-                timeout=self.timeout,
+                request_timeout=self.timeout,
                 max_retries=self.max_retries,
-                retry_on_timeout=self.retry_on_timeout,
                 **self.connection_params
             )
             
