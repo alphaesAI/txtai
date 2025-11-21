@@ -10,7 +10,7 @@ class GmailExtractor:
     Extractor that pulls ALL Gmail messages and returns:
       - metadata JSON
       - cleaned HTML body
-      - downloaded attachments
+      - downloaded attachments (file paths)
     """
 
     def __init__(self, download_dir: str = "downloads"):
@@ -40,7 +40,7 @@ class GmailExtractor:
 
     def _process_single_email(self, service, msg_id: str) -> Dict[str, Any]:
         """
-        Extracts ONE email.
+        Extracts ONE email (metadata, HTML, attachment file paths).
         """
         metadata = self.get_metadata(service, msg_id)
         html = self.get_html(metadata)
@@ -49,7 +49,7 @@ class GmailExtractor:
         return {
             "metadata": metadata,
             "html": html,
-            "attachments": attachments
+            "attachments": attachments  # only file paths
         }
 
     def get_metadata(self, service, msg_id: str) -> Dict[str, Any]:
@@ -119,7 +119,7 @@ class GmailExtractor:
 
     def get_attachments(self, service, metadata: Dict[str, Any]) -> List[str]:
         """
-        Downloads attachments and returns file paths.
+        Downloads attachments and returns file paths only.
         """
         parts = metadata.get("parts", [])
         file_paths = []
@@ -128,27 +128,26 @@ class GmailExtractor:
             filename = part.get("filename")
             body = part.get("body", {})
 
-            if not filename:
+            if not filename or "attachmentId" not in body:
                 continue
 
-            if "attachmentId" in body:
-                attachment_id = body["attachmentId"]
-                file_data = service.users().messages().attachments().get(
-                    userId="me",
-                    messageId=metadata["id"],
-                    id=attachment_id
-                ).execute()
+            attachment_id = body["attachmentId"]
+            file_data = service.users().messages().attachments().get(
+                userId="me",
+                messageId=metadata["id"],
+                id=attachment_id
+            ).execute()
 
-                data = file_data.get("data")
-                if not data:
-                    continue
+            data = file_data.get("data")
+            if not data:
+                continue
 
-                decoded = base64.urlsafe_b64decode(data)
-                file_path = os.path.join(self.download_dir, f"{uuid.uuid4()}-{filename}")
+            decoded = base64.urlsafe_b64decode(data)
+            file_path = os.path.join(self.download_dir, f"{uuid.uuid4()}-{filename}")
 
-                with open(file_path, "wb") as f:
-                    f.write(decoded)
+            with open(file_path, "wb") as f:
+                f.write(decoded)
 
-                file_paths.append(file_path)
+            file_paths.append(file_path)
 
         return file_paths

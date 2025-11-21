@@ -67,20 +67,29 @@ class ElasticsearchConnector(BaseConnector):
             self.logger.error(f"Failed to connect to Elasticsearch: {e}")
             raise
     
+    @property
+    def connection(self):
+        """Get the Elasticsearch client instance."""
+        if self._connection is None:
+            self.connect()
+        return self._connection
+
     def disconnect(self) -> None:
-        """Close Elasticsearch connection."""
-        if self._connection:
-            self._connection.close()
-            self._connection = None
-            self.logger.info("Elasticsearch connection closed")
-    
+        """Close the Elasticsearch connection."""
+        if self._connection is not None:
+            try:
+                self._connection.close()
+                self.logger.info("Closed Elasticsearch connection")
+            except Exception as e:
+                self.logger.error(f"Error closing Elasticsearch connection: {e}")
+            finally:
+                self._connection = None
+
     def test_connection(self) -> bool:
         """Test if Elasticsearch connection is working."""
         try:
-            if not self._connection:
+            if self._connection is None:
                 return False
-            
-            # Ping Elasticsearch cluster
             return self._connection.ping()
         except Exception as e:
             self.logger.error(f"Elasticsearch connection test failed: {e}")

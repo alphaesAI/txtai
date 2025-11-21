@@ -23,6 +23,14 @@ try:
 except ImportError:
     DOCLING = False
 
+# Conditional import
+try:
+    import PyPDF2 as pdf_module
+
+    PYPDF2 = True
+except ImportError:
+    PYPDF2 = False
+
 from ..base import Pipeline
 
 
@@ -47,7 +55,11 @@ class FileToHTML(Pipeline):
             backend = "tika" if Tika.available() else "docling" if Docling.available() else None
 
         # Create backend instance
-        self.backend = Tika() if backend == "tika" else Docling() if backend == "docling" else None
+        self.backend = (
+            Tika() if backend == "tika" else
+            Docling() if backend == "docling" else
+            PyPDF2() if backend == "pypdf2" else None
+        )
 
     def __call__(self, path):
         """
@@ -204,3 +216,28 @@ class Docling:
 
         # Add spacing between paragraphs
         return html.replace("</p>", "</p><p/>")
+
+class PyPDF2:
+    
+    @staticmethod
+    def available():
+        return PYPDF2
+    
+    def __init__(self):
+        if not PyPDF2.available():
+            raise ImportError('PyPDF2 engine is not available - install "pipeline" extra to enable')
+        
+    def __call__(self, path):
+        text = ""
+        try:
+            with open(path, "rb") as f:
+                reader = pdf_module.PdfReader(f)  # use the imported module
+                for page_num, page in enumerate(reader.pages):
+                    page_text = page.extract_text()
+                    if page_text:
+                        text += f"\n--- Page {page_num + 1} ---\n{page_text}"
+        except Exception as e:
+            print(f"PyPDF2 extraction failed for {path}: {e}")
+            return f"PDF file: {path} - Text extraction failed"
+
+        return text if text else f"PDF file: {path} - No text extracted"

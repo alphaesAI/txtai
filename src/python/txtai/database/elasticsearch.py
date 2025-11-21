@@ -1,7 +1,7 @@
 """
 Elasticsearch database implementation
 """
-
+import numpy as np
 import json
 from typing import List, Optional, Tuple, Any
 
@@ -39,7 +39,7 @@ class Elasticsearch(Database):
         self.client = None
 
     def connect(self):
-        """Initialize Elasticsearch connection."""
+        """Initialize Elasticsearch connection and ensure index exists."""
         if not self.client:
             self.client = ESClient(
                 hosts=self.hosts,
@@ -47,7 +47,23 @@ class Elasticsearch(Database):
                 request_timeout=self.timeout,
                 max_retries=self.max_retries
             )
+            # Create index with stable mapping if needed
+            self._create_index()
 
+    def _create_index(self):
+        """Create the index with a stable mapping if it doesn't exist."""
+        if not self.client.indices.exists(index=self.index_name):
+            mapping = {
+                "mappings": {
+                    "properties": {
+                        "id": {"type": "keyword"},
+                        "text": {"type": "text"},
+                        "metadata": {"type": "object", "dynamic": True}
+                    }
+                }
+            }
+            self.client.indices.create(index=self.index_name, body=mapping)
+    
     def insert(self, documents, index=0):
         """
         Insert documents into the database.
@@ -61,20 +77,59 @@ class Elasticsearch(Database):
         # Prepare bulk documents
         bulk_docs = []
         for doc_id, text, metadata in documents:
+            # Ensure metadata is a dictionary to avoid mapping conflicts
+            if metadata is None:
+                metadata = {}
+            elif not isinstance(metadata, dict):
+                metadata = {"value": metadata}
+
+            # Handle nested text structure
+            if isinstance(text, dict) and "text" in text:
+                doc_text = text["text"]
+                tags = text.get("tags", {})
+            else:
+                doc_text = text
+                tags = {}
+
             doc = {
                 "_index": self.index_name,
                 "_id": str(doc_id),
                 "_source": {
                     "id": str(doc_id),
-                    "text": text,
-                    "metadata": metadata or {}
+                    "text": doc_text,
+                    "tags": tags,
+                    "metadata": metadata
                 }
             }
             bulk_docs.append(doc)
         
-        # Bulk insert
+        # Debug: Print the first document being indexed
         if bulk_docs:
-            bulk(self.client, bulk_docs)
+            print("First document being indexed:", json.dumps(bulk_docs[0], indent=2))
+        
+        # Bulk insert with error handling
+        if bulk_docs:
+            try:
+                from elasticsearch.helpers import bulk, BulkIndexError
+                # Use the bulk helper function directly
+                success, errors = bulk(
+                    self.client,
+                    bulk_docs,
+                    raise_on_error=False,
+                    stats_only=False
+                )
+                
+                if errors:
+                    print(f"Bulk insert completed with {len(errors)} errors.")
+                    for error in errors[:5]:  # Print first 5 errors to avoid flooding logs
+                        print("Error:", error)
+                    raise BulkIndexError(f"{len(errors)} document(s) failed to index.", errors)
+                else:
+                    print(f"Successfully indexed {success} documents.")
+                    
+            except Exception as e:
+                print(f"Error during bulk insert: {e}")
+                raise
 
     def delete(self, ids: List[int]) -> None:
         """
@@ -154,36 +209,76 @@ class Elasticsearch(Database):
         
         return results
 
-    def search(self, query: str, limit: int = 10) -> List[Tuple[int, float]]:
+    def search(self, query, limit=10, weights=None, index=None, parameters=None):
         """
-        Search documents by text.
-
+        Search the database.
+        
         Args:
-            query: search query
-            limit: maximum results
-
+            query: query string or vector
+            limit: maximum results to return
+            weights: optional weights for result scoring
+            index: index name to search in
+            parameters: additional search parameters
+            
         Returns:
             list of (id, score) tuples
         """
         self.connect()
         
-        response = self.client.search(
-            index=self.index_name,
-            body={
-                "query": {
-                    "match": {
-                        "text": query
+        # Determine if this is a vector or text search
+        is_vector = isinstance(query, (list, np.ndarray, np.generic))
+        index_name = index or self.index_name
+        
+        try:
+            if is_vector:
+                # Vector similarity search
+                script_query = {
+                    "script_score": {
+                        "query": {"match_all": {}},
+                        "script": {
+                            "source": "cosineSimilarity(params.query_vector, 'embedding') + 1.0",
+                            "params": {"query_vector": query}
+                        }
                     }
-                },
-                "size": limit
-            }
-        )
-        
-        results = []
-        for hit in response["hits"]["hits"]:
-            results.append((int(hit["_source"]["id"]), hit["_score"]))
-        
-        return results
+                }
+                
+                response = self.client.search(
+                    index=index_name,
+                    body={
+                        "size": int(limit),  # Ensure limit is an integer
+                        "query": script_query,
+                        "_source": False
+                    }
+                )
+                
+                # Extract results
+                hits = response.get('hits', {}).get('hits', [])
+                return [(hit['_id'], hit['_score']) for hit in hits]
+                
+            else:
+                # Text search - fixed query structure
+                response = self.client.search(
+                    index=index_name,
+                    body={
+                        "query": {
+                            "multi_match": {
+                                "query": query,
+                                "fields": ["text", "tags^2"],
+                                "type": "best_fields"
+                            }
+                        },
+                        "size": int(limit),  # Moved size to the root level
+                        "_source": False
+                    }
+                )
+                
+                # Extract results
+                hits = response.get('hits', {}).get('hits', [])
+                return [(hit['_id'], hit['_score']) for hit in hits]
+                
+        except Exception as e:
+            print(f"Error during search: {e}")
+            return []
 
     def count(self) -> int:
         """
@@ -196,6 +291,47 @@ class Elasticsearch(Database):
         
         response = self.client.count(index=self.index_name)
         return response["count"]
+
+    def ids(self, ids=None):
+        """
+        Returns ids in the database.
+        
+        Args:
+            ids: list of ids to check for existence
+            
+        Returns:
+            list of ids that exist in the database
+        """
+        self.connect()
+        
+        if ids:
+            # Filter ids to only those that exist
+            response = self.client.search(
+                index=self.index_name,
+                body={
+                    "query": {
+                        "ids": {
+                            "values": [str(id) for id in ids]
+                        }
+                    },
+                    "_source": False,
+                    "size": len(ids)
+                }
+            )
+            return [hit["_id"] for hit in response["hits"]["hits"]]
+        else:
+            # Return all ids
+            response = self.client.search(
+                index=self.index_name,
+                body={
+                    "query": {
+                        "match_all": {}
+                    },
+                    "_source": False,
+                    "size": 10000  # Adjust based on expected dataset size
+                }
+            )
+            return [hit["_id"] for hit in response["hits"]["hits"]]
 
     def close(self):
         """Close Elasticsearch connection."""

@@ -2,5 +2,40 @@ gmail:
   credentials_path: "/home/logi/txtai/credentials.json"
   token_path: "/home/logi/txtai/token.json"
 
-textractor:
-  output_dir: "/home/logi/txtai/output"
+extractor:
+  type: gmail
+
+transformer:
+  type: data_transformer
+  textractor:
+    sentences: false
+    paragraphs: true
+    minlength: 20
+    join: false
+    sections: false
+    cleantext: true
+
+filetohtml:
+  backend: "pypdf2"
+
+htmltomd:
+  paragraphs: true
+  sections: false
+
+# Elasticsearch configuration
+elasticsearch:
+  hosts: ["http://localhost:9200"]  # must exist
+  use_ssl: false
+  verify_certs: true
+  timeout: 30
+  max_retries: 3
+  index: "gmail_embeddings"
+  dimension: 384
+  similarity: "cosine"
+
+
+# Embeddings configuration
+embeddings:
+  backend: "elasticsearch"
+  # Inherit connection settings from elasticsearch section
+  elasticsearch: {}  # Will use settings from the elasticsearch section
